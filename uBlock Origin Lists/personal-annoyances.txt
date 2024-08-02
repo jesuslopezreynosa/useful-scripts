@@ -12,12 +12,16 @@ hachyderm.io##.navigation-panel .column-link:has-text(Live feeds)
 
 !Wikipedia
 wikipedia.org##.vector-sitenotice-container
+en.wikipedia.org##+js(trusted-set-cookie, enwikimwclientpreferences, vector-feature-appearance-pinned-clientpref-0%2Cvector-feature-toc-pinned-clientpref-0)
 
 ! Reddit
 www.reddit.com##div.right-sidebar pdp-right-rail
+www.reddit.com###right-sidebar-container
 old.reddit.com###sr-header-area
 old.reddit.com##.listingsignupbar.infobar
 old.reddit.com##.content .thing.promoted
+old.reddit.com##.seo-comments-recommendations.spacer
+old.reddit.com##.seo-comments
 
 ! Speedtest.net
 speedtest.net##.pure-g.content-devices
@@ -27,6 +31,7 @@ speedtest.net##.pure-u-custom-wifi-recommendation
 stackexchange.com##.js-dismissable-hero
 stackexchange.com##.js-consent-banner
 stackoverflow.com###signup-dialog-container
+stackoverflow.com##.show-votes
 superuser.com###signup-dialog-container
 serverfault.com##.js-dismissable-hero
 
@@ -54,14 +59,16 @@ www.independent.co.uk##.sidebar
 www.vox.com##.l-article-body-segment.l-segment.l-sidebar-fixed > .l-col__sidebar
 apnews.com##.Enhancement.PageListEnhancementGeneric
 9to5mac.com##.sidebar--5.xs.container.sidebar > .ninetofive-branded-rss.widget
-9to5mac.com##.sidebar--4.xs.container.sidebar
-www.theverge.com##.w-mobile-breaker
+9to5google.com##.container.sidebar
 www.theregister.com##.listinks
+www.theregister.com##.desktop_only.right_col > .similar_topics
 www.recordnet.com##.gnt_rr
 www.sacbee.com##.partner-digest-group.grid
 www.macstories.net##article.post .post-supporters
 www.macstories.net##.post-content .aside
 www.wired.com##.persistent-bottom
+www.nbcwashington.com##.section-content--secondary
+www.nbcwashington.com##.recirc-module
 
 ! News - ArsTechnica
 arstechnica.com###article-footer-wrap
@@ -70,7 +77,7 @@ arstechnica.com###action_button_container
 arstechnica.com##.xrail
 
 ! News - Electrek
-electrek.co##.xs.container.sidebar
+electrek.co##.container.sidebar
 electrek.co##article:has(.meta__guide a:has-text(Elon Musk))
 electrek.co##article:has(.meta__guide a:has-text(Green Deals))
 electrek.co##article:has(.meta__guide a:has-text(Kart))
@@ -83,6 +90,7 @@ electrek.co##article:has(.meta__guide a:has-text(Ebike))
 www.theverge.com###coral_thread
 www.theverge.com##.duet--content-cards--content-card > a[href*='elon']
 www.theverge.com##.l-article-body-segment.l-segment.l-sidebar-fixed > .l-col__sidebar
+www.theverge.com##.w-mobile-breaker
 
 ! YouTube
 youtube.com##div#chat-container
@@ -118,6 +126,14 @@ www.youtube.com##.ytd-guide-entry-renderer#endpoint[title='YouTube Kids']
 www.wikihow.com###article_courses_banner
 www.plexopedia.com##.bba.bottom-image
 www.anker.com##.cy-player
+www.toptal.com##.blog_post-sidebar
+www.telerik.com##.Sidebar
+www.telerik.com##feedback-form
+dev.to##.popover-billboard.crayons-sponsorship.crayons-card--secondary.crayons-card
+www.chewy.com##.promo-banner
+eos.com##.auth-modal.modal
+www.bestbuy.com##.shop-pushdown-ad
+www.zetaliving.com##.show.fade.modal-backdrop
 
 ! UNUSED - Cookies (Misc)
 ! www.audiusa.com###onetrust-consent-sdk
