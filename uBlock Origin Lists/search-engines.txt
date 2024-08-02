@@ -1,4 +1,4 @@
-! https://search.brave.com
+! Brave Search
 search.brave.com##div#results div.snippet:has(div.carousel-container)
 search.brave.com###searchbar-home div.download-button
 search.brave.com###info-banners:has(.goggles-info-banner)

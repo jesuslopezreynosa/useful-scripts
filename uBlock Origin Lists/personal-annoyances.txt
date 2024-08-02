@@ -1,16 +1,90 @@
-superuser.com###signup-dialog-container
-
-www.speedtest.net##.pure-g.content-devices
-speedtest.net##.pure-u-custom-wifi-recommendation
-
+! Remove AI Options
 github.com##div.react-code-size-details-in-header:has(span:has-text(Copilot))
 
+! Weather
+www.wunderground.com##.desktop-only > .video-promo.data-module
+www.wunderground.com##.ng-star-inserted.data-module.cat-six-latest-article
+www.accuweather.com##.left-align-children.right-rail
+
+! Hackyderm Mastodon
+hachyderm.io##.navigation-panel .column-link:has-text(Explore)
+hachyderm.io##.navigation-panel .column-link:has-text(Live feeds)
+
+!Wikipedia
+wikipedia.org##.vector-sitenotice-container
+
+! Reddit
+www.reddit.com##div.right-sidebar pdp-right-rail
+old.reddit.com###sr-header-area
+old.reddit.com##.listingsignupbar.infobar
+old.reddit.com##.content .thing.promoted
+
+! Speedtest.net
+speedtest.net##.pure-g.content-devices
+speedtest.net##.pure-u-custom-wifi-recommendation
+
+! Development Forums
 stackexchange.com##.js-dismissable-hero
 stackexchange.com##.js-consent-banner
 stackoverflow.com###signup-dialog-container
 superuser.com###signup-dialog-container
 serverfault.com##.js-dismissable-hero
 
+! Amazon
+www.amazon.com###Share-share
+www.amazon.com##.video-player .gw-media-card
+www.amazon.com##.amazonlive-widget-padding
+www.amazon.com###postsSameBrandCard_feature_div
+www.amazon.com##.vse-video-widget-container
+
+! TikTok
+www.tiktok.com##.guide-login-banner
+
+! Airlines
+www.delta.com##.desktop-enabled.idp-dynamic-banner
+
+! Health
+www.goodrx.com##div[data-qa='NewsletterSignUpAlert']
+www.webmd.com##.main-container-3.main-container
+www.webmd.com##.dfp-native.top-picks
+
+! News
+www.bbc.com##aside
+www.independent.co.uk##.sidebar
+www.vox.com##.l-article-body-segment.l-segment.l-sidebar-fixed > .l-col__sidebar
+apnews.com##.Enhancement.PageListEnhancementGeneric
+9to5mac.com##.sidebar--5.xs.container.sidebar > .ninetofive-branded-rss.widget
+9to5mac.com##.sidebar--4.xs.container.sidebar
+www.theverge.com##.w-mobile-breaker
+www.theregister.com##.listinks
+www.recordnet.com##.gnt_rr
+www.sacbee.com##.partner-digest-group.grid
+www.macstories.net##article.post .post-supporters
+www.macstories.net##.post-content .aside
+www.wired.com##.persistent-bottom
+
+! News - ArsTechnica
+arstechnica.com###article-footer-wrap
+arstechnica.com##.site-footer
+arstechnica.com###action_button_container
+arstechnica.com##.xrail
+
+! News - Electrek
+electrek.co##.xs.container.sidebar
+electrek.co##article:has(.meta__guide a:has-text(Elon Musk))
+electrek.co##article:has(.meta__guide a:has-text(Green Deals))
+electrek.co##article:has(.meta__guide a:has-text(Kart))
+electrek.co##article:has(.meta__guide a:has-text(Aviation))
+electrek.co##article:has(.meta__guide a:has-text(Hypercar))
+electrek.co##article:has(.meta__guide a:has-text(Podcast))
+electrek.co##article:has(.meta__guide a:has-text(Ebike))
+
+! News - The Verge
+www.theverge.com###coral_thread
+www.theverge.com##.duet--content-cards--content-card > a[href*='elon']
+www.theverge.com##.l-article-body-segment.l-segment.l-sidebar-fixed > .l-col__sidebar
+
+! YouTube
 youtube.com##div#chat-container
 youtube.com##div#panels-full-bleed-container:not(:has(div#player-container))
 youtube.com##ytd-reel-shelf-renderer
@@ -40,76 +114,16 @@ www.youtube.com##.ytd-guide-entry-renderer#endpoint[title='Movies & TV']
 www.youtube.com##.ytd-guide-entry-renderer#endpoint[title='News']
 www.youtube.com##.ytd-guide-entry-renderer#endpoint[title='YouTube Kids']
 
-www.reddit.com##div.right-sidebar pdp-right-rail
-
-old.reddit.com###sr-header-area
-old.reddit.com##.listingsignupbar.infobar
-old.reddit.com##.content .thing.promoted
-
-www.amazon.com###Share-share
-www.amazon.com##.video-player .gw-media-card
-www.amazon.com##.amazonlive-widget-padding
-www.amazon.com###postsSameBrandCard_feature_div
-www.amazon.com##.vse-video-widget-container
-
-www.tiktok.com##.guide-login-banner
-
+! Misc
 www.wikihow.com###article_courses_banner
-
 www.plexopedia.com##.bba.bottom-image
-
-www.delta.com##.desktop-enabled.idp-dynamic-banner
-
-www.goodrx.com##div[data-qa='NewsletterSignUpAlert']
-
-en.wikipedia.org##.vector-sitenotice-container
-
 www.anker.com##.cy-player
 
-www.webmd.com##.main-container-3.main-container
-www.webmd.com##.dfp-native.top-picks
-
-! News
-www.bbc.com##aside
-www.independent.co.uk##.sidebar
-www.vox.com##.l-article-body-segment.l-segment.l-sidebar-fixed > .l-col__sidebar
-apnews.com##.Enhancement.PageListEnhancementGeneric
-9to5mac.com##.sidebar--5.xs.container.sidebar > .ninetofive-branded-rss.widget
-9to5mac.com##.sidebar--4.xs.container.sidebar
-www.theverge.com##.w-mobile-breaker
-www.theregister.com##.listinks
-www.recordnet.com##.gnt_rr
-www.sacbee.com##.partner-digest-group.grid
-www.macstories.net##article.post .post-supporters
-www.macstories.net##.post-content .aside
-
-! News - Electrek
-electrek.co##.xs.container.sidebar
-electrek.co##article:has(.meta__guide a:has-text(Elon Musk))
-electrek.co##article:has(.meta__guide a:has-text(Green Deals))
-electrek.co##article:has(.meta__guide a:has-text(Kart))
-electrek.co##article:has(.meta__guide a:has-text(Aviation))
-electrek.co##article:has(.meta__guide a:has-text(Hypercar))
-electrek.co##article:has(.meta__guide a:has-text(Podcast))
-electrek.co##article:has(.meta__guide a:has-text(Ebike))
-
-! News - The Verge
-www.theverge.com###coral_thread
-www.theverge.com##.duet--content-cards--content-card > a[href*='elon']
-www.theverge.com##.l-article-body-segment.l-segment.l-sidebar-fixed > .l-col__sidebar
-
-! News - ArsTechnica
-arstechnica.com###article-footer-wrap
-arstechnica.com##.site-footer
-arstechnica.com###action_button_container
-arstechnica.com##.xrail
-
-! Weather
-www.wunderground.com##.desktop-only > .video-promo.data-module
-www.wunderground.com##.ng-star-inserted.data-module.cat-six-latest-article
-www.accuweather.com##.left-align-children.right-rail
-
-www.wired.com##.persistent-bottom
-
-hachyderm.io##.navigation-panel .column-link:has-text(Explore)
-hachyderm.io##.navigation-panel .column-link:has-text(Live feeds)
+! UNUSED - Cookies (Misc)
+! www.audiusa.com###onetrust-consent-sdk
+! www.bmw.com##epaas-consent-drawer-shell
+! www.polestar.com##.optanon-alert-box-wrapper
+! security.stackexchange.com##.js-consent-banner
+! www.hyundaiusa.com##.cookie-disclaimer-wrapper
+! www.vw.com###cookiemgmt
+! blogs.blackberry.com##.slideInUp.animated.container.cookieNotice
