@@ -1,0 +1,21 @@
+! https://search.brave.com
+search.brave.com##div#results div.snippet:has(div.carousel-container)
+search.brave.com###searchbar-home div.download-button
+search.brave.com###info-banners:has(.goggles-info-banner)
+search.brave.com##.suggestion:has(.entity:has-text(Answer with AI))
+search.brave.com##.tabs .desktop-default-regular:has(span:has-text(News))
+search.brave.com##.tabs .desktop-default-regular:has(span:has-text(Goggles))
+search.brave.com###search-page > #llm-container
+
+! Qwant
+www.qwant.com##div[data-testid='sectionVideos']
+
+! Google
+www.google.com##g-section-with-header
+
+! DuckDuckGo
+duckduckgo.com##.js-module--news
+duckduckgo.com##.ddg-extension-hide
+
+! Ecosia
+ecosia.org##.meta-results section[data-test-id='ad-block-notice']
