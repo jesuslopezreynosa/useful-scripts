@@ -135,6 +135,10 @@ eos.com##.auth-modal.modal
 www.bestbuy.com##.shop-pushdown-ad
 www.zetaliving.com##.show.fade.modal-backdrop
 
+! General Annoyances (i.e. Banner Ads, Fake Messages)
+sniffies.com##div.recents-container tr.chatholder-row-item:has(tr[aria-label='View Advertisement'])
+sniffies.com##app-advertising-zone-map
+
 ! UNUSED - Cookies (Misc)
 ! www.audiusa.com###onetrust-consent-sdk
 ! www.bmw.com##epaas-consent-drawer-shell
