@@ -138,6 +138,7 @@ www.zetaliving.com##.show.fade.modal-backdrop
 ! General Annoyances (i.e. Banner Ads, Fake Messages)
 sniffies.com##div.recents-container tr.chatholder-row-item:has(tr[aria-label='View Advertisement'])
 sniffies.com##app-advertising-zone-map
+sniffies.com##div.global-chat__message-container div.overset-global-chat:has(app-advertising-zone-global-chat)
 
 ! UNUSED - Cookies (Misc)
 ! www.audiusa.com###onetrust-consent-sdk
