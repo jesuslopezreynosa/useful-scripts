@@ -6,9 +6,13 @@ search.brave.com##.suggestion:has(.entity:has-text(Answer with AI))
 search.brave.com##.tabs .desktop-default-regular:has(span:has-text(News))
 search.brave.com##.tabs .desktop-default-regular:has(span:has-text(Goggles))
 search.brave.com###search-page > #llm-container
+search.brave.com###search-page .snippet:has(.llm-output-wrapper)
 
 ! Qwant
 www.qwant.com##div[data-testid='sectionVideos']
+www.qwant.com##main div[data-testid="Ribbon"]
+www.qwant.com##main a[data-testid="newsNavItem"]
+www.qwant.com##div#root nav:has(a[data-testid="button-open-drawer"])
 
 ! Google
 www.google.com##g-section-with-header
@@ -19,3 +23,21 @@ duckduckgo.com##.ddg-extension-hide
 
 ! Ecosia
 ecosia.org##.meta-results section[data-test-id='ad-block-notice']
+
+! Cookies (This filter must be set as trusted for this to work)
+www.qwant.com##+js(trusted-set-cookie, hide_push_extension_notification, true)
+www.qwant.com##+js(trusted-set-cookie, hc, 0)
+www.qwant.com##+js(trusted-set-cookie, hti, 0)
+
+search.brave.com##+js(trusted-set-cookie, summarizer, 0)
+search.brave.com##+js(trusted-set-cookie, codellm, 0)
+
+duckduckgo.com##+js(trusted-set-cookie, 1, -1)
+duckduckgo.com##+js(trusted-set-cookie, aj, u)
+duckduckgo.com##+js(trusted-set-cookie, ak, -1)
+duckduckgo.com##+js(trusted-set-cookie, ax, -1)
+duckduckgo.com##+js(trusted-set-cookie, aq, -1)
+duckduckgo.com##+js(trusted-set-cookie, ap, -1)
+duckduckgo.com##+js(trusted-set-cookie, ao, -1)
+duckduckgo.com##+js(trusted-set-cookie, au, -1)
+duckduckgo.com##+js(trusted-set-cookie, psb, -1)
