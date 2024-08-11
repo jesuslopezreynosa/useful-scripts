@@ -1,6 +1,10 @@
 ! Remove AI Options
 github.com##div.react-code-size-details-in-header:has(span:has-text(Copilot))
 
+! Twitch
+www.twitch.tv##.tc-upsell
+www.twitch.tv##.top-nav__menu button:has(div[data-a-target='tw-core-button-label-text']:has-text(Ad-Free))
+
 ! Weather
 www.wunderground.com##.desktop-only > .video-promo.data-module
 www.wunderground.com##.ng-star-inserted.data-module.cat-six-latest-article
@@ -12,6 +16,7 @@ hachyderm.io##.navigation-panel .column-link:has-text(Live feeds)
 
 !Wikipedia
 wikipedia.org##.vector-sitenotice-container
+wikipedia.org##.cn-fundraising
 en.wikipedia.org##+js(trusted-set-cookie, enwikimwclientpreferences, vector-feature-appearance-pinned-clientpref-0%2Cvector-feature-toc-pinned-clientpref-0)
 
 ! Reddit
@@ -69,6 +74,8 @@ www.macstories.net##.post-content .aside
 www.wired.com##.persistent-bottom
 www.nbcwashington.com##.section-content--secondary
 www.nbcwashington.com##.recirc-module
+www.macrumors.com##div.noskim
+www.macrumors.com###featured_slider2
 
 ! News - ArsTechnica
 arstechnica.com###article-footer-wrap
