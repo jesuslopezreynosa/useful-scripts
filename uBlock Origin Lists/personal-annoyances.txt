@@ -17,7 +17,6 @@ hachyderm.io##.navigation-panel .column-link:has-text(Live feeds)
 !Wikipedia
 wikipedia.org##.vector-sitenotice-container
 wikipedia.org##.cn-fundraising
-en.wikipedia.org##+js(trusted-set-cookie, enwikimwclientpreferences, vector-feature-appearance-pinned-clientpref-0%2Cvector-feature-toc-pinned-clientpref-0)
 
 ! Reddit
 www.reddit.com##div.right-sidebar pdp-right-rail

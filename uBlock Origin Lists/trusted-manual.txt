@@ -1,0 +1,20 @@
+! Search Engine Cookies
+www.qwant.com##+js(trusted-set-cookie, hide_push_extension_notification, true)
+www.qwant.com##+js(trusted-set-cookie, hc, 0)
+www.qwant.com##+js(trusted-set-cookie, hti, 0)
+
+search.brave.com##+js(trusted-set-cookie, summarizer, 0)
+search.brave.com##+js(trusted-set-cookie, codellm, 0)
+
+duckduckgo.com##+js(trusted-set-cookie, 1, -1)
+duckduckgo.com##+js(trusted-set-cookie, aj, u)
+duckduckgo.com##+js(trusted-set-cookie, ak, -1)
+duckduckgo.com##+js(trusted-set-cookie, ax, -1)
+duckduckgo.com##+js(trusted-set-cookie, aq, -1)
+duckduckgo.com##+js(trusted-set-cookie, ap, -1)
+duckduckgo.com##+js(trusted-set-cookie, ao, -1)
+duckduckgo.com##+js(trusted-set-cookie, au, -1)
+duckduckgo.com##+js(trusted-set-cookie, psb, -1)
+
+! Wikipedia
+en.wikipedia.org##+js(trusted-set-cookie, enwikimwclientpreferences, vector-feature-appearance-pinned-clientpref-0%2Cvector-feature-toc-pinned-clientpref-0)

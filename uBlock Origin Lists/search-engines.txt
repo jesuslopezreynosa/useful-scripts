@@ -23,21 +23,3 @@ duckduckgo.com##.ddg-extension-hide
 
 ! Ecosia
 ecosia.org##.meta-results section[data-test-id='ad-block-notice']
-
-! Cookies (This filter must be set as trusted for this to work)
-www.qwant.com##+js(trusted-set-cookie, hide_push_extension_notification, true)
-www.qwant.com##+js(trusted-set-cookie, hc, 0)
-www.qwant.com##+js(trusted-set-cookie, hti, 0)
-
-search.brave.com##+js(trusted-set-cookie, summarizer, 0)
-search.brave.com##+js(trusted-set-cookie, codellm, 0)
-
-duckduckgo.com##+js(trusted-set-cookie, 1, -1)
-duckduckgo.com##+js(trusted-set-cookie, aj, u)
-duckduckgo.com##+js(trusted-set-cookie, ak, -1)
-duckduckgo.com##+js(trusted-set-cookie, ax, -1)
-duckduckgo.com##+js(trusted-set-cookie, aq, -1)
-duckduckgo.com##+js(trusted-set-cookie, ap, -1)
-duckduckgo.com##+js(trusted-set-cookie, ao, -1)
-duckduckgo.com##+js(trusted-set-cookie, au, -1)
-duckduckgo.com##+js(trusted-set-cookie, psb, -1)
