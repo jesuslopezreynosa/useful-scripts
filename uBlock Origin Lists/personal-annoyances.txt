@@ -142,6 +142,9 @@ eos.com##.auth-modal.modal
 www.bestbuy.com##.shop-pushdown-ad
 www.zetaliving.com##.show.fade.modal-backdrop
 www.walmart.com##div a[href*="?utm_campaign"]
+www.hyundaiusa.com##.heyhyundai-chat-button-web
+github.com##.home-campaign .global-banner
+||flipcard.bridged.media/$subdocument
 
 ! General Annoyances (i.e. Banner Ads, Fake Messages)
 sniffies.com##div.recents-container tr.chatholder-row-item:has(tr[aria-label='View Advertisement'])
