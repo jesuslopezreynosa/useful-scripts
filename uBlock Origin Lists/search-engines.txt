@@ -26,3 +26,4 @@ duckduckgo.com##div[data-testid="serp-popover-promo"]
 ! Ecosia
 www.ecosia.org##.meta-results section[data-test-id='ad-block-notice']
 www.ecosia.org##.main-header .banner
+www.ecosia.org##.web__sidebar.sidebar .card:has(.sidebar-card__title:has-text(How Ecosia works))

@@ -9,8 +9,9 @@ www.plugshare.com###nearby
 www.plugshare.com##.business-nav
 www.plugshare.com##.app
 
-! Remove AI Options
+! GitHub
 github.com##div.react-code-size-details-in-header:has(span:has-text(Copilot))
+github.com##.home-campaign .global-banner
 
 ! Twitch
 www.twitch.tv##.tc-upsell
@@ -41,6 +42,7 @@ old.reddit.com##.content .thing.promoted
 old.reddit.com##.seo-comments-recommendations.spacer
 old.reddit.com##.seo-comments
 old.reddit.com##.premium-banner-outer
+old.reddit.com##.commentsignupbar.infobar
 
 ! Speedtest.net
 speedtest.net##.pure-g.content-devices
@@ -150,26 +152,27 @@ youtube.com##.ytd-guide-entry-renderer#endpoint[title='Movies & TV']
 youtube.com##.ytd-guide-entry-renderer#endpoint[title='News']
 youtube.com##.ytd-guide-entry-renderer#endpoint[title='YouTube Kids']
 
-! Misc
-www.wikihow.com###article_courses_banner
-www.plexopedia.com##.bba.bottom-image
-www.anker.com##.cy-player
-www.toptal.com##.blog_post-sidebar
-www.telerik.com##.Sidebar
-www.telerik.com##feedback-form
-dev.to##.popover-billboard.crayons-sponsorship.crayons-card--secondary.crayons-card
-www.chewy.com##.promo-banner
-eos.com##.auth-modal.modal
+! Vehicles
+www.hyundaiusa.com##.heyhyundai-chat-button-web
+rivian.com###newsletter
+www.autotempest.com##.wrap-hide
+www.autotempest.com##.search-tips-container:has(#remove-filters)
+
+! Stores
+www.homedepot.com###collapsible-sections-accordion > .zone-card
+www.homedepot.com###footer-static
+www.lowes.com##.sms-modal-content
 www.bestbuy.com##.shop-pushdown-ad
 www.bestbuy.com##.shop-recsx-wrapper
 www.bestbuy.com##.shop-display-ad
 www.bestbuy.com##.marketing-navigation
 www.bestbuy.com##.recs-product-carousels
 www.bestbuy.com##.shop-footer
-www.zetaliving.com##.show.fade.modal-backdrop
+www.anker.com##.cy-player
+www.chewy.com##.promo-banner
 www.walmart.com##div a[href*="?utm_campaign"]
-www.hyundaiusa.com##.heyhyundai-chat-button-web
-github.com##.home-campaign .global-banner
+
+! Recipes
 www.foodnetwork.com##.editorialPromo
 www.foodnetwork.com##.o-RatingsAndReviews
 www.foodnetwork.com##.recipe-body-footer
@@ -183,9 +186,18 @@ www.jocooks.com##.wpd-comments-open
 www.jocooks.com##.author-box
 www.jocooks.com##.oc-recipe-footer
 www.jocooks.com##.dpsp-content-wrapper
+
+! Misc
+www.wikihow.com###article_courses_banner
+www.plexopedia.com##.bba.bottom-image
+www.toptal.com##.blog_post-sidebar
+www.telerik.com##.Sidebar
+www.telerik.com##feedback-form
+dev.to##.popover-billboard.crayons-sponsorship.crayons-card--secondary.crayons-card
+eos.com##.auth-modal.modal
+www.zetaliving.com##.show.fade.modal-backdrop
 www.relay.fm##.sp-area
 www.linkedin.com##div#feed-news-module
-rivian.com###newsletter
-www.homedepot.com###collapsible-sections-accordion > .zone-card
-www.homedepot.com###footer-static
-www.lowes.com##.sms-modal-content
+jsfiddle.net###sidebar
+jsfiddle.net##.goPro
+jsfiddle.net###modal-overlay
