@@ -3,6 +3,12 @@ sniffies.com##div.recents-container tr.chatholder-row-item:has(tr[aria-label='Vi
 sniffies.com##app-advertising-zone-map
 sniffies.com##div.global-chat__message-container div.overset-global-chat:has(app-advertising-zone-global-chat)
 
+! Plugshare
+www.plugshare.com###share
+www.plugshare.com###nearby
+www.plugshare.com##.business-nav
+www.plugshare.com##.app
+
 ! Remove AI Options
 github.com##div.react-code-size-details-in-header:has(span:has-text(Copilot))
 
@@ -60,6 +66,7 @@ www.amazon.com##.video-player .gw-media-card
 www.amazon.com##.amazonlive-widget-padding
 www.amazon.com###postsSameBrandCard_feature_div
 www.amazon.com##.vse-video-widget-container
+www.amazon.com###rhf
 
 ! TikTok
 www.tiktok.com##.guide-login-banner
@@ -154,6 +161,11 @@ dev.to##.popover-billboard.crayons-sponsorship.crayons-card--secondary.crayons-c
 www.chewy.com##.promo-banner
 eos.com##.auth-modal.modal
 www.bestbuy.com##.shop-pushdown-ad
+www.bestbuy.com##.shop-recsx-wrapper
+www.bestbuy.com##.shop-display-ad
+www.bestbuy.com##.marketing-navigation
+www.bestbuy.com##.recs-product-carousels
+www.bestbuy.com##.shop-footer
 www.zetaliving.com##.show.fade.modal-backdrop
 www.walmart.com##div a[href*="?utm_campaign"]
 www.hyundaiusa.com##.heyhyundai-chat-button-web
@@ -173,3 +185,7 @@ www.jocooks.com##.oc-recipe-footer
 www.jocooks.com##.dpsp-content-wrapper
 www.relay.fm##.sp-area
 www.linkedin.com##div#feed-news-module
+rivian.com###newsletter
+www.homedepot.com###collapsible-sections-accordion > .zone-card
+www.homedepot.com###footer-static
+www.lowes.com##.sms-modal-content
