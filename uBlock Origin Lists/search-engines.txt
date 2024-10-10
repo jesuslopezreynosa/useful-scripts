@@ -16,10 +16,13 @@ www.qwant.com##div#root nav:has(a[data-testid="button-open-drawer"])
 
 ! Google
 www.google.com##g-section-with-header
+www.google.com##[src*="ogs.google.com/widget"]
 
 ! DuckDuckGo
 duckduckgo.com##.js-module--news
 duckduckgo.com##.ddg-extension-hide
+duckduckgo.com##div[data-testid="serp-popover-promo"]
 
 ! Ecosia
-ecosia.org##.meta-results section[data-test-id='ad-block-notice']
+www.ecosia.org##.meta-results section[data-test-id='ad-block-notice']
+www.ecosia.org##.main-header .banner

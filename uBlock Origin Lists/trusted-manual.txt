@@ -1,3 +1,8 @@
+!!
+!   In µBlock Origin, enable `I am an advanced user` then set
+!   `trustedListPrefixes` to `ublock- https://raw.githubusercontent.com/jesuslopezreynosa/useful-scripts/`
+!!
+
 ! Search Engine Cookies
 www.qwant.com##+js(trusted-set-cookie, hide_push_extension_notification, true)
 www.qwant.com##+js(trusted-set-cookie, hc, 0)
@@ -15,6 +20,8 @@ duckduckgo.com##+js(trusted-set-cookie, ap, -1)
 duckduckgo.com##+js(trusted-set-cookie, ao, -1)
 duckduckgo.com##+js(trusted-set-cookie, au, -1)
 duckduckgo.com##+js(trusted-set-cookie, psb, -1)
+
+www.ecosia.org##+js(trusted-set-cookie, ECPP, GOOGLE)
 
 ! Wikipedia
 en.wikipedia.org##+js(trusted-set-cookie, enwikimwclientpreferences, vector-feature-appearance-pinned-clientpref-0%2Cvector-feature-toc-pinned-clientpref-0)

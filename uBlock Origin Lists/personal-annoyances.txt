@@ -12,9 +12,11 @@ www.twitch.tv##.top-nav__menu button:has(div[data-a-target='tw-core-button-label
 www.twitch.tv##.tw-root--theme-light:has(.subtember-text)
 
 ! Weather
-www.wunderground.com##.desktop-only > .video-promo.data-module
-www.wunderground.com##.ng-star-inserted.data-module.cat-six-latest-article
-www.accuweather.com##.left-align-children.right-rail
+wunderground.com##.desktop-only > .video-promo.data-module
+wunderground.com##.ng-star-inserted.data-module.cat-six-latest-article
+accuweather.com##.left-align-children.right-rail
+weather.com##.regionSidebar
+weather.com##section[data-testid="ContentMediaModule"]
 
 ! Hackyderm Mastodon
 hachyderm.io##.navigation-panel .column-link:has-text(Explore)
@@ -39,12 +41,13 @@ speedtest.net##.pure-g.content-devices
 speedtest.net##.pure-u-custom-wifi-recommendation
 
 ! Development Forums
+stackexchange.com##.left-sidebar
 stackexchange.com##.js-dismissable-hero
 stackexchange.com##.js-consent-banner
-stackoverflow.com###signup-dialog-container
-stackoverflow.com##.show-votes
 superuser.com###signup-dialog-container
 serverfault.com##.js-dismissable-hero
+stackoverflow.com###signup-dialog-container
+stackoverflow.com##.show-votes
 stackoverflow.com##.js-notice-sidebar-popover
 stackoverflow.com##.js-sticky-leftnav.left-sidebar--sticky-container
 stackoverflow.com##.js-announcement-banner
@@ -115,30 +118,30 @@ youtube.com##div#chat-container
 youtube.com##div#panels-full-bleed-container:not(:has(div#player-container))
 youtube.com##ytd-reel-shelf-renderer
 youtube.com##div#columns div#chat-container
-www.youtube.com##ytd-rich-section-renderer.efyt-is-short
-www.youtube.com##ytd-comments#comments
-www.youtube.com##.ytd-rich-section-renderer.style-scope
-www.youtube.com###big-yoodle
-www.youtube.com##ytd-comments#comments
-www.youtube.com###button > .ytd-button-renderer.style-scope
-www.youtube.com###voice-search-button
-www.youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint:has-text(Originals)
-www.youtube.com##.ytd-guide-entry-renderer#endpoint[title='YouTube Music']
-www.youtube.com##.ytd-guide-entry-renderer#endpoint[title='Music']
-www.youtube.com##.ytd-guide-entry-renderer#endpoint[title='Podcasts']
-www.youtube.com##.ytd-guide-entry-renderer#endpoint[title='Trending']
-www.youtube.com##.ytd-guide-entry-renderer#endpoint[title='Explore']
-www.youtube.com##.ytd-guide-entry-renderer#endpoint[title='YouTube Premium']
-www.youtube.com##.ytd-guide-entry-renderer#endpoint[title='Movies & Shows']
-www.youtube.com##.ytd-guide-entry-renderer#endpoint[title='Live']
-www.youtube.com##.ytd-guide-entry-renderer#endpoint[title='Gaming']
-www.youtube.com##.ytd-guide-entry-renderer#endpoint[title='Fashion & Beauty']
-www.youtube.com##.ytd-guide-entry-renderer#endpoint[title='Learning']
-www.youtube.com##.ytd-guide-entry-renderer#endpoint[title='Sports']
-www.youtube.com##.ytd-guide-entry-renderer#endpoint[title='Shopping']
-www.youtube.com##.ytd-guide-entry-renderer#endpoint[title='Movies & TV']
-www.youtube.com##.ytd-guide-entry-renderer#endpoint[title='News']
-www.youtube.com##.ytd-guide-entry-renderer#endpoint[title='YouTube Kids']
+youtube.com##ytd-rich-section-renderer.efyt-is-short
+youtube.com##ytd-comments#comments
+youtube.com##.ytd-rich-section-renderer.style-scope
+youtube.com###big-yoodle
+youtube.com##ytd-comments#comments
+youtube.com###button > .ytd-button-renderer.style-scope
+youtube.com###voice-search-button
+youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint:has-text(Originals)
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='YouTube Music']
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='Music']
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='Podcasts']
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='Trending']
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='Explore']
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='YouTube Premium']
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='Movies & Shows']
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='Live']
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='Gaming']
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='Fashion & Beauty']
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='Learning']
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='Sports']
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='Shopping']
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='Movies & TV']
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='News']
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='YouTube Kids']
 
 ! Misc
 www.wikihow.com###article_courses_banner
@@ -168,14 +171,5 @@ www.jocooks.com##.wpd-comments-open
 www.jocooks.com##.author-box
 www.jocooks.com##.oc-recipe-footer
 www.jocooks.com##.dpsp-content-wrapper
-weather.com##.regionSidebar
-weather.com##section[data-testid="ContentMediaModule"]
-
-! UNUSED - Cookies (Misc)
-! www.audiusa.com###onetrust-consent-sdk
-! www.bmw.com##epaas-consent-drawer-shell
-! www.polestar.com##.optanon-alert-box-wrapper
-! security.stackexchange.com##.js-consent-banner
-! www.hyundaiusa.com##.cookie-disclaimer-wrapper
-! www.vw.com###cookiemgmt
-! blogs.blackberry.com##.slideInUp.animated.container.cookieNotice
+www.relay.fm##.sp-area
+www.linkedin.com##div#feed-news-module
