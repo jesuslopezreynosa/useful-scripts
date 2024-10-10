@@ -3,6 +3,9 @@
 !   `trustedListPrefixes` to `ublock- https://raw.githubusercontent.com/jesuslopezreynosa/useful-scripts/`
 !!
 
+! Title: JesusLopezReynosa - Trusted Cookies
+! Expires: 1 day
+
 ! Search Engine Cookies
 www.qwant.com##+js(trusted-set-cookie, hide_push_extension_notification, true)
 www.qwant.com##+js(trusted-set-cookie, hc, 0)

@@ -17,4 +17,4 @@ Thumbs.db
 
 # Generate Blocklists
 generatedList.txt
-Generate Blocklists/generateBlockists.js
+Generate Blocklists/*.js

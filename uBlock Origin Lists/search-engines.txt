@@ -1,3 +1,6 @@
+! Title: JesusLopezReynosa - Search Engine Annoyances
+! Expires: 1 day
+
 ! Brave Search
 search.brave.com##div#results div.snippet:has(div.carousel-container)
 search.brave.com###searchbar-home div.download-button

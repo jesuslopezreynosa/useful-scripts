@@ -1,3 +1,6 @@
+! Title: JesusLopezReynosa - Personal Annoyances
+! Expires: 1 day
+
 ! General Annoyances (i.e. Banner Ads, Fake Messages)
 sniffies.com##div.recents-container tr.chatholder-row-item:has(tr[aria-label='View Advertisement'])
 sniffies.com##app-advertising-zone-map
