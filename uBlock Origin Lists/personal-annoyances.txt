@@ -1,10 +1,67 @@
 ! Title: JesusLopezReynosa - Personal Annoyances
 ! Expires: 1 day
 
+! Security
+||accounts.google.com/gsi/*^$third-party
+!||accounts.google.com/gsi/iframe
+!||accounts.google.com/gsi/client^$third-party
+!||accounts.google.com/gsi/button
+
 ! General Annoyances (i.e. Banner Ads, Fake Messages)
 sniffies.com##div.recents-container tr.chatholder-row-item:has(tr[aria-label='View Advertisement'])
 sniffies.com##app-advertising-zone-map
 sniffies.com##div.global-chat__message-container div.overset-global-chat:has(app-advertising-zone-global-chat)
+
+! Wikipedia
+wikipedia.org##.vector-sitenotice-container
+wikipedia.org##.cn-fundraising
+
+! AI
+||copilot.microsoft.com/*^$third-party
+||gemini.google.com/*^$third-party
+gemini.google.com##.get-app-banner
+gemini.google.com##.cdk-overlay-container:has(.get-app-mobile-dialog)
+
+! Google
+google.com##:matches-path(/maps)div[jsaction*="promotion"]
+maps.google.com##div[jsaction*="promotion"]
+docs.google.com##.docs-ml-promotion
+drive.google.com#?##drive_mobile_main_page > div.a-N-qc-La > div:not([class]):has(> div.a-N-Fa table div#drive-mobile-promo-download)
+
+! YouTube
+youtube.com##div#chat-container
+youtube.com##div#panels-full-bleed-container:not(:has(div#player-container))
+youtube.com##ytd-reel-shelf-renderer
+youtube.com##div#columns div#chat-container
+youtube.com##ytd-rich-section-renderer.efyt-is-short
+youtube.com##ytd-comments#comments
+youtube.com##.ytd-rich-section-renderer.style-scope
+youtube.com###big-yoodle
+youtube.com##ytd-comments#comments
+youtube.com###button > .ytd-button-renderer.style-scope
+youtube.com###voice-search-button
+youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint:has-text(Originals)
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='YouTube Music']
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='Music']
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='Podcasts']
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='Trending']
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='Explore']
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='YouTube Premium']
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='Movies & Shows']
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='Live']
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='Gaming']
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='Fashion & Beauty']
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='Learning']
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='Sports']
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='Shopping']
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='Movies & TV']
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='News']
+youtube.com##.ytd-guide-entry-renderer#endpoint[title='YouTube Kids']
+
+! Twitch
+www.twitch.tv##.tc-upsell
+www.twitch.tv##.top-nav__menu button:has(div[data-a-target='tw-core-button-label-text']:has-text(Ad-Free))
+www.twitch.tv##.tw-root--theme-light:has(.subtember-text)
 
 ! Plugshare
 www.plugshare.com###share
@@ -16,11 +73,6 @@ www.plugshare.com##.app
 github.com##div.react-code-size-details-in-header:has(span:has-text(Copilot))
 github.com##.home-campaign .global-banner
 
-! Twitch
-www.twitch.tv##.tc-upsell
-www.twitch.tv##.top-nav__menu button:has(div[data-a-target='tw-core-button-label-text']:has-text(Ad-Free))
-www.twitch.tv##.tw-root--theme-light:has(.subtember-text)
-
 ! Weather
 wunderground.com##.desktop-only > .video-promo.data-module
 wunderground.com##.ng-star-inserted.data-module.cat-six-latest-article
@@ -31,10 +83,6 @@ weather.com##section[data-testid="ContentMediaModule"]
 ! Hackyderm Mastodon
 hachyderm.io##.navigation-panel .column-link:has-text(Explore)
 hachyderm.io##.navigation-panel .column-link:has-text(Live feeds)
-
-!Wikipedia
-wikipedia.org##.vector-sitenotice-container
-wikipedia.org##.cn-fundraising
 
 ! Reddit
 www.reddit.com##div.right-sidebar pdp-right-rail
@@ -72,9 +120,21 @@ www.amazon.com##.amazonlive-widget-padding
 www.amazon.com###postsSameBrandCard_feature_div
 www.amazon.com##.vse-video-widget-container
 www.amazon.com###rhf
+amazon.*,amazon.es,amazon.fr,amazon.com,amazon.com.br,amazon.ca,amazon.com.mx,amazon.co.jp###native-app-upsell
+amazon.de,amazon.com,amazon.co.uk,amazon.fr,amazon.it,amazon.es###smart-app-banner
+amazon.de,amazon.com,amazon.co.uk,amazon.fr,amazon.it,amazon.es##div.afap-above-nav#afap-above-nav
+
+! Microsoft
+||*.msn.com/*
+microsoft.com##.alert-component
+microsoft.com###app-link-banner
+microsoft.com##.mwf-area-heading-ctas
+microsoftedgewelcome.microsoft.com##.mobile-banner__unexpanded
+visualstudio.microsoft.com##div#usabilla-button
 
 ! TikTok
 www.tiktok.com##.guide-login-banner
+||*.tiktok.com/*^$third-party
 
 ! Airlines
 www.delta.com##.desktop-enabled.idp-dynamic-banner
@@ -125,36 +185,6 @@ www.theverge.com##.duet--content-cards--content-card > a[href*='elon']
 www.theverge.com##.l-article-body-segment.l-segment.l-sidebar-fixed > .l-col__sidebar
 www.theverge.com##.w-mobile-breaker
 
-! YouTube
-youtube.com##div#chat-container
-youtube.com##div#panels-full-bleed-container:not(:has(div#player-container))
-youtube.com##ytd-reel-shelf-renderer
-youtube.com##div#columns div#chat-container
-youtube.com##ytd-rich-section-renderer.efyt-is-short
-youtube.com##ytd-comments#comments
-youtube.com##.ytd-rich-section-renderer.style-scope
-youtube.com###big-yoodle
-youtube.com##ytd-comments#comments
-youtube.com###button > .ytd-button-renderer.style-scope
-youtube.com###voice-search-button
-youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint:has-text(Originals)
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='YouTube Music']
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='Music']
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='Podcasts']
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='Trending']
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='Explore']
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='YouTube Premium']
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='Movies & Shows']
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='Live']
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='Gaming']
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='Fashion & Beauty']
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='Learning']
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='Sports']
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='Shopping']
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='Movies & TV']
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='News']
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='YouTube Kids']
-
 ! Vehicles
 www.hyundaiusa.com##.heyhyundai-chat-button-web
 rivian.com###newsletter
@@ -204,3 +234,4 @@ www.linkedin.com##div#feed-news-module
 jsfiddle.net###sidebar
 jsfiddle.net##.goPro
 jsfiddle.net###modal-overlay
+www.playstation.com##.feedback--popup
