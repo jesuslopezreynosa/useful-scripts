@@ -26,7 +26,6 @@ gemini.google.com##.cdk-overlay-container:has(.get-app-mobile-dialog)
 google.com##:matches-path(/maps)div[jsaction*="promotion"]
 maps.google.com##div[jsaction*="promotion"]
 docs.google.com##.docs-ml-promotion
-drive.google.com#?##drive_mobile_main_page > div.a-N-qc-La > div:not([class]):has(> div.a-N-Fa table div#drive-mobile-promo-download)
 
 ! YouTube
 youtube.com##div#chat-container
