@@ -2,7 +2,7 @@
 ! Expires: 1 day
 
 ! Security
-||accounts.google.com/gsi/*^$third-party
+||accounts.google.com/gsi^$third-party
 !||accounts.google.com/gsi/iframe
 !||accounts.google.com/gsi/client^$third-party
 !||accounts.google.com/gsi/button
@@ -17,8 +17,8 @@ wikipedia.org##.vector-sitenotice-container
 wikipedia.org##.cn-fundraising
 
 ! AI
-||copilot.microsoft.com/*^$third-party
-||gemini.google.com/*^$third-party
+||copilot.microsoft.com^$third-party
+||gemini.google.com^$third-party
 gemini.google.com##.get-app-banner
 gemini.google.com##.cdk-overlay-container:has(.get-app-mobile-dialog)
 
@@ -124,7 +124,7 @@ amazon.de,amazon.com,amazon.co.uk,amazon.fr,amazon.it,amazon.es###smart-app-bann
 amazon.de,amazon.com,amazon.co.uk,amazon.fr,amazon.it,amazon.es##div.afap-above-nav#afap-above-nav
 
 ! Microsoft
-||*.msn.com/*
+||msn.com
 microsoft.com##.alert-component
 microsoft.com###app-link-banner
 microsoft.com##.mwf-area-heading-ctas
@@ -133,7 +133,7 @@ visualstudio.microsoft.com##div#usabilla-button
 
 ! TikTok
 www.tiktok.com##.guide-login-banner
-||*.tiktok.com/*^$third-party
+||tiktok.com^$third-party
 
 ! Airlines
 www.delta.com##.desktop-enabled.idp-dynamic-banner
