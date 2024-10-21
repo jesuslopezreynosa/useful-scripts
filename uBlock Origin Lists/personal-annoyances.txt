@@ -3,9 +3,6 @@
 
 ! Security
 ||accounts.google.com/gsi^$third-party
-!||accounts.google.com/gsi/iframe
-!||accounts.google.com/gsi/client^$third-party
-!||accounts.google.com/gsi/button
 
 ! General Annoyances (i.e. Banner Ads, Fake Messages)
 sniffies.com##div.recents-container tr.chatholder-row-item:has(tr[aria-label='View Advertisement'])
@@ -112,16 +109,20 @@ stackoverflow.com##.js-announcement-banner
 stackoverflow.com##.bottom-notice
 stackoverflow.com##.post-form
 
+! Costco
+www.costco.com##div.MuiBox-root[name="emailSignUpForm"]
+www.costco.com##.oo_tab_right
+
 ! Amazon
-www.amazon.com###Share-share
-www.amazon.com##.video-player .gw-media-card
-www.amazon.com##.amazonlive-widget-padding
-www.amazon.com###postsSameBrandCard_feature_div
-www.amazon.com##.vse-video-widget-container
-www.amazon.com###rhf
-amazon.*,amazon.es,amazon.fr,amazon.com,amazon.com.br,amazon.ca,amazon.com.mx,amazon.co.jp###native-app-upsell
-amazon.de,amazon.com,amazon.co.uk,amazon.fr,amazon.it,amazon.es###smart-app-banner
-amazon.de,amazon.com,amazon.co.uk,amazon.fr,amazon.it,amazon.es##div.afap-above-nav#afap-above-nav
+amazon.*,amazon.com,amazon.co.jp###Share-share
+amazon.*,amazon.com,amazon.co.jp##.video-player .gw-media-card
+amazon.*,amazon.com,amazon.co.jp##.amazonlive-widget-padding
+amazon.*,amazon.com,amazon.co.jp###postsSameBrandCard_feature_div
+amazon.*,amazon.com,amazon.co.jp##.vse-video-widget-container
+amazon.*,amazon.com,amazon.co.jp###rhf
+amazon.*,amazon.com,amazon.co.jp###native-app-upsell
+amazon.*,amazon.com,amazon.co.jp###smart-app-banner
+amazon.*,amazon.com,amazon.co.jp##div.afap-above-nav#afap-above-nav
 
 ! Microsoft
 ||msn.com
@@ -200,6 +201,7 @@ www.bestbuy.com##.shop-display-ad
 www.bestbuy.com##.marketing-navigation
 www.bestbuy.com##.recs-product-carousels
 www.bestbuy.com##.shop-footer
+www.bestbuy.com##.blue-assist
 www.anker.com##.cy-player
 www.chewy.com##.promo-banner
 www.walmart.com##div a[href*="?utm_campaign"]
@@ -234,3 +236,4 @@ jsfiddle.net###sidebar
 jsfiddle.net##.goPro
 jsfiddle.net###modal-overlay
 www.playstation.com##.feedback--popup
+golden1.com##.site-status-fixed
