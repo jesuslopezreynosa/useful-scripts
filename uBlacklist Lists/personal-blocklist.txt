@@ -13,6 +13,7 @@
 *://*.yahoo.com/*
 *://*.wikihow.com/*
 *://*.legalzoom.com/*
+*://*.yougov.com/*
 
 ! Government
 *://*.state.tx.us/*
@@ -315,12 +316,27 @@
 *://*.hongkongfp.com/*
 *://*.crossrope.com/*
 *://*.officer.com/*
+*://*.sacbee.com/*
+*://*.latimes.com/*
 
 ! Sports
 *://*.foxsports.com/*
+*://*.skysports.com/*
 *://*.nbcsports.com/*
 *://*.cbssports.com/*
 *://*.bleacherreport.com/*
 *://*.ncaa.com/*
 *://*.sbnation.com/*
 *://*.barstoolsports.com/*
+*://*.espn.com/*
+*://*.mlb.com/*
+*://*.nba.com/*
+*://*.wnba.com/*
+*://*.si.com/*
+*://*.nbcsportsbayarea.com/*
+*://*.biglysports.com/*
+*://*.cricbuzz.com/*
+*://*.marca.com/*
+*://*.as.com/*
+*://*.livescore.com/*
+*://*.fubo.tv/*

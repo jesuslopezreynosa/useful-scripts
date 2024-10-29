@@ -752,7 +752,7 @@
 *://*.archive.wakarimasen.moe/*
 *://*.lulz.com/*
 
-! developerdan/hate-and-junk - https://raw.githubusercontent.com/suodrazah/murdoch_blocklist/master/murdoch_blocklist.txt
+! Murdoch News - https://raw.githubusercontent.com/suodrazah/murdoch_blocklist/master/murdoch_blocklist.txt
 *://*.harpercollins.*/*
 *://*.1form.com/*
 *://*.1form.com/*
