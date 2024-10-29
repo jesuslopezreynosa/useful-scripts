@@ -24,7 +24,7 @@
 *://*.fb.com/*
 *://*.instagram.com/*
 *://*.truthsocial.com/*
-*://*.pinterest.*/*
+*://*.pinterest.com/*
 
 ! Political
 *://*.donaldjtrump.com/*
@@ -102,7 +102,28 @@
 *://*.scientologynews.org/*
 *://*.deirdre.net/*
 *://*.southcoastmission.com/*
-*://*.*scientology*.*/*
+*://*.scientology-sacramento.org/*
+*://*.scientology-melbourne.org/*
+*://*.scientologyreligion.org/*
+*://*.scientology-losangeles.org/*
+*://*.whatisscientology.org/*
+*://*.scientology.cc/*
+*://*.scientology-fso.org/*
+*://*.scientology-tampa.org/*
+*://*.scientology-newyork.org/*
+*://*.scientology-cincinnati.org/*
+*://*.scientology-kansascity.org/*
+*://*.scientology-ccnashville.org/*
+*://*.scientology-miami.org/*
+*://*.scientology-buffalo.org/*
+*://*.scientology-washingtondc.org/*
+*://*.scientology-orangecounty.org/*
+*://*.scientology-portland.org/*
+*://*.scientology-seattle.org/*
+*://*.scientology-denver.org/*
+*://*.scientology-orlando.org/*
+*://*.scientology-stlouis.org/*
+*://*.scientology-boston.org/*
 
 ! Fake News / Tabloids
 *://*.sky.com/*
@@ -171,7 +192,8 @@
 *://*.semafor.com/*
 *://*.foxnews.com/*
 *://*.foxbusiness.com/*
-*://*.newsmax.*/*
+*://*.newsmax.com/*
+*://*.newsmax.org/*
 *://*.newsmaxtv.com/*
 *://*.marketwatch.com/*
 *://*.engadget.com/*
