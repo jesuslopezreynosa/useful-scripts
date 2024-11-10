@@ -753,7 +753,7 @@
 *://*.lulz.com/*
 
 ! Murdoch News - https://raw.githubusercontent.com/suodrazah/murdoch_blocklist/master/murdoch_blocklist.txt
-*://*.harpercollins.*/*
+*://*.harpercollins.com/*
 *://*.1form.com/*
 *://*.1form.com/*
 *://*.4kq.com.au/*
@@ -862,7 +862,7 @@
 *://*.htande.com.au/*
 *://*.indianrealestateforum.com/*
 *://*.inmycommunity.pressreader.com/*
-*://*.iproperty.com.*/*
+*://*.iproperty.com/*
 *://*.ipswichadvertiser.com.au/*
 *://*.kayosports.com.au/*
 *://*.kidspot.com.au/*

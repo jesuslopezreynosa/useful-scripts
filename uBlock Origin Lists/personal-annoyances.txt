@@ -125,7 +125,7 @@ amazon.*,amazon.com,amazon.co.jp###smart-app-banner
 amazon.*,amazon.com,amazon.co.jp##div.afap-above-nav#afap-above-nav
 
 ! Microsoft
-||msn.com
+||msn.com^
 microsoft.com##.alert-component
 microsoft.com###app-link-banner
 microsoft.com##.mwf-area-heading-ctas
