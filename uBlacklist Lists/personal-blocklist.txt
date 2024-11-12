@@ -13,10 +13,16 @@
 *://*.yahoo.com/*
 *://*.wikihow.com/*
 *://*.legalzoom.com/*
-*://*.yougov.com/*
+*://photoaid.com/*
+*://*.mexperience.com/*
+*://*.avvo.com/*
+*://*.shutterstock.com/*
 
 ! Government
 *://*.state.tx.us/*
+*://*.myflorida.com/*
+*://*.flgov.com/*
+*://*.fl.gov/*
 
 ! Social Media
 *://*.x.com/*
@@ -34,6 +40,12 @@
 *://*.gop.gov/*
 *://*.texasgop.org/*
 *://*.conservative.ca/*
+*://*.gopjobs.com/*
+*://*.netaxpayers.org/*
+*://*.votesmart.org/*
+*://*.yougov.com/*
+*://*.mypillow.com/*
+*://*.project2025.org/*
 
 ! TLDs
 *://*.onion/*
@@ -77,6 +89,7 @@
 *://*.getadblock.com/*
 *://*.norton.com/*
 *://*.avast.com/*
+*://*.avg.com/*
 *://*.goguardian.com/*
 *://*.newnorm.tv/*
 *://the-new-norm.fandom.com/*
@@ -161,7 +174,9 @@
 *://*.dailycaller.com/*
 *://*.realclearpolling.com/*
 
-! News
+! News / Clickbait
+*://*.fortune.com/*
+*://*.cnet.com/*
 *://*.morningstar.com/*
 *://*.nbcphiladelphia.com/*
 *://*.bloomberglaw.com/*
@@ -318,6 +333,35 @@
 *://*.officer.com/*
 *://*.sacbee.com/*
 *://*.latimes.com/*
+*://*.indiainmexico.gov.in/*
+*://*.insidermonkey.com/*
+*://*.nbclosangeles.com/*
+*://*.wired.com/*
+*://*.politico.com/*
+*://*.businessinsider.com/*
+*://*.abc7chicago.com/*
+*://*.visualcapitalist.com/*
+*://*.kvia.com/*
+*://*.kiplinger.com/*
+*://*.journalrecord.com/*
+*://*.blackrock.com/*
+*://*.texastribune.org/*
+*://*.texas.gov/*
+*://*.fwweekly.com/*
+*://*.newswest9.com/*
+*://*.esgdive.com/*
+*://*.responsible-investor.com/*
+*://*.firstcoastnews.com/*
+*://*.ccn.com/*
+*://*.the-independent.com/*
+*://*.cleveland19.com/*
+*://*.chatelaine.com/*
+*://*.earth.org/*
+*://*.theweek.com/*
+*://*.localnewsmatters.org/*
+*://*.recordnet.com/*
+*://*.ladbible.com/*
+*://*.newsflare.com/*
 
 ! Sports
 *://*.foxsports.com/*

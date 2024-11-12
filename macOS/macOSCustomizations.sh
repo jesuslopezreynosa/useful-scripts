@@ -1,5 +1,8 @@
 #!/bin/zsh
 
+# Dock - Remove Auto-Hide Delay
+defaults write com.apple.dock autohide-delay -float 0; killall Dock
+
 # Setup Python 3 Path
 pythonExists="$(type python)";
 if [[ $pythonExists == *"not found"* ]]; then (

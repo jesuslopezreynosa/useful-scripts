@@ -237,3 +237,14 @@ jsfiddle.net##.goPro
 jsfiddle.net###modal-overlay
 www.playstation.com##.feedback--popup
 golden1.com##.site-status-fixed
+
+! TLDs
+||*.onion^
+||*.biz^
+||*.media^
+||*.news^
+||*.gop^
+||*.republican^
+||*.store^
+||*.cn^
+||*.ru^
