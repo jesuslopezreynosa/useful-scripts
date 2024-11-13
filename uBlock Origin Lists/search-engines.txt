@@ -10,6 +10,7 @@ search.brave.com##.tabs .desktop-default-regular:has(span:has-text(News))
 search.brave.com##.tabs .desktop-default-regular:has(span:has-text(Goggles))
 search.brave.com###search-page > #llm-container
 search.brave.com###search-page .snippet:has(.llm-output-wrapper)
+search.brave.com##.example-searches
 
 ! Qwant
 www.qwant.com##div[data-testid='sectionVideos']
@@ -30,3 +31,4 @@ duckduckgo.com##div[data-testid="serp-popover-promo"]
 www.ecosia.org##.meta-results section[data-test-id='ad-block-notice']
 www.ecosia.org##.main-header .banner
 www.ecosia.org##.web__sidebar.sidebar .card:has(.sidebar-card__title:has-text(How Ecosia works))
+www.ecosia.org##.main-footer-visual__content

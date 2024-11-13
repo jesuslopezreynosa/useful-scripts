@@ -14,6 +14,10 @@ wikipedia.org##.vector-sitenotice-container
 wikipedia.org##.cn-fundraising
 
 ! AI
+||api.openai.com^$third-party
+||*.openai.azure.com^$third-party
+||production-openaicom-storage.azureedge.net^$third-party
+||openai.com.cdn.cloudflare.net^$third-party
 ||copilot.microsoft.com^$third-party
 ||gemini.google.com^$third-party
 gemini.google.com##.get-app-banner
@@ -26,33 +30,33 @@ docs.google.com##.docs-ml-promotion
 
 ! YouTube
 youtube.com##div#chat-container
+youtube.com##div#columns div#chat-container
 youtube.com##div#panels-full-bleed-container:not(:has(div#player-container))
 youtube.com##ytd-reel-shelf-renderer
-youtube.com##div#columns div#chat-container
 youtube.com##ytd-rich-section-renderer.efyt-is-short
 youtube.com##ytd-comments#comments
 youtube.com##.ytd-rich-section-renderer.style-scope
 youtube.com###big-yoodle
-youtube.com##ytd-comments#comments
 youtube.com###button > .ytd-button-renderer.style-scope
 youtube.com###voice-search-button
-youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint:has-text(Originals)
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='YouTube Music']
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='Music']
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='Podcasts']
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='Trending']
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='Explore']
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='YouTube Premium']
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='Movies & Shows']
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='Live']
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='Gaming']
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='Fashion & Beauty']
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='Learning']
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='Sports']
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='Shopping']
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='Movies & TV']
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='News']
-youtube.com##.ytd-guide-entry-renderer#endpoint[title='YouTube Kids']
+www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(Shorts))
+www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(Originals))
+www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(Music))
+www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(Podcasts))
+www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(Trending))
+www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(Explore))
+www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(Movies & Shows))
+www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(Live))
+www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(Gaming))
+www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(Fashion & Beauty))
+www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(Learning))
+www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(Sports))
+www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(Shopping))
+www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(Movies & TV))
+www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(News))
+www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(YouTube Kids))
+www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(YouTube Music))
+www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(YouTube Premium))
 
 ! Twitch
 www.twitch.tv##.tc-upsell
@@ -108,6 +112,14 @@ stackoverflow.com##.js-sticky-leftnav.left-sidebar--sticky-container
 stackoverflow.com##.js-announcement-banner
 stackoverflow.com##.bottom-notice
 stackoverflow.com##.post-form
+
+! Developer Docs
+www.telerik.com##.Sidebar
+www.telerik.com##feedback-form
+jsfiddle.net###sidebar
+jsfiddle.net##.goPro
+jsfiddle.net###modal-overlay
+dev.to##.popover-billboard.crayons-sponsorship.crayons-card--secondary.crayons-card
 
 ! Costco
 www.costco.com##div.MuiBox-root[name="emailSignUpForm"]
@@ -225,16 +237,10 @@ www.jocooks.com##.dpsp-content-wrapper
 www.wikihow.com###article_courses_banner
 www.plexopedia.com##.bba.bottom-image
 www.toptal.com##.blog_post-sidebar
-www.telerik.com##.Sidebar
-www.telerik.com##feedback-form
-dev.to##.popover-billboard.crayons-sponsorship.crayons-card--secondary.crayons-card
 eos.com##.auth-modal.modal
 www.zetaliving.com##.show.fade.modal-backdrop
 www.relay.fm##.sp-area
 www.linkedin.com##div#feed-news-module
-jsfiddle.net###sidebar
-jsfiddle.net##.goPro
-jsfiddle.net###modal-overlay
 www.playstation.com##.feedback--popup
 golden1.com##.site-status-fixed
 
@@ -248,3 +254,13 @@ golden1.com##.site-status-fixed
 ||*.store^
 ||*.cn^
 ||*.ru^
+||*.icu^
+||*.work^
+||*.tk^
+||*.ml^
+||*.ga^
+||*.cf^
+||*.gq^
+||*.zip^
+||*.bot^
+||*.mov^
