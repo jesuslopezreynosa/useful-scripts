@@ -1,6 +1,12 @@
+########################################################################################
 # Allows updating IPv4 and IPv6 (if applicable) addresses for a DuckDNS domain
 # name. Like the script provided from DuckDNS, the log file will say OK if 
-# good and KO if an error occurred
+# good and KO if an error occurred.
+#
+# Update your crontab w/ `*/5 * * * * ~/duckdns/updateDomainDynamic.sh >/dev/null 2>&1`
+# and make sure the script is executable (chmod +x updateDomainDynamic.sh) beforehand.
+########################################################################################
+
 domain="INSERT DOMAIN NAME HERE"
 duckDnsApiToken="xxxxxxx-xxxx-0000-0000-000000000"
 
