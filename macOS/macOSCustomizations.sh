@@ -9,6 +9,12 @@ if [[ $pythonExists == *"not found"* ]]; then (
     echo "alias python='python3'" >> ~/.zshrc
 ) fi;
 
+# Disable lock on Touch ID press
+defaults write com.apple.loginwindow DisableScreenLockImmediate -bool yes
+
+# Use Touch ID for Sudo
+sudo sh ./enableTouchIdForSudo.sh
+
 # Install Intel Mono Fonts
 fontOut="$(ls ~/Library/Fonts | grep IntelOneMono)";
 if [[ $fontOut != *"IntelOneMono"* ]]; then (
@@ -18,9 +24,3 @@ if [[ $fontOut != *"IntelOneMono"* ]]; then (
     cd otf/
     open -b com.apple.FontBook *.otf
 ) fi;
-
-# Disable lock on Touch ID press
-defaults write com.apple.loginwindow DisableScreenLockImmediate -bool yes
-
-# Use Touch ID for Sudo
-sudo sh ./enableTouchIdForSudo.sh
