@@ -9,6 +9,12 @@ if [[ $pythonExists == *"not found"* ]]; then (
     echo "alias python='python3'" >> ~/.zshrc
 ) fi;
 
+# Setup Python PIP
+pipExists="$(type pip)";
+if [[ $pipExists == *"not found"* ]]; then (
+    echo "alias pip='pip3'" >> ~/.zshrc
+) fi;
+
 # Disable lock on Touch ID press
 defaults write com.apple.loginwindow DisableScreenLockImmediate -bool yes
 

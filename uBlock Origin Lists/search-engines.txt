@@ -5,9 +5,9 @@
 search.brave.com##div#results div.snippet:has(div.carousel-container)
 search.brave.com###searchbar-home div.download-button
 search.brave.com###info-banners:has(.goggles-info-banner)
-search.brave.com##.suggestion:has(.entity:has-text(Answer with AI))
-search.brave.com##.tabs .desktop-default-regular:has(span:has-text(News))
-search.brave.com##.tabs .desktop-default-regular:has(span:has-text(Goggles))
+search.brave.com##.suggestion:has(.entity:has-text(/Answer with AI/i))
+search.brave.com##.tabs .desktop-default-regular:has(span:has-text(/News/i))
+search.brave.com##.tabs .desktop-default-regular:has(span:has-text(/Goggles/i))
 search.brave.com###search-page > #llm-container
 search.brave.com###search-page .snippet:has(.llm-output-wrapper)
 search.brave.com##.example-searches
@@ -30,5 +30,5 @@ duckduckgo.com##div[data-testid="serp-popover-promo"]
 ! Ecosia
 www.ecosia.org##.meta-results section[data-test-id='ad-block-notice']
 www.ecosia.org##.main-header .banner
-www.ecosia.org##.web__sidebar.sidebar .card:has(.sidebar-card__title:has-text(How Ecosia works))
+www.ecosia.org##.web__sidebar.sidebar .card:has(.sidebar-card__title:has-text(/How Ecosia works/i))
 www.ecosia.org##.main-footer-visual__content

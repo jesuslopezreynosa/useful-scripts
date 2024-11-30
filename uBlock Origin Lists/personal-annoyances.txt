@@ -8,6 +8,7 @@
 sniffies.com##div.recents-container tr.chatholder-row-item:has(tr[aria-label='View Advertisement'])
 sniffies.com##app-advertising-zone-map
 sniffies.com##div.global-chat__message-container div.overset-global-chat:has(app-advertising-zone-global-chat)
+azmen.com###switch-ad
 
 ! Wikipedia
 wikipedia.org##.vector-sitenotice-container
@@ -60,7 +61,7 @@ www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(YouTu
 
 ! Twitch
 www.twitch.tv##.tc-upsell
-www.twitch.tv##.top-nav__menu button:has(div[data-a-target='tw-core-button-label-text']:has-text(Ad-Free))
+www.twitch.tv##.top-nav__menu button:has(div[data-a-target='tw-core-button-label-text']:has-text(/Ad-Free/i))
 www.twitch.tv##.tw-root--theme-light:has(.subtember-text)
 
 ! Plugshare
@@ -70,7 +71,7 @@ www.plugshare.com##.business-nav
 www.plugshare.com##.app
 
 ! GitHub
-github.com##div.react-code-size-details-in-header:has(span:has-text(Copilot))
+github.com##div.react-code-size-details-in-header:has(span:has-text(/Copilot/i))
 github.com##.home-campaign .global-banner
 
 ! Weather
@@ -183,13 +184,14 @@ arstechnica.com##.xrail
 
 ! News - Electrek
 electrek.co##.container.sidebar
-electrek.co##article:has(.meta__guide a:has-text(Elon Musk))
-electrek.co##article:has(.meta__guide a:has-text(Green Deals))
-electrek.co##article:has(.meta__guide a:has-text(Kart))
-electrek.co##article:has(.meta__guide a:has-text(Aviation))
-electrek.co##article:has(.meta__guide a:has-text(Hypercar))
-electrek.co##article:has(.meta__guide a:has-text(Podcast))
-electrek.co##article:has(.meta__guide a:has-text(Ebike))
+
+electrek.co##article:has(.meta__guide a:has-text(/Elon Musk/i))
+electrek.co##article:has(.meta__guide a:has-text(/Green Deals/i))
+electrek.co##article:has(.meta__guide a:has-text(/Kart/i))
+electrek.co##article:has(.meta__guide a:has-text(/Aviation/i))
+electrek.co##article:has(.meta__guide a:has-text(/Hypercar/i))
+electrek.co##article:has(.meta__guide a:has-text(/Podcast/i))
+electrek.co##article:has(.meta__guide a:has-text(/Ebike/i))
 
 ! News - The Verge
 www.theverge.com###coral_thread
