@@ -58,6 +58,8 @@ www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(News)
 www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(YouTube Kids))
 www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(YouTube Music))
 www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(YouTube Premium))
+www.youtube.com##.ytd-mini-guide-entry-renderer:has(.title:has-text(/shorts/i))
+www.youtube.com##.ytd-mini-guide-entry-renderer:has(.title:has-text(/youtube music/i))
 
 ! Twitch
 www.twitch.tv##.tc-upsell
