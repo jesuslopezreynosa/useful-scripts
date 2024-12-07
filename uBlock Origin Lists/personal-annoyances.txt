@@ -13,6 +13,7 @@ azmen.com###switch-ad
 ! Wikipedia
 wikipedia.org##.vector-sitenotice-container
 wikipedia.org##.cn-fundraising
+wikipedia.org##div.ext-quick-survey-panel
 
 ! AI
 ||api.openai.com^$third-party
