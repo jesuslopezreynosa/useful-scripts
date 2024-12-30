@@ -41,26 +41,8 @@ youtube.com##.ytd-rich-section-renderer.style-scope
 youtube.com###big-yoodle
 youtube.com###button > .ytd-button-renderer.style-scope
 youtube.com###voice-search-button
-www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(Shorts))
-www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(Originals))
-www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(Music))
-www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(Podcasts))
-www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(Trending))
-www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(Explore))
-www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(Movies & Shows))
-www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(Live))
-www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(Gaming))
-www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(Fashion & Beauty))
-www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(Learning))
-www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(Sports))
-www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(Shopping))
-www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(Movies & TV))
-www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(News))
-www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(YouTube Kids))
-www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(YouTube Music))
-www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(YouTube Premium))
-www.youtube.com##.ytd-mini-guide-entry-renderer:has(.title:has-text(/shorts/i))
-www.youtube.com##.ytd-mini-guide-entry-renderer:has(.title:has-text(/youtube music/i))
+www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(/Shorts|Originals|Music|Podcasts|Trending|Explore|Movies & Shows|Live|Gaming|Fashion & Beauty|Learning|Sports|Shopping|Movies & TV|News|YouTube Kids|YouTube Music|YouTube Premium/i))
+www.youtube.com##.ytd-mini-guide-entry-renderer:has(.title:has-text(/shorts|youtube music/i))
 
 ! Twitch
 www.twitch.tv##.tc-upsell
@@ -85,12 +67,13 @@ weather.com##.regionSidebar
 weather.com##section[data-testid="ContentMediaModule"]
 
 ! Hackyderm Mastodon
-hachyderm.io##.navigation-panel .column-link:has-text(Explore)
-hachyderm.io##.navigation-panel .column-link:has-text(Live feeds)
+hachyderm.io##.navigation-panel .column-link:has-text(/Explore|Live feeds/i)
 
 ! Reddit
 www.reddit.com##div.right-sidebar pdp-right-rail
 www.reddit.com###right-sidebar-container
+www.reddit.com##div.grid-container div.left-sidebar
+www.reddit.com##header nav div.justify-end
 old.reddit.com###sr-header-area
 old.reddit.com##.listingsignupbar.infobar
 old.reddit.com##.content .thing.promoted
@@ -98,6 +81,7 @@ old.reddit.com##.seo-comments-recommendations.spacer
 old.reddit.com##.seo-comments
 old.reddit.com##.premium-banner-outer
 old.reddit.com##.commentsignupbar.infobar
+old.reddit.com##div.locked:has(a.moderator)
 
 ! Speedtest.net
 speedtest.net##.pure-g.content-devices
@@ -187,14 +171,7 @@ arstechnica.com##.xrail
 
 ! News - Electrek
 electrek.co##.container.sidebar
-
-electrek.co##article:has(.meta__guide a:has-text(/Elon Musk/i))
-electrek.co##article:has(.meta__guide a:has-text(/Green Deals/i))
-electrek.co##article:has(.meta__guide a:has-text(/Kart/i))
-electrek.co##article:has(.meta__guide a:has-text(/Aviation/i))
-electrek.co##article:has(.meta__guide a:has-text(/Hypercar/i))
-electrek.co##article:has(.meta__guide a:has-text(/Podcast/i))
-electrek.co##article:has(.meta__guide a:has-text(/Ebike/i))
+electrek.co##article:has(.meta__guide a:has-text(/Elon Musk|Green Deals|Kart|Aviation|Hypercar|Podcast|Ebike/i))
 
 ! News - The Verge
 www.theverge.com###coral_thread
