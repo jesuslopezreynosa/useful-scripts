@@ -41,6 +41,7 @@ youtube.com##.ytd-rich-section-renderer.style-scope
 youtube.com###big-yoodle
 youtube.com###button > .ytd-button-renderer.style-scope
 youtube.com###voice-search-button
+youtube.com##ytd-shelf-renderer #dismissible
 www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(/Shorts|Originals|Music|Podcasts|Trending|Explore|Movies & Shows|Live|Gaming|Fashion & Beauty|Learning|Sports|Shopping|Movies & TV|News|YouTube Kids|YouTube Music|YouTube Premium/i))
 www.youtube.com##.ytd-mini-guide-entry-renderer:has(.title:has-text(/shorts|youtube music/i))
 
@@ -48,6 +49,7 @@ www.youtube.com##.ytd-mini-guide-entry-renderer:has(.title:has-text(/shorts|yout
 www.twitch.tv##.tc-upsell
 www.twitch.tv##.top-nav__menu button:has(div[data-a-target='tw-core-button-label-text']:has-text(/Ad-Free/i))
 www.twitch.tv##.tw-root--theme-light:has(.subtember-text)
+www.twitch.tv###twilight-sticky-footer-root
 
 ! Plugshare
 www.plugshare.com###share
@@ -57,6 +59,7 @@ www.plugshare.com##.app
 
 ! GitHub
 github.com##div.react-code-size-details-in-header:has(span:has-text(/Copilot/i))
+github.com##header div.AppHeader-CopilotChat
 github.com##.home-campaign .global-banner
 
 ! Weather
@@ -227,22 +230,4 @@ www.playstation.com##.feedback--popup
 golden1.com##.site-status-fixed
 
 ! TLDs
-||*.onion^
-||*.biz^
-||*.media^
-||*.news^
-||*.gop^
-||*.republican^
-||*.store^
-||*.cn^
-||*.ru^
-||*.icu^
-||*.work^
-||*.tk^
-||*.ml^
-||*.ga^
-||*.cf^
-||*.gq^
-||*.zip^
-||*.bot^
-||*.mov^
+||.onion^|.biz^|.media^|.news^|.gop^|.republican^|.store^|.cn^|.ru^|.icu^|.work^|.tk^|.ml^|.ga^|.cf^|.gq^|.zip^|.bot^|*.mov^
