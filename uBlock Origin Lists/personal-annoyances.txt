@@ -9,6 +9,11 @@ sniffies.com##div.recents-container tr.chatholder-row-item:has(tr[aria-label='Vi
 sniffies.com##app-advertising-zone-map
 sniffies.com##div.global-chat__message-container div.overset-global-chat:has(app-advertising-zone-global-chat)
 azmen.com###switch-ad
+azmen.com##div#aznlive-banner
+azmen.com##div:has(div.az-ads-banner)
+azmen.com##div.container div#exo-native-az-container
+azmen.com##div.az-footer:has(div#aznude_native_exo_gay)
+azmen.com##div#aznlive-horizontal__banner
 
 ! Wikipedia
 wikipedia.org##.vector-sitenotice-container

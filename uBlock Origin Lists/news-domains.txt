@@ -899,7 +899,6 @@ csctimes.com
 csindy.com
 csmonitor.com
 csrecord.net
-images.ctfassets.net * allow
 ctnewsonline.com
 ctnow.com
 ctpost.com
@@ -1085,7 +1084,6 @@ diariopalmbeach.com
 dibollfreepress.com
 dickinsoncountynews.com
 digitalburg.com
-digitalgov.gov * allow
 dillonheraldonline.com
 dillontribune.com
 dispatch.com
@@ -1366,7 +1364,6 @@ focusnewspaper.com
 folioweekly.com
 folsomtelegraph.com
 fontanaheraldnews.com
-fonts.googleapis.com * allow
 foothillstrader.com
 forbes.com
 foreignaffairs.com
@@ -1675,7 +1672,6 @@ grossepointenews.com
 grtimes.com
 grundycountyherald.com
 gsabusiness.com
-fonts.gstatic.com * allow
 gtrnews.com
 gtweekly.com
 guardianlv.com
@@ -4134,8 +4130,6 @@ stowsentry.com
 straight.com
 stratfordstar.com
 stream.org
-js.stripe.com * allow
-m.stripe.network * allow
 stripes.com
 strohmnews.com
 studlife.com
