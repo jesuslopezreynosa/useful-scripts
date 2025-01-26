@@ -13,7 +13,7 @@
 *://*.yahoo.com/*
 *://*.wikihow.com/*
 *://*.legalzoom.com/*
-*://photoaid.com/*
+*://*.photoaid.com/*
 *://*.mexperience.com/*
 *://*.avvo.com/*
 *://*.shutterstock.com/*
@@ -28,6 +28,9 @@
 *://*.socialcatfish.com/*
 *://*.fastpeoplesearch.com/*
 *://*.whitepages.com/*
+*://*.bbb.org/*
+*://*.lovesac.com/*
+*://*.klarna.com/*
 
 ! Government
 *://*.state.tx.us/*
@@ -41,6 +44,7 @@
 *://*.facebook.com/*
 *://*.fb.com/*
 *://*.instagram.com/*
+*://*.threads.net/*
 *://*.truthsocial.com/*
 *://*.pinterest.com/*
 
@@ -57,6 +61,7 @@
 *://*.yougov.com/*
 *://*.mypillow.com/*
 *://*.project2025.org/*
+*://*.wwe.com/*
 
 ! TLDs
 *://*.onion/*
@@ -68,8 +73,19 @@
 *://*.store/*
 *://*.cn/*
 *://*.ru/*
+*://*.icu/*
+*://*.work/*
+*://*.tk/*
+*://*.ml/*
+*://*.ga/*
+*://*.cf/*
+*://*.gq/*
+*://*.zip/*
+*://*.bot/*
+*://*.mov/*
 *://*.xxx/*
 *://*.how/*
+*://*.ai/*
 
 ! Malicious
 *://*.machow2.com/*
@@ -112,11 +128,16 @@
 *://*.avg.com/*
 *://*.goguardian.com/*
 *://*.newnorm.tv/*
-*://the-new-norm.fandom.com/*
+*://*.the-new-norm.fandom.com/*
 *://*.memedroid.com/*
 *://*.appfigures.com/*
 *://*.cyberghostvpn.com/*
 *://*.expressvpn.com/*
+*://*.ssofficelocation.com/*
+*://*.socialsecuritybranch.com/*
+*://*.blogspot.com/*
+*://*.edu.vn/*
+*://*.indiamart.com/*
 
 ! ""Religion""
 *://*.jw.org/*
@@ -443,6 +464,39 @@
 *://*.vancouversun.com/*
 *://*.kalownacapnews.com/*
 *://*.timescolonist.com/*
+*://*.southasiantoday.com.au/*
+*://*.hindustantimes.com/*
+*://*.thehindu.com/*
+*://*.news18.com/*
+*://*.newsbreak.com/*
+*://*.boxden.com/*
+*://*.thepostmillennial.com/*
+*://*.roddreher.substack.com/*
+*://*.timesnownews.com/*
+*://*.9news.com.au/*
+*://*.them.us/*
+*://*.ndtv.com/*
+*://*.complex.com/*
+*://*.wfla.com/*
+*://*.deadline.com/*
+*://*.sfchronicle.com/*
+*://*.6abc.com/*
+*://*.latintimes.com/*
+*://*.balleralert.com/*
+*://*.malibutimes.com/*
+*://*.hoodline.com/*
+*://*.thedailyguardian.com/*
+*://*.democraticunderground.com/*
+*://*.nolt.io/*
+*://*.wltx.com/*
+*://*.ktsm.com/*
+*://*.wdsu.com/*
+*://*.pedestrian.tv/*
+*://*.kcbd.com/*
+*://*.livenowfox.com/*
+*://*.economictimes.com/*
+*://*.edgemedianetwork.com/*
+*://*.vibe.com/*
 
 ! Sports
 *://*.foxsports.com/*

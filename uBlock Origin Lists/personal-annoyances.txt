@@ -21,6 +21,10 @@ wikipedia.org##.cn-fundraising
 wikipedia.org##div.ext-quick-survey-panel
 
 ! AI
+||x.ai^
+||githubcopilot.com^
+||meta.ai^
+||ai.com^$third-party
 ||api.openai.com^$third-party
 ||*.openai.azure.com^$third-party
 ||production-openaicom-storage.azureedge.net^$third-party
@@ -48,7 +52,7 @@ youtube.com###button > .ytd-button-renderer.style-scope
 youtube.com###voice-search-button
 youtube.com##ytd-shelf-renderer #dismissible
 www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(/Shorts|Originals|Music|Podcasts|Trending|Explore|Movies & Shows|Live|Gaming|Fashion & Beauty|Learning|Sports|Shopping|Movies & TV|News|YouTube Kids|YouTube Music|YouTube Premium/i))
-www.youtube.com##.ytd-mini-guide-entry-renderer:has(.title:has-text(/shorts|youtube music/i))
+www.youtube.com##.ytd-mini-guide-entry-renderer:has(.title:has-text(/shorts|youtube music|Downloads/i))
 
 ! Twitch
 www.twitch.tv##.tc-upsell
@@ -235,4 +239,4 @@ www.playstation.com##.feedback--popup
 golden1.com##.site-status-fixed
 
 ! TLDs
-||.onion^|.biz^|.media^|.news^|.gop^|.republican^|.store^|.cn^|.ru^|.icu^|.work^|.tk^|.ml^|.ga^|.cf^|.gq^|.zip^|.bot^|*.mov^
+||.onion^|.biz^|.media^|.news^|.gop^|.republican^|.store^|.cn^|.ru^|.icu^|.work^|.tk^|.ml^|.ga^|.cf^|.gq^|.zip^|.bot^|*.mov^|*.how^
