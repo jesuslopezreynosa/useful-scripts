@@ -41,6 +41,10 @@
 *://*.howtogeek.com/*
 *://*.screenrant.com/*
 *://*.imdb.com/news/*
+*://*.trustpilot.com/*
+*://*.offerup.com/*
+*://*.tumblr.com/*
+*://*.justanswer.com/*
 
 ! Government
 *://*.state.tx.us/*
@@ -98,6 +102,8 @@
 *://*.ai/*
 
 ! Malicious
+*://*.ssofficelocation.com/*
+*://*.socialsecuritybranch.com/*
 *://*.machow2.com/*
 *://*.measuredsurvey365.co.uk/*
 *://*.clips4sale.com/*
@@ -191,6 +197,13 @@
 *://*.scientology-boston.org/*
 
 ! Fake News / Tabloids
+*://*.southasiantoday.com.au/*
+*://*.heraldnet.com/*
+*://*.sportskeeda.com/*
+*://*.vnexpress.net/*
+*://*.mysanantonio.com/*
+*://*.indiatimes.com/*
+*://*.economictimes.com/*
 *://*.sky.com/*
 *://*.euronews.com/*
 *://*.thetimes.co.uk/*
