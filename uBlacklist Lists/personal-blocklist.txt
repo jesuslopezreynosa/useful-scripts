@@ -31,6 +31,16 @@
 *://*.bbb.org/*
 *://*.lovesac.com/*
 *://*.klarna.com/*
+*://*.pocket-lint.com/*
+*://*.reddithelp.com/*
+*://*.nohello.net/*
+*://*.kob.com/*
+*://*.wwd.com/*
+*://*.sourceforge.net/*
+*://*.sportskeeda.com/*
+*://*.howtogeek.com/*
+*://*.screenrant.com/*
+*://*.imdb.com/news/*
 
 ! Government
 *://*.state.tx.us/*
