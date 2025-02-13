@@ -33,6 +33,7 @@ wikipedia.org##div.ext-quick-survey-panel
 ||gemini.google.com^$third-party
 gemini.google.com##.get-app-banner
 gemini.google.com##.cdk-overlay-container:has(.get-app-mobile-dialog)
+google.com##div#rcnt div:has(h1:has-text(AI Overview))
 
 ! Google
 google.com##:matches-path(/maps)div[jsaction*="promotion"]
@@ -135,6 +136,8 @@ amazon.*,amazon.com,amazon.co.jp###rhf
 amazon.*,amazon.com,amazon.co.jp###native-app-upsell
 amazon.*,amazon.com,amazon.co.jp###smart-app-banner
 amazon.*,amazon.com,amazon.co.jp##div.afap-above-nav#afap-above-nav
+amazon.*,amazon.com,amazon.co.jp##div.celwidget#smartHomeWidget_feature_div
+amazon.*,amazon.com,amazon.co.jp##div.celwidget#issuancePriceblockAmabot_feature_div
 
 ! Microsoft
 ||msn.com^
