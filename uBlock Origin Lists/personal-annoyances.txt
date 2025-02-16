@@ -22,7 +22,6 @@ wikipedia.org##div.ext-quick-survey-panel
 
 ! AI
 ||x.ai^
-||githubcopilot.com^
 ||meta.ai^
 ||ai.com^$third-party
 ||api.openai.com^$third-party
@@ -30,10 +29,10 @@ wikipedia.org##div.ext-quick-survey-panel
 ||production-openaicom-storage.azureedge.net^$third-party
 ||openai.com.cdn.cloudflare.net^$third-party
 ||copilot.microsoft.com^$third-party
+||githubcopilot.com^
 ||gemini.google.com^$third-party
 gemini.google.com##.get-app-banner
 gemini.google.com##.cdk-overlay-container:has(.get-app-mobile-dialog)
-google.com##div#rcnt div:has(h1:has-text(AI Overview))
 
 ! Google
 google.com##:matches-path(/maps)div[jsaction*="promotion"]
@@ -95,6 +94,7 @@ old.reddit.com##.seo-comments
 old.reddit.com##.premium-banner-outer
 old.reddit.com##.commentsignupbar.infobar
 old.reddit.com##div.locked:has(a.moderator)
+old.reddit.com##.link:has(div.entry:has(p.tagline:has(.stickied-tagline)))
 
 ! Speedtest.net
 speedtest.net##.pure-g.content-devices
