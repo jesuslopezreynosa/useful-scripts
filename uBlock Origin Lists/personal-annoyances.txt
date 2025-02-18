@@ -177,6 +177,7 @@ www.nbcwashington.com##.section-content--secondary
 www.nbcwashington.com##.recirc-module
 www.macrumors.com##div.noskim
 www.macrumors.com###featured_slider2
+www.gsmarena.com##div.review-body div.news-item
 
 ! News - ArsTechnica
 arstechnica.com###article-footer-wrap
@@ -193,6 +194,7 @@ www.theverge.com###coral_thread
 www.theverge.com##.duet--content-cards--content-card > a[href*='elon']
 www.theverge.com##.l-article-body-segment.l-segment.l-sidebar-fixed > .l-col__sidebar
 www.theverge.com##.w-mobile-breaker
+www.theverge.com##div.duet--layout--entry-body-container div.duet--layout--rail
 
 ! Vehicles
 www.hyundaiusa.com##.heyhyundai-chat-button-web
@@ -240,6 +242,7 @@ www.relay.fm##.sp-area
 www.linkedin.com##div#feed-news-module
 www.playstation.com##.feedback--popup
 golden1.com##.site-status-fixed
+crdroid.net##.show.crblocker-wrapper
 
 ! TLDs
 ||.onion^|.biz^|.media^|.news^|.gop^|.republican^|.store^|.cn^|.ru^|.icu^|.work^|.tk^|.ml^|.ga^|.cf^|.gq^|.zip^|.bot^|*.mov^|*.how^
