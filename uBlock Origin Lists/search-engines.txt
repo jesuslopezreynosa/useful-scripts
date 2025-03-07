@@ -22,6 +22,7 @@ www.qwant.com##div#root nav:has(a[data-testid="button-open-drawer"])
 www.google.com##g-section-with-header
 www.google.com##[src*="ogs.google.com/widget"]
 google.com##div#rcnt div:has(h1:has-text(AI Overview))
+www.google.com##promo-middle-slot
 
 ! DuckDuckGo
 duckduckgo.com##.js-module--news

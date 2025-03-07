@@ -51,6 +51,7 @@ youtube.com###big-yoodle
 youtube.com###button > .ytd-button-renderer.style-scope
 youtube.com###voice-search-button
 youtube.com##ytd-shelf-renderer #dismissible
+www.youtube.com##yt-button-view-model:has(.yt-spec-button-shape-next__button-text-content:has-text(Ask))
 www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(/Shorts|Originals|Music|Podcasts|Trending|Explore|Movies & Shows|Live|Gaming|Fashion & Beauty|Learning|Sports|Shopping|Movies & TV|News|YouTube Kids|YouTube Music|YouTube Premium/i))
 www.youtube.com##.ytd-mini-guide-entry-renderer:has(.title:has-text(/shorts|youtube music|Downloads/i))
 
@@ -178,6 +179,7 @@ www.nbcwashington.com##.recirc-module
 www.macrumors.com##div.noskim
 www.macrumors.com###featured_slider2
 www.gsmarena.com##div.review-body div.news-item
+www.lightreading.com##.Sidebar
 
 ! News - ArsTechnica
 arstechnica.com###article-footer-wrap
@@ -213,9 +215,11 @@ www.bestbuy.com##.marketing-navigation
 www.bestbuy.com##.recs-product-carousels
 www.bestbuy.com##.shop-footer
 www.bestbuy.com##.blue-assist
+www.bestbuy.com##.row:has(.widget-marketing-com)
 www.anker.com##.cy-player
 www.chewy.com##.promo-banner
 www.walmart.com##div a[href*="?utm_campaign"]
+www.monoprice.com##.side-adsense
 
 ! Recipes
 www.foodnetwork.com##.editorialPromo
@@ -243,6 +247,8 @@ www.linkedin.com##div#feed-news-module
 www.playstation.com##.feedback--popup
 golden1.com##.site-status-fixed
 crdroid.net##.show.crblocker-wrapper
+imgur.com##.Gallery-Sidebar
+imgur.com##.BottomRecirc
 
 ! TLDs
 ||.onion^|.biz^|.media^|.news^|.gop^|.republican^|.store^|.cn^|.ru^|.icu^|.work^|.tk^|.ml^|.ga^|.cf^|.gq^|.zip^|.bot^|*.mov^|*.how^
