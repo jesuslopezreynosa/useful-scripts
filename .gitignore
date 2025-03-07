@@ -18,3 +18,5 @@ Thumbs.db
 # Generate Blocklists
 generatedList.txt
 Generate Blocklists/*.js
+uBlock Origin Lists/GHOSTERY-Safari.txt
+uBlock Origin Lists/yt-wip.txt
