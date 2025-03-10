@@ -15,6 +15,9 @@ azmen.com##div.container div#exo-native-az-container
 azmen.com##div.az-footer:has(div#aznude_native_exo_gay)
 azmen.com##div#aznlive-horizontal__banner
 
+! XFINITY / Comcast
+www.xfinity.com###nuanMessagingFrame
+
 ! Wikipedia
 wikipedia.org##.vector-sitenotice-container
 wikipedia.org##.cn-fundraising
@@ -193,10 +196,16 @@ electrek.co##article:has(.meta__guide a:has-text(/Elon Musk|Green Deals|Kart|Avi
 
 ! News - The Verge
 www.theverge.com###coral_thread
-www.theverge.com##.duet--content-cards--content-card > a[href*='elon']
 www.theverge.com##.l-article-body-segment.l-segment.l-sidebar-fixed > .l-col__sidebar
 www.theverge.com##.w-mobile-breaker
 www.theverge.com##div.duet--layout--entry-body-container div.duet--layout--rail
+www.theverge.com###content .duet--layout--rail
+www.theverge.com##.duet--content-cards--content-card > a[href*='elon']
+www.theverge.com##.duet--content-cards--content-card > a[href*='trump']
+www.theverge.com##.duet--content-cards--content-card > a[href*='doge']
+www.theverge.com##.duet--content-cards--content-card > a[href*='federal']
+www.theverge.com##.duet--content-cards--content-card > a[href*='tariff']
+www.theverge.com##.duet--content-cards--content-card > a[href*='woke']
 
 ! Vehicles
 www.hyundaiusa.com##.heyhyundai-chat-button-web
@@ -249,6 +258,7 @@ golden1.com##.site-status-fixed
 crdroid.net##.show.crblocker-wrapper
 imgur.com##.Gallery-Sidebar
 imgur.com##.BottomRecirc
+themezzoapts.com###browser-warning-popup
 
 ! TLDs
 ||.onion^|.biz^|.media^|.news^|.gop^|.republican^|.store^|.cn^|.ru^|.icu^|.work^|.tk^|.ml^|.ga^|.cf^|.gq^|.zip^|.bot^|*.mov^|*.how^

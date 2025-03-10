@@ -28,9 +28,13 @@ www.google.com##promo-middle-slot
 duckduckgo.com##.js-module--news
 duckduckgo.com##.ddg-extension-hide
 duckduckgo.com##div[data-testid="serp-popover-promo"]
+duckduckgo.com##.footer
+duckduckgo.com##.ol.react-results--sidebar:has(div[data-testid='autoads-carousel-module-items'])
 
 ! Ecosia
 www.ecosia.org##.meta-results section[data-test-id='ad-block-notice']
 www.ecosia.org##.main-header .banner
-www.ecosia.org##.web__sidebar.sidebar .card:has(.sidebar-card__title:has-text(/How Ecosia works/i))
+www.ecosia.org##.web__sidebar.sidebar .sidebar-card
 www.ecosia.org##.main-footer-visual__content
+www.ecosia.org##.footer-card
+www.ecosia.org##.main-footer__menu-social
