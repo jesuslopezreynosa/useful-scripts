@@ -12,18 +12,6 @@ search.brave.com###search-page > #llm-container
 search.brave.com###search-page .snippet:has(.llm-output-wrapper)
 search.brave.com##.example-searches
 
-! Qwant
-www.qwant.com##div[data-testid='sectionVideos']
-www.qwant.com##main div[data-testid="Ribbon"]
-www.qwant.com##main a[data-testid="newsNavItem"]
-www.qwant.com##div#root nav:has(a[data-testid="button-open-drawer"])
-
-! Google
-www.google.com##g-section-with-header
-www.google.com##[src*="ogs.google.com/widget"]
-google.com##div#rcnt div:has(h1:has-text(AI Overview))
-www.google.com##promo-middle-slot
-
 ! DuckDuckGo
 duckduckgo.com##.js-module--news
 duckduckgo.com##.ddg-extension-hide
@@ -38,3 +26,19 @@ www.ecosia.org##.web__sidebar.sidebar .sidebar-card
 www.ecosia.org##.main-footer-visual__content
 www.ecosia.org##.footer-card
 www.ecosia.org##.main-footer__menu-social
+www.ecosia.org##.main-header__notifications.notifications
+www.ecosia.org##.related-queries__sidebar
+www.ecosia.org##.chat-card
+www.ecosia.org##li.search-navigation__item:has-text(AI Chat)
+
+! Google
+www.google.com##g-section-with-header
+www.google.com##[src*="ogs.google.com/widget"]
+www.google.com##div#rcnt div:has(h1:has-text(AI Overview))
+www.google.com##promo-middle-slot
+
+! Qwant
+www.qwant.com##div[data-testid='sectionVideos']
+www.qwant.com##main div[data-testid="Ribbon"]
+www.qwant.com##main a[data-testid="newsNavItem"]
+www.qwant.com##div#root nav:has(a[data-testid="button-open-drawer"])

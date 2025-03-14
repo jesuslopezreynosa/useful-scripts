@@ -55,8 +55,9 @@ youtube.com###button > .ytd-button-renderer.style-scope
 youtube.com###voice-search-button
 youtube.com##ytd-shelf-renderer #dismissible
 www.youtube.com##yt-button-view-model:has(.yt-spec-button-shape-next__button-text-content:has-text(Ask))
-www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(/Shorts|Originals|Music|Podcasts|Trending|Explore|Movies & Shows|Live|Gaming|Fashion & Beauty|Learning|Sports|Shopping|Movies & TV|News|YouTube Kids|YouTube Music|YouTube Premium/i))
 www.youtube.com##.ytd-mini-guide-entry-renderer:has(.title:has-text(/shorts|youtube music|Downloads/i))
+www.youtube.com##.ytd-guide-entry-renderer.style-scope:has(.title:has-text(/Shorts|Originals|Music|Podcasts|Trending|Explore|Movies & Shows|Live|Gaming|Fashion & Beauty|Learning|Sports|Shopping|Movies & TV|News|YouTube Kids|YouTube Music|YouTube Premium/i))
+!www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(/Shorts|Originals|Music|Podcasts|Trending|Explore|Movies & Shows|Live|Gaming|Fashion & Beauty|Learning|Sports|Shopping|Movies & TV|News|YouTube Kids|YouTube Music|YouTube Premium/i))
 
 ! Twitch
 www.twitch.tv##.tc-upsell
@@ -81,6 +82,12 @@ wunderground.com##.ng-star-inserted.data-module.cat-six-latest-article
 accuweather.com##.left-align-children.right-rail
 weather.com##.regionSidebar
 weather.com##section[data-testid="ContentMediaModule"]
+www.theweathernetwork.com###slider-sections
+www.theweathernetwork.com###promo-box
+www.theweathernetwork.com##li:has([href^="/en/assistant"])
+www.theweathernetwork.com###feature-videos
+www.theweathernetwork.com###assistant-callout
+www.theweathernetwork.com###other-locations
 
 ! Hackyderm Mastodon
 hachyderm.io##.navigation-panel .column-link:has-text(/Explore|Live feeds/i)
