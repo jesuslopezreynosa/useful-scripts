@@ -8,6 +8,8 @@
 sniffies.com##div.recents-container tr.chatholder-row-item:has(tr[aria-label='View Advertisement'])
 sniffies.com##app-advertising-zone-map
 sniffies.com##div.global-chat__message-container div.overset-global-chat:has(app-advertising-zone-global-chat)
+sniffies.com##app-nav-lower-container div.bottom div.nav-button:has(button.plus-nav)
+sniffies.com##ui-menu-item-group:has(div.upgrade-btn-container)
 azmen.com###switch-ad
 azmen.com##div#aznlive-banner
 azmen.com##div:has(div.az-ads-banner)
@@ -170,24 +172,29 @@ www.goodrx.com##div[data-qa='NewsletterSignUpAlert']
 www.webmd.com##.main-container-3.main-container
 www.webmd.com##.dfp-native.top-picks
 
-! News
+! Traditional News
 www.bbc.com##aside
 www.independent.co.uk##.sidebar
 www.vox.com##.l-article-body-segment.l-segment.l-sidebar-fixed > .l-col__sidebar
 apnews.com##.Enhancement.PageListEnhancementGeneric
-9to5mac.com##.sidebar--5.xs.container.sidebar > .ninetofive-branded-rss.widget
-9to5google.com##.container.sidebar
 www.theregister.com##.listinks
 www.theregister.com##.desktop_only.right_col > .similar_topics
 www.recordnet.com##.gnt_rr
 www.sacbee.com##.partner-digest-group.grid
-www.macstories.net##article.post .post-supporters
-www.macstories.net##.post-content .aside
 www.wired.com##.persistent-bottom
 www.nbcwashington.com##.section-content--secondary
 www.nbcwashington.com##.recirc-module
+
+! Tech News
+www.macstories.net##article.post .post-supporters
+www.macstories.net##.post-content .aside
 www.macrumors.com##div.noskim
 www.macrumors.com###featured_slider2
+9to5mac.com##.sidebar--5.xs.container.sidebar > .ninetofive-branded-rss.widget
+9to5google.com##.container.sidebar
+9to5mac.com##.container.sidebar
+9to5mac.com##.article__youtube-video
+9to5mac.com###comments
 www.gsmarena.com##div.review-body div.news-item
 www.lightreading.com##.Sidebar
 
