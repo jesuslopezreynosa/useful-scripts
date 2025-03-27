@@ -45,6 +45,24 @@
 *://*.offerup.com/*
 *://*.tumblr.com/*
 *://*.justanswer.com/*
+*://*.adobe.com/*
+*://*.myshopify.com/*
+*://*.phonearena.com/*
+*://*.getdroidtips.com/*
+*://*.droix.net/*
+*://*.mobikin.com/*
+*://*.ehtrust.org/*
+*://*.reolink.com/*
+*://*.techpp.com/*
+*://*.iphonelife.com/*
+*://*.tomsguide.com/*
+*://*.security.org/*
+*://*.universalcargo.com/*
+*://*.finty.com/*
+*://*.re-thinkingthefuture.com/*
+*://*.newbega.com/*
+*://*.surfshark.com/*
+*://*.se7ensins.com/*
 
 ! Government
 *://*.state.tx.us/*
@@ -76,6 +94,7 @@
 *://*.mypillow.com/*
 *://*.project2025.org/*
 *://*.wwe.com/*
+*://*.uline.com/*
 
 ! TLDs
 *://*.onion/*
@@ -154,6 +173,12 @@
 *://*.blogspot.com/*
 *://*.edu.vn/*
 *://*.indiamart.com/*
+*://*.cleanmymac.com/*
+*://*.macpaw.com/*
+*://*.gadgethacks.com/*
+*://*.androidfilehost.com/*
+*://*.manualslib.com/*
+*://*.geocities.ws/*
 
 ! ""Religion""
 *://*.jw.org/*
@@ -195,6 +220,7 @@
 *://*.scientology-orlando.org/*
 *://*.scientology-stlouis.org/*
 *://*.scientology-boston.org/*
+*://*.aboutmormons.org/*
 
 ! Fake News / Tabloids
 *://*.southasiantoday.com.au/*
@@ -237,6 +263,9 @@
 *://*.benshapi.ro/*
 *://*.dailycaller.com/*
 *://*.realclearpolling.com/*
+*://*.gizmochina.com/*
+*://*.trucking.org/*
+*://*.mensjournal.com/*
 
 ! News / Clickbait
 *://*.fortune.com/*
@@ -520,6 +549,7 @@
 *://*.economictimes.com/*
 *://*.edgemedianetwork.com/*
 *://*.vibe.com/*
+*://*.dallasobserver.com/*
 
 ! Sports
 *://*.foxsports.com/*

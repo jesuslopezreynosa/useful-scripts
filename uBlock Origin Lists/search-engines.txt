@@ -18,6 +18,9 @@ duckduckgo.com##.ddg-extension-hide
 duckduckgo.com##div[data-testid="serp-popover-promo"]
 duckduckgo.com##.footer
 duckduckgo.com##.ol.react-results--sidebar:has(div[data-testid='autoads-carousel-module-items'])
+duckduckgo.com##.header--aside__item--hidden-lg
+duckduckgo.com##.js-text-promo
+duckduckgo.com##li[data-layout='related_searches'] div:has(span[data-testid='feedback-prompt'])
 
 ! Ecosia
 www.ecosia.org##.meta-results section[data-test-id='ad-block-notice']

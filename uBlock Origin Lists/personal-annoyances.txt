@@ -108,6 +108,7 @@ old.reddit.com##.premium-banner-outer
 old.reddit.com##.commentsignupbar.infobar
 old.reddit.com##div.locked:has(a.moderator)
 old.reddit.com##.link:has(div.entry:has(p.tagline:has(.stickied-tagline)))
+old.reddit.com##.linklisting.sitetable::before
 
 ! Speedtest.net
 speedtest.net##.pure-g.content-devices
@@ -151,6 +152,10 @@ amazon.*,amazon.com,amazon.co.jp###smart-app-banner
 amazon.*,amazon.com,amazon.co.jp##div.afap-above-nav#afap-above-nav
 amazon.*,amazon.com,amazon.co.jp##div.celwidget#smartHomeWidget_feature_div
 amazon.*,amazon.com,amazon.co.jp##div.celwidget#issuancePriceblockAmabot_feature_div
+www.amazon.com##.nav-rufus-disco
+www.amazon.com##li.nav-li > .nav-a:has-text(Alexa)
+www.amazon.com###dpx-nice-widget-container
+www.amazon.com##.featured-brand-container
 
 ! Microsoft
 ||msn.com^
@@ -184,6 +189,12 @@ www.sacbee.com##.partner-digest-group.grid
 www.wired.com##.persistent-bottom
 www.nbcwashington.com##.section-content--secondary
 www.nbcwashington.com##.recirc-module
+www.pbs.org##.post__aside
+www.pbs.org##.inline-invite
+www.pbs.org##.newsletter-inline
+www.pbs.org##.comments__btn
+www.pbs.org##.sidebar
+www.caranddriver.com##section.embed
 
 ! Tech News
 www.macstories.net##article.post .post-supporters
@@ -197,6 +208,9 @@ www.macrumors.com###featured_slider2
 9to5mac.com###comments
 www.gsmarena.com##div.review-body div.news-item
 www.lightreading.com##.Sidebar
+www.lightreading.com##.ContentPreview:has(.ListPreview-Title:has-text(Trump))
+www.lightreading.com##p.RelatedArticle
+vacuumwars.com##.sticky-price-container
 
 ! News - ArsTechnica
 arstechnica.com###article-footer-wrap
@@ -220,6 +234,7 @@ www.theverge.com##.duet--content-cards--content-card > a[href*='doge']
 www.theverge.com##.duet--content-cards--content-card > a[href*='federal']
 www.theverge.com##.duet--content-cards--content-card > a[href*='tariff']
 www.theverge.com##.duet--content-cards--content-card > a[href*='woke']
+www.theverge.com##.zephr-zone-footer
 
 ! Vehicles
 www.hyundaiusa.com##.heyhyundai-chat-button-web
@@ -243,6 +258,7 @@ www.anker.com##.cy-player
 www.chewy.com##.promo-banner
 www.walmart.com##div a[href*="?utm_campaign"]
 www.monoprice.com##.side-adsense
+www.ikea.com##.hnf-floating-container
 
 ! Recipes
 www.foodnetwork.com##.editorialPromo
