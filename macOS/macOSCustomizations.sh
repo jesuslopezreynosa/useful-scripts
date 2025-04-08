@@ -15,6 +15,9 @@ defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
 # App Store - Disable in-app ratings
 defaults write com.apple.appstore InAppReviewEnabled -int 0
 
+# TextEdit - Open new document immediately
+defaults write com.apple.TextEdit NSShowAppCentricOpenPanelInsteadOfUntitledFile -bool false
+
 if [[ $EUID -ne 0 ]]; then
 	# Not Root 
 else 
@@ -40,7 +43,7 @@ if [[ $pipExists == *"not found"* ]]; then (
 # Use Touch ID for Sudo
 sudo sh ./enableTouchIdForSudo.sh
 
-# Install Intel Mono Fonts
+# Install `Intel Mono` Fonts
 fontOut="$(ls ~/Library/Fonts | grep IntelOneMono)";
 if [[ $fontOut != *"IntelOneMono"* ]]; then (
     cd /tmp
@@ -49,3 +52,13 @@ if [[ $fontOut != *"IntelOneMono"* ]]; then (
     cd otf/
     open -b com.apple.FontBook *.otf
 ) fi;
+
+# Install `Atkinson Hyperlegible Mono` Fonts
+# fontOut="$(ls ~/Library/Fonts | grep Atkinson)";
+# if [[ $fontOut != *"Atkinson"* ]]; then (
+#     cd /tmp
+#     # curl -L "https://github.com/intel/intel-one-mono/raw/refs/heads/main/fonts/otf.zip" -O
+#     unzip otf.zip
+#     cd otf/
+#     open -b com.apple.FontBook *.otf
+# ) fi;
