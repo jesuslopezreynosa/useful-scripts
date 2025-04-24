@@ -1,6 +1,10 @@
 ! Title: JesusLopezReynosa - Personal Annoyances
 ! Expires: 1 day
 
+! Apple
+discussions.apple.com##.notification
+discussions.apple.com##.recommendations
+
 ! Security
 ||accounts.google.com/gsi^$third-party
 
@@ -9,6 +13,7 @@ sniffies.com##div.recents-container tr.chatholder-row-item:has(tr[aria-label='Vi
 sniffies.com##app-advertising-zone-map
 sniffies.com##div.global-chat__message-container div.overset-global-chat:has(app-advertising-zone-global-chat)
 sniffies.com##app-nav-lower-container div.bottom div.nav-button:has(button.plus-nav)
+sniffies.com##button.nav-logo
 sniffies.com##ui-menu-item-group:has(div.upgrade-btn-container)
 azmen.com###switch-ad
 azmen.com##div#aznlive-banner
@@ -60,12 +65,15 @@ www.youtube.com##yt-button-view-model:has(.yt-spec-button-shape-next__button-tex
 www.youtube.com##.ytd-mini-guide-entry-renderer:has(.title:has-text(/shorts|youtube music|Downloads/i))
 www.youtube.com##.ytd-guide-entry-renderer.style-scope:has(.title:has-text(/Shorts|Originals|Music|Podcasts|Trending|Explore|Movies & Shows|Live|Gaming|Fashion & Beauty|Learning|Sports|Shopping|Movies & TV|News|YouTube Kids|YouTube Music|YouTube Premium/i))
 !www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(/Shorts|Originals|Music|Podcasts|Trending|Explore|Movies & Shows|Live|Gaming|Fashion & Beauty|Learning|Sports|Shopping|Movies & TV|News|YouTube Kids|YouTube Music|YouTube Premium/i))
+www.youtube.com##.ytd-masthead > ytd-button-renderer.ytd-masthead.style-scope
+www.youtube.com##.ytd-masthead > ytd-notification-topbar-button-renderer.ytd-masthead
 
 ! Twitch
 www.twitch.tv##.tc-upsell
 www.twitch.tv##.top-nav__menu button:has(div[data-a-target='tw-core-button-label-text']:has-text(/Ad-Free/i))
 www.twitch.tv##.tw-root--theme-light:has(.subtember-text)
 www.twitch.tv###twilight-sticky-footer-root
+www.twitch.tv##.tw-callout-message
 
 ! Plugshare
 www.plugshare.com###share
@@ -156,6 +164,9 @@ www.amazon.com##.nav-rufus-disco
 www.amazon.com##li.nav-li > .nav-a:has-text(Alexa)
 www.amazon.com###dpx-nice-widget-container
 www.amazon.com##.featured-brand-container
+www.amazon.com###above-dp-container
+www.amazon.com##.maple-banner
+www.amazon.com###widget-rightUpsellSlot
 
 ! Microsoft
 ||msn.com^
@@ -211,12 +222,14 @@ www.lightreading.com##.Sidebar
 www.lightreading.com##.ContentPreview:has(.ListPreview-Title:has-text(Trump))
 www.lightreading.com##p.RelatedArticle
 vacuumwars.com##.sticky-price-container
+appleinsider.com##div.sbr-spotlight
 
 ! News - ArsTechnica
 arstechnica.com###article-footer-wrap
 arstechnica.com##.site-footer
 arstechnica.com###action_button_container
 arstechnica.com##.xrail
+arstechnica.com##div.mx-auto:has(.component-most-read)
 
 ! News - Electrek
 electrek.co##.container.sidebar
@@ -259,6 +272,7 @@ www.chewy.com##.promo-banner
 www.walmart.com##div a[href*="?utm_campaign"]
 www.monoprice.com##.side-adsense
 www.ikea.com##.hnf-floating-container
+www.ebay.com##.x-vi-evo-main-container__top-panel
 
 ! Recipes
 www.foodnetwork.com##.editorialPromo
@@ -289,6 +303,13 @@ crdroid.net##.show.crblocker-wrapper
 imgur.com##.Gallery-Sidebar
 imgur.com##.BottomRecirc
 themezzoapts.com###browser-warning-popup
+www.waterdropfilter.com###wd-cookie-consent-popup
+www.xda-developers.com##.adsninja-rail-container
+www.xda-developers.com##.article-card
+www.xda-developers.com##.article-footer
+www.xda-developers.com##.footer-content
+www.xda-developers.com##.article-options
+www.xda-developers.com##.default-menu.w-images-header-menu
 
 ! TLDs
 ||.onion^|.biz^|.media^|.news^|.gop^|.republican^|.store^|.cn^|.ru^|.icu^|.work^|.tk^|.ml^|.ga^|.cf^|.gq^|.zip^|.bot^|*.mov^|*.how^
