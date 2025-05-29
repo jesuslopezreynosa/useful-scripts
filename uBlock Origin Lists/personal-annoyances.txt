@@ -1,153 +1,11 @@
 ! Title: JesusLopezReynosa - Personal Annoyances
 ! Expires: 1 day
 
-! Apple
-discussions.apple.com##.notification
-discussions.apple.com##.recommendations
-
 ! Security
 ||accounts.google.com/gsi^$third-party
 
-! General Annoyances (i.e. Banner Ads, Fake Messages)
-sniffies.com##div.recents-container tr.chatholder-row-item:has(tr[aria-label='View Advertisement'])
-sniffies.com##app-advertising-zone-map
-sniffies.com##div.global-chat__message-container div.overset-global-chat:has(app-advertising-zone-global-chat)
-sniffies.com##app-nav-lower-container div.bottom div.nav-button:has(button.plus-nav)
-sniffies.com##button.nav-logo
-sniffies.com##ui-menu-item-group:has(div.upgrade-btn-container)
-azmen.com###switch-ad
-azmen.com##div#aznlive-banner
-azmen.com##div:has(div.az-ads-banner)
-azmen.com##div.container div#exo-native-az-container
-azmen.com##div.az-footer:has(div#aznude_native_exo_gay)
-azmen.com##div#aznlive-horizontal__banner
-
-! XFINITY / Comcast
-www.xfinity.com###nuanMessagingFrame
-
-! Wikipedia
-wikipedia.org##.vector-sitenotice-container
-wikipedia.org##.cn-fundraising
-wikipedia.org##div.ext-quick-survey-panel
-
-! AI
-||x.ai^
-||meta.ai^
-||ai.com^$third-party
-||api.openai.com^$third-party
-||*.openai.azure.com^$third-party
-||production-openaicom-storage.azureedge.net^$third-party
-||openai.com.cdn.cloudflare.net^$third-party
-||copilot.microsoft.com^$third-party
-||githubcopilot.com^
-||gemini.google.com^$third-party
-gemini.google.com##.get-app-banner
-gemini.google.com##.cdk-overlay-container:has(.get-app-mobile-dialog)
-
-! Google
-google.com##:matches-path(/maps)div[jsaction*="promotion"]
-maps.google.com##div[jsaction*="promotion"]
-docs.google.com##.docs-ml-promotion
-
-! YouTube
-youtube.com##div#chat-container
-youtube.com##div#columns div#chat-container
-youtube.com##div#panels-full-bleed-container:not(:has(div#player-container))
-youtube.com##ytd-reel-shelf-renderer
-youtube.com##ytd-rich-section-renderer.efyt-is-short
-youtube.com##ytd-comments#comments
-youtube.com##.ytd-rich-section-renderer.style-scope
-youtube.com###big-yoodle
-youtube.com###button > .ytd-button-renderer.style-scope
-youtube.com###voice-search-button
-youtube.com##ytd-shelf-renderer #dismissible
-www.youtube.com##yt-button-view-model:has(.yt-spec-button-shape-next__button-text-content:has-text(Ask))
-www.youtube.com##.ytd-mini-guide-entry-renderer:has(.title:has-text(/shorts|youtube music|Downloads/i))
-www.youtube.com##.ytd-guide-entry-renderer.style-scope:has(.title:has-text(/Shorts|Originals|Music|Podcasts|Trending|Explore|Movies & Shows|Live|Gaming|Fashion & Beauty|Learning|Sports|Shopping|Movies & TV|News|YouTube Kids|YouTube Music|YouTube Premium/i))
-!www.youtube.com##.ytd-guide-entry-renderer:has(.style-scope.title:has-text(/Shorts|Originals|Music|Podcasts|Trending|Explore|Movies & Shows|Live|Gaming|Fashion & Beauty|Learning|Sports|Shopping|Movies & TV|News|YouTube Kids|YouTube Music|YouTube Premium/i))
-www.youtube.com##.ytd-masthead > ytd-button-renderer.ytd-masthead.style-scope
-www.youtube.com##.ytd-masthead > ytd-notification-topbar-button-renderer.ytd-masthead
-
-! Twitch
-www.twitch.tv##.tc-upsell
-www.twitch.tv##.top-nav__menu button:has(div[data-a-target='tw-core-button-label-text']:has-text(/Ad-Free/i))
-www.twitch.tv##.tw-root--theme-light:has(.subtember-text)
-www.twitch.tv###twilight-sticky-footer-root
-www.twitch.tv##.tw-callout-message
-
-! Plugshare
-www.plugshare.com###share
-www.plugshare.com###nearby
-www.plugshare.com##.business-nav
-www.plugshare.com##.app
-
-! GitHub
-github.com##div.react-code-size-details-in-header:has(span:has-text(/Copilot/i))
-github.com##header div.AppHeader-CopilotChat
-github.com##.home-campaign .global-banner
-
-! Weather
-wunderground.com##.desktop-only > .video-promo.data-module
-wunderground.com##.ng-star-inserted.data-module.cat-six-latest-article
-accuweather.com##.left-align-children.right-rail
-weather.com##.regionSidebar
-weather.com##section[data-testid="ContentMediaModule"]
-www.theweathernetwork.com###slider-sections
-www.theweathernetwork.com###promo-box
-www.theweathernetwork.com##li:has([href^="/en/assistant"])
-www.theweathernetwork.com###feature-videos
-www.theweathernetwork.com###assistant-callout
-www.theweathernetwork.com###other-locations
-
-! Hackyderm Mastodon
-hachyderm.io##.navigation-panel .column-link:has-text(/Explore|Live feeds/i)
-
-! Reddit
-www.reddit.com##div.right-sidebar pdp-right-rail
-www.reddit.com###right-sidebar-container
-www.reddit.com##div.grid-container div.left-sidebar
-www.reddit.com##header nav div.justify-end
-old.reddit.com###sr-header-area
-old.reddit.com##.listingsignupbar.infobar
-old.reddit.com##.content .thing.promoted
-old.reddit.com##.seo-comments-recommendations.spacer
-old.reddit.com##.seo-comments
-old.reddit.com##.premium-banner-outer
-old.reddit.com##.commentsignupbar.infobar
-old.reddit.com##div.locked:has(a.moderator)
-old.reddit.com##.link:has(div.entry:has(p.tagline:has(.stickied-tagline)))
-old.reddit.com##.linklisting.sitetable::before
-
-! Speedtest.net
-speedtest.net##.pure-g.content-devices
-speedtest.net##.pure-u-custom-wifi-recommendation
-
-! Development Forums
-stackexchange.com##.left-sidebar
-stackexchange.com##.js-dismissable-hero
-stackexchange.com##.js-consent-banner
-superuser.com###signup-dialog-container
-serverfault.com##.js-dismissable-hero
-stackoverflow.com###signup-dialog-container
-stackoverflow.com##.show-votes
-stackoverflow.com##.js-notice-sidebar-popover
-stackoverflow.com##.js-sticky-leftnav.left-sidebar--sticky-container
-stackoverflow.com##.js-announcement-banner
-stackoverflow.com##.bottom-notice
-stackoverflow.com##.post-form
-
-! Developer Docs
-www.telerik.com##.Sidebar
-www.telerik.com##feedback-form
-jsfiddle.net###sidebar
-jsfiddle.net##.goPro
-jsfiddle.net###modal-overlay
-dev.to##.popover-billboard.crayons-sponsorship.crayons-card--secondary.crayons-card
-
-! Costco
-www.costco.com##div.MuiBox-root[name="emailSignUpForm"]
-www.costco.com##.oo_tab_right
-
+!!!!!!!!!!!!!!!!!!!
+!! Site Specific !!
 ! Amazon
 amazon.*,amazon.com,amazon.co.jp###Share-share
 amazon.*,amazon.com,amazon.co.jp##.video-player .gw-media-card
@@ -168,6 +26,61 @@ www.amazon.com###above-dp-container
 www.amazon.com##.maple-banner
 www.amazon.com###widget-rightUpsellSlot
 
+! Apple
+discussions.apple.com##.notification
+discussions.apple.com##.recommendations
+
+! BestBuy
+www.bestbuy.com##.shop-pushdown-ad
+www.bestbuy.com##.shop-recsx-wrapper
+www.bestbuy.com##.shop-display-ad
+www.bestbuy.com##.marketing-navigation
+www.bestbuy.com##.recs-product-carousels
+www.bestbuy.com##.shop-footer
+www.bestbuy.com##.blue-assist
+www.bestbuy.com##.row:has(.widget-marketing-com)
+
+! Costco
+www.costco.com##div.MuiBox-root[name="emailSignUpForm"]
+www.costco.com##.oo_tab_right
+
+! Hackyderm Mastodon
+hachyderm.io##.navigation-panel .column-link:has-text(/Explore|Live feeds/i)
+
+! GitHub
+github.com##div.react-code-size-details-in-header:has(span:has-text(/Copilot/i))
+github.com##header div.AppHeader-CopilotChat
+github.com##.home-campaign .global-banner
+
+! Google
+google.com##:matches-path(/maps)div[jsaction*="promotion"]
+maps.google.com##div[jsaction*="promotion"]
+docs.google.com##.docs-ml-promotion
+
+! Google - YouTube
+youtube.com##div#chat-container
+youtube.com##div#columns div#chat-container
+youtube.com##div#panels-full-bleed-container:not(:has(div#player-container))
+youtube.com##ytd-reel-shelf-renderer
+youtube.com##ytd-rich-section-renderer.efyt-is-short
+youtube.com##ytd-comments#comments
+youtube.com##.ytd-rich-section-renderer.style-scope
+youtube.com###big-yoodle
+youtube.com###button > .ytd-button-renderer.style-scope
+youtube.com###voice-search-button
+youtube.com##ytd-shelf-renderer #dismissible
+www.youtube.com##yt-button-view-model:has(.yt-spec-button-shape-next__button-text-content:has-text(Ask))
+www.youtube.com##.ytd-masthead > ytd-button-renderer.ytd-masthead.style-scope
+www.youtube.com##.ytd-masthead > ytd-notification-topbar-button-renderer.ytd-masthead
+www.youtube.com###guide-renderer a#endpoint[title*='Shorts'],a#endpoint[title*='Music'],a#endpoint[title*='Podcasts'],a#endpoint[title*='Trending'],a#endpoint[title*='Explore'],a#endpoint[title*='Live'],a#endpoint[title*='Gaming'],a#endpoint[title*='Fashion'],a#endpoint[title*='Sports'],a#endpoint[title*='Shopping'],a#endpoint[title*='Movies'],a#endpoint[title*='News'],a#endpoint[title*='Kids'],a#endpoint[title*='Live']
+
+! LinkedIn
+www.linkedin.com##div#feed-news-module
+www.linkedin.com##nav li:has(div.premium-upsell-link)
+www.linkedin.com##aside.scaffold-layout__aside .artdeco-card li:has(div.pvs-premium-upsell__container)
+www.linkedin.com##aside.scaffold-layout__aside .artdeco-card li:has(div.pvs-entity--blurred)
+www.linkedin.com##div.discovery-templates-jobs-feed-discovery-module li:has(div.jobs-home-upsell-card__container)
+
 ! Microsoft
 ||msn.com^
 microsoft.com##.alert-component
@@ -176,19 +89,114 @@ microsoft.com##.mwf-area-heading-ctas
 microsoftedgewelcome.microsoft.com##.mobile-banner__unexpanded
 visualstudio.microsoft.com##div#usabilla-button
 
+! Plugshare
+www.plugshare.com###share
+www.plugshare.com###nearby
+www.plugshare.com##.business-nav
+www.plugshare.com##.app
+
+! Reddit
+www.reddit.com##div.right-sidebar pdp-right-rail
+www.reddit.com###right-sidebar-container
+www.reddit.com##div.grid-container div.left-sidebar
+www.reddit.com##header nav div.justify-end
+old.reddit.com###sr-header-area
+old.reddit.com##.listingsignupbar.infobar
+old.reddit.com##.content .thing.promoted
+old.reddit.com##.seo-comments-recommendations.spacer
+old.reddit.com##.seo-comments
+old.reddit.com##.premium-banner-outer
+old.reddit.com##.commentsignupbar.infobar
+old.reddit.com##div.locked:has(a.moderator)
+old.reddit.com##div.stickied
+old.reddit.com##.link:has(div.entry:has(p.tagline:has(.stickied-tagline)))
+old.reddit.com##.linklisting.sitetable::before
+
+! Speedtest.net
+speedtest.net##.pure-g.content-devices
+speedtest.net##.pure-u-custom-wifi-recommendation
+
 ! TikTok
 www.tiktok.com##.guide-login-banner
 ||tiktok.com^$third-party
 
+! Twitch
+www.twitch.tv##.tc-upsell
+www.twitch.tv##.top-nav__menu button:has(div[data-a-target='tw-core-button-label-text']:has-text(/Ad-Free/i))
+www.twitch.tv##.tw-root--theme-light:has(.subtember-text)
+www.twitch.tv###twilight-sticky-footer-root
+www.twitch.tv##.tw-callout-message
+
+! Weather
+wunderground.com##.desktop-only > .video-promo.data-module
+wunderground.com##.ng-star-inserted.data-module.cat-six-latest-article
+accuweather.com##.left-align-children.right-rail
+weather.com##.regionSidebar
+weather.com##section[data-testid="ContentMediaModule"]
+www.theweathernetwork.com###slider-sections
+www.theweathernetwork.com###promo-box
+www.theweathernetwork.com##li:has([href^="/en/assistant"])
+www.theweathernetwork.com###feature-videos
+www.theweathernetwork.com###assistant-callout
+www.theweathernetwork.com###other-locations
+
+! Wikipedia
+wikipedia.org##.vector-sitenotice-container
+wikipedia.org##.cn-fundraising
+wikipedia.org##div.ext-quick-survey-panel
+
+! XDA Developers Forum / Articles
+www.xda-developers.com##.adsninja-rail-container
+www.xda-developers.com##.article-card
+www.xda-developers.com##.article-footer
+www.xda-developers.com##.footer-content
+www.xda-developers.com##.article-options
+www.xda-developers.com##.default-menu.w-images-header-menu
+
+! XFINITY / Comcast
+www.xfinity.com###nuanMessagingFrame
+
+!!!!!!!!!!!!!!!!!!!!!!!
+!! Category Specific !!
+! AI
+||x.ai^|meta.ai^|ai.com^$third-party|api.openai.com^$third-party|*.openai.azure.com^$third-party|production-openaicom-storage.azureedge.net^$third-party|openai.com.cdn.cloudflare.net^$third-party|copilot.microsoft.com^$third-party|githubcopilot.com^|gemini.google.com^$third-party
+gemini.google.com##.get-app-banner
+gemini.google.com##.cdk-overlay-container:has(.get-app-mobile-dialog)
+
 ! Airlines
 www.delta.com##.desktop-enabled.idp-dynamic-banner
+
+! Developer Docs
+www.telerik.com##.Sidebar
+www.telerik.com##feedback-form
+jsfiddle.net###sidebar
+jsfiddle.net##.goPro
+jsfiddle.net###modal-overlay
+dev.to##.popover-billboard.crayons-sponsorship.crayons-card--secondary.crayons-card
+
+! Development Forums
+stackexchange.com##.left-sidebar
+stackexchange.com##.js-dismissable-hero
+stackexchange.com##.js-consent-banner
+superuser.com###signup-dialog-container
+serverfault.com##.js-dismissable-hero
+stackoverflow.com###signup-dialog-container
+stackoverflow.com##.show-votes
+stackoverflow.com##.js-notice-sidebar-popover
+stackoverflow.com##.js-sticky-leftnav.left-sidebar--sticky-container
+stackoverflow.com##.js-announcement-banner
+stackoverflow.com##.bottom-notice
+stackoverflow.com##.post-form
+
+! Gaming
+www.playstation.com##.feedback--popup
 
 ! Health
 www.goodrx.com##div[data-qa='NewsletterSignUpAlert']
 www.webmd.com##.main-container-3.main-container
 www.webmd.com##.dfp-native.top-picks
 
-! Traditional News
+! News - Traditional
 www.bbc.com##aside
 www.independent.co.uk##.sidebar
 www.vox.com##.l-article-body-segment.l-segment.l-sidebar-fixed > .l-col__sidebar
@@ -207,7 +215,7 @@ www.pbs.org##.comments__btn
 www.pbs.org##.sidebar
 www.caranddriver.com##section.embed
 
-! Tech News
+! News - General Tech
 www.macstories.net##article.post .post-supporters
 www.macstories.net##.post-content .aside
 www.macrumors.com##div.noskim
@@ -217,9 +225,12 @@ www.macrumors.com###featured_slider2
 9to5mac.com##.container.sidebar
 9to5mac.com##.article__youtube-video
 9to5mac.com###comments
+9to5mac.com##ul.wp-block-list
+9to5mac.com##.wp-block-heading#h-highlighted-accessories
+9to5mac.com##div.river__posts:has(article a[href*='trump'],a[href*='elon'],a[href*='spacex'],a[href*='tariff'],a[href*='/daily-'])
 www.gsmarena.com##div.review-body div.news-item
 www.lightreading.com##.Sidebar
-www.lightreading.com##.ContentPreview:has(.ListPreview-Title:has-text(Trump))
+www.lightreading.com##.ContentPreview:has(.ListPreview-Title:has-text(Trump)), :has(.ListPreview-Title:has-text(Elon)), :has(.ListPreview-Title:has-text(SpaceX)), :has(.ListPreview-Title:has-text(Starlink)), :has(.ListPreview-Title:has-text(DOGE))
 www.lightreading.com##p.RelatedArticle
 vacuumwars.com##.sticky-price-container
 appleinsider.com##div.sbr-spotlight
@@ -233,7 +244,7 @@ arstechnica.com##div.mx-auto:has(.component-most-read)
 
 ! News - Electrek
 electrek.co##.container.sidebar
-electrek.co##article:has(.meta__guide a:has-text(/Elon Musk|Green Deals|Kart|Aviation|Hypercar|Podcast|Ebike/i))
+electrek.co##article:has(.meta__guide a:has-text(/Elon Musk|Green Deals|Kart|Aviation|Hypercar|Podcast|Ebike|Tesla/i))
 
 ! News - The Verge
 www.theverge.com###coral_thread
@@ -241,38 +252,11 @@ www.theverge.com##.l-article-body-segment.l-segment.l-sidebar-fixed > .l-col__si
 www.theverge.com##.w-mobile-breaker
 www.theverge.com##div.duet--layout--entry-body-container div.duet--layout--rail
 www.theverge.com###content .duet--layout--rail
-www.theverge.com##.duet--content-cards--content-card > a[href*='elon']
-www.theverge.com##.duet--content-cards--content-card > a[href*='trump']
-www.theverge.com##.duet--content-cards--content-card > a[href*='doge']
-www.theverge.com##.duet--content-cards--content-card > a[href*='federal']
-www.theverge.com##.duet--content-cards--content-card > a[href*='tariff']
-www.theverge.com##.duet--content-cards--content-card > a[href*='woke']
 www.theverge.com##.zephr-zone-footer
+www.theverge.com##.duet--content-cards--content-card > a[href*='elon'], a[href*='trump'], a[href*='doge'], a[href*='federal'], a[href*='tariff'], a[href*='woke']
 
-! Vehicles
-www.hyundaiusa.com##.heyhyundai-chat-button-web
-rivian.com###newsletter
-www.autotempest.com##.wrap-hide
-www.autotempest.com##.search-tips-container:has(#remove-filters)
-
-! Stores
-www.homedepot.com###collapsible-sections-accordion > .zone-card
-www.homedepot.com###footer-static
-www.lowes.com##.sms-modal-content
-www.bestbuy.com##.shop-pushdown-ad
-www.bestbuy.com##.shop-recsx-wrapper
-www.bestbuy.com##.shop-display-ad
-www.bestbuy.com##.marketing-navigation
-www.bestbuy.com##.recs-product-carousels
-www.bestbuy.com##.shop-footer
-www.bestbuy.com##.blue-assist
-www.bestbuy.com##.row:has(.widget-marketing-com)
-www.anker.com##.cy-player
-www.chewy.com##.promo-banner
-www.walmart.com##div a[href*="?utm_campaign"]
-www.monoprice.com##.side-adsense
-www.ikea.com##.hnf-floating-container
-www.ebay.com##.x-vi-evo-main-container__top-panel
+! Podcast
+www.relay.fm##.sp-area
 
 ! Recipes
 www.foodnetwork.com##.editorialPromo
@@ -289,27 +273,52 @@ www.jocooks.com##.author-box
 www.jocooks.com##.oc-recipe-footer
 www.jocooks.com##.dpsp-content-wrapper
 
+! Shopping
+www.waterdropfilter.com###wd-cookie-consent-popup
+
+! Stores
+www.homedepot.com###collapsible-sections-accordion > .zone-card
+www.homedepot.com###footer-static
+www.lowes.com##.sms-modal-content
+www.anker.com##.cy-player
+www.chewy.com##.promo-banner
+www.walmart.com##div a[href*="?utm_campaign"]
+www.monoprice.com##.side-adsense
+www.ikea.com##.hnf-floating-container
+www.ebay.com##.x-vi-evo-main-container__top-panel
+
+! Vehicles
+www.hyundaiusa.com##.heyhyundai-chat-button-web
+rivian.com###newsletter
+www.autotempest.com##.wrap-hide
+www.autotempest.com##.search-tips-container:has(#remove-filters)
+
+
+! General Annoyances (i.e. Banner Ads, Fake Messages)
+sniffies.com##div.recents-container tr.chatholder-row-item:has(tr[aria-label='View Advertisement'])
+sniffies.com##app-advertising-zone-map
+sniffies.com##div.global-chat__message-container div.overset-global-chat:has(app-advertising-zone-global-chat)
+sniffies.com##app-nav-lower-container div.bottom div.nav-button:has(button.plus-nav)
+sniffies.com##button.nav-logo
+sniffies.com##ui-menu-item-group:has(div.upgrade-btn-container)
+azmen.com###switch-ad
+azmen.com##div#aznlive-banner
+azmen.com##div:has(div.az-ads-banner)
+azmen.com##div.container div#exo-native-az-container
+azmen.com##div.az-footer:has(div#aznude_native_exo_gay)
+azmen.com##div#aznlive-horizontal__banner
+
 ! Misc
 www.wikihow.com###article_courses_banner
 www.plexopedia.com##.bba.bottom-image
 www.toptal.com##.blog_post-sidebar
 eos.com##.auth-modal.modal
 www.zetaliving.com##.show.fade.modal-backdrop
-www.relay.fm##.sp-area
-www.linkedin.com##div#feed-news-module
-www.playstation.com##.feedback--popup
 golden1.com##.site-status-fixed
 crdroid.net##.show.crblocker-wrapper
 imgur.com##.Gallery-Sidebar
 imgur.com##.BottomRecirc
 themezzoapts.com###browser-warning-popup
-www.waterdropfilter.com###wd-cookie-consent-popup
-www.xda-developers.com##.adsninja-rail-container
-www.xda-developers.com##.article-card
-www.xda-developers.com##.article-footer
-www.xda-developers.com##.footer-content
-www.xda-developers.com##.article-options
-www.xda-developers.com##.default-menu.w-images-header-menu
 
 ! TLDs
 ||.onion^|.biz^|.media^|.news^|.gop^|.republican^|.store^|.cn^|.ru^|.icu^|.work^|.tk^|.ml^|.ga^|.cf^|.gq^|.zip^|.bot^|*.mov^|*.how^
