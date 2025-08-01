@@ -18,7 +18,7 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin/tailsca
 direct_ssids=("SSID 1" "SSID 2")
 
 # Get the current network name
-current_network=$(ipconfig getsummary "$(networksetup -listallhardwareports | awk '/Wi-Fi|AirPort/{getline; print $NF}')" | grep '  SSID : ' | awk -F ': ' '{print $2}')
+current_network=$(system_profiler SPAirPortDataType | awk '/Current Network Information:/{getline; gsub(/:/, ""); print $1}' | grep -v "Network")
 
 # Check if the network has changed
 if [[ " ${direct_ssids[*]} " == *" $current_network "* ]]; then
@@ -32,12 +32,7 @@ else
     # Enable Exit Node
     output=$(tailscale exit-node list)
     if ! echo "$output" | grep -q "selected"; then
-        suggestOutput=$(tailscale exit-node suggest)
-        command=$(echo "$suggestOutput" | grep -o 'tailscale set[^.]*' | head -n 1)
-
-        if [ -n "$command" ]; then
-            eval "$command"
-        fi
+        tailscale set --exit-node=auto:any  # Since Tailscale version 1.86.2
     fi
 fi
 
