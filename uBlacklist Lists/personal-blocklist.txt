@@ -63,15 +63,39 @@
 *://*.newbega.com/*
 *://*.surfshark.com/*
 *://*.se7ensins.com/*
+*://*.afsc.org/*
+*://*.bdsmovement.net/*
+*://*.yellowpages.com/*
+*://*.countrypolitanmag.com/*
+*://*.speedify.com/*
+*://*.fintechbrainfood.com/*
+*://*.purevpn.com/*
+*://*.simplycodes.com/*
+*://*.sharkrobovacuum.com/*
+*://*.eweek.com/*
+*://*.portforward.com/*
+*://*.adweek.com/*
+*://*.primevideo.com/*
+*://*.buzzfeed.com/*
+*://*.theshortcut.com/*
+*://*.statesman.com/*
+*://*.soapcentral.com/*
+*://*.primetimer.com/*
+*://*.lipstickalley.com/*
+*://*.whereisthebuzz.com/*
+*://*.theshaderoom.com/*
+*://*.wcnc.com/*
 
 ! Government
-*://*.state.tx.us/*
+*://*.tx.us/*
 *://*.myflorida.com/*
 *://*.flgov.com/*
 *://*.fl.gov/*
+*://*.tn.gov/*
 
 ! Social Media
 *://*.x.com/*
+*://*.x.ai/*
 *://*.twitter.com/*
 *://*.facebook.com/*
 *://*.fb.com/*
@@ -79,6 +103,7 @@
 *://*.threads.net/*
 *://*.truthsocial.com/*
 *://*.pinterest.com/*
+*://*.threads.com/*
 
 ! Political
 *://*.donaldjtrump.com/*
@@ -121,6 +146,8 @@
 *://*.ai/*
 
 ! Malicious
+*://*.worthepenny.com/*
+*://*.teamviewer.com/*
 *://*.ssofficelocation.com/*
 *://*.socialsecuritybranch.com/*
 *://*.machow2.com/*
@@ -223,6 +250,8 @@
 *://*.aboutmormons.org/*
 
 ! Fake News / Tabloids
+*://*.vulture.com/*
+*://*.medicalnewstoday.com/*
 *://*.southasiantoday.com.au/*
 *://*.heraldnet.com/*
 *://*.sportskeeda.com/*
