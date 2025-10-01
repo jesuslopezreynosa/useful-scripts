@@ -33,6 +33,9 @@ www.ecosia.org##.main-header__notifications.notifications
 www.ecosia.org##.related-queries__sidebar
 www.ecosia.org##.chat-card
 www.ecosia.org##li.search-navigation__item:has-text(AI Chat)
+www.ecosia.org##.sign-up-button.button
+www.ecosia.org##.menu-button-impact-counter__counter
+www.ecosia.org##.icon--icon-seed
 
 ! Google
 www.google.com##g-section-with-header

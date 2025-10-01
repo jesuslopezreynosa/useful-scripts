@@ -80,6 +80,9 @@ www.linkedin.com##nav li:has(div.premium-upsell-link)
 www.linkedin.com##aside.scaffold-layout__aside .artdeco-card li:has(div.pvs-premium-upsell__container)
 www.linkedin.com##aside.scaffold-layout__aside .artdeco-card li:has(div.pvs-entity--blurred)
 www.linkedin.com##div.discovery-templates-jobs-feed-discovery-module li:has(div.jobs-home-upsell-card__container)
+www.linkedin.com##div[componentkey='newsAndGamesCard']
+www.linkedin.com##div[componentkey*='FeedType_MAIN_FEED']:has(p:has-text(Suggested))
+www.linkedin.com##div[componentkey*=':sponsoredContent']
 
 ! Microsoft
 ||msn.com^
