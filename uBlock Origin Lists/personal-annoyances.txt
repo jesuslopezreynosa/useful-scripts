@@ -114,6 +114,7 @@ old.reddit.com##div.locked:has(a.moderator)
 old.reddit.com##div.stickied
 old.reddit.com##.link:has(div.entry:has(p.tagline:has(.stickied-tagline)))
 old.reddit.com##.linklisting.sitetable::before
+old.reddit.com##div.thing[data-score="0"], div.thing[data-score|="-"]
 
 ! Speedtest.net
 speedtest.net##.pure-g.content-devices
@@ -223,6 +224,8 @@ www.macstories.net##article.post .post-supporters
 www.macstories.net##.post-content .aside
 www.macrumors.com##div.noskim
 www.macrumors.com###featured_slider2
+www.macrumors.com###comments
+www.macrumors.com##footer
 9to5mac.com##.sidebar--5.xs.container.sidebar > .ninetofive-branded-rss.widget
 9to5google.com##.container.sidebar
 9to5mac.com##.container.sidebar
@@ -231,12 +234,16 @@ www.macrumors.com###featured_slider2
 9to5mac.com##ul.wp-block-list
 9to5mac.com##.wp-block-heading#h-highlighted-accessories
 9to5mac.com##div.river__posts:has(article a[href*='trump'],a[href*='elon'],a[href*='spacex'],a[href*='tariff'],a[href*='/daily-'])
+9to5mac.com##.google-preferred-source-badge
+9to5mac.com##h3.wp-block-heading
 www.gsmarena.com##div.review-body div.news-item
 www.lightreading.com##.Sidebar
 www.lightreading.com##.ContentPreview:has(.ListPreview-Title:has-text(Trump)), :has(.ListPreview-Title:has-text(Elon)), :has(.ListPreview-Title:has-text(SpaceX)), :has(.ListPreview-Title:has-text(Starlink)), :has(.ListPreview-Title:has-text(DOGE))
 www.lightreading.com##p.RelatedArticle
 vacuumwars.com##.sticky-price-container
 appleinsider.com##div.sbr-spotlight
+techcrunch.com##.is-vertical
+www.androidauthority.com##div[data-container-type='content']:has(a[target])
 
 ! News - ArsTechnica
 arstechnica.com###article-footer-wrap
