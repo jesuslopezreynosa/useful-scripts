@@ -253,8 +253,8 @@ arstechnica.com##.xrail
 arstechnica.com##div.mx-auto:has(.component-most-read)
 
 ! News - Electrek
-electrek.co##.container.sidebar
-electrek.co##article:has(.meta__guide a:has-text(/Elon Musk|Green Deals|Kart|Aviation|Hypercar|Podcast|Ebike|Tesla/i))
+electrek.co##article:has(.meta__guide a[href*='trump'],[href*='elon'],[href*='podcast'],[href*='musk'],[href*='tesla'],[href*='aviation'])
+! electrek.co##article:has(.meta__guide a:has-text(/Elon Musk|Green Deals|Kart|Aviation|Hypercar|Podcast|Ebike|Tesla/i))
 
 ! News - The Verge
 www.theverge.com###coral_thread

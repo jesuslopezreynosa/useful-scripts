@@ -40,12 +40,12 @@ www.ecosia.org##.notice-card
 www.ecosia.org##.binary-feedback
 
 ! Google
-www.google.com##g-section-with-header
+www.google.com##div > g-section-with-header
 www.google.com##[src*="ogs.google.com/widget"]
 www.google.com##div#rcnt div:has(h1:has-text(AI Overview))
 www.google.com##promo-middle-slot
 www.google.com##div:has(div[aria-labelledby='promo_label_id'])
-www.google.com##div>div>div#bottomads
+www.google.com##div > div > div#bottomads
 
 ! Qwant
 www.qwant.com##div[data-testid='sectionVideos']

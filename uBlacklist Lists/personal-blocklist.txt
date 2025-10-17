@@ -1,3 +1,23 @@
+! Link Titles
+title/Trump/
+title/DEI/
+title/FBI/
+title/Noem/
+title/CBP/
+title/ICE/
+title/Shutdown/
+title/Democrat/
+title/Republican/
+title/Vance/
+title/Adminstration/
+title/Musk/
+title/Elon/
+title/Conservative/
+title/Christian/
+title/Controversy/
+title/SpaceX/
+title/MAGA/
+
 ! Misc
 *://*.quora.com/*
 *://*.aliexpress.com/*
@@ -85,6 +105,16 @@
 *://*.whereisthebuzz.com/*
 *://*.theshaderoom.com/*
 *://*.wcnc.com/*
+*://*.boomerbenefits.com/*
+*://*.www.upi.com/*
+*://*.krcrtv.com/*
+*://*.patch.com/*
+*://*.california-license-plate.com/*
+*://*.calcoasttimes.com/*
+*://*.teslarati.com/*
+*://*.benzinga.com/*
+*://*.thecooldown.com/*
+*://*.ssiframing.com/*
 
 ! Government
 *://*.tx.us/*
@@ -94,16 +124,17 @@
 *://*.tn.gov/*
 
 ! Social Media
+*://*.t,co/*
 *://*.x.com/*
 *://*.x.ai/*
 *://*.twitter.com/*
 *://*.facebook.com/*
 *://*.fb.com/*
-*://*.instagram.com/*
+! *://*.instagram.com/*
 *://*.threads.net/*
+*://*.threads.com/*
 *://*.truthsocial.com/*
 *://*.pinterest.com/*
-*://*.threads.com/*
 
 ! Political
 *://*.donaldjtrump.com/*
@@ -297,10 +328,11 @@
 *://*.mensjournal.com/*
 
 ! News / Clickbait
+*://*.jpost.com/*
+*://*.news.google.com/*
 *://*.fortune.com/*
 *://*.cnet.com/*
 *://*.morningstar.com/*
-*://*.nbcphiladelphia.com/*
 *://*.bloomberglaw.com/*
 *://*.gizmodo.com/*
 *://*.forbesmagazine.com/*
@@ -309,13 +341,12 @@
 *://*.bloombergindustry.com/*
 *://*.bloombergmedia.com/*
 *://*.bloombergradio.com/*
-*://*.nbcbayarea.com/*
 *://*.sfgate.com/*
 *://*.ktla.com/*
 *://*.pcmag.com/*
 *://*.cbslocal.com/*
 *://*.bbc.co.uk/*
-*://*.abcnews.go.com/*
+*://*.go.com/*
 *://*.cnn.com/*
 *://*.msn.com/*
 *://*.starobserver.com.au/*
@@ -381,7 +412,6 @@
 *://*.fox5sandiego.com/*
 *://*.kcra.com/*
 *://*.nytimes.com/*
-*://*.nbcnews.com/*
 *://*.theguardian.com/*
 *://*.reuters.com/*
 *://*.france24.com/*
@@ -390,7 +420,6 @@
 *://*.bloomberg.com/*
 *://*.ft.com/*
 *://*.bbc.com/*
-*://*.cnbc.com/*
 *://*.apnews.com/*
 *://*.nationsonline.org/*
 *://*.freedomhouse.org/*
@@ -403,7 +432,6 @@
 *://*.thewrap.com/*
 *://*.theatlantic.com/*
 *://*.forbes.com/*
-*://*.politico.eu/*
 *://*.dw.com/*
 *://*.motherjones.com/*
 *://*.slate.com/*
@@ -426,8 +454,6 @@
 *://*.spiegel.de/*
 *://*.theamericanconservative.com/*
 *://*.fastcompany.com/*
-*://*.nbcnewyork.com/*
-*://*.nbcchicago.com/*
 *://*.kotaku.com/*
 *://*.vogue.com/*
 *://*.mirror.co.uk/*
@@ -456,9 +482,9 @@
 *://*.latimes.com/*
 *://*.indiainmexico.gov.in/*
 *://*.insidermonkey.com/*
-*://*.nbclosangeles.com/*
 *://*.wired.com/*
 *://*.politico.com/*
+*://*.politico.eu/*
 *://*.businessinsider.com/*
 *://*.abc7chicago.com/*
 *://*.visualcapitalist.com/*
@@ -494,10 +520,7 @@
 *://*.abc13.com/*
 *://*.wgauradio.com/*
 *://*.aol.com/*
-*://*.nbcwashington.com/*
-*://*.nbcconnecticut.com/*
 *://*.waaytv.com/*
-*://*.nbcmiami.com/*
 *://*.krqe.com/*
 *://*.themirror.com/*
 *://*.hollywoodlife.com/*
@@ -533,7 +556,17 @@
 *://*.tppestcontrolbbsr.com/*
 *://*.foxweather.com/*
 *://*.inquirer.com/*
+*://*.nbcnews.com/*
 *://*.msnbc.com/*
+*://*.nbcwashington.com/*
+*://*.nbcconnecticut.com/*
+*://*.nbcmiami.com/*
+*://*.nbclosangeles.com/*
+*://*.nbcnewyork.com/*
+*://*.nbcchicago.com/*
+*://*.nbcphiladelphia.com/*
+*://*.nbcbayarea.com/*
+*://*.cnbc.com/*
 *://*.nationalpost.com/*
 *://*.axios.com/*
 *://*.chicagotribune.com/*
@@ -584,6 +617,7 @@
 *://*.foxsports.com/*
 *://*.skysports.com/*
 *://*.nbcsports.com/*
+*://*.nbcsportsbayarea.com/*
 *://*.cbssports.com/*
 *://*.bleacherreport.com/*
 *://*.ncaa.com/*
@@ -594,7 +628,6 @@
 *://*.nba.com/*
 *://*.wnba.com/*
 *://*.si.com/*
-*://*.nbcsportsbayarea.com/*
 *://*.biglysports.com/*
 *://*.cricbuzz.com/*
 *://*.marca.com/*
