@@ -41,11 +41,18 @@ www.ecosia.org##.binary-feedback
 
 ! Google
 www.google.com##div > g-section-with-header
+www.google.com##div:has(> g-section-with-header)
+www.google.com##div[data-rpos]:has(div:has(> span:has-text(/Top stories/i)))
 www.google.com##[src*="ogs.google.com/widget"]
 www.google.com##div#rcnt div:has(h1:has-text(AI Overview))
 www.google.com##promo-middle-slot
 www.google.com##div:has(div[aria-labelledby='promo_label_id'])
 www.google.com##div > div > div#bottomads
+www.google.com##div[role='presentation']:has(div[role='presentation']:has-text(Trending searches))
+www.google.com##form[action='/search'] > div > div > div > div > div:has(button[role='link'])
+www.google.com##div > div[role='contentinfo']
+www.google.com##div:has(> a > div > div > div[role='heading'])
+www.google.com##div:has(> a[href*='/search?']:has(span:has-text(More news)))
 
 ! Qwant
 www.qwant.com##div[data-testid='sectionVideos']

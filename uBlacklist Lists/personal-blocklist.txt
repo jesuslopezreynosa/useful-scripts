@@ -17,6 +17,8 @@ title/Christian/
 title/Controversy/
 title/SpaceX/
 title/MAGA/
+title/Scientology/
+title/White House/
 
 ! Misc
 *://*.quora.com/*
@@ -124,7 +126,7 @@ title/MAGA/
 *://*.tn.gov/*
 
 ! Social Media
-*://*.t,co/*
+*://*.t.co/*
 *://*.x.com/*
 *://*.x.ai/*
 *://*.twitter.com/*
