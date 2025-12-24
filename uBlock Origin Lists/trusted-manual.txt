@@ -23,8 +23,14 @@ duckduckgo.com##+js(trusted-set-cookie, ap, -1)
 duckduckgo.com##+js(trusted-set-cookie, ao, -1)
 duckduckgo.com##+js(trusted-set-cookie, au, -1)
 duckduckgo.com##+js(trusted-set-cookie, psb, -1)
+duckduckgo.com##+js(trusted-set-cookie, bj, 1)
+duckduckgo.com##+js(trusted-set-cookie, kbm, foxnews.com,quora.com,tiktok.com,yahoo.com,answers.com,bbb.org,klarna.com,sourceforge.net,sky.com,nypost.com,huffpost.com,metro.co.uk,dailymail.co.uk,tmz.com,rt.com,cjr.org,prageru.com,reason.com,theblaze.com,thedailybeast.com,perezhilton.com,ew.com,news.google.com,go.com,msn.com,cnn.com,usnews.com,foxbusiness.com,newsmax.com,newsmax.org,eonline.com,usatoday.com,bbc.com,x.com,x.ai,twitter.com,facebook.com,fb.com,truthsocial.com,pinterest.com)
 
 www.ecosia.org##+js(trusted-set-cookie, ECPP, GOOGLE)
+www.ecosia.org##+js(trusted-set-cookie, ECAIO, false)
+www.ecosia.org##+js(trusted-set-cookie, ECAB, 6)
+
+startpage.com##+js(trusted-set-cookie, preferences, connect_to_serverEEEdefaultN1Ndate_timeEEEusN1Ndisable_family_filterEEEmoderateN1Ndisable_open_in_new_windowEEE0N1Nenable_post_methodEEE1N1Nenable_proxy_safety_suggestEEE1N1Nenable_stay_controlEEE0N1Ninstant_answersEEE0N1Nlang_homepageEEEs/device/enN1NlanguageEEEenglishN1Nlanguage_uiEEEenglishN1Nnum_of_resultsEEE10N1Nsearch_results_regionEEEallN1NsuggestionsEEE1N1Ntrending_searchesEEE0N1Nwt_unitEEEfahrenheit)
 
 ! Wikipedia
 en.wikipedia.org##+js(trusted-set-cookie, enwikimwclientpreferences, vector-feature-appearance-pinned-clientpref-0%2Cvector-feature-toc-pinned-clientpref-0%2Cskin-theme-clientpref-night%2Cvector-feature-limited-width-clientpref-1%2Cvector-feature-custom-font-size-clientpref-1)
