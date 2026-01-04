@@ -38,6 +38,7 @@ www.ecosia.org##.menu-button-impact-counter__counter
 www.ecosia.org##.icon--icon-seed
 www.ecosia.org##.notice-card
 www.ecosia.org##.binary-feedback
+www.ecosia.org##.card.notice-card
 
 ! Google
 www.google.com##div > g-section-with-header
@@ -53,6 +54,8 @@ www.google.com##form[action='/search'] > div > div > div > div > div:has(button[
 www.google.com##div > div[role='contentinfo']
 www.google.com##div:has(> a > div > div > div[role='heading'])
 www.google.com##div:has(> a[href*='/search?']:has(span:has-text(More news)))
+www.google.com##div[role='navigation'] div[role='listitem']:has(span:has-text(AI Mode))
+www.google.com##div#search div#tads
 
 ! Qwant
 www.qwant.com##div[data-testid='sectionVideos']
