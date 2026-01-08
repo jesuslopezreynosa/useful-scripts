@@ -25,6 +25,7 @@ duckduckgo.com##+js(trusted-set-cookie, au, -1)
 duckduckgo.com##+js(trusted-set-cookie, psb, -1)
 duckduckgo.com##+js(trusted-set-cookie, bj, 1)
 duckduckgo.com##+js(trusted-set-local-storage-item, duckduckgo_settings, '{"kbj":"1","kpsb":"-1","kau":"-1","kao":"-1","kap":"-1","kaq":"-1","kax":"-1","kak":"-1","kaj":"u","k1":"-1","kk":"-1","kbm":"foxnews.com,foxnation.com,radio.foxnews.com,foxbusiness.com,quora.com,tiktok.com,yahoo.com,answers.com,bbb.org,klarna.com,sourceforge.net,sky.com,nypost.com,huffpost.com,metro.co.uk,dailymail.co.uk,tmz.com,rt.com,cjr.org,prageru.com,reason.com,theblaze.com,thedailybeast.com,perezhilton.com,ew.com,news.google.com,go.com,msn.com,cnn.com,usnews.com,newsmax.com,newsmax.org,eonline.com,usatoday.com,bbc.com,x.com,x.ai,grok.com,twitter.com,facebook.com,fb.com,meta.com,truthsocial.com,pinterest.com","kat":"-1"}')
+duckduckgo.com##+js(trusted-set-local-storage-item, duckaiHasAgreedToTerms, true)
 
 www.ecosia.org##+js(trusted-set-cookie, ECPP, GOOGLE)
 www.ecosia.org##+js(trusted-set-cookie, ECAIO, false)
@@ -34,3 +35,6 @@ startpage.com##+js(trusted-set-cookie, preferences, connect_to_serverEEEdefaultN
 
 ! Wikipedia
 en.wikipedia.org##+js(trusted-set-cookie, enwikimwclientpreferences, vector-feature-appearance-pinned-clientpref-0%2Cvector-feature-toc-pinned-clientpref-0%2Cskin-theme-clientpref-night%2Cvector-feature-limited-width-clientpref-1%2Cvector-feature-custom-font-size-clientpref-1)
+
+! Encyclopædia Britannica
+www.britannica.com##+js(trusted-set-cookie, usprivacy, 1YYY)
