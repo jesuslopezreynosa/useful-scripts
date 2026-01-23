@@ -1,6 +1,17 @@
 ! Title: JesusLopezReynosa - News Sites
 ! Expires: 1 day
 
+news.google.com
+news.yahoo.com
+www.aol.com
+homepage.aol.com
+www.aol.ca
+bing.com/news*
+*.msn.com
+msn.us
+you.com
+
+spectrumlocalnews.com
 10nbc.com
 10news.com
 11alive.com

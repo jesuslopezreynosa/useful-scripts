@@ -21,6 +21,7 @@ duckduckgo.com##.ol.react-results--sidebar:has(div[data-testid='autoads-carousel
 duckduckgo.com##.header--aside__item--hidden-lg
 duckduckgo.com##.js-text-promo
 duckduckgo.com##li[data-layout='related_searches'] div:has(span[data-testid='feedback-prompt'])
+duckduckgo.com##.react-results--main [data-react-module-id='news']
 
 ! Ecosia
 www.ecosia.org##.meta-results section[data-test-id='ad-block-notice']

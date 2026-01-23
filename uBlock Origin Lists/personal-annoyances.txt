@@ -7,24 +7,24 @@
 !!!!!!!!!!!!!!!!!!!
 !! Site Specific !!
 ! Amazon
-amazon.*,amazon.com,amazon.co.jp###Share-share
-amazon.*,amazon.com,amazon.co.jp##.video-player .gw-media-card
-amazon.*,amazon.com,amazon.co.jp##.amazonlive-widget-padding
-amazon.*,amazon.com,amazon.co.jp###postsSameBrandCard_feature_div
-amazon.*,amazon.com,amazon.co.jp##.vse-video-widget-container
-amazon.*,amazon.com,amazon.co.jp###rhf
-amazon.*,amazon.com,amazon.co.jp###native-app-upsell
-amazon.*,amazon.com,amazon.co.jp###smart-app-banner
-amazon.*,amazon.com,amazon.co.jp##div.afap-above-nav#afap-above-nav
-amazon.*,amazon.com,amazon.co.jp##div.celwidget#smartHomeWidget_feature_div
-amazon.*,amazon.com,amazon.co.jp##div.celwidget#issuancePriceblockAmabot_feature_div
-www.amazon.com##.nav-rufus-disco
-www.amazon.com##li.nav-li > .nav-a:has-text(Alexa)
-www.amazon.com###dpx-nice-widget-container
-www.amazon.com##.featured-brand-container
-www.amazon.com###above-dp-container
-www.amazon.com##.maple-banner
-www.amazon.com###widget-rightUpsellSlot
+amazon.*###Share-share
+amazon.*##.video-player .gw-media-card
+amazon.*##.amazonlive-widget-padding
+amazon.*###postsSameBrandCard_feature_div
+amazon.*##.vse-video-widget-container
+amazon.*###rhf
+amazon.*###native-app-upsell
+amazon.*###smart-app-banner
+amazon.*##div.afap-above-nav#afap-above-nav
+amazon.*##div.celwidget#smartHomeWidget_feature_div
+amazon.*##div.celwidget#issuancePriceblockAmabot_feature_div
+amazon.*##.nav-rufus-disco
+amazon.*##li.nav-li > .nav-a:has-text(Alexa)
+amazon.*###dpx-nice-widget-container
+amazon.*##.featured-brand-container
+amazon.*###above-dp-container
+amazon.*##.maple-banner
+amazon.*###widget-rightUpsellSlot
 
 ! Apple
 discussions.apple.com##.notification
@@ -254,7 +254,6 @@ arstechnica.com##div.mx-auto:has(.component-most-read)
 
 ! News - Electrek
 electrek.co##article:has(.meta__guide a[href*='trump'],[href*='elon'],[href*='podcast'],[href*='musk'],[href*='tesla'],[href*='aviation'])
-! electrek.co##article:has(.meta__guide a:has-text(/Elon Musk|Green Deals|Kart|Aviation|Hypercar|Podcast|Ebike|Tesla/i))
 
 ! News - The Verge
 www.theverge.com###coral_thread
@@ -302,7 +301,6 @@ www.hyundaiusa.com##.heyhyundai-chat-button-web
 rivian.com###newsletter
 www.autotempest.com##.wrap-hide
 www.autotempest.com##.search-tips-container:has(#remove-filters)
-
 
 ! General Annoyances (i.e. Banner Ads, Fake Messages)
 sniffies.com##div.recents-container tr.chatholder-row-item:has(tr[aria-label='View Advertisement'])
