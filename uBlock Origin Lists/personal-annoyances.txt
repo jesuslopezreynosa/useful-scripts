@@ -327,6 +327,9 @@ crdroid.net##.show.crblocker-wrapper
 imgur.com##.Gallery-Sidebar
 imgur.com##.BottomRecirc
 themezzoapts.com###browser-warning-popup
+www.britannica.com##.tlr-related-quizzes
+www.britannica.com##.marketing-content
+www.britannica.com##.banner-links.container
 
 ! TLDs
 ||.onion^|.biz^|.media^|.news^|.gop^|.republican^|.store^|.cn^|.ru^|.icu^|.work^|.tk^|.ml^|.ga^|.cf^|.gq^|.zip^|.bot^|*.mov^|*.how^
