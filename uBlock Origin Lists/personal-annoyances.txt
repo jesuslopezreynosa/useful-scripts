@@ -77,12 +77,14 @@ www.youtube.com###guide-renderer a#endpoint[title*='Shorts'],a#endpoint[title*='
 ! LinkedIn
 www.linkedin.com##div#feed-news-module
 www.linkedin.com##nav li:has(div.premium-upsell-link)
-www.linkedin.com##aside.scaffold-layout__aside .artdeco-card li:has(div.pvs-premium-upsell__container)
-www.linkedin.com##aside.scaffold-layout__aside .artdeco-card li:has(div.pvs-entity--blurred)
 www.linkedin.com##div.discovery-templates-jobs-feed-discovery-module li:has(div.jobs-home-upsell-card__container)
 www.linkedin.com##div[componentkey='newsAndGamesCard']
 www.linkedin.com##div[componentkey*='FeedType_MAIN_FEED']:has(p:has-text(Suggested))
 www.linkedin.com##div[componentkey*=':sponsoredContent']
+www.linkedin.com##.share-box-feed-entry__closed-share-box
+www.linkedin.com##.scaffold-layout__aside
+!www.linkedin.com##aside.scaffold-layout__aside .artdeco-card li:has(div.pvs-premium-upsell__container)
+!www.linkedin.com##aside.scaffold-layout__aside .artdeco-card li:has(div.pvs-entity--blurred)
 
 ! Microsoft
 ||msn.com^
@@ -301,6 +303,9 @@ www.hyundaiusa.com##.heyhyundai-chat-button-web
 rivian.com###newsletter
 www.autotempest.com##.wrap-hide
 www.autotempest.com##.search-tips-container:has(#remove-filters)
+
+! Flights
+www.kayak.com##div.Fxw9-result-item-container:has(div.NAnQ-details:has(div[aria-label='Ad disclaimer']))
 
 ! General Annoyances (i.e. Banner Ads, Fake Messages)
 sniffies.com##div.recents-container tr.chatholder-row-item:has(tr[aria-label='View Advertisement'])
