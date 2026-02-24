@@ -117,6 +117,7 @@ old.reddit.com##div.stickied
 old.reddit.com##.link:has(div.entry:has(p.tagline:has(.stickied-tagline)))
 old.reddit.com##.linklisting.sitetable::before
 old.reddit.com##div.thing[data-score="0"], div.thing[data-score|="-"]
+old.reddit.com##div.thing:has(.linkflairlabel[title="Locked"])
 
 ! Speedtest.net
 speedtest.net##.pure-g.content-devices
@@ -221,7 +222,7 @@ www.pbs.org##.comments__btn
 www.pbs.org##.sidebar
 www.caranddriver.com##section.embed
 
-! News - General Tech
+! News - Technology
 www.macstories.net##article.post .post-supporters
 www.macstories.net##.post-content .aside
 www.macrumors.com##div.noskim
@@ -284,10 +285,7 @@ www.jocooks.com##.author-box
 www.jocooks.com##.oc-recipe-footer
 www.jocooks.com##.dpsp-content-wrapper
 
-! Shopping
-www.waterdropfilter.com###wd-cookie-consent-popup
-
-! Stores
+! Stores / Shopping
 www.homedepot.com###collapsible-sections-accordion > .zone-card
 www.homedepot.com###footer-static
 www.lowes.com##.sms-modal-content
@@ -297,6 +295,7 @@ www.walmart.com##div a[href*="?utm_campaign"]
 www.monoprice.com##.side-adsense
 www.ikea.com##.hnf-floating-container
 www.ebay.com##.x-vi-evo-main-container__top-panel
+www.waterdropfilter.com###wd-cookie-consent-popup
 
 ! Vehicles
 www.hyundaiusa.com##.heyhyundai-chat-button-web
