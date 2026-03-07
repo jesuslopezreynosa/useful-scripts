@@ -25,6 +25,8 @@ amazon.*##.featured-brand-container
 amazon.*###above-dp-container
 amazon.*##.maple-banner
 amazon.*###widget-rightUpsellSlot
+www.amazon.com##div#gw-content-grid div.celwidget:has(a[href*='/gp/video/'])
+www.amazon.com##div#gw-content-grid div.celwidget:has(a[href*='/music/'])
 
 ! Apple
 discussions.apple.com##.notification
@@ -117,7 +119,16 @@ old.reddit.com##div.stickied
 old.reddit.com##.link:has(div.entry:has(p.tagline:has(.stickied-tagline)))
 old.reddit.com##.linklisting.sitetable::before
 old.reddit.com##div.thing[data-score="0"], div.thing[data-score|="-"]
-old.reddit.com##div.thing:has(.linkflairlabel[title="Locked"])
+old.reddit.com##div.thing:has(span.linkflairlabel[title="Locked"])
+old.reddit.com##div.thing:has(span.linkflairlabel[title*='Clickbait'])
+old.reddit.com/r/linux##div.thing:has(span.linkflairlabel[title*='Privacy'])
+old.reddit.com/r/linux##div.thing:has(a.title:has-text(California))
+old.reddit.com/r/linux##div.thing:has(a.title:has-text(Colorado))
+old.reddit.com/r/linux##div.thing:has(a.title:has-text(law))
+old.reddit.com/r/linux##div.thing:has(a.title:has-text(age))
+old.reddit.com/r/linux##div.thing:has(a.title:has-text(verification))
+old.reddit.com/r/linux##div.thing:has(a.title:has-text(RMS))
+old.reddit.com/r/linux##div.thing:has(a.title:has-text(Stallman))
 
 ! Speedtest.net
 speedtest.net##.pure-g.content-devices
@@ -247,6 +258,7 @@ vacuumwars.com##.sticky-price-container
 appleinsider.com##div.sbr-spotlight
 techcrunch.com##.is-vertical
 www.androidauthority.com##div[data-container-type='content']:has(a[target])
+www.tomshardware.com##aside[data-component-name='Recirculation:ArticleRiver']
 
 ! News - ArsTechnica
 arstechnica.com###article-footer-wrap
@@ -334,6 +346,7 @@ themezzoapts.com###browser-warning-popup
 www.britannica.com##.tlr-related-quizzes
 www.britannica.com##.marketing-content
 www.britannica.com##.banner-links.container
+everymac.com##body div:has(div.prompt-bg)
 
 ! TLDs
 ||.onion^|.biz^|.media^|.news^|.gop^|.republican^|.store^|.cn^|.ru^|.icu^|.work^|.tk^|.ml^|.ga^|.cf^|.gq^|.zip^|.bot^|*.mov^|*.how^
