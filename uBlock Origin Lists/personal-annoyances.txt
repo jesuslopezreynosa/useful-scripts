@@ -240,8 +240,8 @@ www.macrumors.com##div.noskim
 www.macrumors.com###featured_slider2
 www.macrumors.com###comments
 www.macrumors.com##footer
-9to5mac.com##.sidebar--5.xs.container.sidebar > .ninetofive-branded-rss.widget
 9to5google.com##.container.sidebar
+9to5mac.com##.sidebar--5.xs.container.sidebar > .ninetofive-branded-rss.widget
 9to5mac.com##.container.sidebar
 9to5mac.com##.article__youtube-video
 9to5mac.com###comments
@@ -277,6 +277,7 @@ www.theverge.com##.w-mobile-breaker
 www.theverge.com##div.duet--layout--entry-body-container div.duet--layout--rail
 www.theverge.com###content .duet--layout--rail
 www.theverge.com##.zephr-zone-footer
+www.theverge.com##div.duet--layout--article-recirc-color-container
 www.theverge.com##.duet--content-cards--content-card > a[href*='elon'], a[href*='trump'], a[href*='doge'], a[href*='federal'], a[href*='tariff'], a[href*='woke']
 
 ! Podcast
@@ -347,6 +348,7 @@ www.britannica.com##.tlr-related-quizzes
 www.britannica.com##.marketing-content
 www.britannica.com##.banner-links.container
 everymac.com##body div:has(div.prompt-bg)
+www.bestphoneplans.net##div.w-container:has(a#navbar-link[rel~='sponsored'])
 
 ! TLDs
 ||.onion^|.biz^|.media^|.news^|.gop^|.republican^|.store^|.cn^|.ru^|.icu^|.work^|.tk^|.ml^|.ga^|.cf^|.gq^|.zip^|.bot^|*.mov^|*.how^
