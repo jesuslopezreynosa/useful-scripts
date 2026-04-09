@@ -85,6 +85,8 @@ www.linkedin.com##div[componentkey*='FeedType_MAIN_FEED']:has(p:has-text(Suggest
 www.linkedin.com##div[componentkey*=':sponsoredContent']
 www.linkedin.com##.share-box-feed-entry__closed-share-box
 www.linkedin.com##.scaffold-layout__aside
+www.linkedin.com##main#workspace > div div:nth-of-type(3):has(p:has-text(LinkedIn News))
+www.linkedin.com##header nav ul li:has(button[aria-label="For Business"]):xpath(../../..)
 !www.linkedin.com##aside.scaffold-layout__aside .artdeco-card li:has(div.pvs-premium-upsell__container)
 !www.linkedin.com##aside.scaffold-layout__aside .artdeco-card li:has(div.pvs-entity--blurred)
 
@@ -279,6 +281,7 @@ www.theverge.com###content .duet--layout--rail
 www.theverge.com##.zephr-zone-footer
 www.theverge.com##div.duet--layout--article-recirc-color-container
 www.theverge.com##.duet--content-cards--content-card > a[href*='elon'], a[href*='trump'], a[href*='doge'], a[href*='federal'], a[href*='tariff'], a[href*='woke']
+www.theverge.com##div.duet--layout--article-recirc-color-container
 
 ! Podcast
 www.relay.fm##.sp-area
