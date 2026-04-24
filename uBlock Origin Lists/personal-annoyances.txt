@@ -27,6 +27,7 @@ amazon.*##.maple-banner
 amazon.*###widget-rightUpsellSlot
 www.amazon.com##div#gw-content-grid div.celwidget:has(a[href*='/gp/video/'])
 www.amazon.com##div#gw-content-grid div.celwidget:has(a[href*='/music/'])
+www.amazon.com##.rufus-text-selection-tooltip
 
 ! Apple
 discussions.apple.com##.notification
@@ -45,6 +46,9 @@ www.bestbuy.com##.row:has(.widget-marketing-com)
 ! Costco
 www.costco.com##div.MuiBox-root[name="emailSignUpForm"]
 www.costco.com##.oo_tab_right
+www.costco.com##div[data-testid='main-column'] div:has(div[data-testid='AdBuilder'])
+www.costco.com##.espotPlacement
+www.costco.com##div.membership-information-container div.membership-renew-upsell-espot
 
 ! Hackyderm Mastodon
 hachyderm.io##.navigation-panel .column-link:has-text(/Explore|Live feeds/i)
@@ -87,8 +91,6 @@ www.linkedin.com##.share-box-feed-entry__closed-share-box
 www.linkedin.com##.scaffold-layout__aside
 www.linkedin.com##main#workspace > div div:nth-of-type(3):has(p:has-text(LinkedIn News))
 www.linkedin.com##header nav ul li:has(button[aria-label="For Business"]):xpath(../../..)
-!www.linkedin.com##aside.scaffold-layout__aside .artdeco-card li:has(div.pvs-premium-upsell__container)
-!www.linkedin.com##aside.scaffold-layout__aside .artdeco-card li:has(div.pvs-entity--blurred)
 
 ! Microsoft
 ||msn.com^
@@ -127,10 +129,12 @@ old.reddit.com/r/linux##div.thing:has(span.linkflairlabel[title*='Privacy'])
 old.reddit.com/r/linux##div.thing:has(a.title:has-text(California))
 old.reddit.com/r/linux##div.thing:has(a.title:has-text(Colorado))
 old.reddit.com/r/linux##div.thing:has(a.title:has-text(law))
+old.reddit.com/r/linux##div.thing:has(a.title:has-text(bill))
 old.reddit.com/r/linux##div.thing:has(a.title:has-text(age))
 old.reddit.com/r/linux##div.thing:has(a.title:has-text(verification))
 old.reddit.com/r/linux##div.thing:has(a.title:has-text(RMS))
 old.reddit.com/r/linux##div.thing:has(a.title:has-text(Stallman))
+old.reddit.com/r/linux##div.thing:has(a.title:has-text(Lunduke))
 
 ! Speedtest.net
 speedtest.net##.pure-g.content-devices
@@ -182,6 +186,7 @@ www.xfinity.com###nuanMessagingFrame
 ||x.ai^|meta.ai^|ai.com^$third-party|api.openai.com^$third-party|*.openai.azure.com^$third-party|production-openaicom-storage.azureedge.net^$third-party|openai.com.cdn.cloudflare.net^$third-party|copilot.microsoft.com^$third-party|githubcopilot.com^|gemini.google.com^$third-party
 gemini.google.com##.get-app-banner
 gemini.google.com##.cdk-overlay-container:has(.get-app-mobile-dialog)
+gemini.google.com##.speech-dictation-mic-button
 
 ! Airlines
 www.delta.com##.desktop-enabled.idp-dynamic-banner
@@ -216,16 +221,13 @@ www.goodrx.com##div[data-qa='NewsletterSignUpAlert']
 www.webmd.com##.main-container-3.main-container
 www.webmd.com##.dfp-native.top-picks
 
-! News - Traditional
+! News - General
 www.bbc.com##aside
 www.independent.co.uk##.sidebar
 www.vox.com##.l-article-body-segment.l-segment.l-sidebar-fixed > .l-col__sidebar
 apnews.com##.Enhancement.PageListEnhancementGeneric
-www.theregister.com##.listinks
-www.theregister.com##.desktop_only.right_col > .similar_topics
 www.recordnet.com##.gnt_rr
 www.sacbee.com##.partner-digest-group.grid
-www.wired.com##.persistent-bottom
 www.nbcwashington.com##.section-content--secondary
 www.nbcwashington.com##.recirc-module
 www.pbs.org##.post__aside
@@ -233,7 +235,10 @@ www.pbs.org##.inline-invite
 www.pbs.org##.newsletter-inline
 www.pbs.org##.comments__btn
 www.pbs.org##.sidebar
-www.caranddriver.com##section.embed
+sfstandard.com##div[data-align='none']:has(div.related-post-block)
+sfstandard.com##.article-content div.w-full
+sfstandard.com##main aside#story-discovery
+sfstandard.com##.article-content div.border:has(span)
 
 ! News - Technology
 www.macstories.net##article.post .post-supporters
@@ -261,18 +266,10 @@ appleinsider.com##div.sbr-spotlight
 techcrunch.com##.is-vertical
 www.androidauthority.com##div[data-container-type='content']:has(a[target])
 www.tomshardware.com##aside[data-component-name='Recirculation:ArticleRiver']
-
-! News - ArsTechnica
-arstechnica.com###article-footer-wrap
-arstechnica.com##.site-footer
-arstechnica.com###action_button_container
-arstechnica.com##.xrail
-arstechnica.com##div.mx-auto:has(.component-most-read)
-
-! News - Electrek
-electrek.co##article:has(.meta__guide a[href*='trump'],[href*='elon'],[href*='podcast'],[href*='musk'],[href*='tesla'],[href*='aviation'])
-
-! News - The Verge
+www.digitaltrends.com##.h-sidebar
+www.wired.com##.persistent-bottom
+www.theregister.com##.listinks
+www.theregister.com##.desktop_only.right_col > .similar_topics
 www.theverge.com###coral_thread
 www.theverge.com##.l-article-body-segment.l-segment.l-sidebar-fixed > .l-col__sidebar
 www.theverge.com##.w-mobile-breaker
@@ -282,6 +279,11 @@ www.theverge.com##.zephr-zone-footer
 www.theverge.com##div.duet--layout--article-recirc-color-container
 www.theverge.com##.duet--content-cards--content-card > a[href*='elon'], a[href*='trump'], a[href*='doge'], a[href*='federal'], a[href*='tariff'], a[href*='woke']
 www.theverge.com##div.duet--layout--article-recirc-color-container
+arstechnica.com###article-footer-wrap
+arstechnica.com##.site-footer
+arstechnica.com###action_button_container
+arstechnica.com##.xrail
+arstechnica.com##div.mx-auto:has(.component-most-read)
 
 ! Podcast
 www.relay.fm##.sp-area
@@ -313,14 +315,21 @@ www.ikea.com##.hnf-floating-container
 www.ebay.com##.x-vi-evo-main-container__top-panel
 www.waterdropfilter.com###wd-cookie-consent-popup
 
-! Vehicles
+! Vehicle Manufacturers
 www.hyundaiusa.com##.heyhyundai-chat-button-web
 rivian.com###newsletter
+
+! Vehicle Blogs / Search Engines / Sales
 www.autotempest.com##.wrap-hide
 www.autotempest.com##.search-tips-container:has(#remove-filters)
+www.cargurus.com##section[data-testid='article-content'] div[role='region']
+www.caranddriver.com##section.embed
+www.caranddriver.com##div.article-body-content div:has(h3:has-text(For Sale))
+electrek.co##article:has(.meta__guide a[href*='trump'],[href*='elon'],[href*='podcast'],[href*='musk'],[href*='tesla'],[href*='aviation'])
 
 ! Flights
 www.kayak.com##div.Fxw9-result-item-container:has(div.NAnQ-details:has(div[aria-label='Ad disclaimer']))
+www.flightradar24.com##div.flex[data-widget-type='bookmarks']
 
 ! General Annoyances (i.e. Banner Ads, Fake Messages)
 sniffies.com##div.recents-container tr.chatholder-row-item:has(tr[aria-label='View Advertisement'])

@@ -44,19 +44,31 @@ www.ecosia.org##.card.notice-card
 ! Google
 www.google.com##div > g-section-with-header
 www.google.com##div:has(> g-section-with-header)
-www.google.com##div[data-rpos]:has(div:has(> span:has-text(/Top stories/i)))
 www.google.com##[src*="ogs.google.com/widget"]
-www.google.com##div#rcnt div:has(h1:has-text(AI Overview))
 www.google.com##promo-middle-slot
 www.google.com##div:has(div[aria-labelledby='promo_label_id'])
 www.google.com##div > div > div#bottomads
-www.google.com##div[role='presentation']:has(div[role='presentation']:has-text(Trending searches))
-www.google.com##form[action='/search'] > div > div > div > div > div:has(button[role='link'])
 www.google.com##div > div[role='contentinfo']
 www.google.com##div:has(> a > div > div > div[role='heading'])
-www.google.com##div:has(> a[href*='/search?']:has(span:has-text(More news)))
-www.google.com##div[role='navigation'] div[role='listitem']:has(span:has-text(AI Mode))
-www.google.com##div#search div#tads
+www.google.com/search##div:has(> a[href*='/search?']:has(span:has-text(More news)))
+www.google.com/search##div#rcnt div:has(h1:has-text(AI Overview))
+www.google.com/search##div#search div#tads
+www.google.com/search##div[role='navigation'] div[role='listitem']:has(span:has-text(AI Mode))
+www.google.com/search##div[role='presentation']:has(div[role='presentation']:has-text(Trending searches))
+www.google.com/search##form[action='/search'] > div > div > div > div > div:has(button[role='link'])
+www.google.com/search##div > g-section-with-header:has(span:has-text(Local news))
+www.google.com/search##div[data-rpos]:has(div:has(> span:has-text(/Top stories/i)))
+
+!www.google.com##div#search div#tads
+!www.google.com##div[role='navigation'] div[role='listitem']:has(span:has-text(AI Mode))
+!www.google.com##div[role='presentation']:has(div[role='presentation']:has-text(Trending searches))
+!www.google.com##div#rcnt div:has(h1:has-text(AI Overview))
+!www.google.com##div:has(> a[href*='/search?']:has(span:has-text(More news)))
+!www.google.com##form[action='/search'] > div > div > div > div > div:has(button[role='link'])
+!www.google.com##div > g-section-with-header:has(span:has-text(Local news))
+!www.google.com##div[data-rpos]:has(div:has(> span:has-text(/Top stories/i)))
+
+! www.google.com/search
 
 ! Qwant
 www.qwant.com##div[data-testid='sectionVideos']
