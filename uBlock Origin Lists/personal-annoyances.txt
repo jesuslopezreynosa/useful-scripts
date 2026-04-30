@@ -28,6 +28,8 @@ amazon.*###widget-rightUpsellSlot
 www.amazon.com##div#gw-content-grid div.celwidget:has(a[href*='/gp/video/'])
 www.amazon.com##div#gw-content-grid div.celwidget:has(a[href*='/music/'])
 www.amazon.com##.rufus-text-selection-tooltip
+www.amazon.com##div.gwm-widget:has(h2:has-text(Featured))
+www.amazon.com##section.category-section[aria-labelledby='Trending']
 
 ! Apple
 discussions.apple.com##.notification
@@ -78,6 +80,7 @@ youtube.com##ytd-shelf-renderer #dismissible
 www.youtube.com##yt-button-view-model:has(.yt-spec-button-shape-next__button-text-content:has-text(Ask))
 www.youtube.com##.ytd-masthead > ytd-button-renderer.ytd-masthead.style-scope
 www.youtube.com##.ytd-masthead > ytd-notification-topbar-button-renderer.ytd-masthead
+www.youtube.com##button-view-model.ytSpecButtonViewModelHost:has(button[aria-label='Ask'])
 www.youtube.com###guide-renderer a#endpoint[title*='Shorts'],a#endpoint[title*='Music'],a#endpoint[title*='Podcasts'],a#endpoint[title*='Trending'],a#endpoint[title*='Explore'],a#endpoint[title*='Live'],a#endpoint[title*='Gaming'],a#endpoint[title*='Fashion'],a#endpoint[title*='Sports'],a#endpoint[title*='Shopping'],a#endpoint[title*='Movies'],a#endpoint[title*='News'],a#endpoint[title*='Kids'],a#endpoint[title*='Live']
 
 ! LinkedIn
