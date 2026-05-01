@@ -21,7 +21,8 @@ duckduckgo.com##.ol.react-results--sidebar:has(div[data-testid='autoads-carousel
 duckduckgo.com##.header--aside__item--hidden-lg
 duckduckgo.com##.js-text-promo
 duckduckgo.com##li[data-layout='related_searches'] div:has(span[data-testid='feedback-prompt'])
-duckduckgo.com##.react-results--main [data-react-module-id='news']
+duckduckgo.com##.react-results--main li[data-layout='news']
+duckduckgo.com##div.header-wrap div#react-duckbar nav li:has(a:has-text(News))
 
 ! Ecosia
 www.ecosia.org##.meta-results section[data-test-id='ad-block-notice']
@@ -58,6 +59,12 @@ www.google.com/search##div[role='presentation']:has(div[role='presentation']:has
 www.google.com/search##form[action='/search'] > div > div > div > div > div:has(button[role='link'])
 www.google.com/search##div > g-section-with-header:has(span:has-text(Local news))
 www.google.com/search##div[data-rpos]:has(div:has(> span:has-text(/Top stories/i)))
+www.google.com##div#search div#rso div>:has(span:has-text(Short videos))
+www.google.com##div#search div#rso div>:has(div:has-text(Discussions and forums))
+www.google.com##div#search div#rso div>:has(g-section-with-header > div:has-text(What people are saying))
+www.google.com##div#rcnt div#rhs div div[role='presentation'] div>:has(g-link:has(a[href*='twitter.com']))
+www.google.com###botstuff div#bres
+www.google.com##div.main div#cnt div[role='navigation'] div[role='list'] div[role='listitem']:has(span:has-text(News))
 
 !www.google.com##div#search div#tads
 !www.google.com##div[role='navigation'] div[role='listitem']:has(span:has-text(AI Mode))
