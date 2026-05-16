@@ -6,6 +6,9 @@
 
 !!!!!!!!!!!!!!!!!!!
 !! Site Specific !!
+! Google
+drive.google.com##div[guidedhelpid='main_nav'] nav div[data-target='upgrade-storage']
+
 ! Amazon
 amazon.*###Share-share
 amazon.*##.video-player .gw-media-card
@@ -82,6 +85,7 @@ www.youtube.com##.ytd-masthead > ytd-button-renderer.ytd-masthead.style-scope
 www.youtube.com##.ytd-masthead > ytd-notification-topbar-button-renderer.ytd-masthead
 www.youtube.com##button-view-model.ytSpecButtonViewModelHost:has(button[aria-label='Ask'])
 www.youtube.com###guide-renderer a#endpoint[title*='Shorts'],a#endpoint[title*='Music'],a#endpoint[title*='Podcasts'],a#endpoint[title*='Trending'],a#endpoint[title*='Explore'],a#endpoint[title*='Live'],a#endpoint[title*='Gaming'],a#endpoint[title*='Fashion'],a#endpoint[title*='Sports'],a#endpoint[title*='Shopping'],a#endpoint[title*='Movies'],a#endpoint[title*='News'],a#endpoint[title*='Kids'],a#endpoint[title*='Live']
+www.youtube.com##.ytd-mini-guide-entry-renderer.style-scope.yt-simple-endpoint:has-text(Shorts)
 
 ! LinkedIn
 www.linkedin.com##div#feed-news-module
@@ -94,6 +98,7 @@ www.linkedin.com##.share-box-feed-entry__closed-share-box
 www.linkedin.com##.scaffold-layout__aside
 www.linkedin.com##main#workspace > div div:nth-of-type(3):has(p:has-text(LinkedIn News))
 www.linkedin.com##header nav ul li:has(button[aria-label="For Business"]):xpath(../../..)
+www.linkedin.com##div[data-testid='mainFeed'] div[data-display-contents='true']>:has(p:has-text(likes this))
 
 ! Microsoft
 ||msn.com^
@@ -250,6 +255,7 @@ www.macrumors.com##div.noskim
 www.macrumors.com###featured_slider2
 www.macrumors.com###comments
 www.macrumors.com##footer
+www.macrumors.com##main div[data-track='popular-stories']
 9to5google.com##.container.sidebar
 9to5mac.com##.sidebar--5.xs.container.sidebar > .ninetofive-branded-rss.widget
 9to5mac.com##.container.sidebar
@@ -321,6 +327,7 @@ www.waterdropfilter.com###wd-cookie-consent-popup
 ! Vehicle Manufacturers
 www.hyundaiusa.com##.heyhyundai-chat-button-web
 rivian.com###newsletter
+www.ford.com##div.secondarynav li div.ford-ai-chat-launcher-container
 
 ! Vehicle Blogs / Search Engines / Sales
 www.autotempest.com##.wrap-hide
@@ -364,6 +371,8 @@ www.britannica.com##.marketing-content
 www.britannica.com##.banner-links.container
 everymac.com##body div:has(div.prompt-bg)
 www.bestphoneplans.net##div.w-container:has(a#navbar-link[rel~='sponsored'])
+tunein.com###outstream-video-ad-right-side-house-ads
+www.psychologytoday.com##.layout-content-right-rail
 
 ! TLDs
 ||.onion^|.biz^|.media^|.news^|.gop^|.republican^|.store^|.cn^|.ru^|.icu^|.work^|.tk^|.ml^|.ga^|.cf^|.gq^|.zip^|.bot^|*.mov^|*.how^

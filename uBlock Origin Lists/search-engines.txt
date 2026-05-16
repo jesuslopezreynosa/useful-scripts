@@ -23,6 +23,8 @@ duckduckgo.com##.js-text-promo
 duckduckgo.com##li[data-layout='related_searches'] div:has(span[data-testid='feedback-prompt'])
 duckduckgo.com##.react-results--main li[data-layout='news']
 duckduckgo.com##div.header-wrap div#react-duckbar nav li:has(a:has-text(News))
+duck.ai##section[data-testid='duckai-sidebar'] div div>:has(span:has(a[href*='duckduckgo.com/about']))
+duck.ai##div#app main section[data-testid='duckai-sidebar'] div button[label='Upgrade']
 
 ! Ecosia
 www.ecosia.org##.meta-results section[data-test-id='ad-block-notice']
@@ -65,7 +67,7 @@ www.google.com##div#search div#rso div>:has(g-section-with-header > div:has-text
 www.google.com##div#rcnt div#rhs div div[role='presentation'] div>:has(g-link:has(a[href*='twitter.com']))
 www.google.com###botstuff div#bres
 www.google.com##div.main div#cnt div[role='navigation'] div[role='list'] div[role='listitem']:has(span:has-text(News))
-
+www.google.com##div#search div#rso div:has(div#tads)
 !www.google.com##div#search div#tads
 !www.google.com##div[role='navigation'] div[role='listitem']:has(span:has-text(AI Mode))
 !www.google.com##div[role='presentation']:has(div[role='presentation']:has-text(Trending searches))
