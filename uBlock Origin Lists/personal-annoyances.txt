@@ -8,6 +8,7 @@
 !! Site Specific !!
 ! Google
 drive.google.com##div[guidedhelpid='main_nav'] nav div[data-target='upgrade-storage']
+voice.google.com##header div > gv-base-product-controls a:has(span.upgrade-label)
 
 ! Amazon
 amazon.*###Share-share
@@ -370,9 +371,14 @@ www.britannica.com##.tlr-related-quizzes
 www.britannica.com##.marketing-content
 www.britannica.com##.banner-links.container
 everymac.com##body div:has(div.prompt-bg)
-www.bestphoneplans.net##div.w-container:has(a#navbar-link[rel~='sponsored'])
 tunein.com###outstream-video-ad-right-side-house-ads
 www.psychologytoday.com##.layout-content-right-rail
+www.bestphoneplans.net##div.sticky
+www.bestphoneplans.net##div.not-prose:has(div.flex:has(span:has-text(Sponsored)))
+
+! Hiring Cafe
+hiring.cafe##body div.fixed:has(button > span > video)
+hiring.cafe##div.relative a.block
 
 ! TLDs
 ||.onion^|.biz^|.media^|.news^|.gop^|.republican^|.store^|.cn^|.ru^|.icu^|.work^|.tk^|.ml^|.ga^|.cf^|.gq^|.zip^|.bot^|*.mov^|*.how^
