@@ -97,9 +97,9 @@ www.linkedin.com##div[componentkey*='FeedType_MAIN_FEED']:has(p:has-text(Suggest
 www.linkedin.com##div[componentkey*=':sponsoredContent']
 www.linkedin.com##.share-box-feed-entry__closed-share-box
 www.linkedin.com##.scaffold-layout__aside
-www.linkedin.com##main#workspace > div div:nth-of-type(3):has(p:has-text(LinkedIn News))
 www.linkedin.com##header nav ul li:has(button[aria-label="For Business"]):xpath(../../..)
 www.linkedin.com##div[data-testid='mainFeed'] div[data-display-contents='true']>:has(p:has-text(likes this))
+www.linkedin.com##body main aside:has(div > p:has-text(LinkedIn News))
 
 ! Microsoft
 ||msn.com^
