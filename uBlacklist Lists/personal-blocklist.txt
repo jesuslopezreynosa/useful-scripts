@@ -320,7 +320,6 @@ title/Texas/
 *://*.parlerfree.com/*
 *://*.dailysignal.com/*
 *://*.thoughtco.com/*
-*://*.infowars.com/*
 *://*.theglobeandmail.com/*
 *://*.firstamendmentwatch.org/*
 *://*.perezhilton.com/*

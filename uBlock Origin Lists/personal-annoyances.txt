@@ -381,4 +381,4 @@ hiring.cafe##body div.fixed:has(button > span > video)
 hiring.cafe##div.relative a.block
 
 ! TLDs
-||.onion^|.biz^|.media^|.news^|.gop^|.republican^|.store^|.cn^|.ru^|.icu^|.work^|.tk^|.ml^|.ga^|.cf^|.gq^|.zip^|.bot^|*.mov^|*.how^
+||onion^|biz^|media^|news^|gop^|republican^|store^|cn^|ru^|icu^|work^|tk^|ml^|ga^|cf^|gq^|zip^|bot^|mov^|how^
