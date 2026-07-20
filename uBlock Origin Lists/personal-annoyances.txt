@@ -34,6 +34,7 @@ www.amazon.com##div#gw-content-grid div.celwidget:has(a[href*='/music/'])
 www.amazon.com##.rufus-text-selection-tooltip
 www.amazon.com##div.gwm-widget:has(h2:has-text(Featured))
 www.amazon.com##section.category-section[aria-labelledby='Trending']
+www.amazon.com##div#gwm-window-layout div#gwm-window-xl-container:has(div[data-csa-c-painter='single-video-card'])
 
 ! Apple
 discussions.apple.com##.notification
@@ -337,6 +338,17 @@ www.cargurus.com##section[data-testid='article-content'] div[role='region']
 www.caranddriver.com##section.embed
 www.caranddriver.com##div.article-body-content div:has(h3:has-text(For Sale))
 electrek.co##article:has(.meta__guide a[href*='trump'],[href*='elon'],[href*='podcast'],[href*='musk'],[href*='tesla'],[href*='aviation'])
+insideevs.com##.relatedContent-new
+insideevs.com##div.postBody div.flex:has(div.top-counter-comments-label-wrapper)
+insideevs.com##.tip-us-email
+insideevs.com##.m1-newsfeed_sidebar
+insideevs.com##div.adfeed
+insideevs.com##.rec-strip
+insideevs.com###comments-block-wrapper
+insideevs.com##.flex.adfeed-container
+insideevs.com##.flex.footer-navigation
+insideevs.com##.flex.m1-article-meta
+insideevs.com##.box-item-right
 
 ! Flights
 www.kayak.com##div.Fxw9-result-item-container:has(div.NAnQ-details:has(div[aria-label='Ad disclaimer']))
