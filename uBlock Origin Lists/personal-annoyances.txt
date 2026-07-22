@@ -8,7 +8,8 @@
 !! Site Specific !!
 ! Google
 drive.google.com##div[guidedhelpid='main_nav'] nav div[data-target='upgrade-storage']
-voice.google.com##header div > gv-base-product-controls a:has(span.upgrade-label)
+voice.google.com##gv-base-product-controls a[aria-label*='Upgrade']
+voice.google.com##gv-base-product-controls gv-ogb-help-button
 
 ! Amazon
 amazon.*###Share-share
@@ -295,6 +296,15 @@ arstechnica.com##.site-footer
 arstechnica.com###action_button_container
 arstechnica.com##.xrail
 arstechnica.com##div.mx-auto:has(.component-most-read)
+www.pcmag.com##article p:has(em > a)
+www.pcmag.com##article div[data-parent-group='related-stories']
+www.pcmag.com##div div:has(>ul:has(.leading-loose))
+www.pcmag.com##section[data-parent-group='dig-deeper']
+www.pcmag.com##nav button[data-element='Maggie-Product-Picker-Launcher']
+www.pcmag.com##section a[data-module='author-bio']
+www.pcmag.com##div[data-seamless-scroll-loading-indicator]
+www.pcmag.com##footer
+www.404media.co##.sidebar
 
 ! Podcast
 www.relay.fm##.sp-area
