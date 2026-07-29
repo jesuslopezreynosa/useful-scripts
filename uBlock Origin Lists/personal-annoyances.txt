@@ -7,9 +7,15 @@
 !!!!!!!!!!!!!!!!!!!
 !! Site Specific !!
 ! Google
+google.com##:matches-path(/maps)div[jsaction*="promotion"]
+docs.google.com##.docs-ml-promotion
 drive.google.com##div[guidedhelpid='main_nav'] nav div[data-target='upgrade-storage']
+maps.google.com##div[jsaction*="promotion"]
 voice.google.com##gv-base-product-controls a[aria-label*='Upgrade']
 voice.google.com##gv-base-product-controls gv-ogb-help-button
+gemini.google.com##.get-app-banner
+gemini.google.com##.cdk-overlay-container:has(.get-app-mobile-dialog)
+gemini.google.com##.speech-dictation-mic-button
 
 ! Amazon
 amazon.*###Share-share
@@ -58,18 +64,10 @@ www.costco.com##div[data-testid='main-column'] div:has(div[data-testid='AdBuilde
 www.costco.com##.espotPlacement
 www.costco.com##div.membership-information-container div.membership-renew-upsell-espot
 
-! Hackyderm Mastodon
-hachyderm.io##.navigation-panel .column-link:has-text(/Explore|Live feeds/i)
-
 ! GitHub
 github.com##div.react-code-size-details-in-header:has(span:has-text(/Copilot/i))
 github.com##header div.AppHeader-CopilotChat
 github.com##.home-campaign .global-banner
-
-! Google
-google.com##:matches-path(/maps)div[jsaction*="promotion"]
-maps.google.com##div[jsaction*="promotion"]
-docs.google.com##.docs-ml-promotion
 
 ! Google - YouTube
 youtube.com##div#chat-container
@@ -89,6 +87,7 @@ www.youtube.com##.ytd-masthead > ytd-notification-topbar-button-renderer.ytd-mas
 www.youtube.com##button-view-model.ytSpecButtonViewModelHost:has(button[aria-label='Ask'])
 www.youtube.com###guide-renderer a#endpoint[title*='Shorts'],a#endpoint[title*='Music'],a#endpoint[title*='Podcasts'],a#endpoint[title*='Trending'],a#endpoint[title*='Explore'],a#endpoint[title*='Live'],a#endpoint[title*='Gaming'],a#endpoint[title*='Fashion'],a#endpoint[title*='Sports'],a#endpoint[title*='Shopping'],a#endpoint[title*='Movies'],a#endpoint[title*='News'],a#endpoint[title*='Kids'],a#endpoint[title*='Live']
 www.youtube.com##.ytd-mini-guide-entry-renderer.style-scope.yt-simple-endpoint:has-text(Shorts)
+www.youtube.com##ytd-masthead yt-searchbox div button[aria-label='Ask YouTube']
 
 ! LinkedIn
 www.linkedin.com##div#feed-news-module
@@ -122,6 +121,7 @@ www.reddit.com##div.right-sidebar pdp-right-rail
 www.reddit.com###right-sidebar-container
 www.reddit.com##div.grid-container div.left-sidebar
 www.reddit.com##header nav div.justify-end
+www.reddit.com##.nd\:visible.hidden.community-highlight-carousel
 old.reddit.com###sr-header-area
 old.reddit.com##.listingsignupbar.infobar
 old.reddit.com##.content .thing.promoted
@@ -193,11 +193,35 @@ www.xfinity.com###nuanMessagingFrame
 
 !!!!!!!!!!!!!!!!!!!!!!!
 !! Category Specific !!
+
+! Malicious
+||mcafee.com^
+||mcafeeassets.com^
+||grokipedia.com^
+
+! Twitter
+||x.com^
+||twitter.com^
+||t.co^
+||twimg.com^
+||tweetdeck.com
+||twitter.map.fastly.net^
+||x.map.fastly.net^
+||twitter.com.cdn.cloudflare.net^
+||x.com.cdn.cloudflare.net^
+
 ! AI
-||x.ai^|meta.ai^|ai.com^$third-party|api.openai.com^$third-party|*.openai.azure.com^$third-party|production-openaicom-storage.azureedge.net^$third-party|openai.com.cdn.cloudflare.net^$third-party|copilot.microsoft.com^$third-party|githubcopilot.com^|gemini.google.com^$third-party
-gemini.google.com##.get-app-banner
-gemini.google.com##.cdk-overlay-container:has(.get-app-mobile-dialog)
-gemini.google.com##.speech-dictation-mic-button
+||x.ai^
+||grok.x.com^
+||meta.ai^
+||ai.com^$third-party
+||api.openai.com^$third-party
+||*.openai.azure.com^$third-party
+||production-openaicom-storage.azureedge.net^$third-party
+||openai.com.cdn.cloudflare.net^$third-party
+||copilot.microsoft.com^$third-party
+||githubcopilot.com^
+||gemini.google.com^$third-party
 
 ! Airlines
 www.delta.com##.desktop-enabled.idp-dynamic-banner
@@ -277,6 +301,9 @@ vacuumwars.com##.sticky-price-container
 appleinsider.com##div.sbr-spotlight
 techcrunch.com##.is-vertical
 www.androidauthority.com##div[data-container-type='content']:has(a[target])
+www.androidpolice.com##.adsninja-rail-container.sidebar
+www.androidpolice.com##.footer-threads
+www.androidpolice.com##.footer-recommended-feed
 www.tomshardware.com##aside[data-component-name='Recirculation:ArticleRiver']
 www.digitaltrends.com##.h-sidebar
 www.wired.com##.persistent-bottom
@@ -360,6 +387,16 @@ insideevs.com##.flex.footer-navigation
 insideevs.com##.flex.m1-article-meta
 insideevs.com##.box-item-right
 
+! Financial Blogs / Articles
+www.investopedia.com##.article-right-rail.loc
+www.investopedia.com##.article-post-content
+www.investopedia.com##.js-recirc-section
+www.investopedia.com##div[role='dialog']
+www.investopedia.com##.mntl-header__menu-top > .mntl-utility-nav.comp
+www.investopedia.com##.newsletter-link-wrapper
+www.investopedia.com##.mntl-social-nav
+www.investopedia.com##div.mntl-top-stories
+
 ! Flights
 www.kayak.com##div.Fxw9-result-item-container:has(div.NAnQ-details:has(div[aria-label='Ad disclaimer']))
 www.flightradar24.com##div.flex[data-widget-type='bookmarks']
@@ -403,4 +440,23 @@ hiring.cafe##body div.fixed:has(button > span > video)
 hiring.cafe##div.relative a.block
 
 ! TLDs
-||onion^|biz^|media^|news^|gop^|republican^|store^|cn^|ru^|icu^|work^|tk^|ml^|ga^|cf^|gq^|zip^|bot^|mov^|how^
+||onion^
+||biz^
+||media^
+||news^
+||gop^
+||republican^
+||store^
+||cn^
+||ru^
+||icu^
+||work^
+||tk^
+||ml^
+||ga^
+||cf^
+||gq^
+||zip^
+||bot^
+||mov^
+||how^
