@@ -11,7 +11,7 @@ trusted_ssids=("Trusted SSID 1" "Trusted SSID 2")
     - ✅ Allow Running When Locked
     - Allow this shortcut to access: ✅ Shell
     - Allow Run Shell Script to use: Network Info... `Always Allow`
-4.  Edit `triggerTailscaleShortcut.sh` and modify `{{REPLACE_WITH_LOCAL_USERNAME}}` to your username. \
+4.  Edit `triggerTailscaleShortcut.sh` and modify `{{REPLACE_WITH_LOCAL_USERNAME}}` with your username. \
 *NOTE: if you set a different name for the macOS Shortcut in the previous step, update the name set inside the quotes where it states `Tailscale Exit Node on SSID`*
 ```
 sudo -u {{REPLACE_WITH_LOCAL_USERNAME}} /usr/bin/shortcuts run "Tailscale Exit Node on SSID"

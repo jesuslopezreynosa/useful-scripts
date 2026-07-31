@@ -6,209 +6,219 @@
 
 !!!!!!!!!!!!!!!!!!!
 !! Site Specific !!
-! Google
-google.com##:matches-path(/maps)div[jsaction*="promotion"]
-docs.google.com##.docs-ml-promotion
-drive.google.com##div[guidedhelpid='main_nav'] nav div[data-target='upgrade-storage']
-maps.google.com##div[jsaction*="promotion"]
-voice.google.com##gv-base-product-controls a[aria-label*='Upgrade']
-voice.google.com##gv-base-product-controls gv-ogb-help-button
-gemini.google.com##.get-app-banner
-gemini.google.com##.cdk-overlay-container:has(.get-app-mobile-dialog)
-gemini.google.com##.speech-dictation-mic-button
+!!!!!!!!!!!!!!!!!!!
 
 ! Amazon
-amazon.*###Share-share
-amazon.*##.video-player .gw-media-card
 amazon.*##.amazonlive-widget-padding
-amazon.*###postsSameBrandCard_feature_div
-amazon.*##.vse-video-widget-container
-amazon.*###rhf
-amazon.*###native-app-upsell
-amazon.*###smart-app-banner
-amazon.*##div.afap-above-nav#afap-above-nav
-amazon.*##div.celwidget#smartHomeWidget_feature_div
-amazon.*##div.celwidget#issuancePriceblockAmabot_feature_div
-amazon.*##.nav-rufus-disco
-amazon.*##li.nav-li > .nav-a:has-text(Alexa)
-amazon.*###dpx-nice-widget-container
 amazon.*##.featured-brand-container
-amazon.*###above-dp-container
 amazon.*##.maple-banner
+amazon.*##.nav-rufus-disco
+amazon.*##.video-player .gw-media-card
+amazon.*##.vse-video-widget-container
+amazon.*###above-dp-container
+amazon.*###dpx-nice-widget-container
+amazon.*###native-app-upsell
+amazon.*###postsSameBrandCard_feature_div
+amazon.*###rhf
+amazon.*###Share-share
+amazon.*###smart-app-banner
 amazon.*###widget-rightUpsellSlot
-www.amazon.com##div#gw-content-grid div.celwidget:has(a[href*='/gp/video/'])
-www.amazon.com##div#gw-content-grid div.celwidget:has(a[href*='/music/'])
+amazon.*##div.afap-above-nav#afap-above-nav
+amazon.*##div.celwidget#issuancePriceblockAmabot_feature_div
+amazon.*##div.celwidget#smartHomeWidget_feature_div
+amazon.*##li.nav-li > .nav-a:has-text(Alexa)
 www.amazon.com##.rufus-text-selection-tooltip
 www.amazon.com##div.gwm-widget:has(h2:has-text(Featured))
-www.amazon.com##section.category-section[aria-labelledby='Trending']
+www.amazon.com##div#gw-content-grid div.celwidget:has(a[href*='/gp/video/'])
+www.amazon.com##div#gw-content-grid div.celwidget:has(a[href*='/music/'])
 www.amazon.com##div#gwm-window-layout div#gwm-window-xl-container:has(div[data-csa-c-painter='single-video-card'])
+www.amazon.com##section.category-section[aria-labelledby='Trending']
 
 ! Apple
 discussions.apple.com##.notification
 discussions.apple.com##.recommendations
 
 ! BestBuy
-www.bestbuy.com##.shop-pushdown-ad
-www.bestbuy.com##.shop-recsx-wrapper
-www.bestbuy.com##.shop-display-ad
+www.bestbuy.com##.blue-assist
 www.bestbuy.com##.marketing-navigation
 www.bestbuy.com##.recs-product-carousels
-www.bestbuy.com##.shop-footer
-www.bestbuy.com##.blue-assist
 www.bestbuy.com##.row:has(.widget-marketing-com)
+www.bestbuy.com##.shop-display-ad
+www.bestbuy.com##.shop-footer
+www.bestbuy.com##.shop-pushdown-ad
+www.bestbuy.com##.shop-recsx-wrapper
 
 ! Costco
-www.costco.com##div.MuiBox-root[name="emailSignUpForm"]
-www.costco.com##.oo_tab_right
-www.costco.com##div[data-testid='main-column'] div:has(div[data-testid='AdBuilder'])
 www.costco.com##.espotPlacement
+www.costco.com##.oo_tab_right
 www.costco.com##div.membership-information-container div.membership-renew-upsell-espot
+www.costco.com##div.MuiBox-root[name="emailSignUpForm"]
+www.costco.com##div[data-testid='main-column'] div:has(div[data-testid='AdBuilder'])
+
+! Hiring Cafe
+hiring.cafe##body div.fixed:has(button > span > video)
+hiring.cafe##div.relative a.block
+hiringcafe.com##body div.fixed:has(button > span > video)
+hiringcafe.com##div.relative a.block
 
 ! GitHub
+github.com##.home-campaign .global-banner
 github.com##div.react-code-size-details-in-header:has(span:has-text(/Copilot/i))
 github.com##header div.AppHeader-CopilotChat
-github.com##.home-campaign .global-banner
+
+! Google
+docs.google.com##.docs-ml-promotion
+drive.google.com##div[guidedhelpid='main_nav'] nav div[data-target='upgrade-storage']
+gemini.google.com##.cdk-overlay-container:has(.get-app-mobile-dialog)
+gemini.google.com##.get-app-banner
+gemini.google.com##.speech-dictation-mic-button
+google.com##:matches-path(/maps)div[jsaction*="promotion"]
+maps.google.com##div[jsaction*="promotion"]
+voice.google.com##gv-base-product-controls a[aria-label*='Upgrade']
+voice.google.com##gv-base-product-controls gv-ogb-help-button
 
 ! Google - YouTube
-youtube.com##div#chat-container
-youtube.com##div#columns div#chat-container
-youtube.com##div#panels-full-bleed-container:not(:has(div#player-container))
-youtube.com##ytd-reel-shelf-renderer
-youtube.com##ytd-rich-section-renderer.efyt-is-short
-youtube.com##ytd-comments#comments
+www.youtube.com##.ytd-masthead > ytd-button-renderer.ytd-masthead.style-scope
+www.youtube.com##.ytd-masthead > ytd-notification-topbar-button-renderer.ytd-masthead
+www.youtube.com##.ytd-mini-guide-entry-renderer.style-scope.yt-simple-endpoint:has-text(Shorts)
+www.youtube.com###guide-renderer a#endpoint[title*='Shorts'],a#endpoint[title*='Music'],a#endpoint[title*='Podcasts'],a#endpoint[title*='Trending'],a#endpoint[title*='Explore'],a#endpoint[title*='Live'],a#endpoint[title*='Gaming'],a#endpoint[title*='Fashion'],a#endpoint[title*='Sports'],a#endpoint[title*='Shopping'],a#endpoint[title*='Movies'],a#endpoint[title*='News'],a#endpoint[title*='Kids'],a#endpoint[title*='Live']
+www.youtube.com##button-view-model.ytSpecButtonViewModelHost:has(button[aria-label='Ask'])
+www.youtube.com##yt-button-view-model:has(.yt-spec-button-shape-next__button-text-content:has-text(Ask))
+www.youtube.com##ytd-masthead yt-searchbox div button[aria-label='Ask YouTube']
 youtube.com##.ytd-rich-section-renderer.style-scope
 youtube.com###big-yoodle
 youtube.com###button > .ytd-button-renderer.style-scope
 youtube.com###voice-search-button
+youtube.com##div#chat-container
+youtube.com##div#columns div#chat-container
+youtube.com##div#panels-full-bleed-container:not(:has(div#player-container))
+youtube.com##ytd-comments#comments
+youtube.com##ytd-reel-shelf-renderer
+youtube.com##ytd-rich-section-renderer.efyt-is-short
 youtube.com##ytd-shelf-renderer #dismissible
-www.youtube.com##yt-button-view-model:has(.yt-spec-button-shape-next__button-text-content:has-text(Ask))
-www.youtube.com##.ytd-masthead > ytd-button-renderer.ytd-masthead.style-scope
-www.youtube.com##.ytd-masthead > ytd-notification-topbar-button-renderer.ytd-masthead
-www.youtube.com##button-view-model.ytSpecButtonViewModelHost:has(button[aria-label='Ask'])
-www.youtube.com###guide-renderer a#endpoint[title*='Shorts'],a#endpoint[title*='Music'],a#endpoint[title*='Podcasts'],a#endpoint[title*='Trending'],a#endpoint[title*='Explore'],a#endpoint[title*='Live'],a#endpoint[title*='Gaming'],a#endpoint[title*='Fashion'],a#endpoint[title*='Sports'],a#endpoint[title*='Shopping'],a#endpoint[title*='Movies'],a#endpoint[title*='News'],a#endpoint[title*='Kids'],a#endpoint[title*='Live']
-www.youtube.com##.ytd-mini-guide-entry-renderer.style-scope.yt-simple-endpoint:has-text(Shorts)
-www.youtube.com##ytd-masthead yt-searchbox div button[aria-label='Ask YouTube']
 
-! LinkedIn
-www.linkedin.com##div#feed-news-module
-www.linkedin.com##nav li:has(div.premium-upsell-link)
-www.linkedin.com##div.discovery-templates-jobs-feed-discovery-module li:has(div.jobs-home-upsell-card__container)
-www.linkedin.com##div[componentkey='newsAndGamesCard']
-www.linkedin.com##div[componentkey*='FeedType_MAIN_FEED']:has(p:has-text(Suggested))
-www.linkedin.com##div[componentkey*=':sponsoredContent']
-www.linkedin.com##.share-box-feed-entry__closed-share-box
-www.linkedin.com##.scaffold-layout__aside
-www.linkedin.com##header nav ul li:has(button[aria-label="For Business"]):xpath(../../..)
-www.linkedin.com##div[data-testid='mainFeed'] div[data-display-contents='true']>:has(p:has-text(likes this))
-www.linkedin.com##body main aside:has(div > p:has-text(LinkedIn News))
+! Meta / Facebook Family of Foods
+www.instagram.com##body div section main div:has(div[tabindex="-1"]:has(a[href*='/accounts/login']))
+www.instagram.com##body:style(overflow: auto !important;)
+www.instagram.com##div[role="dialog"]
+www.instagram.com##div[role="presentation"]
 
 ! Microsoft
 ||msn.com^
 microsoft.com##.alert-component
-microsoft.com###app-link-banner
 microsoft.com##.mwf-area-heading-ctas
+microsoft.com###app-link-banner
 microsoftedgewelcome.microsoft.com##.mobile-banner__unexpanded
 visualstudio.microsoft.com##div#usabilla-button
 
+! Microsoft - LinkedIn
+www.linkedin.com##.scaffold-layout__aside
+www.linkedin.com##.share-box-feed-entry__closed-share-box
+www.linkedin.com##body main aside:has(div > p:has-text(LinkedIn News))
+www.linkedin.com##div.discovery-templates-jobs-feed-discovery-module li:has(div.jobs-home-upsell-card__container)
+www.linkedin.com##div[componentkey*=':sponsoredContent']
+www.linkedin.com##div[componentkey*='FeedType_MAIN_FEED']:has(p:has-text(Suggested))
+www.linkedin.com##div[componentkey='newsAndGamesCard']
+www.linkedin.com##div[data-testid='mainFeed'] div[data-display-contents='true']>:has(p:has-text(likes this))
+www.linkedin.com##div#feed-news-module
+www.linkedin.com##header nav ul li:has(button[aria-label="For Business"]):xpath(../../..)
+www.linkedin.com##nav li:has(div.premium-upsell-link)
+
 ! Plugshare
-www.plugshare.com###share
-www.plugshare.com###nearby
-www.plugshare.com##.business-nav
 www.plugshare.com##.app
+www.plugshare.com##.business-nav
+www.plugshare.com###nearby
+www.plugshare.com###share
 
 ! Reddit
-www.reddit.com##div.right-sidebar pdp-right-rail
-www.reddit.com###right-sidebar-container
-www.reddit.com##div.grid-container div.left-sidebar
-www.reddit.com##header nav div.justify-end
-www.reddit.com##.nd\:visible.hidden.community-highlight-carousel
-old.reddit.com###sr-header-area
-old.reddit.com##.listingsignupbar.infobar
-old.reddit.com##.content .thing.promoted
-old.reddit.com##.seo-comments-recommendations.spacer
-old.reddit.com##.seo-comments
-old.reddit.com##.premium-banner-outer
-old.reddit.com##.commentsignupbar.infobar
-old.reddit.com##div.locked:has(a.moderator)
-old.reddit.com##div.stickied
-old.reddit.com##.link:has(div.entry:has(p.tagline:has(.stickied-tagline)))
-old.reddit.com##.linklisting.sitetable::before
-old.reddit.com##div.thing[data-score="0"], div.thing[data-score|="-"]
-old.reddit.com##div.thing:has(span.linkflairlabel[title="Locked"])
-old.reddit.com##div.thing:has(span.linkflairlabel[title*='Clickbait'])
-old.reddit.com/r/linux##div.thing:has(span.linkflairlabel[title*='Privacy'])
+old.reddit.com/r/linux##div.thing:has(a.title:has-text(age))
+old.reddit.com/r/linux##div.thing:has(a.title:has-text(bill))
 old.reddit.com/r/linux##div.thing:has(a.title:has-text(California))
 old.reddit.com/r/linux##div.thing:has(a.title:has-text(Colorado))
 old.reddit.com/r/linux##div.thing:has(a.title:has-text(law))
-old.reddit.com/r/linux##div.thing:has(a.title:has-text(bill))
-old.reddit.com/r/linux##div.thing:has(a.title:has-text(age))
-old.reddit.com/r/linux##div.thing:has(a.title:has-text(verification))
+old.reddit.com/r/linux##div.thing:has(a.title:has-text(Lunduke))
 old.reddit.com/r/linux##div.thing:has(a.title:has-text(RMS))
 old.reddit.com/r/linux##div.thing:has(a.title:has-text(Stallman))
-old.reddit.com/r/linux##div.thing:has(a.title:has-text(Lunduke))
+old.reddit.com/r/linux##div.thing:has(a.title:has-text(verification))
+old.reddit.com/r/linux##div.thing:has(span.linkflairlabel[title*='Privacy'])
+old.reddit.com##.commentsignupbar.infobar
+old.reddit.com##.content .thing.promoted
+old.reddit.com##.link:has(div.entry:has(p.tagline:has(.stickied-tagline)))
+old.reddit.com##.linklisting.sitetable::before
+old.reddit.com##.listingsignupbar.infobar
+old.reddit.com##.premium-banner-outer
+old.reddit.com##.seo-comments
+old.reddit.com##.seo-comments-recommendations.spacer
+old.reddit.com###sr-header-area
+old.reddit.com##div.locked:has(a.moderator)
+old.reddit.com##div.stickied
+old.reddit.com##div.thing:has(span.linkflairlabel[title*='Clickbait'])
+old.reddit.com##div.thing:has(span.linkflairlabel[title="Locked"])
+old.reddit.com##div.thing[data-score="0"], div.thing[data-score|="-"]
+www.reddit.com##.nd\:visible.hidden.community-highlight-carousel
+www.reddit.com###right-sidebar-container
+www.reddit.com##div.grid-container div.left-sidebar
+www.reddit.com##div.right-sidebar pdp-right-rail
+www.reddit.com##header nav div.justify-end
 
 ! Speedtest.net
 speedtest.net##.pure-g.content-devices
 speedtest.net##.pure-u-custom-wifi-recommendation
 
 ! TikTok
-www.tiktok.com##.guide-login-banner
 ||tiktok.com^$third-party
+www.tiktok.com##.guide-login-banner
 
 ! Twitch
 www.twitch.tv##.tc-upsell
 www.twitch.tv##.top-nav__menu button:has(div[data-a-target='tw-core-button-label-text']:has-text(/Ad-Free/i))
+www.twitch.tv##.tw-callout-message
 www.twitch.tv##.tw-root--theme-light:has(.subtember-text)
 www.twitch.tv###twilight-sticky-footer-root
-www.twitch.tv##.tw-callout-message
+
+! Twitter
+||t.co^
+||tweetdeck.com
+||twimg.com^
+||twitter.com.cdn.cloudflare.net^
+||twitter.com^
+||twitter.map.fastly.net^
+||x.com.cdn.cloudflare.net^
+||x.com^
+||x.map.fastly.net^
 
 ! Weather
-wunderground.com##.desktop-only > .video-promo.data-module
-wunderground.com##.ng-star-inserted.data-module.cat-six-latest-article
 accuweather.com##.left-align-children.right-rail
 weather.com##.regionSidebar
 weather.com##section[data-testid="ContentMediaModule"]
-www.theweathernetwork.com###slider-sections
-www.theweathernetwork.com###promo-box
-www.theweathernetwork.com##li:has([href^="/en/assistant"])
-www.theweathernetwork.com###feature-videos
+wunderground.com##.desktop-only > .video-promo.data-module
+wunderground.com##.ng-star-inserted.data-module.cat-six-latest-article
 www.theweathernetwork.com###assistant-callout
+www.theweathernetwork.com###feature-videos
 www.theweathernetwork.com###other-locations
+www.theweathernetwork.com###promo-box
+www.theweathernetwork.com###slider-sections
+www.theweathernetwork.com##li:has([href^="/en/assistant"])
 
 ! Wikipedia
-wikipedia.org##.vector-sitenotice-container
 wikipedia.org##.cn-fundraising
+wikipedia.org##.vector-sitenotice-container
 wikipedia.org##div.ext-quick-survey-panel
 
 ! XDA Developers Forum / Articles
 www.xda-developers.com##.adsninja-rail-container
 www.xda-developers.com##.article-card
 www.xda-developers.com##.article-footer
-www.xda-developers.com##.footer-content
 www.xda-developers.com##.article-options
 www.xda-developers.com##.default-menu.w-images-header-menu
+www.xda-developers.com##.footer-content
 
 ! XFINITY / Comcast
 www.xfinity.com###nuanMessagingFrame
 
 !!!!!!!!!!!!!!!!!!!!!!!
 !! Category Specific !!
-
-! Malicious
-||mcafee.com^
-||mcafeeassets.com^
-||grokipedia.com^
-
-! Twitter
-||x.com^
-||twitter.com^
-||t.co^
-||twimg.com^
-||tweetdeck.com
-||twitter.map.fastly.net^
-||x.map.fastly.net^
-||twitter.com.cdn.cloudflare.net^
-||x.com.cdn.cloudflare.net^
+!!!!!!!!!!!!!!!!!!!!!!!
 
 ! AI
 ||x.ai^
@@ -227,251 +237,244 @@ www.xfinity.com###nuanMessagingFrame
 www.delta.com##.desktop-enabled.idp-dynamic-banner
 
 ! Developer Docs
-www.telerik.com##.Sidebar
-www.telerik.com##feedback-form
-jsfiddle.net###sidebar
+dev.to##.popover-billboard.crayons-sponsorship.crayons-card--secondary.crayons-card
 jsfiddle.net##.goPro
 jsfiddle.net###modal-overlay
-dev.to##.popover-billboard.crayons-sponsorship.crayons-card--secondary.crayons-card
+jsfiddle.net###sidebar
+www.telerik.com##.Sidebar
+www.telerik.com##feedback-form
 
 ! Development Forums
-stackexchange.com##.left-sidebar
-stackexchange.com##.js-dismissable-hero
-stackexchange.com##.js-consent-banner
-superuser.com###signup-dialog-container
 serverfault.com##.js-dismissable-hero
-stackoverflow.com###signup-dialog-container
-stackoverflow.com##.show-votes
+stackexchange.com##.js-consent-banner
+stackexchange.com##.js-dismissable-hero
+stackexchange.com##.left-sidebar
+stackoverflow.com##.bottom-notice
+stackoverflow.com##.js-announcement-banner
 stackoverflow.com##.js-notice-sidebar-popover
 stackoverflow.com##.js-sticky-leftnav.left-sidebar--sticky-container
-stackoverflow.com##.js-announcement-banner
-stackoverflow.com##.bottom-notice
 stackoverflow.com##.post-form
+stackoverflow.com##.show-votes
+stackoverflow.com###signup-dialog-container
+superuser.com###signup-dialog-container
+
+! Financial Blogs / Articles
+www.investopedia.com##.article-post-content
+www.investopedia.com##.article-right-rail.loc
+www.investopedia.com##.js-recirc-section
+www.investopedia.com##.mntl-header__menu-top > .mntl-utility-nav.comp
+www.investopedia.com##.mntl-social-nav
+www.investopedia.com##.newsletter-link-wrapper
+www.investopedia.com##div.mntl-top-stories
+www.investopedia.com##div[role='dialog']
+
+! Flights
+www.flightradar24.com##div.flex[data-widget-type='bookmarks']
+www.kayak.com##div.Fxw9-result-item-container:has(div.NAnQ-details:has(div[aria-label='Ad disclaimer']))
 
 ! Gaming
 www.playstation.com##.feedback--popup
 
+! General Annoyances (i.e. Banner Ads, Fake Messages)
+azmen.com###switch-ad
+azmen.com##div:has(div.az-ads-banner)
+azmen.com##div.az-footer:has(div#aznude_native_exo_gay)
+azmen.com##div.container div#exo-native-az-container
+azmen.com##div#aznlive-banner
+azmen.com##div#aznlive-horizontal__banner
+sniffies.com##app-advertising-zone-map
+sniffies.com##app-nav-lower-container div.bottom div.nav-button:has(button.plus-nav)
+sniffies.com##button.nav-logo
+sniffies.com##div.global-chat__message-container div.overset-global-chat:has(app-advertising-zone-global-chat)
+sniffies.com##div.recents-container tr.chatholder-row-item:has(tr[aria-label='View Advertisement'])
+sniffies.com##ui-menu-item-group:has(div.upgrade-btn-container)
+
 ! Health
 www.goodrx.com##div[data-qa='NewsletterSignUpAlert']
-www.webmd.com##.main-container-3.main-container
 www.webmd.com##.dfp-native.top-picks
+www.webmd.com##.main-container-3.main-container
+
+! Malicious / Misinformation
+||grokipedia.com^
+||mcafee.com^
+||mcafeeassets.com^
+
+! Misc
+crdroid.net##.show.crblocker-wrapper
+eos.com##.auth-modal.modal
+everymac.com##body div:has(div.prompt-bg)
+golden1.com##.site-status-fixed
+imgur.com##.BottomRecirc
+imgur.com##.Gallery-Sidebar
+themezzoapts.com###browser-warning-popup
+tunein.com###outstream-video-ad-right-side-house-ads
+www.bestphoneplans.net##div.not-prose:has(div.flex:has(span:has-text(Sponsored)))
+www.bestphoneplans.net##div.sticky
+www.britannica.com##.banner-links.container
+www.britannica.com##.marketing-content
+www.britannica.com##.tlr-related-quizzes
+www.plexopedia.com##.bba.bottom-image
+www.psychologytoday.com##.layout-content-right-rail
+www.toptal.com##.blog_post-sidebar
+www.wikihow.com###article_courses_banner
+www.zetaliving.com##.show.fade.modal-backdrop
 
 ! News - General
+apnews.com##.Enhancement.PageListEnhancementGeneric
+sfstandard.com##.article-content div.border:has(span)
+sfstandard.com##.article-content div.w-full
+sfstandard.com##div[data-align='none']:has(div.related-post-block)
+sfstandard.com##main aside#story-discovery
 www.bbc.com##aside
 www.independent.co.uk##.sidebar
-www.vox.com##.l-article-body-segment.l-segment.l-sidebar-fixed > .l-col__sidebar
-apnews.com##.Enhancement.PageListEnhancementGeneric
-www.recordnet.com##.gnt_rr
-www.sacbee.com##.partner-digest-group.grid
-www.nbcwashington.com##.section-content--secondary
 www.nbcwashington.com##.recirc-module
-www.pbs.org##.post__aside
+www.nbcwashington.com##.section-content--secondary
+www.pbs.org##.comments__btn
 www.pbs.org##.inline-invite
 www.pbs.org##.newsletter-inline
-www.pbs.org##.comments__btn
+www.pbs.org##.post__aside
 www.pbs.org##.sidebar
-sfstandard.com##div[data-align='none']:has(div.related-post-block)
-sfstandard.com##.article-content div.w-full
-sfstandard.com##main aside#story-discovery
-sfstandard.com##.article-content div.border:has(span)
+www.recordnet.com##.gnt_rr
+www.sacbee.com##.partner-digest-group.grid
+www.vox.com##.l-article-body-segment.l-segment.l-sidebar-fixed > .l-col__sidebar
 
 ! News - Technology
-www.macstories.net##article.post .post-supporters
-www.macstories.net##.post-content .aside
-www.macrumors.com##div.noskim
-www.macrumors.com###featured_slider2
-www.macrumors.com###comments
-www.macrumors.com##footer
-www.macrumors.com##main div[data-track='popular-stories']
 9to5google.com##.container.sidebar
-9to5mac.com##.sidebar--5.xs.container.sidebar > .ninetofive-branded-rss.widget
-9to5mac.com##.container.sidebar
 9to5mac.com##.article__youtube-video
-9to5mac.com###comments
-9to5mac.com##ul.wp-block-list
-9to5mac.com##.wp-block-heading#h-highlighted-accessories
-9to5mac.com##div.river__posts:has(article a[href*='trump'],a[href*='elon'],a[href*='spacex'],a[href*='tariff'],a[href*='/daily-'])
+9to5mac.com##.container.sidebar
 9to5mac.com##.google-preferred-source-badge
+9to5mac.com##.sidebar--5.xs.container.sidebar > .ninetofive-branded-rss.widget
+9to5mac.com##.wp-block-heading#h-highlighted-accessories
+9to5mac.com###comments
+9to5mac.com##div.river__posts:has(article a[href*='trump'],a[href*='elon'],a[href*='spacex'],a[href*='tariff'],a[href*='/daily-'])
 9to5mac.com##h3.wp-block-heading
-www.gsmarena.com##div.review-body div.news-item
-www.lightreading.com##.Sidebar
-www.lightreading.com##.ContentPreview:has(.ListPreview-Title:has-text(Trump)), :has(.ListPreview-Title:has-text(Elon)), :has(.ListPreview-Title:has-text(SpaceX)), :has(.ListPreview-Title:has-text(Starlink)), :has(.ListPreview-Title:has-text(DOGE))
-www.lightreading.com##p.RelatedArticle
-www.lightreading.com##.TwoColumnLayout-Sidebar
-www.lightreading.com##.CrossNetworkBar
-www.lightreading.com##.Navigation-SecondaryMenuWrapper
-www.lightreading.com##.NavBase-RegisterWrapper
-www.lightreading.com##.EventsPromotions
-www.lightreading.com##.ArticleBase-IirisRecommendation
-www.lightreading.com##.RegistrationSection
-vacuumwars.com##.sticky-price-container
+9to5mac.com##ul.wp-block-list
 appleinsider.com##div.sbr-spotlight
+arstechnica.com##.site-footer
+arstechnica.com##.xrail
+arstechnica.com###action_button_container
+arstechnica.com###article-footer-wrap
+arstechnica.com##div.mx-auto:has(.component-most-read)
 techcrunch.com##.is-vertical
+vacuumwars.com##.sticky-price-container
+www.404media.co##.sidebar
 www.androidauthority.com##div[data-container-type='content']:has(a[target])
 www.androidpolice.com##.adsninja-rail-container.sidebar
-www.androidpolice.com##.footer-threads
 www.androidpolice.com##.footer-recommended-feed
-www.tomshardware.com##aside[data-component-name='Recirculation:ArticleRiver']
+www.androidpolice.com##.footer-threads
 www.digitaltrends.com##.h-sidebar
-www.wired.com##.persistent-bottom
-www.theregister.com##.listinks
-www.theregister.com##.desktop_only.right_col > .similar_topics
-www.theverge.com###coral_thread
-www.theverge.com##.l-article-body-segment.l-segment.l-sidebar-fixed > .l-col__sidebar
-www.theverge.com##.w-mobile-breaker
-www.theverge.com##div.duet--layout--entry-body-container div.duet--layout--rail
-www.theverge.com###content .duet--layout--rail
-www.theverge.com##.zephr-zone-footer
-www.theverge.com##div.duet--layout--article-recirc-color-container
-www.theverge.com##.duet--content-cards--content-card > a[href*='elon'], a[href*='trump'], a[href*='doge'], a[href*='federal'], a[href*='tariff'], a[href*='woke']
-www.theverge.com##div.duet--layout--article-recirc-color-container
-arstechnica.com###article-footer-wrap
-arstechnica.com##.site-footer
-arstechnica.com###action_button_container
-arstechnica.com##.xrail
-arstechnica.com##div.mx-auto:has(.component-most-read)
-www.pcmag.com##article p:has(em > a)
+www.gsmarena.com##div.review-body div.news-item
+www.lightreading.com##.ArticleBase-IirisRecommendation
+www.lightreading.com##.ContentPreview:has(.ListPreview-Title:has-text(Trump)), :has(.ListPreview-Title:has-text(Elon)), :has(.ListPreview-Title:has-text(SpaceX)), :has(.ListPreview-Title:has-text(SpaceXAI)), :has(.ListPreview-Title:has-text(Starlink)), :has(.ListPreview-Title:has-text(Carr))
+www.lightreading.com##.CrossNetworkBar
+www.lightreading.com##.EventsPromotions
+www.lightreading.com##.NavBase-RegisterWrapper
+www.lightreading.com##.Navigation-SecondaryMenuWrapper
+www.lightreading.com##.RegistrationSection
+www.lightreading.com##.Sidebar
+www.lightreading.com##.TwoColumnLayout-Sidebar
+www.lightreading.com##p.RelatedArticle
+www.macrumors.com###comments
+www.macrumors.com###featured_slider2
+www.macrumors.com##div.noskim
+www.macrumors.com##footer
+www.macrumors.com##main div[data-track='popular-stories']
+www.macstories.net##.post-content .aside
+www.macstories.net##article.post .post-supporters
 www.pcmag.com##article div[data-parent-group='related-stories']
+www.pcmag.com##article p:has(em > a)
 www.pcmag.com##div div:has(>ul:has(.leading-loose))
-www.pcmag.com##section[data-parent-group='dig-deeper']
-www.pcmag.com##nav button[data-element='Maggie-Product-Picker-Launcher']
-www.pcmag.com##section a[data-module='author-bio']
 www.pcmag.com##div[data-seamless-scroll-loading-indicator]
 www.pcmag.com##footer
-www.404media.co##.sidebar
+www.pcmag.com##nav button[data-element='Maggie-Product-Picker-Launcher']
+www.pcmag.com##section a[data-module='author-bio']
+www.pcmag.com##section[data-parent-group='dig-deeper']
+www.theregister.com##.desktop_only.right_col > .similar_topics
+www.theregister.com##.listinks
+www.theverge.com##.duet--content-cards--content-card > a[href*='elon'], a[href*='trump'], a[href*='doge'], a[href*='federal'], a[href*='tariff'], a[href*='woke']
+www.theverge.com##.l-article-body-segment.l-segment.l-sidebar-fixed > .l-col__sidebar
+www.theverge.com##.w-mobile-breaker
+www.theverge.com##.zephr-zone-footer
+www.theverge.com###content .duet--layout--rail
+www.theverge.com###coral_thread
+www.theverge.com##div.duet--layout--article-recirc-color-container
+www.theverge.com##div.duet--layout--article-recirc-color-container
+www.theverge.com##div.duet--layout--entry-body-container div.duet--layout--rail
+www.tomshardware.com##aside[data-component-name='Recirculation:ArticleRiver']
+www.wired.com##.persistent-bottom
 
-! Podcast
+! Podcasts
 www.relay.fm##.sp-area
 
 ! Recipes
+ohsodelicioso.com##.comment-respond
+ohsodelicioso.com##.entry-comments
+ohsodelicioso.com##.widget-area.sidebar-primary
+ohsodelicioso.com##.wp-block-yoast-faq-block
 www.foodnetwork.com##.editorialPromo
+www.foodnetwork.com##.lookingForSomethingElse
 www.foodnetwork.com##.o-RatingsAndReviews
 www.foodnetwork.com##.recipe-body-footer
-www.foodnetwork.com##.lookingForSomethingElse
-ohsodelicioso.com##.wp-block-yoast-faq-block
-ohsodelicioso.com##.entry-comments
-ohsodelicioso.com##.comment-respond
-ohsodelicioso.com##.widget-area.sidebar-primary
+www.jocooks.com##.author-box
+www.jocooks.com##.dpsp-content-wrapper
+www.jocooks.com##.oc-recipe-footer
 www.jocooks.com##.sidebar
 www.jocooks.com##.wpd-comments-open
-www.jocooks.com##.author-box
-www.jocooks.com##.oc-recipe-footer
-www.jocooks.com##.dpsp-content-wrapper
 
 ! Stores / Shopping
-www.homedepot.com###collapsible-sections-accordion > .zone-card
-www.homedepot.com###footer-static
-www.lowes.com##.sms-modal-content
 www.anker.com##.cy-player
 www.chewy.com##.promo-banner
-www.walmart.com##div a[href*="?utm_campaign"]
-www.monoprice.com##.side-adsense
-www.ikea.com##.hnf-floating-container
 www.ebay.com##.x-vi-evo-main-container__top-panel
+www.homedepot.com###collapsible-sections-accordion > .zone-card
+www.homedepot.com###footer-static
+www.ikea.com##.hnf-floating-container
+www.lowes.com##.sms-modal-content
+www.monoprice.com##.side-adsense
+www.walmart.com##div a[href*="?utm_campaign"]
 www.waterdropfilter.com###wd-cookie-consent-popup
 
-! Vehicle Manufacturers
-www.hyundaiusa.com##.heyhyundai-chat-button-web
-rivian.com###newsletter
-www.ford.com##div.secondarynav li div.ford-ai-chat-launcher-container
+! TLDs
+||biz^
+||bot^
+||cf^
+||cn^
+||ga^
+||gop^
+||gq^
+||how^
+||icu^
+||media^
+||ml^
+||mov^
+||news^
+||onion^
+||republican^
+||ru^
+||store^
+||tk^
+||work^
+||zip^
 
 ! Vehicle Blogs / Search Engines / Sales
-www.autotempest.com##.wrap-hide
-www.autotempest.com##.search-tips-container:has(#remove-filters)
-www.cargurus.com##section[data-testid='article-content'] div[role='region']
-www.caranddriver.com##section.embed
-www.caranddriver.com##div.article-body-content div:has(h3:has-text(For Sale))
 electrek.co##article:has(.meta__guide a[href*='trump'],[href*='elon'],[href*='podcast'],[href*='musk'],[href*='tesla'],[href*='aviation'])
-insideevs.com##.relatedContent-new
-insideevs.com##div.postBody div.flex:has(div.top-counter-comments-label-wrapper)
-insideevs.com##.tip-us-email
-insideevs.com##.m1-newsfeed_sidebar
-insideevs.com##div.adfeed
-insideevs.com##.rec-strip
-insideevs.com###comments-block-wrapper
+insideevs.com##.box-item-right
 insideevs.com##.flex.adfeed-container
 insideevs.com##.flex.footer-navigation
 insideevs.com##.flex.m1-article-meta
-insideevs.com##.box-item-right
+insideevs.com##.m1-newsfeed_sidebar
+insideevs.com##.rec-strip
+insideevs.com##.relatedContent-new
+insideevs.com##.tip-us-email
+insideevs.com###comments-block-wrapper
+insideevs.com##div.adfeed
+insideevs.com##div.postBody div.flex:has(div.top-counter-comments-label-wrapper)
+www.autotempest.com##.search-tips-container:has(#remove-filters)
+www.autotempest.com##.wrap-hide
+www.caranddriver.com##div.article-body-content div:has(h3:has-text(For Sale))
+www.caranddriver.com##section.embed
+www.cargurus.com##section[data-testid='article-content'] div[role='region']
 
-! Financial Blogs / Articles
-www.investopedia.com##.article-right-rail.loc
-www.investopedia.com##.article-post-content
-www.investopedia.com##.js-recirc-section
-www.investopedia.com##div[role='dialog']
-www.investopedia.com##.mntl-header__menu-top > .mntl-utility-nav.comp
-www.investopedia.com##.newsletter-link-wrapper
-www.investopedia.com##.mntl-social-nav
-www.investopedia.com##div.mntl-top-stories
-
-! Flights
-www.kayak.com##div.Fxw9-result-item-container:has(div.NAnQ-details:has(div[aria-label='Ad disclaimer']))
-www.flightradar24.com##div.flex[data-widget-type='bookmarks']
-
-! General Annoyances (i.e. Banner Ads, Fake Messages)
-sniffies.com##div.recents-container tr.chatholder-row-item:has(tr[aria-label='View Advertisement'])
-sniffies.com##app-advertising-zone-map
-sniffies.com##div.global-chat__message-container div.overset-global-chat:has(app-advertising-zone-global-chat)
-sniffies.com##app-nav-lower-container div.bottom div.nav-button:has(button.plus-nav)
-sniffies.com##button.nav-logo
-sniffies.com##ui-menu-item-group:has(div.upgrade-btn-container)
-azmen.com###switch-ad
-azmen.com##div#aznlive-banner
-azmen.com##div:has(div.az-ads-banner)
-azmen.com##div.container div#exo-native-az-container
-azmen.com##div.az-footer:has(div#aznude_native_exo_gay)
-azmen.com##div#aznlive-horizontal__banner
-
-! Misc
-www.wikihow.com###article_courses_banner
-www.plexopedia.com##.bba.bottom-image
-www.toptal.com##.blog_post-sidebar
-eos.com##.auth-modal.modal
-www.zetaliving.com##.show.fade.modal-backdrop
-golden1.com##.site-status-fixed
-crdroid.net##.show.crblocker-wrapper
-imgur.com##.Gallery-Sidebar
-imgur.com##.BottomRecirc
-themezzoapts.com###browser-warning-popup
-www.britannica.com##.tlr-related-quizzes
-www.britannica.com##.marketing-content
-www.britannica.com##.banner-links.container
-everymac.com##body div:has(div.prompt-bg)
-tunein.com###outstream-video-ad-right-side-house-ads
-www.psychologytoday.com##.layout-content-right-rail
-www.bestphoneplans.net##div.sticky
-www.bestphoneplans.net##div.not-prose:has(div.flex:has(span:has-text(Sponsored)))
-
-! Hiring Cafe
-hiring.cafe##body div.fixed:has(button > span > video)
-hiring.cafe##div.relative a.block
-hiringcafe.com##body div.fixed:has(button > span > video)
-hiringcafe.com##div.relative a.block
-
-! Meta / Facebook Family of Foods
-www.instagram.com##body div section main div:has(div[tabindex="-1"]:has(a[href*='/accounts/login']))
-www.instagram.com##div[role="presentation"]
-www.instagram.com##div[role="dialog"]
-www.instagram.com##body:style(overflow: auto !important;)
-
-! TLDs
-||onion^
-||biz^
-||media^
-||news^
-||gop^
-||republican^
-||store^
-||cn^
-||ru^
-||icu^
-||work^
-||tk^
-||ml^
-||ga^
-||cf^
-||gq^
-||zip^
-||bot^
-||mov^
-||how^
+! Vehicle Manufacturers
+rivian.com###newsletter
+www.ford.com##div.secondarynav li div.ford-ai-chat-launcher-container
+www.hyundaiusa.com##.heyhyundai-chat-button-web
