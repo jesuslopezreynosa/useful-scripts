@@ -297,6 +297,13 @@ www.gsmarena.com##div.review-body div.news-item
 www.lightreading.com##.Sidebar
 www.lightreading.com##.ContentPreview:has(.ListPreview-Title:has-text(Trump)), :has(.ListPreview-Title:has-text(Elon)), :has(.ListPreview-Title:has-text(SpaceX)), :has(.ListPreview-Title:has-text(Starlink)), :has(.ListPreview-Title:has-text(DOGE))
 www.lightreading.com##p.RelatedArticle
+www.lightreading.com##.TwoColumnLayout-Sidebar
+www.lightreading.com##.CrossNetworkBar
+www.lightreading.com##.Navigation-SecondaryMenuWrapper
+www.lightreading.com##.NavBase-RegisterWrapper
+www.lightreading.com##.EventsPromotions
+www.lightreading.com##.ArticleBase-IirisRecommendation
+www.lightreading.com##.RegistrationSection
 vacuumwars.com##.sticky-price-container
 appleinsider.com##div.sbr-spotlight
 techcrunch.com##.is-vertical
@@ -438,6 +445,14 @@ www.bestphoneplans.net##div.not-prose:has(div.flex:has(span:has-text(Sponsored))
 ! Hiring Cafe
 hiring.cafe##body div.fixed:has(button > span > video)
 hiring.cafe##div.relative a.block
+hiringcafe.com##body div.fixed:has(button > span > video)
+hiringcafe.com##div.relative a.block
+
+! Meta / Facebook Family of Foods
+www.instagram.com##body div section main div:has(div[tabindex="-1"]:has(a[href*='/accounts/login']))
+www.instagram.com##div[role="presentation"]
+www.instagram.com##div[role="dialog"]
+www.instagram.com##body:style(overflow: auto !important;)
 
 ! TLDs
 ||onion^
