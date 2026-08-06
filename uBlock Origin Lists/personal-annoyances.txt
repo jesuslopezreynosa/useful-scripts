@@ -298,6 +298,9 @@ sniffies.com##div#tray-container-places div.data-container ul app-place-list-ite
 !sniffies.com##div.recents-container tr.chatholder-row-item:has(tr[aria-label='View Advertisement'])
 !sniffies.com##ui-menu-item-group:has(div.upgrade-btn-container)
 
+! Government
+calcareers.ca.gov###toast-container
+
 ! Health
 www.goodrx.com##div[data-qa='NewsletterSignUpAlert']
 www.webmd.com##.dfp-native.top-picks
@@ -367,6 +370,9 @@ arstechnica.com##div.mx-auto:has(.component-most-read)
 techcrunch.com##.is-vertical
 vacuumwars.com##.sticky-price-container
 www.404media.co##.sidebar
+www.404media.co##.kg-callout-card
+www.404media.co##.comments__container
+www.404media.co##[src*="https://playlist.megaphone.fm?"]
 www.androidauthority.com##div[data-container-type='content']:has(a[target])
 www.androidpolice.com##.adsninja-rail-container.sidebar
 www.androidpolice.com##.footer-recommended-feed
