@@ -282,12 +282,21 @@ azmen.com##div.az-footer:has(div#aznude_native_exo_gay)
 azmen.com##div.container div#exo-native-az-container
 azmen.com##div#aznlive-banner
 azmen.com##div#aznlive-horizontal__banner
-sniffies.com##app-advertising-zone-map
-sniffies.com##app-nav-lower-container div.bottom div.nav-button:has(button.plus-nav)
-sniffies.com##button.nav-logo
-sniffies.com##div.global-chat__message-container div.overset-global-chat:has(app-advertising-zone-global-chat)
-sniffies.com##div.recents-container tr.chatholder-row-item:has(tr[aria-label='View Advertisement'])
-sniffies.com##ui-menu-item-group:has(div.upgrade-btn-container)
+sniffies.com##div.lower-nav-zone div.nav-button:has(button.plus-nav)
+sniffies.com##div.top-menu div.sitelinks app-newsletter-signup-card-container
+sniffies.com##div.overset-global-chat > div#global-chat-overset
+sniffies.com##table.chatholder app-chat-list-ad
+sniffies.com##div.tray-bottom div.list-footer
+sniffies.com##div.map-main-container app-advertising-zone-map
+sniffies.com##div.app-screen div.account-settings-wrapper  div.profile-settings ui-menu-item-group ui-list-item-level-3:has(div.content div.plus-icon)
+sniffies.com##div.panel-content div.upgrade-cta
+sniffies.com##div#tray-container-places div.data-container ul app-place-list-item:has(marker-icon-grid i.fa-question-circle)
+!sniffies.com##app-advertising-zone-map
+!sniffies.com##app-nav-lower-container div.bottom div.nav-button:has(button.plus-nav)
+!sniffies.com##button.nav-logo
+!sniffies.com##div.global-chat__message-container div.overset-global-chat:has(app-advertising-zone-global-chat)
+!sniffies.com##div.recents-container tr.chatholder-row-item:has(tr[aria-label='View Advertisement'])
+!sniffies.com##ui-menu-item-group:has(div.upgrade-btn-container)
 
 ! Health
 www.goodrx.com##div[data-qa='NewsletterSignUpAlert']
