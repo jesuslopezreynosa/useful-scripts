@@ -85,17 +85,18 @@ www.youtube.com###guide-renderer a#endpoint[title*='Shorts'],a#endpoint[title*='
 www.youtube.com##button-view-model.ytSpecButtonViewModelHost:has(button[aria-label='Ask'])
 www.youtube.com##yt-button-view-model:has(.yt-spec-button-shape-next__button-text-content:has-text(Ask))
 www.youtube.com##ytd-masthead yt-searchbox div button[aria-label='Ask YouTube']
-youtube.com##.ytd-rich-section-renderer.style-scope
-youtube.com###big-yoodle
-youtube.com###button > .ytd-button-renderer.style-scope
-youtube.com###voice-search-button
-youtube.com##div#chat-container
-youtube.com##div#columns div#chat-container
-youtube.com##div#panels-full-bleed-container:not(:has(div#player-container))
-youtube.com##ytd-comments#comments
-youtube.com##ytd-reel-shelf-renderer
-youtube.com##ytd-rich-section-renderer.efyt-is-short
-youtube.com##ytd-shelf-renderer #dismissible
+www.youtube.com##ytd-rich-item-renderer:has( badge-shape div.ytBadgeShapeText:has-text(featured))
+www.youtube.com##.ytd-rich-section-renderer.style-scope
+www.youtube.com###big-yoodle
+www.youtube.com###button > .ytd-button-renderer.style-scope
+www.youtube.com###voice-search-button
+www.youtube.com##div#chat-container
+www.youtube.com##div#columns div#chat-container
+www.youtube.com##div#panels-full-bleed-container:not(:has(div#player-container))
+www.youtube.com##ytd-comments#comments
+www.youtube.com##ytd-reel-shelf-renderer
+www.youtube.com##ytd-rich-section-renderer.efyt-is-short
+www.youtube.com##ytd-shelf-renderer #dismissible
 
 ! Meta / Facebook Family of Foods
 www.instagram.com##body div section main div:has(div[tabindex="-1"]:has(a[href*='/accounts/login']))
@@ -291,6 +292,13 @@ sniffies.com##div.map-main-container app-advertising-zone-map
 sniffies.com##div.app-screen div.account-settings-wrapper  div.profile-settings ui-menu-item-group ui-list-item-level-3:has(div.content div.plus-icon)
 sniffies.com##div.panel-content div.upgrade-cta
 sniffies.com##div#tray-container-places div.data-container ul app-place-list-item:has(marker-icon-grid i.fa-question-circle)
+||exoclick.com^third-party,domain=sniffies.com
+||googletagmanager.com^third-party,domain=sniffies.com
+||rtmark.net^third-party,domain=sniffies.com
+||sentry.io^third-party,domain=sniffies.com
+||trafficjunky.com^third-party,domain=sniffies.com
+||trafficjunky.net^third-party,domain=sniffies.com
+||tsyndicate.com^third-party,domain=sniffies.com
 !sniffies.com##app-advertising-zone-map
 !sniffies.com##app-nav-lower-container div.bottom div.nav-button:has(button.plus-nav)
 !sniffies.com##button.nav-logo

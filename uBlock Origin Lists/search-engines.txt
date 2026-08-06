@@ -68,14 +68,6 @@ www.google.com##div#rcnt div#rhs div div[role='presentation'] div>:has(g-link:ha
 www.google.com###botstuff div#bres
 www.google.com##div.main div#cnt div[role='navigation'] div[role='list'] div[role='listitem']:has(span:has-text(News))
 www.google.com##div#search div#rso div:has(div#tads)
-!www.google.com##div#search div#tads
-!www.google.com##div[role='navigation'] div[role='listitem']:has(span:has-text(AI Mode))
-!www.google.com##div[role='presentation']:has(div[role='presentation']:has-text(Trending searches))
-!www.google.com##div#rcnt div:has(h1:has-text(AI Overview))
-!www.google.com##div:has(> a[href*='/search?']:has(span:has-text(More news)))
-!www.google.com##form[action='/search'] > div > div > div > div > div:has(button[role='link'])
-!www.google.com##div > g-section-with-header:has(span:has-text(Local news))
-!www.google.com##div[data-rpos]:has(div:has(> span:has-text(/Top stories/i)))
 
 ! www.google.com/search
 
