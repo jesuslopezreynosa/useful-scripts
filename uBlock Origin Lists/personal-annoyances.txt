@@ -33,6 +33,7 @@ www.amazon.com##div#gw-content-grid div.celwidget:has(a[href*='/gp/video/'])
 www.amazon.com##div#gw-content-grid div.celwidget:has(a[href*='/music/'])
 www.amazon.com##div#gwm-window-layout div#gwm-window-xl-container:has(div[data-csa-c-painter='single-video-card'])
 www.amazon.com##section.category-section[aria-labelledby='Trending']
+www.amazon.com###gwm-Deck-cf
 
 ! Apple
 discussions.apple.com##.notification
@@ -65,6 +66,8 @@ hiringcafe.com##div.relative a.block
 github.com##.home-campaign .global-banner
 github.com##div.react-code-size-details-in-header:has(span:has-text(/Copilot/i))
 github.com##header div.AppHeader-CopilotChat
+github.com##header div ul li:has(a[href*='/sponsors/'])
+github.com##div[data-component='SplitPageLayout.Pane'] div div:has(a[href*='/sponsors/'])
 
 ! Google
 docs.google.com##.docs-ml-promotion
@@ -156,6 +159,10 @@ old.reddit.com##div.stickied
 old.reddit.com##div.thing:has(span.linkflairlabel[title*='Clickbait'])
 old.reddit.com##div.thing:has(span.linkflairlabel[title="Locked"])
 old.reddit.com##div.thing[data-score="0"], div.thing[data-score|="-"]
+old.reddit.com##div.side div.spacer:has(div.morelink)
+old.reddit.com##div.side div.spacer:has(div.shortlink)
+old.reddit.com##div.read-next-container
+old.reddit.com##div.side div.spacer:has(li.message-button)
 www.reddit.com##.nd\:visible.hidden.community-highlight-carousel
 www.reddit.com###right-sidebar-container
 www.reddit.com##div.grid-container div.left-sidebar
