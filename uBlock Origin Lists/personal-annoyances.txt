@@ -240,6 +240,9 @@ www.xfinity.com###nuanMessagingFrame
 ||copilot.microsoft.com^$third-party
 ||githubcopilot.com^
 ||gemini.google.com^$third-party
+||www.google.*/async/folsrch$xhr,domain=www.google.*
+||google.com/ai^$all
+||ai.google.com^$all
 
 ! Airlines
 www.delta.com##.desktop-enabled.idp-dynamic-banner
@@ -376,6 +379,8 @@ www.vox.com##.l-article-body-segment.l-segment.l-sidebar-fixed > .l-col__sidebar
 9to5mac.com##div.river__posts:has(article a[href*='trump'],a[href*='elon'],a[href*='spacex'],a[href*='tariff'],a[href*='/daily-'])
 9to5mac.com##h3.wp-block-heading
 9to5mac.com##ul.wp-block-list
+9to5mac.com##div.post-content div.top-comment
+9to5mac.com##div.container>:has(div.related-guides)
 appleinsider.com##div.sbr-spotlight
 arstechnica.com##.site-footer
 arstechnica.com##.xrail

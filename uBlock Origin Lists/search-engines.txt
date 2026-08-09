@@ -68,8 +68,8 @@ www.google.com##div#rcnt div#rhs div div[role='presentation'] div>:has(g-link:ha
 www.google.com###botstuff div#bres
 www.google.com##div.main div#cnt div[role='navigation'] div[role='list'] div[role='listitem']:has(span:has-text(News))
 www.google.com##div#search div#rso div:has(div#tads)
-
-! www.google.com/search
+google.*##div[role="navigation"] div[role="list"] > div[role="listitem"]:has(a[href^="/search"][href*="&udm=50"])
+||www.google.com/search?^$uritransform=/(^(?!.*&tbs=).*$)/$1&tbs=1/
 
 ! Qwant
 www.qwant.com##div[data-testid='sectionVideos']
