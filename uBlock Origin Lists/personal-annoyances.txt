@@ -55,6 +55,7 @@ www.costco.com##.oo_tab_right
 www.costco.com##div.membership-information-container div.membership-renew-upsell-espot
 www.costco.com##div.MuiBox-root[name="emailSignUpForm"]
 www.costco.com##div[data-testid='main-column'] div:has(div[data-testid='AdBuilder'])
+www.costco.com##div#mainContent main div[data-testid*='AdSet-']:has(div[data-testid='text_banner'])
 
 ! Hiring Cafe
 hiring.cafe##body div.fixed:has(button > span > video)
@@ -127,6 +128,7 @@ www.linkedin.com##div[data-testid='mainFeed'] div[data-display-contents='true']>
 www.linkedin.com##div#feed-news-module
 www.linkedin.com##header nav ul li:has(button[aria-label="For Business"]):xpath(../../..)
 www.linkedin.com##nav li:has(div.premium-upsell-link)
+www.linkedin.com##div[data-display-contents='true']>:has(div[componentkey*='FeedType_MAIN_FEED_RECENT']:has(div div div p span:has-text(Promoted)))
 
 ! Plugshare
 www.plugshare.com##.app
@@ -466,6 +468,8 @@ www.ikea.com##.hnf-floating-container
 www.lowes.com##.sms-modal-content
 www.monoprice.com##.side-adsense
 www.walmart.com##div a[href*="?utm_campaign"]
+www.walmart.com##div[data-testid='sp-homepage-videocarousel']
+www.walmart.com##div[data-testid='sp-homepage-multiitemtag']
 www.waterdropfilter.com###wd-cookie-consent-popup
 
 ! TLDs
@@ -508,6 +512,7 @@ www.autotempest.com##.wrap-hide
 www.caranddriver.com##div.article-body-content div:has(h3:has-text(For Sale))
 www.caranddriver.com##section.embed
 www.cargurus.com##section[data-testid='article-content'] div[role='region']
+www.edmunds.com##main#main-content div.container div[data-tracking-parent='article_srp_link']
 
 ! Vehicle Manufacturers
 rivian.com###newsletter
