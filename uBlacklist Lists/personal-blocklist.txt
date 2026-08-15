@@ -28,19 +28,27 @@ title/Vance/
 title/White House/
 
 ! Host Keywords
+host *= "alibaba"
+host *= "bloomberg"
 host *= "catholic"
 host *= "ceasefire"
+host *= "conservative"
 host *= "grok"
 host *= "kiwifarms"
 host *= "lunduke"
 host *= "mormon"
+host *= "newsmax"
 host *= "scientology"
 
 ! Host any TLD
+/^(.+\.)?9news\.[a-z.]+\//
+/^(.+\.)?baidu\.[a-z.]+\//
 /^(.+\.)?dailymail\.[a-z.]+\//
 /^(.+\.)?dmvwaittimes\.[a-z.]+\//
 /^(.+\.)?glassdoor\.[a-z.]+\//
 /^(.+\.)?politico\.[a-z.]+\//
+/^(.+\.)?temu\.[a-z.]+\//
+/^(.+\.)?vk\.[a-z.]+\//
 /^(.+\.)?wikihow\.[a-z.]+\//
 /^(.+\.)?yelp\.[a-z.]+\//
 
@@ -78,12 +86,11 @@ host *= "scientology"
 *://*.fb.com/*
 *://*.pinterest.com/*
 *://*.t.co/*
-*://*.threads.com/*
-*://*.threads.net/*
 *://*.truthsocial.com/*
 *://*.twitter.com/*
 *://*.x.ai/*
 *://*.x.com/*
+/threads\.(net|org)/
 
 ! Annoyances
 *://*.aarp.org/*
@@ -180,13 +187,13 @@ host *= "scientology"
 *://*.trustpilot.com/*
 *://*.tumblr.com/*
 *://*.universalcargo.com/*
+*://*.upi.com/*
 *://*.vocabulary.com/*
 *://*.wcnc.com/*
 *://*.whereisthebuzz.com/*
 *://*.whitepages.com/*
 *://*.wondershare.com/*
 *://*.wwd.com/*
-*://*.www.upi.com/*
 *://*.yahoo.com/*
 *://*.yellowpages.com/*
 *://*.youtube.fandom.com/*
@@ -200,7 +207,6 @@ host *= "scientology"
 *://*.tx.us/*
 
 ! Political
-*://*.conservative.ca/*
 *://*.donaldjtrump.com/*
 *://*.gop.com/*
 *://*.gop.gov/*
@@ -219,13 +225,10 @@ host *= "scientology"
 *://*.24update.net/*
 *://*.adblock-tester.com/*
 *://*.adblockninja.com/*
-*://*.alibaba.com/*
-*://*.alibabagroup.com/*
 *://*.androidfilehost.com/*
 *://*.appfigures.com/*
 *://*.avast.com/*
 *://*.avg.com/*
-*://*.baidu.com/*
 *://*.base64decode.org/*
 *://*.blogspot.com/*
 *://*.cardog.app/*
@@ -273,16 +276,12 @@ host *= "scientology"
 *://*.restoreprivacy.com/*
 *://*.smartasset.com/*
 *://*.socialsecuritybranch.com/*
-*://*.socialsecuritybranch.com/*
 *://*.softonic.com/*
 *://*.ssofficelocation.com/*
-*://*.ssofficelocation.com/*
 *://*.teamviewer.com/*
-*://*.temu.com/*
 *://*.tencent.com/*
 *://*.the-new-norm.fandom.com/*
 *://*.tumbex.com/*
-*://*.vk.com/*
 *://*.vpnmentor.com/*
 *://*.vpnranks.com/*
 *://*.webcatalog.io/*
@@ -360,8 +359,6 @@ host *= "scientology"
 *://*.7news.com.au/*
 *://*.889noticias.mx/*
 *://*.8newsnow.com/*
-*://*.9news.com.au/*
-*://*.9news.com/*
 *://*.abc10.com/*
 *://*.abc11.com/*
 *://*.abc13.com/*
@@ -384,12 +381,6 @@ host *= "scientology"
 *://*.billboard.com/*
 *://*.bizwest.com/*
 *://*.blackrock.com/*
-*://*.bloomberg.com/*
-*://*.bloomberg.org/*
-*://*.bloombergindustry.com/*
-*://*.bloomberglaw.com/*
-*://*.bloombergmedia.com/*
-*://*.bloombergradio.com/*
 *://*.borderreport.com/*
 *://*.bossip.com/*
 *://*.boxden.com/*
@@ -571,9 +562,6 @@ host *= "scientology"
 *://*.newsbreak.com/*
 *://*.newschannel9.com/*
 *://*.newsflare.com/*
-*://*.newsmax.com/*
-*://*.newsmax.org/*
-*://*.newsmaxtv.com/*
 *://*.newsnationnow.com/*
 *://*.newsobserver.com/*
 *://*.newsweek.com/*
@@ -600,7 +588,6 @@ host *= "scientology"
 *://*.responsible-investor.com/*
 *://*.reuters.com/*
 *://*.reviews.org/*
-*://*.roddreher.substack.com/*
 *://*.rollingstone.com/*
 *://*.sacbee.com/*
 *://*.salon.com/*
@@ -628,7 +615,6 @@ host *= "scientology"
 *://*.the-express.com/*
 *://*.the-independent.com/*
 *://*.the-zurich.com/*
-*://*.theamericanconservative.com/*
 *://*.theatlantic.com/*
 *://*.theconversation.com/*
 *://*.thedailyguardian.com/*
