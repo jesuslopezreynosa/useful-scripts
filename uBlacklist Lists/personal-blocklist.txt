@@ -241,6 +241,7 @@ host *= "scientology"
 *://*.edu.co/*
 *://*.edu.vn/*
 *://*.expressvpn.com/*
+*://*.famousbirthdays.com/*
 *://*.gadgethacks.com/*
 *://*.gemini.com/*
 *://*.geocities.ws/*
@@ -294,6 +295,7 @@ host *= "scientology"
 *://*.deirdre.net/*
 *://*.dianetics.org/*
 *://*.fairlatterdaysaints.org/*
+*://*.globalministries.org/*
 *://*.jw.org/*
 *://*.latterdaysaintcharities.org/*
 *://*.ldsdaily.com/*
@@ -356,6 +358,7 @@ host *= "scientology"
 *://*.1news.co.nz/*
 *://*.6abc.com/*
 *://*.7news.com.au/*
+*://*.889noticias.mx/*
 *://*.8newsnow.com/*
 *://*.9news.com.au/*
 *://*.9news.com/*
@@ -423,6 +426,7 @@ host *= "scientology"
 *://*.dallasnews.com/*
 *://*.dallasobserver.com/*
 *://*.deadline.com/*
+*://*.deadspin.com/*
 *://*.defensenews.com/*
 *://*.democraticunderground.com/*
 *://*.denverpost.com/*
@@ -438,6 +442,7 @@ host *= "scientology"
 *://*.elkgrovetribune.com/*
 *://*.elle.com.au/*
 *://*.elle.com/*
+*://*.elpasotimes.com/*
 *://*.engadget.com/*
 *://*.eonline.com/*
 *://*.esgdive.com/*
@@ -466,7 +471,10 @@ host *= "scientology"
 *://*.ft.com/*
 *://*.fwweekly.com/*
 *://*.gamespot.com/*
+*://*.gazetteandherald.co.uk/*
+*://*.gbnews.com/*
 *://*.gizmodo.com/*
+*://*.glamour.com/*
 *://*.globalnews.ca/*
 *://*.globenewswire.com/*
 *://*.go.com/*
@@ -715,8 +723,10 @@ host *= "scientology"
 *://*.aurn.com/*
 *://*.azfamily.com/*
 *://*.beinsports.com/*
+*://*.bicesteradvertiser.net/*
 *://*.billygraham.org/*
 *://*.bing.com/news
+*://*.birminghammail.co.uk/*
 *://*.blockonomi.com/*
 *://*.blog.driversfilesonline.com/*
 *://*.californiaglobe.com/*
@@ -734,6 +744,7 @@ host *= "scientology"
 *://*.civicgov4.com/*
 *://*.cleveland.com/*
 *://*.clrn.org/*
+*://*.collider.com/*
 *://*.complaintsboard.com/*
 *://*.consulate-info.com/*
 *://*.consumeraffairs.com/*
@@ -741,9 +752,11 @@ host *= "scientology"
 *://*.cordcuttingreport.com/*
 *://*.ctvnews.ca/*
 *://*.currys.co.uk/*
+*://*.dailycampus.com/*
 *://*.dailymotion.com/*
 *://*.debt.org/*
 *://*.democracynow.org/*
+*://*.deviantart.com/*
 *://*.digitalcitizen.life/*
 *://*.digitaltrends.com/*
 *://*.diply.com/*
@@ -757,6 +770,7 @@ host *= "scientology"
 *://*.embassies.info/*
 *://*.envlogs.com/*
 *://*.ethnicelebs.com/*
+*://*.eveshamjournal.co.uk/*
 *://*.ewtn.co.uk/*
 *://*.ewtnnews.com/*
 *://*.famousbirthdays.com/*
@@ -773,10 +787,14 @@ host *= "scientology"
 *://*.geo.tv/*
 *://*.gettyimages.com/*
 *://*.globalviewsworld.com/*
+*://*.gnara.com/*
 *://*.greenbaypressgazette.com/*
+*://*.grunge.com/*
 *://*.guide-onstar.com/*
+*://*.gulfnews.com/*
 *://*.headlineusa.com/*
 *://*.heavy.com/*
+*://*.heraldnews.com/*
 *://*.history.com/*
 *://*.hitc.com/*
 *://*.hypebeast.com/*
@@ -818,6 +836,7 @@ host *= "scientology"
 *://*.ms.now/*
 *://*.msche.org/*
 *://*.myrtlebeachonline.com/*
+*://*.nascar.com/*
 *://*.nationalreview.com/*
 *://*.ncregister.com/*
 *://*.newsday.com/*
@@ -831,10 +850,12 @@ host *= "scientology"
 *://*.okmagazine.com/*
 *://*.opera.com/*
 *://*.oreateai.com/*
+*://*.orionmagazine.org/*
 *://*.otterrockradio.com/*
 *://*.ouraring.com/*
 *://*.out.com/*
 *://*.outsports.com/*
+*://*.oxfordmail.co.uk/*
 *://*.paheal.net/*
 *://*.pastemagazine.com/*
 *://*.patriotfetch.com/*
@@ -850,9 +871,13 @@ host *= "scientology"
 *://*.queerty.com/*
 *://*.radaris.com/*
 *://*.radaronline.com/*
+*://*.radiotimes.com/*
 *://*.rantsports.com/*
 *://*.ravishly.com/*
+*://*.realclearpolicy.com/*
+*://*.refinery29.com/*
 *://*.reviewjournal.com/*
+*://*.ring.com/*
 *://*.rnz.co.nz/*
 *://*.rockymountainvoice.com/*
 *://*.rosevilletoday.com/*
@@ -861,6 +886,7 @@ host *= "scientology"
 *://*.scribd.com/*
 *://*.seekingalpha.com/*
 *://*.shopsavvy.com/*
+*://*.simplisafe.com/*
 *://*.smarthomereview.org/*
 *://*.smashedit.co.nz/*
 *://*.spectrumlocalnews.com/*
@@ -873,8 +899,12 @@ host *= "scientology"
 *://*.syracuse.com/*
 *://*.t.me/*
 *://*.techbloat.com/*
+*://*.teenvogue.com/*
+*://*.tennesseestar.com/*
 *://*.theblast.com/*
 *://*.thecostaricanews.com/*
+*://*.thecut.com/*
+*://*.thedailyreview.com/*
 *://*.thedeepdive.ca/*
 *://*.thedesk.net/*
 *://*.thegoodguys.com.au/*
@@ -883,6 +913,7 @@ host *= "scientology"
 *://*.therealnews.com/*
 *://*.thereturnguide.com/*
 *://*.theroot.com/*
+*://*.thespun.com/*
 *://*.thestatesman.com/*
 *://*.thestreet.com/*
 *://*.thesun.ie/*
@@ -914,6 +945,8 @@ host *= "scientology"
 *://*.whosdatedwho.com/*
 *://*.wikiwand.com/*
 *://*.windycitytimes.com/*
+*://*.witneygazette.co.uk/*
+*://*.womenshealthmag.com/*
 *://*.wootick.com/*
 *://*.wral.com/*
 *://*.wutshot.com/*
