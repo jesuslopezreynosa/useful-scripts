@@ -280,6 +280,7 @@ www.investopedia.com##.mntl-social-nav
 www.investopedia.com##.newsletter-link-wrapper
 www.investopedia.com##div.mntl-top-stories
 www.investopedia.com##div[role='dialog']
+www.nerdwallet.com##section[aria-labelledby='product-review-section'] div.MuiBox-root[data-testid='comparison-section']
 
 ! Flights
 www.flightradar24.com##div.flex[data-widget-type='bookmarks']
