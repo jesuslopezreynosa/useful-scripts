@@ -305,6 +305,7 @@ sniffies.com##div.map-main-container app-advertising-zone-map
 sniffies.com##div.app-screen div.account-settings-wrapper  div.profile-settings ui-menu-item-group ui-list-item-level-3:has(div.content div.plus-icon)
 sniffies.com##div.panel-content div.upgrade-cta
 sniffies.com##div#tray-container-places div.data-container ul app-place-list-item:has(marker-icon-grid i.fa-question-circle)
+sniffies.com##app-advertising-zone-popup
 ||exoclick.com^third-party,domain=sniffies.com
 ||googletagmanager.com^third-party,domain=sniffies.com
 ||rtmark.net^third-party,domain=sniffies.com
