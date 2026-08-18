@@ -34,27 +34,17 @@
         document.cookie = "ao=-1" + ddgDom;
         document.cookie = "ap=-1" + ddgDom;
         document.cookie = "aq=-1" + ddgDom;
+        document.cookie = "at=-1" + ddgDom;
         document.cookie = "au=-1" + ddgDom;
         document.cookie = "ax=-1" + ddgDom;
+        document.cookie = "ax=v433-5" + ddgDom;
+        document.cookie = "be=1" + ddgDom;
         document.cookie = "bj=1" + ddgDom;
+        document.cookie = "k=-1" + ddgDom;
         document.cookie = "psb=-1" + ddgDom;
 
         // Local Storage
-        const ddg_settings = {
-            kbj: '1',
-            kpsb: '-1',
-            kau: '-1',
-            kao: '-1',
-            kap: '-1',
-            kaq: '-1',
-            kax: '-1',
-            kak: '-1',
-            kaj: 'u',
-            k1: '-1',
-            kk: '-1',
-            kbm: 'foxnews.com,foxnation.com,radio.foxnews.com,foxbusiness.com,quora.com,tiktok.com,yahoo.com,answers.com,bbb.org,klarna.com,sourceforge.net,sky.com,nypost.com,huffpost.com,metro.co.uk,dailymail.co.uk,tmz.com,rt.com,cjr.org,prageru.com,reason.com,theblaze.com,thedailybeast.com,perezhilton.com,ew.com,news.google.com,go.com,msn.com,cnn.com,usnews.com,newsmax.com,newsmax.org,eonline.com,usatoday.com,bbc.com,x.com,x.ai,grok.com,twitter.com,facebook.com,fb.com,meta.com,truthsocial.com,pinterest.com,news.google.com,news.yahoo.com,aol.com,bing.com,cnbc.com,msnbc.com,tiktok.com,nbcwashington.com',
-            kat: '-1',
-        };
+        const ddg_settings = { "k1": "-1", "kaj": "u", "kak": "-1", "kao": "-1", "kap": "-1", "kaq": "-1", "kau": "-1", "kax": "v433-5", "kbj": "1", "kpsb": "-1", "kbe": "1", "kk": "-1", "kbm": "foxnews.com,foxnation.com,radio.foxnews.com,foxbusiness.com,quora.com,tiktok.com,yahoo.com,answers.com,bbb.org,klarna.com,sourceforge.net,sky.com,nypost.com,huffpost.com,metro.co.uk,dailymail.co.uk,tmz.com,rt.com,cjr.org,prageru.com,reason.com,theblaze.com,thedailybeast.com,perezhilton.com,ew.com,news.google.com,go.com,msn.com,cnn.com,usnews.com,newsmax.com,newsmax.org,eonline.com,usatoday.com,bbc.com,x.com,x.ai,grok.com,twitter.com,facebook.com,fb.com,meta.com,truthsocial.com,pinterest.com,news.google.com,news.yahoo.com,aol.com,bing.com,cnbc.com,msnbc.com,tiktok.com,nbcwashington.com" };
         safeSetLocalStorage('duckaiHasAgreedToTerms', 'true');
         safeSetLocalStorage('duckduckgo_settings', JSON.stringify(ddg_settings));
     }
