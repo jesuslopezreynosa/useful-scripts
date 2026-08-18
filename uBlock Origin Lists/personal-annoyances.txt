@@ -1,11 +1,11 @@
 ! Title: JesusLopezReynosa - Personal Annoyances
 ! Expires: 1 day
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-! Note that the following that don't work w/ Safari,    !
-! please avoid using these selectors:                   !
-!   :has-text()                                         !
-!   :matches-path()                                     !
-!   $uritransform                                       !
+! Note that the following that don't work w/ Safari,
+! please avoid using these selectors:
+!   - :has-text()
+!   - :matches-path()
+!   - $uritransform
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ! Security
