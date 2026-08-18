@@ -1,5 +1,12 @@
 ! Title: JesusLopezReynosa - Personal Annoyances
 ! Expires: 1 day
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Note that the following that don't work w/ Safari,    !
+! please avoid using these selectors:                   !
+!   :has-text()                                         !
+!   :matches-path()                                     !
+!   $uritransform                                       !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ! Security
 ||accounts.google.com/gsi^$third-party
@@ -13,10 +20,12 @@ amazon.*##.amazonlive-widget-padding
 amazon.*##.featured-brand-container
 amazon.*##.maple-banner
 amazon.*##.nav-rufus-disco
+amazon.*##.rufus-text-selection-tooltip
 amazon.*##.video-player .gw-media-card
 amazon.*##.vse-video-widget-container
 amazon.*###above-dp-container
 amazon.*###dpx-nice-widget-container
+amazon.*###gwm-Deck-cf
 amazon.*###native-app-upsell
 amazon.*###postsSameBrandCard_feature_div
 amazon.*###rhf
@@ -26,14 +35,14 @@ amazon.*###widget-rightUpsellSlot
 amazon.*##div.afap-above-nav#afap-above-nav
 amazon.*##div.celwidget#issuancePriceblockAmabot_feature_div
 amazon.*##div.celwidget#smartHomeWidget_feature_div
-amazon.*##li.nav-li > .nav-a:has-text(Alexa)
-www.amazon.com##.rufus-text-selection-tooltip
-www.amazon.com##div.gwm-widget:has(h2:has-text(Featured))
-www.amazon.com##div#gw-content-grid div.celwidget:has(a[href*='/gp/video/'])
-www.amazon.com##div#gw-content-grid div.celwidget:has(a[href*='/music/'])
-www.amazon.com##div#gwm-window-layout div#gwm-window-xl-container:has(div[data-csa-c-painter='single-video-card'])
-www.amazon.com##section.category-section[aria-labelledby='Trending']
-www.amazon.com###gwm-Deck-cf
+amazon.*##div.gwm-widget:has(a[aria-label*='Curated' i])
+amazon.*##div.gwm-widget:has(a[aria-label*='Featured' i])
+amazon.*##div#gw-content-grid div.celwidget:has(a[href*='/gp/video/'])
+amazon.*##div#gw-content-grid div.celwidget:has(a[href*='/music/'])
+amazon.*##div#gwm-window-layout div#gwm-window-xl-container:has(div[data-csa-c-painter='single-video-card'])
+amazon.*##li.nav-li:has(a[data-csa-c-content-id*='_ai' i])
+amazon.*##li.nav-li:has(a[data-csa-c-content-id*='alexa' i])
+amazon.*##section.category-section[aria-labelledby='Trending']
 
 ! Apple
 discussions.apple.com##.notification
@@ -66,9 +75,9 @@ hiringcafe.com##div.relative a.block
 ! GitHub
 github.com##.home-campaign .global-banner
 github.com##div.react-code-size-details-in-header:has(span:has-text(/Copilot/i))
-github.com##header div.AppHeader-CopilotChat
-github.com##header div ul li:has(a[href*='/sponsors/'])
 github.com##div[data-component='SplitPageLayout.Pane'] div div:has(a[href*='/sponsors/'])
+github.com##header div ul li:has(a[href*='/sponsors/'])
+github.com##header div.AppHeader-CopilotChat
 
 ! Google
 docs.google.com##.docs-ml-promotion
@@ -84,21 +93,24 @@ voice.google.com##gv-base-product-controls gv-ogb-help-button
 ! Google - YouTube
 www.youtube.com##.ytd-masthead > ytd-button-renderer.ytd-masthead.style-scope
 www.youtube.com##.ytd-masthead > ytd-notification-topbar-button-renderer.ytd-masthead
-www.youtube.com##.ytd-mini-guide-entry-renderer.style-scope.yt-simple-endpoint:has-text(Shorts)
-www.youtube.com###guide-renderer a#endpoint[title*='Shorts'],a#endpoint[title*='Music'],a#endpoint[title*='Podcasts'],a#endpoint[title*='Trending'],a#endpoint[title*='Explore'],a#endpoint[title*='Live'],a#endpoint[title*='Gaming'],a#endpoint[title*='Fashion'],a#endpoint[title*='Sports'],a#endpoint[title*='Shopping'],a#endpoint[title*='Movies'],a#endpoint[title*='News'],a#endpoint[title*='Kids'],a#endpoint[title*='Live']
-www.youtube.com##button-view-model.ytSpecButtonViewModelHost:has(button[aria-label='Ask'])
-www.youtube.com##yt-button-view-model:has(.yt-spec-button-shape-next__button-text-content:has-text(Ask))
-www.youtube.com##ytd-masthead yt-searchbox div button[aria-label='Ask YouTube']
-www.youtube.com##ytd-rich-item-renderer:has( badge-shape div.ytBadgeShapeText:has-text(featured))
+www.youtube.com##.ytd-mini-guide-entry-renderer.style-scope.yt-simple-endpoint[aria-label*='Shorts' i]
 www.youtube.com##.ytd-rich-section-renderer.style-scope
 www.youtube.com###big-yoodle
 www.youtube.com###button > .ytd-button-renderer.style-scope
+www.youtube.com###guide-renderer a#endpoint[title*='Shorts'],a#endpoint[title*='Music'],a#endpoint[title*='Podcasts'],a#endpoint[title*='Trending'],a#endpoint[title*='Explore'],a#endpoint[title*='Live'],a#endpoint[title*='Gaming'],a#endpoint[title*='Fashion'],a#endpoint[title*='Sports'],a#endpoint[title*='Shopping'],a#endpoint[title*='Movies'],a#endpoint[title*='News'],a#endpoint[title*='Kids'],a#endpoint[title*='Live']
 www.youtube.com###voice-search-button
+www.youtube.com##button-view-model.ytSpecButtonViewModelHost:has(button[aria-label='Ask'])
 www.youtube.com##div#chat-container
 www.youtube.com##div#columns div#chat-container
 www.youtube.com##div#panels-full-bleed-container:not(:has(div#player-container))
+www.youtube.com##yt-button-view-model:has(.yt-spec-button-shape-next__button-text-content:has-text(Ask))
 www.youtube.com##ytd-comments#comments
+www.youtube.com##ytd-masthead yt-searchbox div button[aria-label='Ask YouTube']
 www.youtube.com##ytd-reel-shelf-renderer
+www.youtube.com##ytd-rich-item-renderer:has(.ytBadgeShapeAd)
+www.youtube.com##ytd-rich-item-renderer:has(.ytBadgeShapeMembership)
+www.youtube.com##ytd-rich-item-renderer:has(.ytBadgeShapePromoted)
+www.youtube.com##ytd-rich-item-renderer:has(badge-shape div.ytBadgeShapeText:has-text(featured))
 www.youtube.com##ytd-rich-section-renderer.efyt-is-short
 www.youtube.com##ytd-shelf-renderer #dismissible
 
@@ -124,11 +136,11 @@ www.linkedin.com##div.discovery-templates-jobs-feed-discovery-module li:has(div.
 www.linkedin.com##div[componentkey*=':sponsoredContent']
 www.linkedin.com##div[componentkey*='FeedType_MAIN_FEED']:has(p:has-text(Suggested))
 www.linkedin.com##div[componentkey='newsAndGamesCard']
+www.linkedin.com##div[data-display-contents='true']>:has(div[componentkey*='FeedType_MAIN_FEED_RECENT']:has(div div div p span:has-text(Promoted)))
 www.linkedin.com##div[data-testid='mainFeed'] div[data-display-contents='true']>:has(p:has-text(likes this))
 www.linkedin.com##div#feed-news-module
 www.linkedin.com##header nav ul li:has(button[aria-label="For Business"]):xpath(../../..)
 www.linkedin.com##nav li:has(div.premium-upsell-link)
-www.linkedin.com##div[data-display-contents='true']>:has(div[componentkey*='FeedType_MAIN_FEED_RECENT']:has(div div div p span:has-text(Promoted)))
 
 ! Plugshare
 www.plugshare.com##.app
@@ -137,15 +149,14 @@ www.plugshare.com###nearby
 www.plugshare.com###share
 
 ! Reddit
-old.reddit.com/r/linux##div.thing:has(a.title:has-text(age))
-old.reddit.com/r/linux##div.thing:has(a.title:has-text(bill))
-old.reddit.com/r/linux##div.thing:has(a.title:has-text(California))
-old.reddit.com/r/linux##div.thing:has(a.title:has-text(Colorado))
-old.reddit.com/r/linux##div.thing:has(a.title:has-text(law))
-old.reddit.com/r/linux##div.thing:has(a.title:has-text(Lunduke))
-old.reddit.com/r/linux##div.thing:has(a.title:has-text(RMS))
-old.reddit.com/r/linux##div.thing:has(a.title:has-text(Stallman))
-old.reddit.com/r/linux##div.thing:has(a.title:has-text(verification))
+old.reddit.com/r/linux##div.thing[data-permalink*='/age_'], div.thing[data-permalink*='_age_'], div.thing[data-permalink*='_age/']
+old.reddit.com/r/linux##div.thing[data-permalink*='/bill_'], div.thing[data-permalink*='_bill_'], div.thing[data-permalink*='_bill/']
+old.reddit.com/r/linux##div.thing[data-permalink*='/california_'], div.thing[data-permalink*='_california_'], div.thing[data-permalink*='_california/']
+old.reddit.com/r/linux##div.thing[data-permalink*='/law_'], div.thing[data-permalink*='_law_'], div.thing[data-permalink*='_law/']
+old.reddit.com/r/linux##div.thing[data-permalink*='/lunduke_'], div.thing[data-permalink*='_lunduke_'], div.thing[data-permalink*='_lunduke/']
+old.reddit.com/r/linux##div.thing[data-permalink*='/rms_'], div.thing[data-permalink*='_rms_'], div.thing[data-permalink*='_rms/']
+old.reddit.com/r/linux##div.thing[data-permalink*='/stallman_'], div.thing[data-permalink*='_stallman_'], div.thing[data-permalink*='_stallman/']
+old.reddit.com/r/linux##div.thing[data-permalink*='/verification_'], div.thing[data-permalink*='_verification_'], div.thing[data-permalink*='_verification/']
 old.reddit.com/r/linux##div.thing:has(span.linkflairlabel[title*='Privacy'])
 old.reddit.com##.commentsignupbar.infobar
 old.reddit.com##.content .thing.promoted
@@ -157,14 +168,14 @@ old.reddit.com##.seo-comments
 old.reddit.com##.seo-comments-recommendations.spacer
 old.reddit.com###sr-header-area
 old.reddit.com##div.locked:has(a.moderator)
+old.reddit.com##div.read-next-container
+old.reddit.com##div.side div.spacer:has(div.morelink)
+old.reddit.com##div.side div.spacer:has(div.shortlink)
+old.reddit.com##div.side div.spacer:has(li.message-button)
 old.reddit.com##div.stickied
 old.reddit.com##div.thing:has(span.linkflairlabel[title*='Clickbait'])
 old.reddit.com##div.thing:has(span.linkflairlabel[title="Locked"])
 old.reddit.com##div.thing[data-score="0"], div.thing[data-score|="-"]
-old.reddit.com##div.side div.spacer:has(div.morelink)
-old.reddit.com##div.side div.spacer:has(div.shortlink)
-old.reddit.com##div.read-next-container
-old.reddit.com##div.side div.spacer:has(li.message-button)
 www.reddit.com##.nd\:visible.hidden.community-highlight-carousel
 www.reddit.com###right-sidebar-container
 www.reddit.com##div.grid-container div.left-sidebar
@@ -172,8 +183,8 @@ www.reddit.com##div.right-sidebar pdp-right-rail
 www.reddit.com##header nav div.justify-end
 
 ! Speedtest.net
-speedtest.net##.pure-g.content-devices
-speedtest.net##.pure-u-custom-wifi-recommendation
+!speedtest.net##.pure-g.content-devices
+!speedtest.net##.pure-u-custom-wifi-recommendation
 
 ! TikTok
 ||tiktok.com^$third-party
@@ -231,20 +242,20 @@ www.xfinity.com###nuanMessagingFrame
 !!!!!!!!!!!!!!!!!!!!!!!
 
 ! AI
-||x.ai^
+||*.openai.azure.com^$third-party
+||ai.com^$third-party
+||ai.google.com^$all
+||api.openai.com^$third-party
+||copilot.microsoft.com^$third-party
+||gemini.google.com^$third-party
+||githubcopilot.com^
+||google.com/ai^$all
 ||grok.x.com^
 ||meta.ai^
-||ai.com^$third-party
-||api.openai.com^$third-party
-||*.openai.azure.com^$third-party
-||production-openaicom-storage.azureedge.net^$third-party
 ||openai.com.cdn.cloudflare.net^$third-party
-||copilot.microsoft.com^$third-party
-||githubcopilot.com^
-||gemini.google.com^$third-party
+||production-openaicom-storage.azureedge.net^$third-party
 ||www.google.*/async/folsrch$xhr,domain=www.google.*
-||google.com/ai^$all
-||ai.google.com^$all
+||x.ai^
 
 ! Airlines
 www.delta.com##.desktop-enabled.idp-dynamic-banner
@@ -290,22 +301,12 @@ www.kayak.com##div.Fxw9-result-item-container:has(div.NAnQ-details:has(div[aria-
 www.playstation.com##.feedback--popup
 
 ! General Annoyances (i.e. Banner Ads, Fake Messages)
-azmen.com###switch-ad
-azmen.com##div:has(div.az-ads-banner)
-azmen.com##div.az-footer:has(div#aznude_native_exo_gay)
-azmen.com##div.container div#exo-native-az-container
-azmen.com##div#aznlive-banner
-azmen.com##div#aznlive-horizontal__banner
-sniffies.com##div.lower-nav-zone div.nav-button:has(button.plus-nav)
-sniffies.com##div.top-menu div.sitelinks app-newsletter-signup-card-container
-sniffies.com##div.overset-global-chat > div#global-chat-overset
-sniffies.com##table.chatholder app-chat-list-ad
-sniffies.com##div.tray-bottom div.list-footer
-sniffies.com##div.map-main-container app-advertising-zone-map
-sniffies.com##div.app-screen div.account-settings-wrapper  div.profile-settings ui-menu-item-group ui-list-item-level-3:has(div.content div.plus-icon)
-sniffies.com##div.panel-content div.upgrade-cta
-sniffies.com##div#tray-container-places div.data-container ul app-place-list-item:has(marker-icon-grid i.fa-question-circle)
-sniffies.com##app-advertising-zone-popup
+!sniffies.com##app-advertising-zone-map
+!sniffies.com##app-nav-lower-container div.bottom div.nav-button:has(button.plus-nav)
+!sniffies.com##button.nav-logo
+!sniffies.com##div.global-chat__message-container div.overset-global-chat:has(app-advertising-zone-global-chat)
+!sniffies.com##div.recents-container tr.chatholder-row-item:has(tr[aria-label='View Advertisement'])
+!sniffies.com##ui-menu-item-group:has(div.upgrade-btn-container)
 ||exoclick.com^third-party,domain=sniffies.com
 ||googletagmanager.com^third-party,domain=sniffies.com
 ||rtmark.net^third-party,domain=sniffies.com
@@ -313,12 +314,23 @@ sniffies.com##app-advertising-zone-popup
 ||trafficjunky.com^third-party,domain=sniffies.com
 ||trafficjunky.net^third-party,domain=sniffies.com
 ||tsyndicate.com^third-party,domain=sniffies.com
-!sniffies.com##app-advertising-zone-map
-!sniffies.com##app-nav-lower-container div.bottom div.nav-button:has(button.plus-nav)
-!sniffies.com##button.nav-logo
-!sniffies.com##div.global-chat__message-container div.overset-global-chat:has(app-advertising-zone-global-chat)
-!sniffies.com##div.recents-container tr.chatholder-row-item:has(tr[aria-label='View Advertisement'])
-!sniffies.com##ui-menu-item-group:has(div.upgrade-btn-container)
+azmen.com###switch-ad
+azmen.com##div:has(div.az-ads-banner)
+azmen.com##div.az-footer:has(div#aznude_native_exo_gay)
+azmen.com##div.container div#exo-native-az-container
+azmen.com##div#aznlive-banner
+azmen.com##div#aznlive-horizontal__banner
+sniffies.com##app-advertising-zone-map
+sniffies.com##app-advertising-zone-popup
+sniffies.com##div.app-screen div.account-settings-wrapper  div.profile-settings ui-menu-item-group ui-list-item-level-3:has(div.content div.plus-icon)
+sniffies.com##div.lower-nav-zone div.nav-button:has(button.plus-nav)
+sniffies.com##div.map-main-container app-advertising-zone-map
+sniffies.com##div.overset-global-chat > div#global-chat-overset
+sniffies.com##div.panel-content div.upgrade-cta
+sniffies.com##div.top-menu div.sitelinks app-newsletter-signup-card-container
+sniffies.com##div.tray-bottom div.list-footer
+sniffies.com##div#tray-container-places div.data-container ul app-place-list-item:has(marker-icon-grid i.fa-question-circle)
+sniffies.com##table.chatholder app-chat-list-ad
 
 ! Government
 calcareers.ca.gov###toast-container
@@ -342,6 +354,7 @@ imgur.com##.BottomRecirc
 imgur.com##.Gallery-Sidebar
 themezzoapts.com###browser-warning-popup
 tunein.com###outstream-video-ad-right-side-house-ads
+www.bestphoneplans.net##body > div.fixed[aria-label*='Promotion']
 www.bestphoneplans.net##div.not-prose:has(div.flex:has(span:has-text(Sponsored)))
 www.bestphoneplans.net##div.sticky
 www.britannica.com##.banner-links.container
@@ -380,11 +393,11 @@ www.vox.com##.l-article-body-segment.l-segment.l-sidebar-fixed > .l-col__sidebar
 9to5mac.com##.sidebar--5.xs.container.sidebar > .ninetofive-branded-rss.widget
 9to5mac.com##.wp-block-heading#h-highlighted-accessories
 9to5mac.com###comments
+9to5mac.com##div.container>:has(div.related-guides)
+9to5mac.com##div.post-content div.top-comment
 9to5mac.com##div.river__posts:has(article a[href*='trump'],a[href*='elon'],a[href*='spacex'],a[href*='tariff'],a[href*='/daily-'])
 9to5mac.com##h3.wp-block-heading
 9to5mac.com##ul.wp-block-list
-9to5mac.com##div.post-content div.top-comment
-9to5mac.com##div.container>:has(div.related-guides)
 appleinsider.com##div.sbr-spotlight
 arstechnica.com##.site-footer
 arstechnica.com##.xrail
@@ -393,9 +406,9 @@ arstechnica.com###article-footer-wrap
 arstechnica.com##div.mx-auto:has(.component-most-read)
 techcrunch.com##.is-vertical
 vacuumwars.com##.sticky-price-container
-www.404media.co##.sidebar
-www.404media.co##.kg-callout-card
 www.404media.co##.comments__container
+www.404media.co##.kg-callout-card
+www.404media.co##.sidebar
 www.404media.co##[src*="https://playlist.megaphone.fm?"]
 www.androidauthority.com##div[data-container-type='content']:has(a[target])
 www.androidpolice.com##.adsninja-rail-container.sidebar
@@ -460,6 +473,9 @@ www.jocooks.com##.oc-recipe-footer
 www.jocooks.com##.sidebar
 www.jocooks.com##.wpd-comments-open
 
+! Social Media
+bsky.app##div:has(> div > button[aria-label*='Trending'])
+
 ! Stores / Shopping
 www.anker.com##.cy-player
 www.chewy.com##.promo-banner
@@ -470,8 +486,8 @@ www.ikea.com##.hnf-floating-container
 www.lowes.com##.sms-modal-content
 www.monoprice.com##.side-adsense
 www.walmart.com##div a[href*="?utm_campaign"]
-www.walmart.com##div[data-testid='sp-homepage-videocarousel']
 www.walmart.com##div[data-testid='sp-homepage-multiitemtag']
+www.walmart.com##div[data-testid='sp-homepage-videocarousel']
 www.waterdropfilter.com###wd-cookie-consent-popup
 
 ! TLDs

@@ -2,77 +2,77 @@
 ! Expires: 1 day
 
 ! Brave Search
-search.brave.com##div#results div.snippet:has(div.carousel-container)
-search.brave.com###searchbar-home div.download-button
-search.brave.com###info-banners:has(.goggles-info-banner)
-search.brave.com##.suggestion:has(.entity:has-text(/Answer with AI/i))
-search.brave.com##.tabs .desktop-default-regular:has(span:has-text(/News/i))
-search.brave.com##.tabs .desktop-default-regular:has(span:has-text(/Goggles/i))
-search.brave.com###search-page > #llm-container
-search.brave.com###search-page .snippet:has(.llm-output-wrapper)
 search.brave.com##.example-searches
+search.brave.com##.suggestion:has(.entity:has-text(/Answer with AI/i))
+search.brave.com###info-banners:has(.goggles-info-banner)
+search.brave.com###search-page .snippet:has(.llm-output-wrapper)
+search.brave.com###search-page > #llm-container
+search.brave.com###searchbar-home div.download-button
+search.brave.com##div#results div.snippet:has(div.carousel-container)
+search.brave.com##nav ul#primary-tabs li:has([href*='/googles'])
+search.brave.com##nav ul#primary-tabs li:has([href*='/news'])
 
 ! DuckDuckGo
-duckduckgo.com##.js-module--news
-duckduckgo.com##.ddg-extension-hide
-duckduckgo.com##div[data-testid="serp-popover-promo"]
-duckduckgo.com##.footer
-duckduckgo.com##.ol.react-results--sidebar:has(div[data-testid='autoads-carousel-module-items'])
-duckduckgo.com##.header--aside__item--hidden-lg
-duckduckgo.com##.js-text-promo
-duckduckgo.com##li[data-layout='related_searches'] div:has(span[data-testid='feedback-prompt'])
-duckduckgo.com##.react-results--main li[data-layout='news']
-duckduckgo.com##div.header-wrap div#react-duckbar nav li:has(a:has-text(News))
-duck.ai##section[data-testid='duckai-sidebar'] div div>:has(span:has(a[href*='duckduckgo.com/about']))
 duck.ai##div#app main section[data-testid='duckai-sidebar'] div button[label='Upgrade']
+duck.ai##section[data-testid='duckai-sidebar'] div div>:has(span:has(a[href*='duckduckgo.com/about']))
+duckduckgo.com##.ddg-extension-hide
+duckduckgo.com##.footer
+duckduckgo.com##.header--aside__item--hidden-lg
+duckduckgo.com##.js-module--news
+duckduckgo.com##.js-text-promo
+duckduckgo.com##.ol.react-results--sidebar:has(div[data-testid='autoads-carousel-module-items'])
+duckduckgo.com##.react-results--main li[data-layout='news']
+duckduckgo.com##div.header-wrap div#react-duckbar nav li:has([href*='=news'])
+duckduckgo.com##div[data-testid="serp-popover-promo"]
+duckduckgo.com##li[data-layout='related_searches'] div:has(span[data-testid='feedback-prompt'])
 
 ! Ecosia
-www.ecosia.org##.meta-results section[data-test-id='ad-block-notice']
-www.ecosia.org##.main-header .banner
-www.ecosia.org##.web__sidebar.sidebar .sidebar-card
-www.ecosia.org##.main-footer-visual__content
-www.ecosia.org##.footer-card
-www.ecosia.org##.main-footer__menu-social
-www.ecosia.org##.main-header__notifications.notifications
-www.ecosia.org##.related-queries__sidebar
-www.ecosia.org##.chat-card
-www.ecosia.org##li.search-navigation__item:has-text(AI Chat)
-www.ecosia.org##.sign-up-button.button
-www.ecosia.org##.menu-button-impact-counter__counter
-www.ecosia.org##.icon--icon-seed
-www.ecosia.org##.notice-card
 www.ecosia.org##.binary-feedback
 www.ecosia.org##.card.notice-card
+www.ecosia.org##.chat-card
+www.ecosia.org##.footer-card
+www.ecosia.org##.icon--icon-seed
+www.ecosia.org##.main-footer__menu-social
+www.ecosia.org##.main-footer-visual__content
+www.ecosia.org##.main-header .banner
+www.ecosia.org##.main-header__notifications.notifications
+www.ecosia.org##.menu-button-impact-counter__counter
+www.ecosia.org##.meta-results section[data-test-id='ad-block-notice']
+www.ecosia.org##.notice-card
+www.ecosia.org##.related-queries__sidebar
+www.ecosia.org##.sign-up-button.button
+www.ecosia.org##.web__sidebar.sidebar .sidebar-card
+www.ecosia.org##li.search-navigation__item:has-text(AI Chat)
 
 ! Google
-www.google.com##div > g-section-with-header
-www.google.com##div:has(> g-section-with-header)
-www.google.com##[src*="ogs.google.com/widget"]
-www.google.com##promo-middle-slot
-www.google.com##div:has(div[aria-labelledby='promo_label_id'])
-www.google.com##div > div > div#bottomads
-www.google.com##div > div[role='contentinfo']
-www.google.com##div:has(> a > div > div > div[role='heading'])
+||www.google.com/search?^$uritransform=/(^(?!.*&tbs=).*$)/$1&tbs=1/
+google.*##div[role="navigation"] div[role="list"] > div[role="listitem"]:has(a[href^="/search"][href*="&udm=50"])
+www.google.com/search##div > g-section-with-header:has(span:has-text(Local news))
 www.google.com/search##div:has(> a[href*='/search?']:has(span:has-text(More news)))
-www.google.com/search##div#rcnt div:has(h1:has-text(AI Overview))
-www.google.com/search##div#search div#tads
+www.google.com/search##div[data-rpos]:has(div:has(> span:has-text(/Top stories/i)))
 www.google.com/search##div[role='navigation'] div[role='listitem']:has(span:has-text(AI Mode))
 www.google.com/search##div[role='presentation']:has(div[role='presentation']:has-text(Trending searches))
+www.google.com/search##div#rcnt div:has(h1:has-text(AI Overview))
+www.google.com/search##div#search div#tads
 www.google.com/search##form[action='/search'] > div > div > div > div > div:has(button[role='link'])
-www.google.com/search##div > g-section-with-header:has(span:has-text(Local news))
-www.google.com/search##div[data-rpos]:has(div:has(> span:has-text(/Top stories/i)))
-www.google.com##div#search div#rso div>:has(span:has-text(Short videos))
+www.google.com##[src*="ogs.google.com/widget"]
+www.google.com###botstuff div#bres
+www.google.com##div > div > div#bottomads
+www.google.com##div > div[role='contentinfo']
+www.google.com##div > g-section-with-header
+www.google.com##div:has(> a > div > div > div[role='heading'])
+www.google.com##div:has(> g-section-with-header)
+www.google.com##div:has(div[aria-labelledby='promo_label_id'])
+www.google.com##div.main div#cnt div[role='navigation'] div[role='list'] div[role='listitem']:has(span:has-text(News))
+www.google.com##div#rcnt div#rhs div div[role='presentation'] div>:has(g-link:has(a[href*='twitter.com']))
+www.google.com##div#search div#rso div:has(div#tads)
 www.google.com##div#search div#rso div>:has(div:has-text(Discussions and forums))
 www.google.com##div#search div#rso div>:has(g-section-with-header > div:has-text(What people are saying))
-www.google.com##div#rcnt div#rhs div div[role='presentation'] div>:has(g-link:has(a[href*='twitter.com']))
-www.google.com###botstuff div#bres
-www.google.com##div.main div#cnt div[role='navigation'] div[role='list'] div[role='listitem']:has(span:has-text(News))
-www.google.com##div#search div#rso div:has(div#tads)
-google.*##div[role="navigation"] div[role="list"] > div[role="listitem"]:has(a[href^="/search"][href*="&udm=50"])
-||www.google.com/search?^$uritransform=/(^(?!.*&tbs=).*$)/$1&tbs=1/
+www.google.com##div#search div#rso div>:has(span:has-text(Short videos))
+www.google.com##promo-middle-slot
 
 ! Qwant
 www.qwant.com##div[data-testid='sectionVideos']
-www.qwant.com##main div[data-testid="Ribbon"]
-www.qwant.com##main a[data-testid="newsNavItem"]
 www.qwant.com##div#root nav:has(a[data-testid="button-open-drawer"])
+www.qwant.com##main a[data-testid="newsNavItem"]
+www.qwant.com##main div[data-testid="Ribbon"]
