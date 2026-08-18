@@ -527,6 +527,9 @@ insideevs.com##div.adfeed
 insideevs.com##div.postBody div.flex:has(div.top-counter-comments-label-wrapper)
 www.autotempest.com##.search-tips-container:has(#remove-filters)
 www.autotempest.com##.wrap-hide
+www.autotrader.com##div#listings-grid div:has(div[data-cmp='myWalletGridInputs'])
+www.autotrader.com##div#listings-grid div.grid-full-width:has(div.inventory-carousel)
+www.autotrader.com##main div.shopping-assistant
 www.caranddriver.com##div.article-body-content div:has(h3:has-text(For Sale))
 www.caranddriver.com##section.embed
 www.cargurus.com##section[data-testid='article-content'] div[role='region']
