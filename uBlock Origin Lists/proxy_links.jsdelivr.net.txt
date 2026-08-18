@@ -1,5 +1,0 @@
-https://cdn.jsdelivr.net/gh/jesuslopezreynosa/useful-scripts@refs/heads/main/uBlock%20Origin%20Lists/personal-annoyances.txt
-https://cdn.jsdelivr.net/gh/jesuslopezreynosa/useful-scripts@refs/heads/main/uBlock%20Origin%20Lists/news-domains.txt
-https://cdn.jsdelivr.net/gh/jesuslopezreynosa/useful-scripts@refs/heads/main/uBlock%20Origin%20Lists/search-engines.txt
-https://cdn.jsdelivr.net/gh/jesuslopezreynosa/useful-scripts@refs/heads/main/uBlock%20Origin%20Lists/trusted-manual.txt
-https://cdn.jsdelivr.net/gh/jesuslopezreynosa/useful-scripts@refs/heads/main/uBlock%20Origin%20Lists/youtube-channels.txt
