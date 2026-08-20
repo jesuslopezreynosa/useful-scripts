@@ -79,6 +79,7 @@ github.com##div.react-code-size-details-in-header:has(span:has-text(/Copilot/i))
 github.com##div[data-component='SplitPageLayout.Pane'] div div:has(a[href*='/sponsors/'])
 github.com##header div ul li:has(a[href*='/sponsors/'])
 github.com##header div.AppHeader-CopilotChat
+github.com##header li:has(button[data-testid='sponsor-button'])
 
 ! Google
 docs.google.com##.docs-ml-promotion
@@ -104,6 +105,7 @@ www.youtube.com##button-view-model.ytSpecButtonViewModelHost:has(button[aria-lab
 www.youtube.com##div#chat-container
 www.youtube.com##div#columns div#chat-container
 www.youtube.com##div#panels-full-bleed-container:not(:has(div#player-container))
+www.youtube.com##div#scroll-container yt-chip-cloud-chip-renderer[chip-style='STYLE_AI_MODE_CHIP']
 www.youtube.com##yt-button-view-model:has(.yt-spec-button-shape-next__button-text-content:has-text(Ask))
 www.youtube.com##ytd-comments#comments
 www.youtube.com##ytd-masthead yt-searchbox div button[aria-label='Ask YouTube']
@@ -412,6 +414,7 @@ www.404media.co##.kg-callout-card
 www.404media.co##.sidebar
 www.404media.co##[src*="https://playlist.megaphone.fm?"]
 www.androidauthority.com##div[data-container-type='content']:has(a[target])
+www.androidpolice.com##.active-content.article-card
 www.androidpolice.com##.adsninja-rail-container.sidebar
 www.androidpolice.com##.footer-recommended-feed
 www.androidpolice.com##.footer-threads

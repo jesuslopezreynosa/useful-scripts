@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Cookie & LocalStorage Injector
+// @name         Cookie & LocalStorage Injector - Personal Settings / Privacy
 // @namespace    https://github.com/jesuslopezreynosa/useful-scripts
 // @match        *://*.duckduckgo.com/*
 // @match        *://*.qwant.com/*
@@ -12,7 +12,7 @@
 // @run-at       document-start
 // ==/UserScript==
 
-(function() {
+(function () {
     const host = window.location.hostname;
     const common = "; path=/; Max-Age=31536000; SameSite=Lax";
 
