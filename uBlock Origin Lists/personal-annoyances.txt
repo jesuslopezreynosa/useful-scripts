@@ -83,6 +83,8 @@ github.com##header li:has(button[data-testid='sponsor-button'])
 
 ! Google
 docs.google.com##.docs-ml-promotion
+docs.google.com##div.docs-titlebar-buttons div.docs-meet-in-editors-entrypoint-container
+docs.google.com##div.docs-titlebar-buttons div#workspace-onegoogle-pep-container
 drive.google.com##div[guidedhelpid='main_nav'] nav div[data-target='upgrade-storage']
 gemini.google.com##.cdk-overlay-container:has(.get-app-mobile-dialog)
 gemini.google.com##.get-app-banner
@@ -150,6 +152,11 @@ www.plugshare.com##.app
 www.plugshare.com##.business-nav
 www.plugshare.com###nearby
 www.plugshare.com###share
+
+! Privacy.com
+www.privacy.com/blog##.cta-card-sidebar-content
+www.privacy.com/blog##.opening-cta
+www.privacy.com/blog##div:has(>.cta-visual-wrapper)
 
 ! Reddit
 old.reddit.com/r/linux##div.thing[data-permalink*='/age_'], div.thing[data-permalink*='_age_'], div.thing[data-permalink*='_age/']
