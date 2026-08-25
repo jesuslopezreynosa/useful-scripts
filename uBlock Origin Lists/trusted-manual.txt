@@ -3,7 +3,7 @@
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !   In µBlock Origin, enable `I am an advanced user` then set
-!   `trustedListPrefixes` to `ublock- https://raw.githubusercontent.com/jesuslopezreynosa/useful-scripts/`
+!   `trustedListPrefixes` to `ublock- https://raw.githubusercontent.com/jesuslopezreynosa/useful-scripts/ https://cdn.jsdelivr.net/gh/jesuslopezreynosa/useful-scripts@refs/heads/main/uBlock%20Origin%20Lists/`
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ! Search Engine Cookies

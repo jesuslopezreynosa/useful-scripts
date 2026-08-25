@@ -1,17 +1,16 @@
 ! Title: JesusLopezReynosa - News Sites
-! Expires: 1 day
+! Expires: 7 day
 
+*.msn.com
+bing.com/news*
+homepage.aol.com
+msn.us
 news.google.com
 news.yahoo.com
-www.aol.com
-homepage.aol.com
 www.aol.ca
-bing.com/news*
-*.msn.com
-msn.us
+www.aol.com
 you.com
 
-spectrumlocalnews.com
 10nbc.com
 10news.com
 11alive.com
@@ -51,6 +50,8 @@ abc45.com
 abc6.com
 abc7.com
 abc7news.com
+abclocal.go.com
+abcnews.go.com
 abcnewspapers.com
 abcstlouis.com
 aberdeennews.com
@@ -343,7 +344,6 @@ bentoncountyenterprise.com
 bentoncourier.com
 bentoneveningnews.com
 bentonspiritnews.com
-news.berkeley.edu
 berkeleydailyplanet.com
 berkeleyobserver.com
 berkshireeagle.com
@@ -370,7 +370,6 @@ bigbendsentinel.com
 bigforkeagle.com
 bighorncountynews.com
 bigsandynews.com
-missoulanews.bigskypress.com
 bigspringherald.com
 bigtimberpioneer.net
 billingsgazette.com
@@ -389,7 +388,6 @@ bjournal.com
 blackamericaweb.com
 blackenterprise.com
 blackforestnews-co.com
-fox7.blackhills.com
 blackmountainnews.com
 blacknews.com
 blackvoicenews.com
@@ -650,6 +648,7 @@ chanute.com
 charitonleader.com
 charkoosta.com
 charlescitypress.com
+charleston.thedigitel.com
 charlestonbusiness.com
 charlestoncitypaper.com
 charlestonexpress.com
@@ -704,6 +703,7 @@ chronicle-tribune.com
 chronicleonline.com
 chroniclet.com
 chronicletimes.com
+chroniclingamerica.loc.gov
 chronline.com
 cibolabeacon.com
 cicourierinc.com
@@ -788,6 +788,7 @@ cobbonline.com
 codyenterprise.com
 coffeycountyonline.com
 colbsent.com
+colebrookchronicle.weebly.com
 colfaxrecord.com
 collegemagazine.com
 coloradoan.com
@@ -922,6 +923,7 @@ cumberland-advocate.com
 cumberlandcountynewspaper.com
 cumberlink.com
 cunews.info
+current.mnsun.com
 currentaffairs.org
 currentargus.com
 currentincarmel.com
@@ -1350,6 +1352,7 @@ filamvoicemaui.com
 fillmorecountyjournal.com
 fillmoregazette.com
 finance-commerce.com
+finance.yahoo.com
 financialexpress.com
 fireisland-news.com
 firesideguard.com
@@ -1371,6 +1374,7 @@ floydcountytimes.com
 fltimes.com
 fluvannareview.com
 flyergroup.com
+focus.mnsun.com
 focusnewspaper.com
 folioweekly.com
 folsomtelegraph.com
@@ -1460,6 +1464,7 @@ fox61.com
 fox61tv.com
 fox68wsyt.com
 fox6milwaukee.com
+fox7.blackhills.com
 fox7.com
 fox8cleveland.com
 fox8fox14.com
@@ -1602,8 +1607,6 @@ gloucestertimes.com
 gmdmedia.net
 gmnews.com
 gmtoday.com
-abclocal.go.com
-abcnews.go.com
 godanriver.com
 goerie.com
 golaurens.com
@@ -1620,7 +1623,6 @@ goodnewsnetwork.org
 goodtimes.sc
 goofy-edge.cn
 google-analytics.com
-news.google.com
 gorevillegazette.com
 gorhamtimes.com
 gosanangelo.com
@@ -1634,7 +1636,6 @@ gouverneurtribunepress.com
 governing.com
 gowilkes.com
 gpkmedia.com
-news.grabien.com
 grahamleader.com
 grahamstar.com
 grandcanyonnews.com
@@ -1832,7 +1833,6 @@ hillsdale.net
 hinckleynews.com
 hindustantimes.com
 hispanosnews.com
-news.hjnews.com
 hmbreview.com
 hngnews.com
 hobbsnews.com
@@ -1952,8 +1952,6 @@ indyeastend.com
 indyrepnews.com
 indystar.com
 indyweek.com
-lasvegas.informermg.com
-sandiego.informermg.com
 inforum.com
 infowars.com
 ingrams.com
@@ -1994,6 +1992,7 @@ islandssounder.com
 islipbulletin.net
 issaquahpress.com
 isthmus.com
+italy.neotrib.com
 itemlive.com
 itemonline.com
 ithaca.com
@@ -2036,6 +2035,7 @@ jesupcitizenherald.com
 jewishaz.com
 jewishjournal.com
 jewishobserver-la.com
+jewishpressoftampa.our-hometown.com
 jewishpresspinellas.com
 jewishvoicesnj.org
 jewishworldreview.com
@@ -2406,6 +2406,7 @@ lascrucesbulletin.com
 lasentinel.net
 laserbuddy.com
 lassennews.com
+lasvegas.informermg.com
 lasvegasoptic.com
 lasvegassun.com
 lasvegastribune.net
@@ -2513,6 +2514,7 @@ lingleguide.com
 linncountyleader.com
 linncountynews.net
 littletonindependent.net
+live-screencaps.vscdns.com
 livemint.com
 livestockweekly.com
 livingstondaily.com
@@ -2523,7 +2525,6 @@ lmgraphic.com
 lmtonline.com
 lmtribune.com
 lobservateur.com
-chroniclingamerica.loc.gov
 local10.com
 localheadlinenews.com
 localnewscomesfirst.com
@@ -2782,16 +2783,13 @@ missionhillgazette.com
 missiontimescourier.com
 missionvalleynews.com
 missloumagazine.com
+missoulanews.bigskypress.com
 missoulian.com
 missourifarmertoday.com
 mitchellnews.com
 mitchellrepublic.com
 mlive.com
 mlstargazette.com
-current.mnsun.com
-focus.mnsun.com
-post.mnsun.com
-sailor.mnsun.com
 moabtimes.com
 moberlymonitor.com
 mobridgetribune.com
@@ -3003,7 +3001,6 @@ nebraska.tv
 nelighnews.com
 nemonews.net
 neoshodailynews.com
-italy.neotrib.com
 nephitimesnews.com
 neshobademocrat.com
 nevadaappeal.com
@@ -3054,7 +3051,13 @@ news-reporter.com
 news-sentinel.com
 news-shield.com
 news-star.com
+news.berkeley.edu
 news.com.au
+news.google.com
+news.grabien.com
+news.hjnews.com
+news.pioneergroup.com
+news.thesunontheweb.com
 news10.net
 news12.com
 news4jax.com
@@ -3095,6 +3098,7 @@ newsprogress.com
 newsregister.com
 newsrepublican.com
 newsreview.com
+newsroom.ucla.edu
 newssun.com
 newstimes.com
 newstopicnews.com
@@ -3156,7 +3160,6 @@ northbendeagle.com
 northbrooktower.com
 northcoastcitizen.com
 northcoastjournal.com
-westlife.northcoastnow.com
 northcountrynow.com
 northcountymessenger.com
 northeastnews.net
@@ -3202,6 +3205,7 @@ nwasianweekly.com
 nwestiowa.com
 nwfdailynews.com
 nwherald.com
+nwherald.qwestoffice.net
 nwitimes.com
 nwkansas.com
 nwnews.com
@@ -3289,7 +3293,6 @@ othellooutlook.com
 otmj.com
 ottawaherald.com
 ottumwacourier.com
-jewishpressoftampa.our-hometown.com
 ouraynews.com
 ourcommunityfocus.com
 ourdavie.com
@@ -3455,7 +3458,6 @@ pineislandnews.com
 pinejournal.com
 pinerivertimes.com
 pioneer-review.com
-news.pioneergroup.com
 pioneernews.net
 pioneertimes-me.com
 pioneertribune.com
@@ -3494,6 +3496,7 @@ politifact.com
 polkcountydemocrat.com
 polkcountynewspaper.com
 polkio.com
+poll.qu.edu
 pomeradonews.com
 poncacitynews.com
 ponchatoula.com
@@ -3515,6 +3518,7 @@ post-gazette.com
 post-journal.com
 post-register.com
 post-voice.com
+post.mnsun.com
 postandcourier.com
 postbulletin.com
 postcrescent.com
@@ -3553,7 +3557,6 @@ pressmentor.com
 pressnews.com
 pressofatlanticcity.com
 presspublications.com
-southtownswny.presspublisher.us
 presspubs.com
 pressregister.com
 pressreporter.com
@@ -3606,7 +3609,6 @@ qctimes.com
 qgazette.com
 qns.com
 qsaltlake.com
-poll.qu.edu
 queenannenews.com
 queenstribune.com
 queerty.com
@@ -3619,7 +3621,6 @@ quepasamedia.com
 quepasanoticias.com
 quillnewspaper.com
 quoddytides.com
-nwherald.qwestoffice.net
 qz.com
 rafu.com
 rainscountyleader.com
@@ -3808,6 +3809,7 @@ sacgazette.com
 sacobserver.com
 sacurrent.com
 sagharborexpress.com
+sailor.mnsun.com
 saladovillagevoice.com
 salamancapress.com
 salem-news.com
@@ -3825,6 +3827,7 @@ sampan.org
 sanbenitocountytoday.com
 sanclementetimes.com
 sandiego.com
+sandiego.informermg.com
 sandiegodowntownnews.com
 sandiegoreader.com
 sandiegouniontribune.com
@@ -4034,6 +4037,7 @@ southsidebusiness.com
 southsidemessenger.com
 southsidervoice.com
 southstrandnews.com
+southtownswny.presspublisher.us
 southvalleyjournal.com
 southwestjournal.com
 southwesttimes.com
@@ -4046,6 +4050,7 @@ spcitytimes.com
 speakinoutweeklynews.com
 spearmanreporter.com
 spectator.org
+spectrumlocalnews.com
 spencercountyjournal.com
 spencerdailyreporter.com
 spencereveningworld.com
@@ -4403,7 +4408,6 @@ thederrick.com
 thedestinlog.com
 thedickinsonpress.com
 thedigitalcourier.com
-charleston.thedigitel.com
 thedowneypatriot.net
 thedp.com
 thedpost.com
@@ -4661,7 +4665,6 @@ thesturbridgevillager.com
 thesummervillenews.com
 thesun.co.uk
 thesunchronicle.com
-news.thesunontheweb.com
 thesuntimes.com
 thesuntimesnews.com
 thesylvaherald.com
@@ -4886,7 +4889,6 @@ tylertribute.com
 tyt.com
 tytnetwork.com
 ubmedia.biz
-newsroom.ucla.edu
 ukiahdailyjournal.com
 unidossc.com
 union-bulletin.com
@@ -4994,7 +4996,6 @@ voiceoftheozarks.net
 vox.com
 vp-mi.com
 vpr.org
-live-screencaps.vscdns.com
 vt-world.com
 vulture.com
 vvdailypress.com
@@ -5123,7 +5124,6 @@ webstercountycitizen.com
 websterkirkwoodtimes.com
 websterprogresstimes.com
 wect.com
-colebrookchronicle.weebly.com
 week.com
 weeklychoice.com
 weeklycitizen.com
@@ -5156,6 +5156,7 @@ westhawaiitoday.com
 westjordanjournal.com
 westkentuckystar.com
 westlibertyindex.com
+westlife.northcoastnow.com
 westmilfordmessenger.com
 westminsterheraldnews.com
 westminsterwindow.com
@@ -5454,7 +5455,6 @@ wzzm13.com
 xeniagazette.com
 yadkinripple.com
 yahoo.com
-finance.yahoo.com
 yakimaherald.com
 yaledailynews.com
 yalnews.com

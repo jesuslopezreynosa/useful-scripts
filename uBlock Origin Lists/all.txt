@@ -1,0 +1,7 @@
+! Title: JLR - All Filter Lists
+! Expires: 1 day
+
+!#include news-domains.txt
+!#include personal-annoyances.txt
+!#include search-engines.txt
+!#include youtube-channels.txt
