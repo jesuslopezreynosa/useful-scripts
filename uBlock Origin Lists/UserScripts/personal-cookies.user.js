@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Cookie & LocalStorage Injector - Personal Settings / Privacy
+// @name         JLR - Cookie & LocalStorage Injector - Personal Settings / Privacy Preferences
 // @namespace    https://github.com/jesuslopezreynosa/useful-scripts
 // @match        *://*.duckduckgo.com/*
 // @match        *://*.qwant.com/*
