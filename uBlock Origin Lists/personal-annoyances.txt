@@ -107,9 +107,11 @@ www.youtube.com###voice-search-button
 www.youtube.com##button-view-model.ytSpecButtonViewModelHost:has(button[aria-label='Ask'])
 www.youtube.com##div#chat-container
 www.youtube.com##div#columns div#chat-container
+www.youtube.com##div#content yt-content-metadata-view-model .ytContentMetadataViewModelMetadataRowMetadataRowWrap:has(.ytBadgeShapeText:has-text(Fundraiser))
 www.youtube.com##div#panels-full-bleed-container:not(:has(div#player-container))
 www.youtube.com##div#scroll-container yt-chip-cloud-chip-renderer[chip-style='STYLE_AI_MODE_CHIP']
 www.youtube.com##yt-button-view-model:has(.yt-spec-button-shape-next__button-text-content:has-text(Ask))
+www.youtube.com##ytd-badge-supported-renderer:has(badge-shape[aria-label='Fundraiser'])
 www.youtube.com##ytd-comments#comments
 www.youtube.com##ytd-guide-renderer ytd-guide-section-renderer:has(yt-formatted-string:has-text(Explore))
 www.youtube.com##ytd-guide-renderer ytd-guide-section-renderer:has(yt-formatted-string:has-text(More from))
@@ -191,7 +193,6 @@ reddit.com##div.thing:has(span.linkflairlabel[title="Locked"])
 reddit.com##div.thing[data-score="0"], div.thing[data-score|="-"]
 www.reddit.com##.fixed.active
 www.reddit.com##.listingsignupbar
-
 www.reddit.com##.nd\:visible.hidden.community-highlight-carousel
 www.reddit.com###right-sidebar-container
 www.reddit.com##div.grid-container div.left-sidebar
@@ -212,6 +213,7 @@ www.twitch.tv##.top-nav__menu button:has(div[data-a-target='tw-core-button-label
 www.twitch.tv##.tw-callout-message
 www.twitch.tv##.tw-root--theme-light:has(.subtember-text)
 www.twitch.tv###twilight-sticky-footer-root
+www.twitch.tv##div.channel-info-content div.metadata-layout__support div[data-target='channel-header-right'] div:has(div:has(div:has(button[data-a-target='gift-button'])))
 
 ! Twitter
 ||t.co^
