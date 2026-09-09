@@ -164,7 +164,8 @@ www.privacy.com/blog##.opening-cta
 www.privacy.com/blog##div:has(>.cta-visual-wrapper)
 
 ! Reddit
-reddit.com/r/linux##div.thing:has(span.linkflairlabel[title*='Privacy'])
+reddit.com/r/apple##.thing:has(.linkflairlabel[title*='Promo'])
+reddit.com/r/linux##.thing:has(.linkflairlabel[title*='Privacy'])
 reddit.com/r/linux##div.thing[data-permalink*='/age_'], div.thing[data-permalink*='_age_'], div.thing[data-permalink*='_age/']
 reddit.com/r/linux##div.thing[data-permalink*='/bill_'], div.thing[data-permalink*='_bill_'], div.thing[data-permalink*='_bill/']
 reddit.com/r/linux##div.thing[data-permalink*='/california_'], div.thing[data-permalink*='_california_'], div.thing[data-permalink*='_california/']
@@ -181,6 +182,8 @@ reddit.com##.listingsignupbar.infobar
 reddit.com##.premium-banner-outer
 reddit.com##.seo-comments
 reddit.com##.seo-comments-recommendations.spacer
+reddit.com##.thing:has(.linkflairlabel[title*='Clickbait'])
+reddit.com##.thing:has(.linkflairlabel[title="Locked"])
 reddit.com###sr-header-area
 reddit.com##div.locked:has(a.moderator)
 reddit.com##div.read-next-container
@@ -188,8 +191,6 @@ reddit.com##div.side div.spacer:has(div.morelink)
 reddit.com##div.side div.spacer:has(div.shortlink)
 reddit.com##div.side div.spacer:has(li.message-button)
 reddit.com##div.stickied
-reddit.com##div.thing:has(span.linkflairlabel[title*='Clickbait'])
-reddit.com##div.thing:has(span.linkflairlabel[title="Locked"])
 reddit.com##div.thing[data-score="0"], div.thing[data-score|="-"]
 www.reddit.com##.fixed.active
 www.reddit.com##.listingsignupbar
