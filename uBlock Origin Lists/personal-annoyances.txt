@@ -38,6 +38,7 @@ amazon.*##div.celwidget#issuancePriceblockAmabot_feature_div
 amazon.*##div.celwidget#smartHomeWidget_feature_div
 amazon.*##div.gwm-widget:has(a[aria-label*='Curated' i])
 amazon.*##div.gwm-widget:has(a[aria-label*='Featured' i])
+amazon.*##div.right-rail-top .right-rail-top-content:has(.celwidget[data-cel-widget*='-upsell'])
 amazon.*##div#gw-content-grid div.celwidget:has(a[href*='/gp/video/'])
 amazon.*##div#gw-content-grid div.celwidget:has(a[href*='/music/'])
 amazon.*##div#gwm-window-layout div#gwm-window-xl-container:has(div[data-csa-c-painter='single-video-card'])
@@ -435,6 +436,9 @@ www.androidpolice.com##.adsninja-rail-container.sidebar
 www.androidpolice.com##.footer-recommended-feed
 www.androidpolice.com##.footer-threads
 www.digitaltrends.com##.h-sidebar
+www.gsmarena.com##.right.main-review > .module-related.module-phones.module
+www.gsmarena.com###social-connect
+www.gsmarena.com###user-comments
 www.gsmarena.com##div.review-body div.news-item
 www.lightreading.com##.ArticleBase-IirisRecommendation
 www.lightreading.com##.ContentPreview:has(.ListPreview-Title:has-text(Trump)), :has(.ListPreview-Title:has-text(Elon)), :has(.ListPreview-Title:has-text(SpaceX)), :has(.ListPreview-Title:has-text(SpaceXAI)), :has(.ListPreview-Title:has-text(Starlink)), :has(.ListPreview-Title:has-text(Carr))
