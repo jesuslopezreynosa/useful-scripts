@@ -2,7 +2,7 @@
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
-readonly CURRENT_NETWORK="SSID_Name"
+readonly CURRENT_NETWORK="$1"
 readonly -a TRUSTED_SSIDS=("Trusted SSID 1" "Trusted SSID 2" "SSID3")
 
 if [[ -z "${CURRENT_NETWORK}" ]]; then

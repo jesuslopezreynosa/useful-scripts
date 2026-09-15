@@ -7,11 +7,12 @@
         <key>ProgramArguments</key>
         <array>
             <string>/bin/zsh</string>
-            <string>/opt/ts-network-change/triggerTailscaleShortcut.sh</string> 
+            <string>~/.local/bin/triggerTailscaleShortcut.sh</string>
         </array>
         <key>WatchPaths</key>
         <array>
-            <string>/Library/Preferences/SystemConfiguration/</string>
+            <string>/Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist</string>
+            <string>/private/var/run/resolv.conf</string>
         </array>
         <key>RunAtLoad</key>
         <true />
