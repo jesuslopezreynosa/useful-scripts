@@ -465,8 +465,16 @@ www.pcmag.com##footer
 www.pcmag.com##nav button[data-element='Maggie-Product-Picker-Launcher']
 www.pcmag.com##section a[data-module='author-bio']
 www.pcmag.com##section[data-parent-group='dig-deeper']
+www.theregister.com##.bottom-row.row
 www.theregister.com##.desktop_only.right_col > .similar_topics
+www.theregister.com##.fullwidthTarget.content
 www.theregister.com##.listinks
+www.theregister.com##.mobile-floatRight.desktop-floatRight
+www.theregister.com##article .article:has(div.articleFooter span.tags a[data-tag*='elon'])
+www.theregister.com##article .article:has(div.articleFooter span.tags a[data-tag*='openai'])
+www.theregister.com##article .article:has(div.articleFooter span.tags a[data-tag*='trump'])
+www.theregister.com##article .article:has(div.articleFooter span.tags a[data-tag*='twitter'])
+www.theregister.com##div.bodytext:has(span.tertiary:has-text(OPINION))
 www.theverge.com##.duet--content-cards--content-card > a[href*='elon'], a[href*='trump'], a[href*='doge'], a[href*='federal'], a[href*='tariff'], a[href*='woke']
 www.theverge.com##.l-article-body-segment.l-segment.l-sidebar-fixed > .l-col__sidebar
 www.theverge.com##.w-mobile-breaker
