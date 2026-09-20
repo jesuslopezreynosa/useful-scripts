@@ -7,7 +7,7 @@
         <key>ProgramArguments</key>
         <array>
             <string>/bin/zsh</string>
-            <string>~/.local/bin/triggerTailscaleShortcut.sh</string>
+            <string>${HOME}/.local/bin/triggerTailscaleShortcut.sh</string>
         </array>
         <key>WatchPaths</key>
         <array>
