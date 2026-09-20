@@ -88,8 +88,10 @@ docs.google.com##div.docs-titlebar-buttons div.docs-meet-in-editors-entrypoint-c
 docs.google.com##div.docs-titlebar-buttons div#workspace-onegoogle-pep-container
 drive.google.com##div[guidedhelpid='main_nav'] nav div[data-target='upgrade-storage']
 gemini.google.com##.cdk-overlay-container:has(.get-app-mobile-dialog)
+gemini.google.com##.gem-banner-container
 gemini.google.com##.get-app-banner
 gemini.google.com##.speech-dictation-mic-button
+gemini.google.com##input-container sign-in-nudge
 google.com##:matches-path(/maps)div[jsaction*="promotion"]
 maps.google.com##div[jsaction*="promotion"]
 voice.google.com##gv-base-product-controls a[aria-label*='Upgrade']
