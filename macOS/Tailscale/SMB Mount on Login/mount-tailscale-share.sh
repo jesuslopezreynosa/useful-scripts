@@ -1,12 +1,14 @@
 #!/zsh
 
 # Setup
-# - Edit `mount-tailscale-share.sh` first
-# mkdir -p ~/.local/bin
-# cp mount-tailscale-share.sh ~/.local/bin/.
-# chmod +x ~/.local/bin/mount-tailscale-share.sh
-# sudo cp com.user.mount-tailscale-share.plist /Library/LaunchAgents/.
-# launchctl bootstrap gui/$(id -u) /Library/LaunchAgents/com.user.mount-tailscale-share.plist
+    # - Edit `mount-tailscale-share.sh` first
+    # In Terminal: 
+        # mkdir -p ~/.local/bin
+        # cp mount-tailscale-share.sh ~/.local/bin/.
+        # chmod +x ~/.local/bin/mount-tailscale-share.sh
+        # sudo cp com.user.mount-tailscale-share.plist ~/Library/LaunchAgents/.
+        # launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.user.mount-tailscale-share.plist
+# To disable LaunchAgent: `launchctl bootout gui/$(id -u)/com.user.mount-tailscale-share 2>/dev/null`
 
 # Configurable parameters
 SMB_SERVER="100.x.y.z"            # Replace with Tailscale IP or MagicDNS hostname
