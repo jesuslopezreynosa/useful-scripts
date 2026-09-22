@@ -7,14 +7,20 @@
         <key>ProgramArguments</key>
         <array>
             <string>/bin/zsh</string>
-            <string>${HOME}/.local/bin/triggerTailscaleShortcut.sh</string>
+            <string>-c</string>
+            <string>$HOME/.local/bin/triggerTailscaleShortcut.sh</string>
         </array>
         <key>WatchPaths</key>
         <array>
-            <string>/Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist</string>
+            <string>/Library/Preferences/SystemConfiguration/com.apple.network.identification.plist</string>
+            <string>/Library/Preferences/SystemConfiguration</string>
             <string>/private/var/run/resolv.conf</string>
         </array>
         <key>RunAtLoad</key>
         <true />
+        <key>StandardOutPath</key>
+        <string>/tmp/com.local.macosNetworkChange.out</string>
+        <key>StandardErrorPath</key>
+        <string>/tmp/com.local.macosNetworkChange.err</string>
     </dict>
 </plist>
