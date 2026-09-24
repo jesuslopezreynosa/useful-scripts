@@ -2,4 +2,4 @@
 
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 
-/usr/bin/shortcuts run "Tailscale Exit Node on SSID"
+/usr/bin/shortcuts run "Tailscale Exit Node on SSID" 2>/dev/null || exit 0

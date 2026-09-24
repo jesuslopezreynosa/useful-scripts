@@ -2,24 +2,31 @@
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
-readonly CURRENT_NETWORK="$1"
-readonly -a TRUSTED_SSIDS=("Trusted SSID 1" "Trusted SSID 2" "SSID3")
+readonly CURRENT_NETWORK="SSID_Name"
+readonly -a DIRECT_SSIDS=("Trusted SSID 1" "Trusted SSID 2" "SSID3")
 
-if [[ -z "${CURRENT_NETWORK}" ]]; then
-    echo "Error: No network name provided."
-    exit 1
+if command -v tailscale &>/dev/null; then
+    TAILSCALE_BIN="$(command -v tailscale)"
+elif [[ -x "/Applications/Tailscale.app/Contents/MacOS/Tailscale" ]]; then
+    TAILSCALE_BIN="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
+else
+    exit 0
 fi
 
-# Determine if CURRENT_NETWORK exists within the TRUSTED_SSIDS array
-is_trusted=0
-for ssid in "${TRUSTED_SSIDS[@]}"; do
+if [[ -z "${CURRENT_NETWORK}" ]]; then
+    exit 0
+fi
+
+# Determine if CURRENT_NETWORK exists within the DIRECT_SSIDS array
+is_direct=0
+for ssid in "${DIRECT_SSIDS[@]}"; do
     if [[ "${ssid}" == "${CURRENT_NETWORK}" ]]; then
-        is_trusted=1
+        is_direct=1
         break
     fi
 done
 
-if [[ ${is_trusted} -eq 1 ]]; then
+if [[ ${is_direct} -eq 1 ]]; then
     # Disable Exit Node if currently active
     output=$(tailscale exit-node list 2>/dev/null)
     if echo "${output}" | grep -q "selected"; then
