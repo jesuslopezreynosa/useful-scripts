@@ -111,6 +111,8 @@ www.youtube.com##button-view-model.ytSpecButtonViewModelHost:has(button[aria-lab
 www.youtube.com##div#chat-container
 www.youtube.com##div#columns div#chat-container
 www.youtube.com##div#content yt-content-metadata-view-model .ytContentMetadataViewModelMetadataRowMetadataRowWrap:has(.ytBadgeShapeText:has-text(Fundraiser))
+www.youtube.com##div#info-container yt-formatted-string#info a.yt-simple-endpoint
+www.youtube.com##div#items ytd-video-description-infocards-section-renderer div#social-links
 www.youtube.com##div#panels-full-bleed-container:not(:has(div#player-container))
 www.youtube.com##div#scroll-container yt-chip-cloud-chip-renderer[chip-style='STYLE_AI_MODE_CHIP']
 www.youtube.com##yt-button-view-model:has(.yt-spec-button-shape-next__button-text-content:has-text(Ask))
@@ -347,14 +349,16 @@ sniffies.com##div.top-menu div.sitelinks app-newsletter-signup-card-container
 sniffies.com##div.tray-bottom div.list-footer
 sniffies.com##div#tray-container-places div.data-container ul app-place-list-item:has(marker-icon-grid i.fa-question-circle)
 sniffies.com##table.chatholder app-chat-list-ad
-!sniffies.com##app-nav-lower-container div.bottom div.nav-button:has(button.plus-nav)
-!sniffies.com##button.nav-logo
-!sniffies.com##div.global-chat__message-container div.overset-global-chat:has(app-advertising-zone-global-chat)
-!sniffies.com##div.recents-container tr.chatholder-row-item:has(tr[aria-label='View Advertisement'])
-!sniffies.com##ui-menu-item-group:has(div.upgrade-btn-container)
 
 ! Government
 calcareers.ca.gov###toast-container
+
+! Hate (i.e. Homophobic / Transphobic / Misogynistic / Racist)
+||floatplane.com/channel/JeffGeerling/$document
+||github.com/geerlingguy/$document
+||jeffgeerling.com^
+||linkedin.com/in/jeff-geerling-086bb2a/$document
+||thingiverse.com/geerlingguy$document
 
 ! Health
 www.goodrx.com##div[data-qa='NewsletterSignUpAlert']
@@ -373,6 +377,7 @@ everymac.com##body div:has(div.prompt-bg)
 golden1.com##.site-status-fixed
 imgur.com##.BottomRecirc
 imgur.com##.Gallery-Sidebar
+map.coveragemap.com##div#root div[data-testid*='ad-banner']
 themezzoapts.com###browser-warning-popup
 tunein.com###outstream-video-ad-right-side-house-ads
 www.bestphoneplans.net##body > div.fixed[aria-label*='Promotion']
@@ -452,6 +457,12 @@ www.lightreading.com##.RegistrationSection
 www.lightreading.com##.Sidebar
 www.lightreading.com##.TwoColumnLayout-Sidebar
 www.lightreading.com##p.RelatedArticle
+www.macobserver.com##.comments-area
+www.macobserver.com##.comments-area
+www.macobserver.com##.navbar-end
+www.macobserver.com##.post-aside-left
+www.macobserver.com##.related-articles
+www.macobserver.com##.tmo-ghub
 www.macrumors.com###comments
 www.macrumors.com###featured_slider2
 www.macrumors.com##div.noskim
@@ -459,6 +470,8 @@ www.macrumors.com##footer
 www.macrumors.com##main div[data-track='popular-stories']
 www.macstories.net##.post-content .aside
 www.macstories.net##article.post .post-supporters
+www.notebookcheck.net##div.csc-default:has(.csc-header)
+www.notebookcheck.net##div.csc-default:has(.nbc_content_el)
 www.pcmag.com##article div[data-parent-group='related-stories']
 www.pcmag.com##article p:has(em > a)
 www.pcmag.com##div div:has(>ul:has(.leading-loose))
@@ -513,6 +526,7 @@ bsky.app##div:has(> div > button[aria-label*='Trending'])
 ! Stores / Shopping
 www.anker.com##.cy-player
 www.chewy.com##.promo-banner
+www.chewy.com##div.main-content div#plp-sponsored-brands-banner
 www.ebay.com##.x-vi-evo-main-container__top-panel
 www.homedepot.com###collapsible-sections-accordion > .zone-card
 www.homedepot.com###footer-static
