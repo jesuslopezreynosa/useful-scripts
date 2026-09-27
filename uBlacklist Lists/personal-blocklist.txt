@@ -353,6 +353,7 @@ host *= "scientology"
 *://*.buildwithparallel.com/*
 *://*.christianpost.com/*
 *://*.churchofjesuschristtemples.org/*
+*://*.crossingstv.com/*
 *://*.dailyutahchronicle.com/*
 *://*.deirdre.net/*
 *://*.dianetics.org/*
@@ -365,7 +366,6 @@ host *= "scientology"
 *://*.southcoastmission.com/*
 *://*.thechurchnews.com/*
 *://*.thirdhour.org/*
-
 
 ! Fake News / Tabloids / Misinformation / Disinformation
 *://*.benshapi.ro/*
@@ -380,6 +380,7 @@ host *= "scientology"
 *://*.express.co.uk/*
 *://*.factualamerica.com/*
 *://*.firstamendmentwatch.org/*
+*://*.foxnews.com/*
 *://*.gizmochina.com/*
 *://*.grokipedia.com/*
 *://*.heraldnet.com/*
@@ -525,7 +526,6 @@ host *= "scientology"
 *://*.fox5sandiego.com/*
 *://*.fox5vegas.com/*
 *://*.foxbusiness.com/*
-*://*.foxnews.com/*
 *://*.foxweather.com/*
 *://*.france24.com/*
 *://*.freechinapost.com/*
