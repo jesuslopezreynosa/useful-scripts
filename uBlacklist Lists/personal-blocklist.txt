@@ -7,9 +7,11 @@ title/Conspiracy/
 title/Controversy/
 title/DEI/
 title/Democrat/
+title/Digital Ocean/
 title/Elon/
 title/FBI/
 title/Federal/
+title/Geerling/
 title/Grok/
 title/ICE/
 title/Killing/
@@ -17,6 +19,7 @@ title/Lunduke/
 title/MAGA/
 title/Musk/
 title/Noem/
+title/Omarchy/
 title/Republican/
 title/Scientology/
 title/Shooting/
@@ -33,11 +36,15 @@ host *= "bloomberg"
 host *= "catholic"
 host *= "ceasefire"
 host *= "conservative"
+host *= "geerling"
 host *= "grok"
+host *= "huawei"
 host *= "kiwifarms"
 host *= "lunduke"
 host *= "mormon"
 host *= "newsmax"
+host *= "omarchy"
+host *= "quora"
 host *= "scientology"
 
 ! Host any TLD
@@ -46,9 +53,15 @@ host *= "scientology"
 /^(.+\.)?dailymail\.[a-z.]+\//
 /^(.+\.)?dmvwaittimes\.[a-z.]+\//
 /^(.+\.)?glassdoor\.[a-z.]+\//
+/^(.+\.)?manual\.[a-z.]+\//
+/^(.+\.)?manuals\.[a-z.]+\//
+/^(.+\.)?manualshelf\.[a-z.]+\//
+/^(.+\.)?manualslib\.[a-z.]+\//
 /^(.+\.)?politico\.[a-z.]+\//
 /^(.+\.)?temu\.[a-z.]+\//
+/^(.+\.)?transferfees\.[a-z.]+\//
 /^(.+\.)?vk\.[a-z.]+\//
+/^(.+\.)?vpncentral\.[a-z.]+\//
 /^(.+\.)?wikihow\.[a-z.]+\//
 /^(.+\.)?yelp\.[a-z.]+\//
 
@@ -57,6 +70,7 @@ host *= "scientology"
 *://*.biz/*
 *://*.bot/*
 *://*.cf/*
+*://*.cfd/*
 *://*.cn/*
 *://*.dj/*
 *://*.ga/*
@@ -84,6 +98,8 @@ host *= "scientology"
 ! Social Media
 *://*.facebook.com/*
 *://*.fb.com/*
+*://*.instagram.com/p/*
+*://*.instagram.com/reel/*
 *://*.pinterest.com/*
 *://*.t.co/*
 *://*.truthsocial.com/*
@@ -98,12 +114,16 @@ host *= "scientology"
 *://*.adweek.com/*
 *://*.afsc.org/*
 *://*.aliexpress.com/*
+*://*.amraandelma.com/*
 *://*.answers.com/*
+*://*.autostraddle.com/*
 *://*.avvo.com/*
 *://*.bbb.org/*
 *://*.bdsmovement.net/*
 *://*.benzinga.com/*
+*://*.bmj.com/*
 *://*.boomerbenefits.com/*
+*://*.broadcastingalliance.org/*
 *://*.buzzfeed.com/*
 *://*.calcoasttimes.com/*
 *://*.california-license-plate.com/*
@@ -154,7 +174,6 @@ host *= "scientology"
 *://*.primetimer.com/*
 *://*.primevideo.com/*
 *://*.purevpn.com/*
-*://*.quora.com/*
 *://*.re-thinkingthefuture.com/*
 *://*.reddithelp.com/*
 *://*.reolink.com/*
@@ -207,6 +226,7 @@ host *= "scientology"
 *://*.tx.us/*
 
 ! Political
+*://*.digitalocean.com/*
 *://*.donaldjtrump.com/*
 *://*.gop.com/*
 *://*.gop.gov/*
@@ -231,64 +251,107 @@ host *= "scientology"
 *://*.avg.com/*
 *://*.base64decode.org/*
 *://*.blogspot.com/*
+*://*.brokerage-review.com/*
+*://*.brokerchooser.com/*
 *://*.cardog.app/*
+*://*.claimdepot.com/*
 *://*.cleanmymac.com/*
 *://*.clips4sale.com/*
 *://*.cloudwards.net/*
 *://*.co.com/*
+*://*.connectify.me/*
 *://*.contact-human-resources.com/*
 *://*.crypto.com/*
 *://*.cyberghostvpn.com/*
+*://*.cyberhoot.com/*
 *://*.cybernews.com/*
+*://*.cybersecuritynews.com/*
 *://*.datadome.co/*
+*://*.dawn.com/*
+*://*.dlink.com/*
 *://*.edu.co/*
 *://*.edu.vn/*
+*://*.een.com/*
+*://*.etsy.com/*
+*://*.ev.com/*
+*://*.evkx.net/*
+*://*.experte.com/*
 *://*.expressvpn.com/*
 *://*.famousbirthdays.com/*
 *://*.gadgethacks.com/*
+*://*.gcn.com/*
+*://*.geeksforgeeks.org/*
 *://*.gemini.com/*
 *://*.geocities.ws/*
 *://*.getadblock.com/*
 *://*.getapp.com/*
+*://*.getprospect.com/*
+*://*.giorgioarmanibeauty-usa.com/*
 *://*.gizchina.com/*
 *://*.goguardian.com/*
 *://*.hardreset.info/*
+*://*.homegearwise.com/*
 *://*.imymac.com/*
 *://*.indiamart.com/*
+*://*.initioinc.com/*
+*://*.insurify.com/*
+*://*.ira-reviews.com/*
+*://*.jdpower.com/*
+*://*.justwatch.com/*
 *://*.kaspersky.com/*
 *://*.kraken.com/*
+*://*.lensa.com/*
+*://*.libble.eu/*
 *://*.machow2.com/*
 *://*.mackeeper.com/*
 *://*.macpaw.com/*
 *://*.macupdate.com/*
 *://*.macworld.co.uk/*
-*://*.manuals.plus/*
-*://*.manualslib.com/*
 *://*.measuredsurvey365.co.uk/*
 *://*.memedroid.com/*
+*://*.mix957gr.com/*
 *://*.monroneylabels.com/*
+*://*.motorbiscuit.com/*
+*://*.moviefone.com/*
+*://*.nascompares.com/*
 *://*.newnorm.tv/*
 *://*.norton.com/*
 *://*.officialusa.com/*
+*://*.pissedconsumer.com/*
+*://*.press-start.com.au/*
 *://*.privacysavvy.com/*
+*://*.q1057.com/*
 *://*.qq.com/*
 *://*.redflagdeals.com/*
 *://*.restoreprivacy.com/*
+*://*.rigorousthemes.com/*
+*://*.robotreviews.com/*
+*://*.shopirobot.com.au/*
 *://*.smartasset.com/*
 *://*.socialsecuritybranch.com/*
 *://*.softonic.com/*
+*://*.sqlauthority.com/*
 *://*.ssofficelocation.com/*
+*://*.stlfinder.com/*
 *://*.teamviewer.com/*
+*://*.techworm.net/*
 *://*.tencent.com/*
 *://*.the-new-norm.fandom.com/*
+*://*.thehomepicker.com/*
+*://*.tntmagazine.com/*
+*://*.topratedfirms.com/*
 *://*.tumbex.com/*
+*://*.usastudentguide.com/*
 *://*.vpnmentor.com/*
 *://*.vpnranks.com/*
 *://*.webcatalog.io/*
+*://*.wellbx.com/*
 *://*.wixsite.com/*
 *://*.worthepenny.com/*
 
 ! ""Religion""
+*://*.buildwithparallel.com/*
+*://*.christianpost.com/*
 *://*.churchofjesuschristtemples.org/*
 *://*.dailyutahchronicle.com/*
 *://*.deirdre.net/*
@@ -303,6 +366,7 @@ host *= "scientology"
 *://*.thechurchnews.com/*
 *://*.thirdhour.org/*
 
+
 ! Fake News / Tabloids / Misinformation / Disinformation
 *://*.benshapi.ro/*
 *://*.cjr.org/*
@@ -310,6 +374,7 @@ host *= "scientology"
 *://*.dailydot.com/*
 *://*.dailysignal.com/*
 *://*.economictimes.com/*
+*://*.etonline.com/*
 *://*.euronews.com/*
 *://*.ew.com/*
 *://*.express.co.uk/*
@@ -328,6 +393,7 @@ host *= "scientology"
 *://*.mercurynews.com/*
 *://*.metro.co.uk/*
 *://*.mysanantonio.com/*
+*://*.nine.com.au/*
 *://*.nypost.com/*
 *://*.parler.com/*
 *://*.parler.social/*
@@ -340,9 +406,12 @@ host *= "scientology"
 *://*.sky.com/*
 *://*.southasiantoday.com.au/*
 *://*.sportskeeda.com/*
+*://*.the-sun.com/*
 *://*.theblaze.com/*
 *://*.thedailybeast.com/*
 *://*.theglobeandmail.com/*
+*://*.thejakartapost.com/*
+*://*.thenationalherald.com/*
 *://*.thetimes.co.uk/*
 *://*.thoughtco.com/*
 *://*.tmz.com/*
@@ -371,6 +440,7 @@ host *= "scientology"
 *://*.actionnewsnow.com/*
 *://*.aei.org/*
 *://*.allthatsinteresting.com/*
+*://*.androidtvnews.com/*
 *://*.aol.com/*
 *://*.apnews.com/*
 *://*.axios.com/*
@@ -390,6 +460,7 @@ host *= "scientology"
 *://*.buzzfeednews.com/*
 *://*.cabletv.com/*
 *://*.calbudgetcenter.org/*
+*://*.carbuzz.com/*
 *://*.cbc.ca/*
 *://*.cbs12.com/*
 *://*.cbslocal.com/*
@@ -461,6 +532,8 @@ host *= "scientology"
 *://*.freedomhouse.org/*
 *://*.ft.com/*
 *://*.fwweekly.com/*
+*://*.gamerant.com/*
+*://*.gamereactor.eu/*
 *://*.gamespot.com/*
 *://*.gazetteandherald.co.uk/*
 *://*.gbnews.com/*
@@ -483,6 +556,8 @@ host *= "scientology"
 *://*.houstonchronicle.com/*
 *://*.hrw.org/*
 *://*.huffingtonpost.co.uk/*
+*://*.idownloadblog.com/*
+*://*.ilounge.com/*
 *://*.independent.co.uk/*
 *://*.indianexpress.com/*
 *://*.infosecurity-magazine.com/*
@@ -524,6 +599,7 @@ host *= "scientology"
 *://*.lifewire.com/*
 *://*.livenowfox.com/*
 *://*.localnewsmatters.org/*
+*://*.macobserver.com/*
 *://*.malibutimes.com/*
 *://*.manhattan-institute.org/*
 *://*.marketwatch.com/*
@@ -808,7 +884,6 @@ host *= "scientology"
 *://*.ljworld.com/*
 *://*.manua.ls/*
 *://*.manualowl.com/*
-*://*.manuals.ca/*
 *://*.manualzz.com/*
 *://*.marieclaire.com/*
 *://*.marketingbrew.com/*
