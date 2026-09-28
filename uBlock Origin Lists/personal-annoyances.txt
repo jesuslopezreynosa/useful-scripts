@@ -9,8 +9,9 @@
 !   - $uritransform
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-! Security
+! Security (Disable Social login)
 ||accounts.google.com/gsi^$third-party
+||connect.facebook.net^$third-party
 
 !!!!!!!!!!!!!!!!!!!
 !! Site Specific !!
@@ -111,6 +112,7 @@ www.youtube.com##button-view-model.ytSpecButtonViewModelHost:has(button[aria-lab
 www.youtube.com##div#chat-container
 www.youtube.com##div#columns div#chat-container
 www.youtube.com##div#content yt-content-metadata-view-model .ytContentMetadataViewModelMetadataRowMetadataRowWrap:has(.ytBadgeShapeText:has-text(Fundraiser))
+www.youtube.com##div#contents ytd-rich-item-renderer:has(div#content .ytLockupViewModelMetadata .ytBadgeShapeCommerce)
 www.youtube.com##div#info-container yt-formatted-string#info a.yt-simple-endpoint
 www.youtube.com##div#items ytd-video-description-infocards-section-renderer div#social-links
 www.youtube.com##div#panels-full-bleed-container:not(:has(div#player-container))
