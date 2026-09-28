@@ -77,7 +77,8 @@ hiringcafe.com##div.relative a.block
 
 ! GitHub
 github.com##.home-campaign .global-banner
-github.com##div.react-code-size-details-in-header:has(span:has-text(/Copilot/i))
+! github.com##div.react-code-size-details-in-header:has(span:has-text(/Copilot/i))
+github.com##div.react-code-size-details-in-header:has(a[href*='copilot'], [data-copilot])
 github.com##div[data-component='SplitPageLayout.Pane'] div div:has(a[href*='/sponsors/'])
 github.com##header div ul li:has(a[href*='/sponsors/'])
 github.com##header div.AppHeader-CopilotChat
@@ -111,17 +112,21 @@ www.youtube.com###voice-search-button
 www.youtube.com##button-view-model.ytSpecButtonViewModelHost:has(button[aria-label='Ask'])
 www.youtube.com##div#chat-container
 www.youtube.com##div#columns div#chat-container
-www.youtube.com##div#content yt-content-metadata-view-model .ytContentMetadataViewModelMetadataRowMetadataRowWrap:has(.ytBadgeShapeText:has-text(Fundraiser))
+! www.youtube.com##div#content yt-content-metadata-view-model .ytContentMetadataViewModelMetadataRowMetadataRowWrap:has(.ytBadgeShapeText:has-text(Fundraiser))
+www.youtube.com##div#content yt-content-metadata-view-model .ytContentMetadataViewModelMetadataRowMetadataRowWrap:has([aria-label*='Fundraiser' i])
 www.youtube.com##div#contents ytd-rich-item-renderer:has(div#content .ytLockupViewModelMetadata .ytBadgeShapeCommerce)
 www.youtube.com##div#info-container yt-formatted-string#info a.yt-simple-endpoint
 www.youtube.com##div#items ytd-video-description-infocards-section-renderer div#social-links
 www.youtube.com##div#panels-full-bleed-container:not(:has(div#player-container))
 www.youtube.com##div#scroll-container yt-chip-cloud-chip-renderer[chip-style='STYLE_AI_MODE_CHIP']
-www.youtube.com##yt-button-view-model:has(.yt-spec-button-shape-next__button-text-content:has-text(Ask))
+! www.youtube.com##yt-button-view-model:has(.yt-spec-button-shape-next__button-text-content:has-text(Ask))
+www.youtube.com##yt-button-view-model:has(button[aria-label*='Ask' i])
 www.youtube.com##ytd-badge-supported-renderer:has(badge-shape[aria-label='Fundraiser'])
 www.youtube.com##ytd-comments#comments
-www.youtube.com##ytd-guide-renderer ytd-guide-section-renderer:has(yt-formatted-string:has-text(Explore))
-www.youtube.com##ytd-guide-renderer ytd-guide-section-renderer:has(yt-formatted-string:has-text(More from))
+! www.youtube.com##ytd-guide-renderer ytd-guide-section-renderer:has(yt-formatted-string:has-text(Explore))
+! www.youtube.com##ytd-guide-renderer ytd-guide-section-renderer:has(yt-formatted-string:has-text(More from))
+www.youtube.com##ytd-guide-renderer ytd-guide-section-renderer:has(a[title*='Explore' i])
+www.youtube.com##ytd-guide-renderer ytd-guide-section-renderer:has(a[title*='More from' i])
 www.youtube.com##ytd-masthead yt-searchbox div button[aria-label='Ask YouTube']
 www.youtube.com##ytd-reel-shelf-renderer
 www.youtube.com##ytd-rich-item-renderer:has(.ytBadgeShapeAd)
@@ -148,13 +153,17 @@ visualstudio.microsoft.com##div#usabilla-button
 ! Microsoft - LinkedIn
 www.linkedin.com##.scaffold-layout__aside
 www.linkedin.com##.share-box-feed-entry__closed-share-box
-www.linkedin.com##body main aside:has(div > p:has-text(LinkedIn News))
+! www.linkedin.com##body main aside:has(div > p:has-text(LinkedIn News))
+www.linkedin.com##body main aside:has(div#feed-news-module)
 www.linkedin.com##div.discovery-templates-jobs-feed-discovery-module li:has(div.jobs-home-upsell-card__container)
 www.linkedin.com##div[componentkey*=':sponsoredContent']
-www.linkedin.com##div[componentkey*='FeedType_MAIN_FEED']:has(p:has-text(Suggested))
+! www.linkedin.com##div[componentkey*='FeedType_MAIN_FEED']:has(p:has-text(Suggested))
+www.linkedin.com##div[componentkey*='FeedType_MAIN_FEED']:has([data-tracking-control-name*='suggested'])
 www.linkedin.com##div[componentkey='newsAndGamesCard']
-www.linkedin.com##div[data-display-contents='true']>:has(div[componentkey*='FeedType_MAIN_FEED_RECENT']:has(div div div p span:has-text(Promoted)))
-www.linkedin.com##div[data-testid='mainFeed'] div[data-display-contents='true']>:has(p:has-text(likes this))
+! www.linkedin.com##div[data-display-contents='true']>:has(div[componentkey*='FeedType_MAIN_FEED_RECENT']:has(div div div p span:has-text(Promoted)))
+! www.linkedin.com##div[data-testid='mainFeed'] div[data-display-contents='true']>:has(p:has-text(likes this))
+www.linkedin.com##div[data-display-contents='true']>:has(div[componentkey*='FeedType_MAIN_FEED_RECENT']:has(.option-share-v2-tombstone-promoted))
+www.linkedin.com##div[data-testid='mainFeed'] div[data-display-contents='true']>:has(a[href*='/feed/update/'])
 www.linkedin.com##div#feed-news-module
 www.linkedin.com##header nav ul li:has(button[aria-label="For Business"]):xpath(../../..)
 www.linkedin.com##nav li:has(div.premium-upsell-link)
@@ -207,21 +216,19 @@ www.reddit.com##div.grid-container div.left-sidebar
 www.reddit.com##div.right-sidebar pdp-right-rail
 www.reddit.com##header nav div.justify-end
 
-! Speedtest.net
-!speedtest.net##.pure-g.content-devices
-!speedtest.net##.pure-u-custom-wifi-recommendation
-
 ! TikTok
 ||tiktok.com^$third-party
 www.tiktok.com##.guide-login-banner
 
 ! Twitch
 www.twitch.tv##.tc-upsell
-www.twitch.tv##.top-nav__menu button:has(div[data-a-target='tw-core-button-label-text']:has-text(/Ad-Free/i))
+! www.twitch.tv##.top-nav__menu button:has(div[data-a-target='tw-core-button-label-text']:has-text(/Ad-Free/i))
+www.twitch.tv##.top-nav__menu button[aria-label*='Ad-Free' i]
 www.twitch.tv##.tw-callout-message
 www.twitch.tv##.tw-root--theme-light:has(.subtember-text)
 www.twitch.tv###twilight-sticky-footer-root
-www.twitch.tv##div.channel-info-content div.metadata-layout__support div[data-target='channel-header-right'] div:has(div:has(div:has(button[data-a-target='gift-button'])))
+! www.twitch.tv##div.channel-info-content div.metadata-layout__support div[data-target='channel-header-right'] div:has(div:has(div:has(button[data-a-target='gift-button'])))
+www.twitch.tv##div.channel-info-content div.metadata-layout__support div[data-target='channel-header-right'] div:has(button[data-a-target='gift-button'])
 
 ! Twitter
 ||t.co^
@@ -327,13 +334,13 @@ www.kayak.com##div.Fxw9-result-item-container:has(div.NAnQ-details:has(div[aria-
 www.playstation.com##.feedback--popup
 
 ! General Annoyances (i.e. Banner Ads, Fake Messages)
-||exoclick.com^third-party,domain=sniffies.com
-||googletagmanager.com^third-party,domain=sniffies.com
-||rtmark.net^third-party,domain=sniffies.com
-||sentry.io^third-party,domain=sniffies.com
-||trafficjunky.com^third-party,domain=sniffies.com
-||trafficjunky.net^third-party,domain=sniffies.com
-||tsyndicate.com^third-party,domain=sniffies.com
+||exoclick.com^$third-party,domain=sniffies.com
+||googletagmanager.com^$third-party,domain=sniffies.com
+||rtmark.net^$third-party,domain=sniffies.com
+||sentry.io^$third-party,domain=sniffies.com
+||trafficjunky.com^$third-party,domain=sniffies.com
+||trafficjunky.net^$third-party,domain=sniffies.com
+||tsyndicate.com^$third-party,domain=sniffies.com
 azmen.com###switch-ad
 azmen.com##div:has(div.az-ads-banner)
 azmen.com##div.az-footer:has(div#aznude_native_exo_gay)
@@ -342,7 +349,7 @@ azmen.com##div#aznlive-banner
 azmen.com##div#aznlive-horizontal__banner
 sniffies.com##app-advertising-zone-map
 sniffies.com##app-advertising-zone-popup
-sniffies.com##div.app-screen div.account-settings-wrapper  div.profile-settings ui-menu-item-group ui-list-item-level-3:has(div.content div.plus-icon)
+sniffies.com##div.app-screen div.account-settings-wrapper div.profile-settings ui-menu-item-group ui-list-item-level-3:has(div.content div.plus-icon)
 sniffies.com##div.lower-nav-zone div.nav-button:has(button.plus-nav)
 sniffies.com##div.map-main-container app-advertising-zone-map
 sniffies.com##div.overset-global-chat > div#global-chat-overset
@@ -460,7 +467,6 @@ www.lightreading.com##.Sidebar
 www.lightreading.com##.TwoColumnLayout-Sidebar
 www.lightreading.com##p.RelatedArticle
 www.macobserver.com##.comments-area
-www.macobserver.com##.comments-area
 www.macobserver.com##.navbar-end
 www.macobserver.com##.post-aside-left
 www.macobserver.com##.related-articles
@@ -491,14 +497,14 @@ www.theregister.com##article .article:has(div.articleFooter span.tags a[data-tag
 www.theregister.com##article .article:has(div.articleFooter span.tags a[data-tag*='openai'])
 www.theregister.com##article .article:has(div.articleFooter span.tags a[data-tag*='trump'])
 www.theregister.com##article .article:has(div.articleFooter span.tags a[data-tag*='twitter'])
-www.theregister.com##div.bodytext:has(span.tertiary:has-text(OPINION))
+! www.theregister.com##div.bodytext:has(span.tertiary:has-text(OPINION))
+www.theregister.com##div.bodytext:has(a[href*='/opinion/'])
 www.theverge.com##.duet--content-cards--content-card > a[href*='elon'], a[href*='trump'], a[href*='doge'], a[href*='federal'], a[href*='tariff'], a[href*='woke']
 www.theverge.com##.l-article-body-segment.l-segment.l-sidebar-fixed > .l-col__sidebar
 www.theverge.com##.w-mobile-breaker
 www.theverge.com##.zephr-zone-footer
 www.theverge.com###content .duet--layout--rail
 www.theverge.com###coral_thread
-www.theverge.com##div.duet--layout--article-recirc-color-container
 www.theverge.com##div.duet--layout--article-recirc-color-container
 www.theverge.com##div.duet--layout--entry-body-container div.duet--layout--rail
 www.tomshardware.com##aside[data-component-name='Recirculation:ArticleRiver']
