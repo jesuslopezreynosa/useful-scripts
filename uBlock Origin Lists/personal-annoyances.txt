@@ -26,23 +26,34 @@ amazon.*##.rufus-text-selection-tooltip
 amazon.*##.video-player .gw-media-card
 amazon.*##.vse-video-widget-container
 amazon.*###above-dp-container
+amazon.*###ask_feature_div
+amazon.*###checkout-experience-container div#best-installment-plan-messages-payment-summary
+amazon.*###checkout-footer-policy-messages-section
 amazon.*###dpx-nice-widget-container
 amazon.*###gwm-Deck-cf
+amazon.*###mbb_feature_div
 amazon.*###native-app-upsell
 amazon.*###postsSameBrandCard_feature_div
 amazon.*###rhf
 amazon.*###Share-share
 amazon.*###smart-app-banner
 amazon.*###widget-rightUpsellSlot
+amazon.*##div.a-section #marsAccessoryUpsell_feature_div
 amazon.*##div.afap-above-nav#afap-above-nav
 amazon.*##div.celwidget#issuancePriceblockAmabot_feature_div
 amazon.*##div.celwidget#smartHomeWidget_feature_div
 amazon.*##div.gwm-widget:has(a[aria-label*='Curated' i])
 amazon.*##div.gwm-widget:has(a[aria-label*='Featured' i])
 amazon.*##div.right-rail-top .right-rail-top-content:has(.celwidget[data-cel-widget*='-upsell'])
+amazon.*##div[data-feature-name*='-productBundle']
+amazon.*##div[data-feature-name='amazon-device-desktop-dp']
+amazon.*##div[data-feature-name='brandInsights']
+amazon.*##div#checkout-pyo-button-block div.a-column div.a-section:has(.a-link-legal)
 amazon.*##div#gw-content-grid div.celwidget:has(a[href*='/gp/video/'])
 amazon.*##div#gw-content-grid div.celwidget:has(a[href*='/music/'])
 amazon.*##div#gwm-window-layout div#gwm-window-xl-container:has(div[data-csa-c-painter='single-video-card'])
+amazon.*##div#ppd .leftCol div[data-cel-widget*='_feature_div']:has([href*='alexaplus'])
+amazon.*##div#subtotals div>.a-section:has(.a-link-legal)
 amazon.*##li.nav-li:has(a[data-csa-c-content-id*='_ai' i])
 amazon.*##li.nav-li:has(a[data-csa-c-content-id*='alexa' i])
 amazon.*##section.category-section[aria-labelledby='Trending']
@@ -532,6 +543,11 @@ www.jocooks.com##.wpd-comments-open
 bsky.app##div:has(> div > button[aria-label*='Trending'])
 
 ! Stores / Shopping
+pay.ebay.com###payment-selection-fieldset .payment-entry[data-test-info*='KLARNA']
+pay.ebay.com###payment-selection-fieldset .payment-entry[data-test-info*='PAYPAL_CREDIT']
+pay.ebay.com##div.summary .legal-text
+pay.ebay.com##div.summary .payments-promotions
+pay.ebay.com##section.module.charity
 www.anker.com##.cy-player
 www.chewy.com##.promo-banner
 www.chewy.com##div.main-content div#plp-sponsored-brands-banner
