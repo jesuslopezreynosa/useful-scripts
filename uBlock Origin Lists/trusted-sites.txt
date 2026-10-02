@@ -13,6 +13,7 @@ c.apple.com
 ca.gov
 consent.capitalone.com
 coveredca.com
+deck.hexos.com
 dingusland.fun
 earth.google.com
 ec.nintendo.com

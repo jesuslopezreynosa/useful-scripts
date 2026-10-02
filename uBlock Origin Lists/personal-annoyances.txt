@@ -80,11 +80,12 @@ www.costco.com##div.MuiBox-root[name="emailSignUpForm"]
 www.costco.com##div[data-testid='main-column'] div:has(div[data-testid='AdBuilder'])
 www.costco.com##div#mainContent main div[data-testid*='AdSet-']:has(div[data-testid='text_banner'])
 
-! Hiring Cafe
-hiring.cafe##body div.fixed:has(button > span > video)
-hiring.cafe##div.relative a.block
-hiringcafe.com##body div.fixed:has(button > span > video)
-hiringcafe.com##div.relative a.block
+! Experian
+usa.experian.com##.branded-cards
+usa.experian.com##.income-banner
+usa.experian.com###dash-recommendation-action-stack
+usa.experian.com##div:has(>div[data-testid='carousel'] div[aria-label='video-carousel-item'])
+usa.experian.com##support-chatbot-floating-cta
 
 ! GitHub
 github.com##.home-campaign .global-banner
@@ -146,6 +147,12 @@ www.youtube.com##ytd-rich-item-renderer:has(.ytBadgeShapePromoted)
 www.youtube.com##ytd-rich-item-renderer:has(badge-shape div.ytBadgeShapeText:has-text(featured))
 www.youtube.com##ytd-rich-section-renderer.efyt-is-short
 www.youtube.com##ytd-shelf-renderer #dismissible
+
+! Hiring Cafe
+hiring.cafe##body div.fixed:has(button > span > video)
+hiring.cafe##div.relative a.block
+hiringcafe.com##body div.fixed:has(button > span > video)
+hiringcafe.com##div.relative a.block
 
 ! Meta / Facebook Family of Foods
 www.instagram.com##body div section main div:has(div[tabindex="-1"]:has(a[href*='/accounts/login']))
