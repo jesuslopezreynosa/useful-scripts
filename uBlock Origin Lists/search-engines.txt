@@ -43,25 +43,26 @@ www.ecosia.org##.main-footer__menu-social, .main-footer-visual__content
 
 !! Google !!
 ! --- Network / URL Transformation ---
-||www.google.com/search?^$uritransform=/(^(?!.*&tbs=).*$)/$1&tbs=1/
+! aglint-disable-next-line
+||google.com/search?$addparam=udm=14
 ! --- Navigation, Tabs & Header Elements ---
 google.*##div[role="navigation"] div[role="list"] > div[role="listitem"]:has(a[href^="/search"][href*="&udm=50"])
-www.google.com/search##div[role="navigation"] div[role="listitem"]:has(span:has-text(AI Mode))
+www.google.com##:matches-path(/search)div[role="navigation"] div[role="listitem"]:has(span:has-text(AI Mode))
 www.google.com##div.main div#cnt div[role="navigation"] div[role="list"] div[role="listitem"]:has(span:has-text(News))
-www.google.com/search##form[action="/search"] div:has(> button[role="link"])
+www.google.com##:matches-path(/search)form[action="/search"] div:has(> button[role="link"])
 ! --- Ads, Widgets & Promos ---
-www.google.com/search##div#search div#tads
+www.google.com##:matches-path(/search)div#search div#tads
 www.google.com##div#bottomads
 www.google.com##[src*="ogs.google.com/widget"]
 www.google.com##div:has(div[aria-labelledby="promo_label_id"])
 www.google.com##promo-middle-slot
 ! --- AI Overviews & Trending ---
-www.google.com/search##div#rcnt div:has(h1:has-text(AI Overview))
-www.google.com/search##div[role="presentation"]:has(div[role="presentation"]:has-text(Trending searches))
+www.google.com##:matches-path(/search)div#rcnt div:has(h1:has-text(AI Overview))
+www.google.com##:matches-path(/search)div[role="presentation"]:has(div[role="presentation"]:has-text(Trending searches))
 ! --- News & Social Media Sections ---
-www.google.com/search##g-section-with-header:has(span:has-text(Local news))
-www.google.com/search##div:has(> a[href*="/search?"]:has(span:has-text(More news)))
-www.google.com/search##div[data-rpos]:has(div > span:has-text(/Top stories/i))
+www.google.com##:matches-path(/search)g-section-with-header:has(span:has-text(Local news))
+www.google.com##:matches-path(/search)div:has(> a[href*="/search?"]:has(span:has-text(More news)))
+www.google.com##:matches-path(/search)div[data-rpos]:has(div > span:has-text(/Top stories/i))
 www.google.com##div#rcnt div#rhs div div[role="presentation"] div:has(> g-link:has(a[href*="twitter.com"]))
 ! --- Search Result Features (Forums, Videos, etc.) ---
 www.google.com##div#search div#rso > div:has(div:has-text(Discussions and forums))

@@ -193,21 +193,21 @@ www.plugshare.com###nearby
 www.plugshare.com###share
 
 ! Privacy.com
-www.privacy.com/blog##.cta-card-sidebar-content
-www.privacy.com/blog##.opening-cta
-www.privacy.com/blog##div:has(>.cta-visual-wrapper)
+www.privacy.com##:matches-path(/blog).cta-card-sidebar-content
+www.privacy.com##:matches-path(/blog).opening-cta
+www.privacy.com##:matches-path(/blog)div:has(>.cta-visual-wrapper)
 
 ! Reddit
-reddit.com/r/apple##.thing:has(.linkflairlabel[title*='Promo'])
-reddit.com/r/linux##.thing:has(.linkflairlabel[title*='Privacy'])
-reddit.com/r/linux##div.thing[data-permalink*='/age_'], div.thing[data-permalink*='_age_'], div.thing[data-permalink*='_age/']
-reddit.com/r/linux##div.thing[data-permalink*='/bill_'], div.thing[data-permalink*='_bill_'], div.thing[data-permalink*='_bill/']
-reddit.com/r/linux##div.thing[data-permalink*='/california_'], div.thing[data-permalink*='_california_'], div.thing[data-permalink*='_california/']
-reddit.com/r/linux##div.thing[data-permalink*='/law_'], div.thing[data-permalink*='_law_'], div.thing[data-permalink*='_law/']
-reddit.com/r/linux##div.thing[data-permalink*='/lunduke_'], div.thing[data-permalink*='_lunduke_'], div.thing[data-permalink*='_lunduke/']
-reddit.com/r/linux##div.thing[data-permalink*='/rms_'], div.thing[data-permalink*='_rms_'], div.thing[data-permalink*='_rms/']
-reddit.com/r/linux##div.thing[data-permalink*='/stallman_'], div.thing[data-permalink*='_stallman_'], div.thing[data-permalink*='_stallman/']
-reddit.com/r/linux##div.thing[data-permalink*='/verification_'], div.thing[data-permalink*='_verification_'], div.thing[data-permalink*='_verification/']
+reddit.com##:matches-path(/r/apple).thing:has(.linkflairlabel[title*='Promo'])
+reddit.com##:matches-path(/r/linux).thing:has(.linkflairlabel[title*='Privacy'])
+reddit.com##:matches-path(/r/linux)div.thing:has([data-permalink*='/age_'], [data-permalink*='_age_'], [data-permalink*='_age/'])
+reddit.com##:matches-path(/r/linux)div.thing:has([data-permalink*='/bill_'], [data-permalink*='_bill_'], [data-permalink*='_bill/'])
+reddit.com##:matches-path(/r/linux)div.thing:has([data-permalink*='/california_'], [data-permalink*='_california_'], [data-permalink*='_california/'])
+reddit.com##:matches-path(/r/linux)div.thing:has([data-permalink*='/law_'], [data-permalink*='_law_'], [data-permalink*='_law/'])
+reddit.com##:matches-path(/r/linux)div.thing:has([data-permalink*='/lunduke_'], [data-permalink*='_lunduke_'], [data-permalink*='_lunduke/'])
+reddit.com##:matches-path(/r/linux)div.thing:has([data-permalink*='/rms_'], [data-permalink*='_rms_'], [data-permalink*='_rms/'])
+reddit.com##:matches-path(/r/linux)div.thing:has([data-permalink*='/stallman_'], [data-permalink*='_stallman_'], [data-permalink*='_stallman/'])
+reddit.com##:matches-path(/r/linux)div.thing:has([data-permalink*='/verification_'], [data-permalink*='_verification_'], [data-permalink*='_verification/'])
 reddit.com##.commentsignupbar.infobar
 reddit.com##.content .thing.promoted
 reddit.com##.link:has(div.entry:has(p.tagline:has(.stickied-tagline)))
