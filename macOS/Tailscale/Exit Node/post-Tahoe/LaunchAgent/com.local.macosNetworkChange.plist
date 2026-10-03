@@ -12,8 +12,11 @@
         </array>
         <key>WatchPaths</key>
         <array>
-            <string>/Library/Preferences/SystemConfiguration/com.apple.network.identification.plist</string>
+            <string>/Library/Preferences/SystemConfiguration</string>
+            <string>/var/run/resolv.conf</string>
         </array>
+        <key>ThrottleInterval</key>
+        <integer>10</integer>
         <key>RunAtLoad</key>
         <true />
         <key>StandardOutPath</key>
