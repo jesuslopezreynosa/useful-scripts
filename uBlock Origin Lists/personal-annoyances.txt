@@ -211,29 +211,34 @@ reddit.com##:matches-path(/r/linux)div.thing:has([data-permalink*='/stallman_'],
 reddit.com##:matches-path(/r/linux)div.thing:has([data-permalink*='/verification_'], [data-permalink*='_verification_'], [data-permalink*='_verification/'])
 reddit.com##.commentsignupbar.infobar
 reddit.com##.content .thing.promoted
+reddit.com##.fixed.active
 reddit.com##.link:has(div.entry:has(p.tagline:has(.stickied-tagline)))
 reddit.com##.linklisting.sitetable::before
+reddit.com##.listingsignupbar
 reddit.com##.listingsignupbar.infobar
+reddit.com##.nd\:visible.hidden.community-highlight-carousel
 reddit.com##.premium-banner-outer
 reddit.com##.seo-comments
 reddit.com##.seo-comments-recommendations.spacer
 reddit.com##.thing:has(.linkflairlabel[title*='Clickbait'])
 reddit.com##.thing:has(.linkflairlabel[title="Locked"])
+reddit.com###right-sidebar-container
 reddit.com###sr-header-area
+reddit.com##div.grid-container div.left-sidebar
 reddit.com##div.locked:has(a.moderator)
 reddit.com##div.read-next-container
+reddit.com##div.right-sidebar pdp-right-rail
 reddit.com##div.side div.spacer:has(div.morelink)
 reddit.com##div.side div.spacer:has(div.shortlink)
 reddit.com##div.side div.spacer:has(li.message-button)
 reddit.com##div.stickied
 reddit.com##div.thing[data-score="0"], div.thing[data-score|="-"]
-www.reddit.com##.fixed.active
-www.reddit.com##.listingsignupbar
-www.reddit.com##.nd\:visible.hidden.community-highlight-carousel
-www.reddit.com###right-sidebar-container
-www.reddit.com##div.grid-container div.left-sidebar
-www.reddit.com##div.right-sidebar pdp-right-rail
-www.reddit.com##header nav div.justify-end
+reddit.com##header nav div.justify-end
+
+# Speedtest.net
+www.speedtest.net##.MuiDialog-root
+www.speedtest.net##.pure-g > .MuiBox-root>:has(#lower-content-body)
+www.speedtest.net##header .items-center>:has(.download-button)
 
 ! TikTok
 ||tiktok.com^$third-party
