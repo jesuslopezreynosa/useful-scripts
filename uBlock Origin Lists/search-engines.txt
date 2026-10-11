@@ -18,6 +18,7 @@ search.brave.com###primary-tabs li:has([href*='/googles'], [href*='/news'])
 ! --- Duck.ai UI & Sidebar ---
 duck.ai##section[data-testid='duckai-sidebar'] button[label='Upgrade']
 duck.ai##section[data-testid='duckai-sidebar'] span:has(a[href*='duckduckgo.com/about'])
+duckduckgo.com##[data-testid='floating-feedback-prompt']
 ! --- DuckDuckGo Header, Footer & Promos ---
 duckduckgo.com##.ddg-extension-hide, .footer, .header--aside__item--hidden-lg, .js-module--news, .js-text-promo, div[data-testid='serp-popover-promo']
 duckduckgo.com##div.header-wrap div#react-duckbar nav li:has(a[href*='=news'])

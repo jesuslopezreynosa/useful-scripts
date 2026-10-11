@@ -155,10 +155,10 @@ hiringcafe.com##body div.fixed:has(button > span > video)
 hiringcafe.com##div.relative a.block
 
 ! Meta / Facebook Family of Foods
-www.instagram.com##body div section main div:has(div[tabindex="-1"]:has(a[href*='/accounts/login']))
-www.instagram.com##body:style(overflow: auto !important;)
-www.instagram.com##div[role="dialog"]
-www.instagram.com##div[role="presentation"]
+! www.instagram.com##body div section main div:has(div[tabindex="-1"]:has(a[href*='/accounts/login']))
+! www.instagram.com##body:style(overflow: auto !important;)
+! www.instagram.com##div[role="dialog"]
+! www.instagram.com##div[role="presentation"]
 
 ! Microsoft
 ||msn.com^
@@ -540,7 +540,16 @@ www.theverge.com##div.duet--content-cards--quick-post[role='article']:has-text(w
 www.theverge.com##div.duet--content-cards--quick-post[role='article']:has-text(Zuckerberg)
 www.theverge.com##div.duet--layout--article-recirc-color-container
 www.theverge.com##div.duet--layout--entry-body-container div.duet--layout--rail
+www.tomshardware.com##.fancy_box_body
+www.tomshardware.com##.fancy_box-title
+www.tomshardware.com##.kiosq-b.fancy-box
+www.tomshardware.com##.newsletter-form__wrapper
+www.tomshardware.com##.trending__wrapper
+www.tomshardware.com##.xenforo-comment-widget
+www.tomshardware.com##.xenforo-comments-see-all
+www.tomshardware.com###kiosq-app-paywall-js
 www.tomshardware.com##aside[data-component-name='Recirculation:ArticleRiver']
+www.tomshardware.com##section:has([data-mrf-recirculation='article-river-stacked'])
 www.wired.com##.persistent-bottom
 
 ! Podcasts
