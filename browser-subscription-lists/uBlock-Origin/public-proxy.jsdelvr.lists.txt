@@ -1,0 +1,10 @@
+! uBlock Origin / ABP / wBlock Lists
+https://cdn.jsdelivr.net/gh/jesuslopezreynosa/useful-scripts@refs/heads/main/browser-subscription-lists/uBlock-Origin/lists/all.txt
+https://cdn.jsdelivr.net/gh/jesuslopezreynosa/useful-scripts@refs/heads/main/browser-subscription-lists/uBlock-Origin/lists/annoyances.keywords.txt
+https://cdn.jsdelivr.net/gh/jesuslopezreynosa/useful-scripts@refs/heads/main/browser-subscription-lists/uBlock-Origin/lists/annoyances.personal.txt
+https://cdn.jsdelivr.net/gh/jesuslopezreynosa/useful-scripts@refs/heads/main/browser-subscription-lists/uBlock-Origin/lists/annoyances.search-engines.txt
+https://cdn.jsdelivr.net/gh/jesuslopezreynosa/useful-scripts@refs/heads/main/browser-subscription-lists/uBlock-Origin/lists/domains.news.txt
+https://cdn.jsdelivr.net/gh/jesuslopezreynosa/useful-scripts@refs/heads/main/browser-subscription-lists/uBlock-Origin/lists/preferences.trusted.txt
+
+! UserScripts
+https://cdn.jsdelivr.net/gh/jesuslopezreynosa/useful-scripts@refs/heads/main/browser-subscription-lists/UserScripts/personal-cookies.user.js

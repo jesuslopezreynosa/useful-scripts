@@ -1,4 +1,4 @@
-! Title: JesusLopezReynosa - Personal Annoyances
+! Title: JLR - Personal Annoyances
 ! Expires: 1 day
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -201,14 +201,6 @@ www.privacy.com##:matches-path(/blog)div:has(>.cta-visual-wrapper)
 ! Reddit
 reddit.com##:matches-path(/r/apple).thing:has(.linkflairlabel[title*='Promo'])
 reddit.com##:matches-path(/r/linux).thing:has(.linkflairlabel[title*='Privacy'])
-reddit.com##:matches-path(/r/linux)div.thing:has([data-permalink*='/age_'], [data-permalink*='_age_'], [data-permalink*='_age/'])
-reddit.com##:matches-path(/r/linux)div.thing:has([data-permalink*='/bill_'], [data-permalink*='_bill_'], [data-permalink*='_bill/'])
-reddit.com##:matches-path(/r/linux)div.thing:has([data-permalink*='/california_'], [data-permalink*='_california_'], [data-permalink*='_california/'])
-reddit.com##:matches-path(/r/linux)div.thing:has([data-permalink*='/law_'], [data-permalink*='_law_'], [data-permalink*='_law/'])
-reddit.com##:matches-path(/r/linux)div.thing:has([data-permalink*='/lunduke_'], [data-permalink*='_lunduke_'], [data-permalink*='_lunduke/'])
-reddit.com##:matches-path(/r/linux)div.thing:has([data-permalink*='/rms_'], [data-permalink*='_rms_'], [data-permalink*='_rms/'])
-reddit.com##:matches-path(/r/linux)div.thing:has([data-permalink*='/stallman_'], [data-permalink*='_stallman_'], [data-permalink*='_stallman/'])
-reddit.com##:matches-path(/r/linux)div.thing:has([data-permalink*='/verification_'], [data-permalink*='_verification_'], [data-permalink*='_verification/'])
 reddit.com##.commentsignupbar.infobar
 reddit.com##.content .thing.promoted
 reddit.com##.fixed.active
@@ -456,7 +448,6 @@ www.vox.com##.l-article-body-segment.l-segment.l-sidebar-fixed > .l-col__sidebar
 9to5mac.com###comments
 9to5mac.com##div.container>:has(div.related-guides)
 9to5mac.com##div.post-content div.top-comment
-9to5mac.com##div.river__posts:has(article a[href*='trump'],a[href*='elon'],a[href*='spacex'],a[href*='tariff'],a[href*='/daily-'])
 9to5mac.com##h3.wp-block-heading
 9to5mac.com##ul.wp-block-list
 appleinsider.com##div.sbr-spotlight
@@ -482,7 +473,6 @@ www.gsmarena.com###social-connect
 www.gsmarena.com###user-comments
 www.gsmarena.com##div.review-body div.news-item
 www.lightreading.com##.ArticleBase-IirisRecommendation
-www.lightreading.com##.ContentPreview:has(.ListPreview-Title:has-text(Trump)), :has(.ListPreview-Title:has-text(Elon)), :has(.ListPreview-Title:has-text(SpaceX)), :has(.ListPreview-Title:has-text(SpaceXAI)), :has(.ListPreview-Title:has-text(Starlink)), :has(.ListPreview-Title:has-text(Carr))
 www.lightreading.com##.CrossNetworkBar
 www.lightreading.com##.EventsPromotions
 www.lightreading.com##.NavBase-RegisterWrapper
@@ -518,10 +508,6 @@ www.theregister.com##.desktop_only.right_col > .similar_topics
 www.theregister.com##.fullwidthTarget.content
 www.theregister.com##.listinks
 www.theregister.com##.mobile-floatRight.desktop-floatRight
-www.theregister.com##article .article:has(div.articleFooter span.tags a[data-tag*='elon'])
-www.theregister.com##article .article:has(div.articleFooter span.tags a[data-tag*='openai'])
-www.theregister.com##article .article:has(div.articleFooter span.tags a[data-tag*='trump'])
-www.theregister.com##article .article:has(div.articleFooter span.tags a[data-tag*='twitter'])
 ! www.theregister.com##div.bodytext:has(span.tertiary:has-text(OPINION))
 www.theregister.com##div.bodytext:has(a[href*='/opinion/'])
 www.theverge.com##.l-article-body-segment.l-segment.l-sidebar-fixed > .l-col__sidebar
@@ -530,14 +516,6 @@ www.theverge.com##.zephr-zone-footer
 www.theverge.com###content .duet--layout--rail
 www.theverge.com###coral_thread
 www.theverge.com###zephr-inline-container
-www.theverge.com##div.duet--content-cards--content-card:has(a:has-text(Elon))
-www.theverge.com##div.duet--content-cards--content-card:has(a:has-text(Trump))
-www.theverge.com##div.duet--content-cards--content-card:has(a:has-text(woke))
-www.theverge.com##div.duet--content-cards--content-card:has(a:has-text(Zuckerberg))
-www.theverge.com##div.duet--content-cards--quick-post[role='article']:has-text(Elon)
-www.theverge.com##div.duet--content-cards--quick-post[role='article']:has-text(Trump)
-www.theverge.com##div.duet--content-cards--quick-post[role='article']:has-text(woke)
-www.theverge.com##div.duet--content-cards--quick-post[role='article']:has-text(Zuckerberg)
 www.theverge.com##div.duet--layout--article-recirc-color-container
 www.theverge.com##div.duet--layout--entry-body-container div.duet--layout--rail
 www.tomshardware.com##.fancy_box_body
@@ -616,7 +594,6 @@ www.waterdropfilter.com###wd-cookie-consent-popup
 ||zip^
 
 ! Vehicle Blogs / Search Engines / Sales
-electrek.co##article:has(.meta__guide a[href*='trump'],[href*='elon'],[href*='podcast'],[href*='musk'],[href*='tesla'],[href*='aviation'])
 insideevs.com##.box-item-right
 insideevs.com##.flex.adfeed-container
 insideevs.com##.flex.footer-navigation

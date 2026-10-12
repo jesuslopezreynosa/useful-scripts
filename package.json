@@ -1,10 +1,13 @@
 {
-  "dependencies": {
-    "@adguard/aglint": "^3.0.3",
-    "init": "^0.1.2"
-  },
-  "allowScripts": {
-    "@adguard/aglint@3.0.3": true,
-    "core-js-pure@3.50.0": true
-  }
+    "scripts": {
+        "test": "cd \"browser-subscription-lists/uBlock-Origin/lists/\" && npx aglint"
+    },
+    "dependencies": {
+        "@adguard/aglint": "^3.0.3",
+        "init": "^0.1.2"
+    },
+    "allowScripts": {
+        "@adguard/aglint@3.0.3": true,
+        "core-js-pure@3.50.0": true
+    }
 }

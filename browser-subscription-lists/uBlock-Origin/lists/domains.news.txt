@@ -1,4 +1,4 @@
-! Title: JesusLopezReynosa - News Sites
+! Title: JLR - News Sites
 ! Expires: 7 day
 
 *.msn.com

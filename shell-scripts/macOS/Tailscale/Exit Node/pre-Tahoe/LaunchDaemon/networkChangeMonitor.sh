@@ -7,9 +7,9 @@
     # sudo chmod +x /opt/ts-network-change/*
     # sudo chown root:wheel /opt/ts-network-change/*
 ## Then add Launch Daemon to `/Library/LaunchDaemons/`
-    # sudo cp com.local.macos_network_change.plist /Library/LaunchDaemons/.
-    # sudo sudo launchctl load -w /Library/LaunchDaemons/com.local.macos_network_change.plist
-    ## To remove permanently: sudo sudo launchctl unload -w /Library/LaunchDaemons/com.local.macos_network_change.plist
+    # sudo cp com.local.macOsNetworkChange.plist /Library/LaunchDaemons/.
+    # sudo sudo launchctl load -w /Library/LaunchDaemons/com.local.macOsNetworkChange.plist
+    ## To remove permanently: sudo sudo launchctl unload -w /Library/LaunchDaemons/com.local.macOsNetworkChange.plist
 
 # Set PATH for the script (Necessary since tailscale may run as local user, and LaunchDaemons run as root)
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin/tailscale"

@@ -1,4 +1,4 @@
-! Title: JesusLopezReynosa - Search Engine Annoyances
+! Title: JLR - Search Engine Annoyances
 ! Expires: 1 day
 
 !! Brave Search !!

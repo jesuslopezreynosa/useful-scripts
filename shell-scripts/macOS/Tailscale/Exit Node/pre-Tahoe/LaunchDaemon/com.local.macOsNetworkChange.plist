@@ -3,7 +3,7 @@
 <plist version="1.0">
     <dict>
         <key>Label</key>
-        <string>com.local.macos_network_change</string>
+        <string>com.local.macOsNetworkChange</string>
         <key>ProgramArguments</key>
         <array>
             <string>/bin/zsh</string>

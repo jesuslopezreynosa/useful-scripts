@@ -1,9 +1,9 @@
-! Title: JesusLopezReynosa - Trusted Cookies
+! Title: JLR - Trusted Cookies
 ! Expires: 1 day
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !   In µBlock Origin, enable `I am an advanced user` then set
-!   `trustedListPrefixes` to `ublock- https://raw.githubusercontent.com/jesuslopezreynosa/useful-scripts/ https://cdn.jsdelivr.net/gh/jesuslopezreynosa/useful-scripts@refs/heads/main/uBlock%20Origin%20Lists/`
+!   `trustedListPrefixes` to `ublock- https://raw.githubusercontent.com/jesuslopezreynosa/useful-scripts/ https://cdn.jsdelivr.net/gh/jesuslopezreynosa/useful-scripts@refs/heads/main/`
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ! Search Engine Cookies
