@@ -25,6 +25,7 @@ icloud.com
 identity.walmart.com
 js.stripe.com
 kpclaimservices.com
+local.hexos.com
 manual.seafile.com
 mapgeo.io
 meet.google.com

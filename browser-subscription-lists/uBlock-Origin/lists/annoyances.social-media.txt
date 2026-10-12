@@ -1,0 +1,80 @@
+! Title: JLR - Social Media Annoyances
+! Expires: 1 day
+
+! Meta / Facebook Family of Foods
+! www.instagram.com##body div section main div:has(div[tabindex="-1"]:has(a[href*='/accounts/login']))
+! www.instagram.com##body:style(overflow: auto !important;)
+! www.instagram.com##div[role="dialog"]
+! www.instagram.com##div[role="presentation"]
+
+! Microsoft - LinkedIn
+www.linkedin.com##.scaffold-layout__aside
+www.linkedin.com##.share-box-feed-entry__closed-share-box
+! www.linkedin.com##body main aside:has(div > p:has-text(LinkedIn News))
+www.linkedin.com##body main aside:has(div#feed-news-module)
+www.linkedin.com##div.discovery-templates-jobs-feed-discovery-module li:has(div.jobs-home-upsell-card__container)
+www.linkedin.com##div[componentkey*=':sponsoredContent']
+! www.linkedin.com##div[componentkey*='FeedType_MAIN_FEED']:has(p:has-text(Suggested))
+www.linkedin.com##div[componentkey*='FeedType_MAIN_FEED']:has([data-tracking-control-name*='suggested'])
+www.linkedin.com##div[componentkey='newsAndGamesCard']
+! www.linkedin.com##div[data-display-contents='true']>:has(div[componentkey*='FeedType_MAIN_FEED_RECENT']:has(div div div p span:has-text(Promoted)))
+! www.linkedin.com##div[data-testid='mainFeed'] div[data-display-contents='true']>:has(p:has-text(likes this))
+www.linkedin.com##div[data-display-contents='true']>:has(div[componentkey*='FeedType_MAIN_FEED_RECENT']:has(.option-share-v2-tombstone-promoted))
+www.linkedin.com##div[data-testid='mainFeed'] div[data-display-contents='true']>:has(a[href*='/feed/update/'])
+www.linkedin.com##div#feed-news-module
+www.linkedin.com##div#root main aside[aria-label='Aside']
+www.linkedin.com##header nav ul li:has(button[aria-label="For Business"]):xpath(../../..)
+www.linkedin.com##nav li:has(div.premium-upsell-link)
+
+! Reddit
+reddit.com##:matches-path(/r/apple).thing:has(.linkflairlabel[title*='Promo'])
+reddit.com##:matches-path(/r/linux).thing:has(.linkflairlabel[title*='Privacy'])
+reddit.com##.commentsignupbar.infobar
+reddit.com##.content .thing.promoted
+reddit.com##.fixed.active
+reddit.com##.link:has(div.entry:has(p.tagline:has(.stickied-tagline)))
+reddit.com##.linklisting.sitetable::before
+reddit.com##.listingsignupbar
+reddit.com##.listingsignupbar.infobar
+reddit.com##.nd\:visible.hidden.community-highlight-carousel
+reddit.com##.premium-banner-outer
+reddit.com##.seo-comments
+reddit.com##.seo-comments-recommendations.spacer
+reddit.com##.thing:has(.linkflairlabel[title*='Clickbait'])
+reddit.com##.thing:has(.linkflairlabel[title="Locked"])
+reddit.com###right-sidebar-container
+reddit.com###sr-header-area
+reddit.com##div.grid-container div.left-sidebar
+reddit.com##div.locked:has(a.moderator)
+reddit.com##div.read-next-container
+reddit.com##div.right-sidebar pdp-right-rail
+reddit.com##div.side div.spacer:has(div.morelink)
+reddit.com##div.side div.spacer:has(div.shortlink)
+reddit.com##div.side div.spacer:has(li.message-button)
+reddit.com##div.stickied
+reddit.com##div.thing[data-score="0"], div.thing[data-score|="-"]
+reddit.com##header nav div.justify-end
+
+! Sniffies
+sniffies.com##app-advertising-zone-map
+sniffies.com##app-advertising-zone-popup
+sniffies.com##div.app-screen div.account-settings-wrapper div.profile-settings ui-menu-item-group ui-list-item-level-3:has(div.content div.plus-icon)
+sniffies.com##div.lower-nav-zone div.nav-button:has(button.plus-nav)
+sniffies.com##div.map-main-container app-advertising-zone-map
+sniffies.com##div.overset-global-chat > div#global-chat-overset
+sniffies.com##div.panel-content div.upgrade-cta
+sniffies.com##div.top-menu div.sitelinks app-newsletter-signup-card-container
+sniffies.com##div.tray-bottom div.list-footer
+sniffies.com##div#tray-container-places div.data-container ul app-place-list-item:has(marker-icon-grid i.fa-question-circle)
+sniffies.com##table.chatholder app-chat-list-ad
+
+! Twitter
+||t.co^
+||tweetdeck.com
+||twimg.com^
+||twitter.com.cdn.cloudflare.net^
+||twitter.com^
+||twitter.map.fastly.net^
+||x.com.cdn.cloudflare.net^
+||x.com^
+||x.map.fastly.net^

@@ -4,4 +4,5 @@
 !#include annoyances.keywords.txt
 !#include annoyances.personal.txt
 !#include annoyances.search-engines.txt
+!#include annoyances.social-media.txt
 !#include domains.news.txt
