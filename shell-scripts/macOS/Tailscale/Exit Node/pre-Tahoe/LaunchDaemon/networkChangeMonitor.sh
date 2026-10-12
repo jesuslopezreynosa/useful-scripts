@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-## Update the list of SSIDs to match (line 18 of this file), these will have the Exit Node turned off when connected
+## Update the list of SSIDs to match (variable `direct_ssids`), these will have the Exit Node turned off when connected
 ## Run the following
     # sudo mkdir /opt/ts-network-change
     # sudo cp networkChangeMonitor.sh /opt/ts-network-change/.

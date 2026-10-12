@@ -8,18 +8,21 @@ title/Controversy/
 title/DEI/
 title/Democrat/
 title/Digital Ocean/
+title/Election/
 title/Elon/
 title/FBI/
 title/Federal/
 title/Geerling/
 title/Grok/
 title/ICE/
+title/Interference/
 title/Killing/
 title/Lunduke/
 title/MAGA/
 title/Musk/
 title/Noem/
 title/Omarchy/
+title/Polls/
 title/Republican/
 title/Scientology/
 title/Shooting/
@@ -28,6 +31,7 @@ title/SpaceX/
 title/Texas/
 title/Trump/
 title/Vance/
+title/Voting/
 title/White House/
 
 ! Host Keywords
@@ -46,6 +50,7 @@ host *= "newsmax"
 host *= "omarchy"
 host *= "quora"
 host *= "scientology"
+host *= "trump"
 
 ! Host any TLD
 /^(.+\.)?9news\.[a-z.]+\//
@@ -100,6 +105,7 @@ host *= "scientology"
 *://*.fb.com/*
 *://*.instagram.com/p/*
 *://*.instagram.com/reel/*
+*://*.linkedin.com/*
 *://*.pinterest.com/*
 *://*.t.co/*
 *://*.truthsocial.com/*

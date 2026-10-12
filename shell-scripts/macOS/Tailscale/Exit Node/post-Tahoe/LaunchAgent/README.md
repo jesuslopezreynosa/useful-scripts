@@ -21,7 +21,7 @@ trusted_ssids=("Trusted SSID 1" "Trusted SSID 2")
 /usr/bin/shortcuts run "Tailscale Exit Node on SSID"
 ```
 
-_NOTE: if you set a different name for the macOS Shortcut in step 2, update the name inside the quotes._
+*NOTE: if you set a different name for the macOS Shortcut in step 2, update the name inside the quotes.*
 
 5. Create a local directory for the script, copy it over, and give it execute permissions:
 
