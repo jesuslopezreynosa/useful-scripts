@@ -69,6 +69,8 @@ www.google.com##div#rcnt div#rhs div div[role="presentation"] div:has(> g-link:h
 www.google.com##div#search div#rso > div:has(div:has-text(Discussions and forums))
 www.google.com##div#search div#rso > div:has(g-section-with-header > div:has-text(What people are saying))
 www.google.com##div#search div#rso > div:has(span:has-text(Short videos))
+www.google.com##div>:has(>div[data-ub-result='1']>:has(div>:has(>span:has-text(Facebook))))
+www.google.com##div>:has(>div[data-ub-result='1']>:has(div>:has(>span:has-text(TikTok))))
 ! --- Page Footer & Miscellaneous ---
 www.google.com###botstuff div#bres
 www.google.com##div[role="contentinfo"]
