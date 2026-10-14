@@ -67,14 +67,3 @@ sniffies.com##div.top-menu div.sitelinks app-newsletter-signup-card-container
 sniffies.com##div.tray-bottom div.list-footer
 sniffies.com##div#tray-container-places div.data-container ul app-place-list-item:has(marker-icon-grid i.fa-question-circle)
 sniffies.com##table.chatholder app-chat-list-ad
-
-! Twitter
-||t.co^
-||tweetdeck.com
-||twimg.com^
-||twitter.com.cdn.cloudflare.net^
-||twitter.com^
-||twitter.map.fastly.net^
-||x.com.cdn.cloudflare.net^
-||x.com^
-||x.map.fastly.net^

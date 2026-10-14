@@ -1,0 +1,87 @@
+! Title: JLR - Domain Categories
+! Expires: 1 day
+
+! Low-quality
+||msn.com^
+
+! Low-quality AI
+||*.openai.azure.com^$third-party
+||ai.com^$third-party
+||ai.google.com^$all
+||api.openai.com^$third-party
+||copilot.microsoft.com^$third-party
+||gemini.google.com^$third-party
+||githubcopilot.com^
+||google.com/ai^$all
+||grok.x.com^
+||meta.ai^
+||openai.com.cdn.cloudflare.net^$third-party
+||production-openaicom-storage.azureedge.net^$third-party
+||www.google.*/async/folsrch$xhr,domain=www.google.*
+||x.ai^
+
+! Malicious
+||mcafee.com^
+||mcafeeassets.com^
+
+! Misinformation / Disinformation
+||grokipedia.com^
+
+! Prejudice (i.e. Homophobia, Xenophobia, Transphobia)
+||floatplane.com/channel/JeffGeerling/$document
+||github.com/geerlingguy/$document
+||jeffgeerling.com^
+||linkedin.com/in/jeff-geerling-086bb2a/$document
+||thingiverse.com/geerlingguy$document
+
+! Prejudice Sympathizers
+||buildwithparallel.com^
+
+! Privacy
+||tiktok.com^$third-party
+
+! Security (Social login)
+||accounts.google.com/gsi^$third-party
+||connect.facebook.net^$third-party
+
+! Site-specific rules
+||exoclick.com^$third-party,domain=sniffies.com
+||googletagmanager.com^$third-party,domain=sniffies.com
+||rtmark.net^$third-party,domain=sniffies.com
+||sentry.io^$third-party,domain=sniffies.com
+||trafficjunky.com^$third-party,domain=sniffies.com
+||trafficjunky.net^$third-party,domain=sniffies.com
+||tsyndicate.com^$third-party,domain=sniffies.com
+
+! TLDs
+||biz^
+||bot^
+||cf^
+||cn^
+||ga^
+||gop^
+||gq^
+||how^
+||icu^
+||media^
+||ml^
+||mov^
+||news^
+||onion^
+||republican^
+||ru^
+||store^
+||tk^
+||work^
+||zip^
+
+! Twitter
+||t.co^
+||tweetdeck.com
+||twimg.com^
+||twitter.com.cdn.cloudflare.net^
+||twitter.com^
+||twitter.map.fastly.net^
+||x.com.cdn.cloudflare.net^
+||x.com^
+||x.map.fastly.net^

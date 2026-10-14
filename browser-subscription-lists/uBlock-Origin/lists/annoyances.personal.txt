@@ -9,10 +9,6 @@
 !   - $uritransform
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-! Security (Disable Social login)
-||accounts.google.com/gsi^$third-party
-||connect.facebook.net^$third-party
-
 !!!!!!!!!!!!!!!!!!!
 !! Site Specific !!
 !!!!!!!!!!!!!!!!!!!
@@ -155,13 +151,11 @@ hiringcafe.com##body div.fixed:has(button > span > video)
 hiringcafe.com##div.relative a.block
 
 ! Microsoft
-||msn.com^
 microsoft.com##.alert-component
 microsoft.com##.mwf-area-heading-ctas
 microsoft.com###app-link-banner
 microsoftedgewelcome.microsoft.com##.mobile-banner__unexpanded
 visualstudio.microsoft.com##div#usabilla-button
-
 
 ! Plugshare
 www.plugshare.com##.app
@@ -174,14 +168,12 @@ www.privacy.com##:matches-path(/blog).cta-card-sidebar-content
 www.privacy.com##:matches-path(/blog).opening-cta
 www.privacy.com##:matches-path(/blog)div:has(>.cta-visual-wrapper)
 
-
 # Speedtest.net
 www.speedtest.net##.MuiDialog-root
 www.speedtest.net##.pure-g > .MuiBox-root>:has(#lower-content-body)
 www.speedtest.net##header .items-center>:has(.download-button)
 
 ! TikTok
-||tiktok.com^$third-party
 www.tiktok.com##.guide-login-banner
 
 ! Twitch
@@ -227,22 +219,6 @@ www.xfinity.com###nuanMessagingFrame
 !! Category Specific !!
 !!!!!!!!!!!!!!!!!!!!!!!
 
-! AI
-||*.openai.azure.com^$third-party
-||ai.com^$third-party
-||ai.google.com^$all
-||api.openai.com^$third-party
-||copilot.microsoft.com^$third-party
-||gemini.google.com^$third-party
-||githubcopilot.com^
-||google.com/ai^$all
-||grok.x.com^
-||meta.ai^
-||openai.com.cdn.cloudflare.net^$third-party
-||production-openaicom-storage.azureedge.net^$third-party
-||www.google.*/async/folsrch$xhr,domain=www.google.*
-||x.ai^
-
 ! Airlines
 www.delta.com##.desktop-enabled.idp-dynamic-banner
 
@@ -287,13 +263,6 @@ www.kayak.com##div.Fxw9-result-item-container:has(div.NAnQ-details:has(div[aria-
 www.playstation.com##.feedback--popup
 
 ! General Annoyances (i.e. Banner Ads, Fake Messages)
-||exoclick.com^$third-party,domain=sniffies.com
-||googletagmanager.com^$third-party,domain=sniffies.com
-||rtmark.net^$third-party,domain=sniffies.com
-||sentry.io^$third-party,domain=sniffies.com
-||trafficjunky.com^$third-party,domain=sniffies.com
-||trafficjunky.net^$third-party,domain=sniffies.com
-||tsyndicate.com^$third-party,domain=sniffies.com
 azmen.com###switch-ad
 azmen.com##div:has(div.az-ads-banner)
 azmen.com##div.az-footer:has(div#aznude_native_exo_gay)
@@ -304,22 +273,10 @@ azmen.com##div#aznlive-horizontal__banner
 ! Government
 calcareers.ca.gov###toast-container
 
-! Hate (i.e. Homophobic / Transphobic / Misogynistic / Racist)
-||floatplane.com/channel/JeffGeerling/$document
-||github.com/geerlingguy/$document
-||jeffgeerling.com^
-||linkedin.com/in/jeff-geerling-086bb2a/$document
-||thingiverse.com/geerlingguy$document
-
 ! Health
 www.goodrx.com##div[data-qa='NewsletterSignUpAlert']
 www.webmd.com##.dfp-native.top-picks
 www.webmd.com##.main-container-3.main-container
-
-! Malicious / Misinformation
-||grokipedia.com^
-||mcafee.com^
-||mcafeeassets.com^
 
 ! Misc
 crdroid.net##.show.crblocker-wrapper
@@ -421,6 +378,8 @@ www.macstories.net##.post-content .aside
 www.macstories.net##article.post .post-supporters
 www.notebookcheck.net##div.csc-default:has(.csc-header)
 www.notebookcheck.net##div.csc-default:has(.nbc_content_el)
+www.pcmag.com##.video-parent
+www.pcmag.com###trinity
 www.pcmag.com##article div[data-parent-group='related-stories']
 www.pcmag.com##article p:has(em > a)
 www.pcmag.com##div div:has(>ul:has(.leading-loose))
@@ -496,28 +455,6 @@ www.walmart.com##div a[href*="?utm_campaign"]
 www.walmart.com##div[data-testid='sp-homepage-multiitemtag']
 www.walmart.com##div[data-testid='sp-homepage-videocarousel']
 www.waterdropfilter.com###wd-cookie-consent-popup
-
-! TLDs
-||biz^
-||bot^
-||cf^
-||cn^
-||ga^
-||gop^
-||gq^
-||how^
-||icu^
-||media^
-||ml^
-||mov^
-||news^
-||onion^
-||republican^
-||ru^
-||store^
-||tk^
-||work^
-||zip^
 
 ! Vehicle Blogs / Search Engines / Sales
 insideevs.com##.box-item-right
