@@ -1,3 +1,6 @@
+! Reddit - Specific Subreddits
+*://*.reddit.com/r/Sacramento/*
+
 ! Link Titles
 title/Adminstration/
 title/CBP/
@@ -36,26 +39,34 @@ title/White House/
 
 ! Host Keywords
 host *= "alibaba"
+host *= "aljazeera"
 host *= "bloomberg"
 host *= "catholic"
 host *= "ceasefire"
 host *= "conservative"
+host *= "daily"
+host *= "disney"
+host *= "gazette"
 host *= "geerling"
+host *= "globe"
 host *= "grok"
+host *= "herald"
 host *= "huawei"
 host *= "kiwifarms"
 host *= "lunduke"
 host *= "mormon"
+host *= "mynbc"
 host *= "newsmax"
+host *= "newsnow"
 host *= "omarchy"
 host *= "quora"
+host *= "russiatoday"
 host *= "scientology"
 host *= "trump"
 
 ! Host any TLD
 /^(.+\.)?9news\.[a-z.]+\//
 /^(.+\.)?baidu\.[a-z.]+\//
-/^(.+\.)?dailymail\.[a-z.]+\//
 /^(.+\.)?dmvwaittimes\.[a-z.]+\//
 /^(.+\.)?glassdoor\.[a-z.]+\//
 /^(.+\.)?manual\.[a-z.]+\//
@@ -63,6 +74,7 @@ host *= "trump"
 /^(.+\.)?manualshelf\.[a-z.]+\//
 /^(.+\.)?manualslib\.[a-z.]+\//
 /^(.+\.)?politico\.[a-z.]+\//
+/^(.+\.)?rt\.[a-z.]+\//
 /^(.+\.)?temu\.[a-z.]+\//
 /^(.+\.)?transferfees\.[a-z.]+\//
 /^(.+\.)?vk\.[a-z.]+\//
@@ -78,6 +90,7 @@ host *= "trump"
 *://*.cfd/*
 *://*.cn/*
 *://*.dj/*
+*://*.film/*
 *://*.ga/*
 *://*.gop/*
 *://*.gov.in/*
@@ -360,14 +373,12 @@ host *= "trump"
 *://*.christianpost.com/*
 *://*.churchofjesuschristtemples.org/*
 *://*.crossingstv.com/*
-*://*.dailyutahchronicle.com/*
 *://*.deirdre.net/*
 *://*.dianetics.org/*
 *://*.fairlatterdaysaints.org/*
 *://*.globalministries.org/*
 *://*.jw.org/*
 *://*.latterdaysaintcharities.org/*
-*://*.ldsdaily.com/*
 *://*.ldsliving.com/*
 *://*.southcoastmission.com/*
 *://*.thechurchnews.com/*
@@ -376,9 +387,6 @@ host *= "trump"
 ! Fake News / Tabloids / Misinformation / Disinformation
 *://*.benshapi.ro/*
 *://*.cjr.org/*
-*://*.dailycaller.com/*
-*://*.dailydot.com/*
-*://*.dailysignal.com/*
 *://*.economictimes.com/*
 *://*.etonline.com/*
 *://*.euronews.com/*
@@ -389,7 +397,6 @@ host *= "trump"
 *://*.foxnews.com/*
 *://*.gizmochina.com/*
 *://*.grokipedia.com/*
-*://*.heraldnet.com/*
 *://*.hollywoodreporter.com/*
 *://*.huffpost.com/*
 *://*.indiatimes.com/*
@@ -415,10 +422,8 @@ host *= "trump"
 *://*.sportskeeda.com/*
 *://*.the-sun.com/*
 *://*.theblaze.com/*
-*://*.thedailybeast.com/*
 *://*.theglobeandmail.com/*
 *://*.thejakartapost.com/*
-*://*.thenationalherald.com/*
 *://*.thetimes.co.uk/*
 *://*.thoughtco.com/*
 *://*.tmz.com/*
@@ -434,7 +439,6 @@ host *= "trump"
 *://*.6abc.com/*
 *://*.7news.com.au/*
 *://*.889noticias.mx/*
-*://*.8newsnow.com/*
 *://*.abc10.com/*
 *://*.abc11.com/*
 *://*.abc13.com/*
@@ -444,7 +448,6 @@ host *= "trump"
 *://*.abc7news.com/*
 *://*.abc7ny.com/*
 *://*.abcnews.com/*
-*://*.actionnewsnow.com/*
 *://*.aei.org/*
 *://*.allthatsinteresting.com/*
 *://*.androidtvnews.com/*
@@ -487,11 +490,6 @@ host *= "trump"
 *://*.courttv.com/*
 *://*.crossrope.com/*
 *://*.cubaheadlines.com/*
-*://*.dailygazette.com/*
-*://*.dailyherald.com/*
-*://*.dailynews.com/*
-*://*.dailystar.co.uk/*
-*://*.dailyvoice.com/*
 *://*.dallasnews.com/*
 *://*.dallasobserver.com/*
 *://*.deadline.com/*
@@ -541,7 +539,6 @@ host *= "trump"
 *://*.gamerant.com/*
 *://*.gamereactor.eu/*
 *://*.gamespot.com/*
-*://*.gazetteandherald.co.uk/*
 *://*.gbnews.com/*
 *://*.gizmodo.com/*
 *://*.glamour.com/*
@@ -651,7 +648,6 @@ host *= "trump"
 *://*.newyorker.com/*
 *://*.nickiswift.com/*
 *://*.nolt.io/*
-*://*.nydailynews.com/*
 *://*.nymag.com/*
 *://*.nytimes.com/*
 *://*.ocregister.com/*
@@ -699,7 +695,6 @@ host *= "trump"
 *://*.the-zurich.com/*
 *://*.theatlantic.com/*
 *://*.theconversation.com/*
-*://*.thedailyguardian.com/*
 *://*.thefederalist.com/*
 *://*.theguardian.com/*
 *://*.thehill.com/*
@@ -775,18 +770,24 @@ host *= "trump"
 *://*.wnba.com/*
 
 ! Uncategorized / Unorganized
+*://*.11alive.com/*
 *://*.211connectingpoint.org/*
 *://*.29news.com/*
 *://*.411.com/*
+*://*.abc3340.com/*
+*://*.abc7amarillo.com/*
+*://*.ajc.com/*
 *://*.al.com/*
 *://*.alamy.com/*
 *://*.albumoftheyear.org/*
+*://*.aljazeera.com/*
 *://*.allaboutcookies.org/*
 *://*.altcoinvest.com/*
 *://*.androidheadlines.com/*
 *://*.antennasdirect.com/*
 *://*.apnews.org/*
 *://*.applemagazine.com/*
+*://*.atlantablackstar.com/*
 *://*.audioboom.com/*
 *://*.aurn.com/*
 *://*.azfamily.com/*
@@ -797,20 +798,26 @@ host *= "trump"
 *://*.birminghammail.co.uk/*
 *://*.blockonomi.com/*
 *://*.blog.driversfilesonline.com/*
+*://*.boredpanda.com/*
 *://*.californiaglobe.com/*
 *://*.calmatters.org/*
 *://*.campusoutreach.org/*
 *://*.capradio.org/*
 *://*.cashify.in/*
 *://*.castro.fm/*
+*://*.cbs2iowa.com/*
+*://*.cbs8.com/*
 *://*.cbsaustin.com/*
 *://*.ccn-law.com/*
 *://*.celebritynetworth.com/*
+*://*.celebsorbit.com/*
 *://*.cerescourier.com/*
 *://*.change.org/*
+*://*.charlotteobserver.com/*
 *://*.cherryred.co.uk/*
 *://*.civicgov4.com/*
 *://*.cleveland.com/*
+*://*.clickondetroit.com/*
 *://*.clrn.org/*
 *://*.collider.com/*
 *://*.complaintsboard.com/*
@@ -818,10 +825,12 @@ host *= "trump"
 *://*.consumeraffairs.com/*
 *://*.cordcuttersnews.com/*
 *://*.cordcuttingreport.com/*
+*://*.coub.com/*
+*://*.counton2.com/*
+*://*.coupert.com/*
+*://*.couponchief.com/*
 *://*.ctvnews.ca/*
 *://*.currys.co.uk/*
-*://*.dailycampus.com/*
-*://*.dailymotion.com/*
 *://*.debt.org/*
 *://*.democracynow.org/*
 *://*.deviantart.com/*
@@ -843,10 +852,13 @@ host *= "trump"
 *://*.ewtnnews.com/*
 *://*.famousbirthdays.com/*
 *://*.findthisbest.com/*
+*://*.findyourev.net/*
+*://*.firehouse.com/*
 *://*.forum.quartertothree.com/*
 *://*.fosslinux.com/*
 *://*.fox11online.com/*
 *://*.fox23.com/*
+*://*.fox8.com/*
 *://*.foxbaltimore.com/*
 *://*.foxbangor.com/*
 *://*.freepressjournal.in/*
@@ -855,6 +867,7 @@ host *= "trump"
 *://*.geo.tv/*
 *://*.gettyimages.com/*
 *://*.globalviewsworld.com/*
+*://*.globemagazine.com/*
 *://*.gnara.com/*
 *://*.greenbaypressgazette.com/*
 *://*.grunge.com/*
@@ -862,22 +875,33 @@ host *= "trump"
 *://*.gulfnews.com/*
 *://*.headlineusa.com/*
 *://*.heavy.com/*
-*://*.heraldnews.com/*
 *://*.history.com/*
 *://*.hitc.com/*
+*://*.hotdeals.com/*
 *://*.hypebeast.com/*
 *://*.ibtimes.co.uk/*
 *://*.icemiller.com/*
+*://*.ienglishstatus.com/*
+*://*.insidethemagic.net/*
+*://*.irvinetimes.com/*
 *://*.istockphoto.com/*
 *://*.jackdoherty.com/*
 *://*.joemygod.com/*
 *://*.journaldemontreal.com/*
 *://*.journalistexchange.com/*
+*://*.juggsmagazines.com/*
 *://*.justanswer.co.uk/*
+*://*.justjared.com/*
+*://*.kansascity.com/*
 *://*.katv.com/*
+*://*.kgw.com/*
 *://*.kold.com/*
+*://*.komonews.com/*
+*://*.kpic.com/*
 *://*.kplctv.com/*
 *://*.ksdk.com/*
+*://*.ktvb.com/*
+*://*.ktvl.com/*
 *://*.kvue.com/*
 *://*.kxan.com/*
 *://*.latenode.com/*
@@ -898,16 +922,18 @@ host *= "trump"
 *://*.mcafee.com/*
 *://*.mediaite.com/*
 *://*.mexicorelocationguide.com/*
+*://*.miamiherald.com/*
 *://*.michelobultra.com/*
 *://*.montgomeryadvertiser.com/*
 *://*.ms.now/*
 *://*.msche.org/*
+*://*.mynews13.com/*
 *://*.myrtlebeachonline.com/*
 *://*.nascar.com/*
 *://*.nationalreview.com/*
 *://*.ncregister.com/*
+*://*.news8000.com/*
 *://*.newsday.com/*
-*://*.newsnow.co.uk/*
 *://*.newsreview.com/*
 *://*.newswire.com/*
 *://*.nicos-shrimps.com/*
@@ -916,6 +942,7 @@ host *= "trump"
 *://*.nrlc.org/*
 *://*.okmagazine.com/*
 *://*.opera.com/*
+*://*.orangeoffer.com/*
 *://*.oreateai.com/*
 *://*.orionmagazine.org/*
 *://*.otterrockradio.com/*
@@ -923,6 +950,7 @@ host *= "trump"
 *://*.out.com/*
 *://*.outsports.com/*
 *://*.oxfordmail.co.uk/*
+*://*.ozarksfirst.com/*
 *://*.paheal.net/*
 *://*.pastemagazine.com/*
 *://*.patriotfetch.com/*
@@ -950,10 +978,12 @@ host *= "trump"
 *://*.rosevilletoday.com/*
 *://*.rssing.com/*
 *://*.sacramentocityexpress.com/*
+*://*.san.com/*
 *://*.scribd.com/*
 *://*.seekingalpha.com/*
 *://*.shopsavvy.com/*
 *://*.simplisafe.com/*
+*://*.siouxlandnews.com/*
 *://*.smarthomereview.org/*
 *://*.smashedit.co.nz/*
 *://*.spectrumlocalnews.com/*
@@ -971,11 +1001,13 @@ host *= "trump"
 *://*.theblast.com/*
 *://*.thecostaricanews.com/*
 *://*.thecut.com/*
-*://*.thedailyreview.com/*
 *://*.thedeepdive.ca/*
 *://*.thedesk.net/*
+*://*.thegazette.com/*
 *://*.thegoodguys.com.au/*
+*://*.thegrio.com/*
 *://*.theknot.com/*
+*://*.thenationaldesk.com/*
 *://*.thepennyhoarder.com/*
 *://*.therealnews.com/*
 *://*.thereturnguide.com/*
@@ -997,6 +1029,7 @@ host *= "trump"
 *://*.truepeoplesearch.com/*
 *://*.truthfinder.com/*
 *://*.tucson.com/*
+*://*.tunebat.com/*
 *://*.tuneskit.com/*
 *://*.tweaks.com/*
 *://*.tycorun.com/*
@@ -1005,17 +1038,28 @@ host *= "trump"
 *://*.universalhub.com/*
 *://*.vacuumpost.com/*
 *://*.valleynewslive.com/*
+*://*.valuecom.com/*
 *://*.voiceofsandiego.org/*
+*://*.wbaltv.com/*
+*://*.wchstv.com/*
 *://*.wdbj7.com/*
 *://*.websleuths.com/*
+*://*.whec.com/*
 *://*.whiterivernow.com/*
 *://*.whosdatedwho.com/*
 *://*.wikiwand.com/*
 *://*.windycitytimes.com/*
 *://*.witneygazette.co.uk/*
+*://*.wjla.com/*
+*://*.wjtv.com/*
+*://*.wlos.com/*
+*://*.wnep.com/*
 *://*.womenshealthmag.com/*
 *://*.wootick.com/*
 *://*.wral.com/*
+*://*.wsbt.com/*
+*://*.wsbtv.com/*
+*://*.wtnh.com/*
 *://*.wutshot.com/*
 *://*.x-sou.com/*
 *://*.yeslak.com/*
