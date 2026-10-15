@@ -27,18 +27,34 @@
 ! Misinformation / Disinformation
 ||grokipedia.com^
 
-! Prejudice (i.e. Homophobia, Xenophobia, Transphobia)
+! Prejudice (i.e. Homophobia, Xenophobia, Transphobia, Racism)
+||dhh.dk^
 ||floatplane.com/channel/JeffGeerling/$document
+||github.com/BryanLunduke/$document
+||github.com/dhh/$document
 ||github.com/geerlingguy/$document
 ||jeffgeerling.com^
+||linkedin.com/in/bryanlunduke/$document
 ||linkedin.com/in/jeff-geerling-086bb2a/$document
+||lunduke.com^
+||lunduke.locals.com^
+||lunduke.substack.com^
 ||thingiverse.com/geerlingguy$document
 
 ! Prejudice Sympathizers
 ||buildwithparallel.com^
+||digitalocean.com^
+||github.com/omacom/$document
+||mypillow.com^
+||omarchy.org^
+||uline.com^
+||wwe.com^
 
 ! Privacy
 ||tiktok.com^$third-party
+
+! Problematic
+||stallman.org^
 
 ! Security (Social login)
 ||accounts.google.com/gsi^$third-party
