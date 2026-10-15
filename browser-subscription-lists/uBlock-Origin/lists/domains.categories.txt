@@ -1,11 +1,7 @@
 ! Title: JLR - Domain Categories
 ! Expires: 1 day
 
-! Low-quality
-||msn.com^
-
 ! Low-quality AI
-||*.openai.azure.com^$third-party
 ||ai.com^$third-party
 ||ai.google.com^$all
 ||api.openai.com^$third-party
@@ -15,14 +11,19 @@
 ||google.com/ai^$all
 ||grok.x.com^
 ||meta.ai^
+||openai.azure.com^$third-party
 ||openai.com.cdn.cloudflare.net^$third-party
 ||production-openaicom-storage.azureedge.net^$third-party
-||www.google.*/async/folsrch$xhr,domain=www.google.*
+||www.google.com/async/folsrch$xhr,domain=www.google.*
 ||x.ai^
 
 ! Malicious
 ||mcafee.com^
 ||mcafeeassets.com^
+||vk.com^
+||vk.ru^
+||yandex.com^
+||yandex.ru^
 
 ! Misinformation / Disinformation
 ||grokipedia.com^
@@ -76,10 +77,18 @@
 ||cn^
 ||ga^
 ||gop^
+||gov.by^
+||gov.cn^
+||gov.in^
+||gov.ru^
 ||gq^
 ||how^
 ||icu^
 ||media^
+||mil.by^
+||mil.cn^
+||mil.in^
+||mil.ru^
 ||ml^
 ||mov^
 ||news^
@@ -93,7 +102,7 @@
 
 ! Twitter
 ||t.co^
-||tweetdeck.com
+||tweetdeck.com^
 ||twimg.com^
 ||twitter.com.cdn.cloudflare.net^
 ||twitter.com^
