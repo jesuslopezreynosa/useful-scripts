@@ -173,9 +173,6 @@ www.speedtest.net##.MuiDialog-root
 www.speedtest.net##.pure-g > .MuiBox-root>:has(#lower-content-body)
 www.speedtest.net##header .items-center>:has(.download-button)
 
-! TikTok
-www.tiktok.com##.guide-login-banner
-
 ! Twitch
 www.twitch.tv##.tc-upsell
 ! www.twitch.tv##.top-nav__menu button:has(div[data-a-target='tw-core-button-label-text']:has-text(/Ad-Free/i))
@@ -339,6 +336,7 @@ arstechnica.com##.xrail
 arstechnica.com###action_button_container
 arstechnica.com###article-footer-wrap
 arstechnica.com##div.mx-auto:has(.component-most-read)
+lwn.net##.ad
 techcrunch.com##.is-vertical
 vacuumwars.com##.sticky-price-container
 www.404media.co##.comments__container
