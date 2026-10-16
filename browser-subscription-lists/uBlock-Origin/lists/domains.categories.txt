@@ -100,6 +100,9 @@
 ||work^
 ||zip^
 
+! Exclude from TLD Rules
+@@||frame.work^
+
 ! Twitter
 ||t.co^
 ||tweetdeck.com^
