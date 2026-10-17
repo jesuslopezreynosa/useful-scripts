@@ -53,6 +53,7 @@ amazon.*##div#subtotals div>.a-section:has(.a-link-legal)
 amazon.*##li.nav-li:has(a[data-csa-c-content-id*='_ai' i])
 amazon.*##li.nav-li:has(a[data-csa-c-content-id*='alexa' i])
 amazon.*##section.category-section[aria-labelledby='Trending']
+developer.amazon.com###devAssistant
 
 ! Apple
 discussions.apple.com##.notification
