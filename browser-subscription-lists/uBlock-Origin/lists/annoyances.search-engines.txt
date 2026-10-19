@@ -23,9 +23,10 @@ duckduckgo.com##[data-testid='floating-feedback-prompt']
 duckduckgo.com##.ddg-extension-hide, .footer, .header--aside__item--hidden-lg, .js-module--news, .js-text-promo, div[data-testid='serp-popover-promo']
 duckduckgo.com##div.header-wrap div#react-duckbar nav li:has(a[href*='=news'])
 ! --- DuckDuckGo Search Modules & Widgets ---
-duckduckgo.com##ol.react-results--sidebar:has(div[data-testid='autoads-carousel-module-items'])
 duckduckgo.com##.react-results--main li[data-layout='news']
+duckduckgo.com##div[data-layout='maps_places']
 duckduckgo.com##li[data-layout='related_searches'] div:has(span[data-testid='feedback-prompt'])
+duckduckgo.com##ol.react-results--sidebar:has(div[data-testid='autoads-carousel-module-items'])
 
 !! Ecosia !!
 ! --- Cards & Notices ---
@@ -73,10 +74,13 @@ www.google.com##div>:has(>div[data-ub-result='1']>:has(div>:has(>span:has-text(F
 www.google.com##div>:has(>div[data-ub-result='1']>:has(div>:has(>span:has-text(Instagram))))
 www.google.com##div>:has(>div[data-ub-result='1']>:has(div>:has(>span:has-text(on X))))
 www.google.com##div>:has(>div[data-ub-result='1']>:has(div>:has(>span:has-text(TikTok))))
-
 ! --- Page Footer & Miscellaneous ---
 www.google.com###botstuff div#bres
 www.google.com##div[role="contentinfo"]
+
+! Startpage
+www.startpage.com##.ad-free-promo-card
+www.startpage.com##.go-ad-free-button
 
 ! Qwant
 www.qwant.com##div[data-testid='sectionVideos']
