@@ -74,13 +74,18 @@
         document.cookie = "hti=0" + qwDom;
     }
 
-    if (host.includes('en.wikipedia.org')) {
-        const wkDom = "; domain=.en.wikipedia.org" + common;
-        document.cookie = "enwikimwclientpreferences=vector-feature-appearance-pinned-clientpref-0%2Cvector-feature-toc-pinned-clientpref-0%2Cskin-theme-clientpref-night%2Cvector-feature-limited-width-clientpref-1%2Cvector-feature-custom-font-size-clientpref-1" + wkDom;
-    }
-
     if (host.includes('britannica.com')) {
         const ebDom = '; domain=.britannica.com' + common;
         document.cookie = 'usprivacy=1YYY' + ebDom;
+    }
+
+    if (host.includes('reddit.com')) {
+        const ebDom = '; domain=.reddit.com' + common;
+        document.cookie = 'redesign_optout=true' + ebDom;
+    }
+
+    if (host.includes('en.wikipedia.org')) {
+        const wkDom = "; domain=.en.wikipedia.org" + common;
+        document.cookie = "enwikimwclientpreferences=vector-feature-appearance-pinned-clientpref-0%2Cvector-feature-toc-pinned-clientpref-0%2Cskin-theme-clientpref-night%2Cvector-feature-limited-width-clientpref-1%2Cvector-feature-custom-font-size-clientpref-1" + wkDom;
     }
 })();
