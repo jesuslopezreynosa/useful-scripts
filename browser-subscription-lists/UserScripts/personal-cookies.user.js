@@ -1,13 +1,14 @@
 // ==UserScript==
 // @name         JLR - Cookie & LocalStorage Injector - Personal Settings / Privacy Preferences
 // @namespace    https://github.com/jesuslopezreynosa/useful-scripts
-// @match        *://*.duckduckgo.com/*
-// @match        *://*.qwant.com/*
 // @match        *://*.brave.com/*
+// @match        *://*.britannica.com/*
+// @match        *://*.duckduckgo.com/*
 // @match        *://*.ecosia.org/*
+// @match        *://*.qwant.com/*
+// @match        *://*.reddit.com/*
 // @match        *://*.startpage.com/*
 // @match        *://*.wikipedia.org/*
-// @match        *://*.britannica.com/*
 // @grant        none
 // @run-at       document-start
 // ==/UserScript==
@@ -23,6 +24,17 @@
             // Silence DOMException if storage is restricted
         }
     };
+
+    if (host.includes('brave.com')) {
+        const brDom = "; domain=.brave.com" + common;
+        document.cookie = "codellm=0" + brDom;
+        document.cookie = "summarizer=0" + brDom;
+    }
+
+    if (host.includes('britannica.com')) {
+        const ebDom = '; domain=.britannica.com' + common;
+        document.cookie = 'usprivacy=1YYY' + ebDom;
+    }
 
     if (host.includes('duckduckgo.com')) {
         const ddgDom = "; domain=.duckduckgo.com" + common;
@@ -49,22 +61,16 @@
         safeSetLocalStorage('duckduckgo_settings', JSON.stringify(ddg_settings));
     }
 
-    if (host.includes('brave.com')) {
-        const brDom = "; domain=.brave.com" + common;
-        document.cookie = "codellm=0" + brDom;
-        document.cookie = "summarizer=0" + brDom;
-    }
-
-    if (host.includes('startpage.com')) {
-        const spDom = "; domain=.startpage.com" + common;
-        document.cookie = "preferences=connect_to_serverEEEdefaultN1Ndate_timeEEEusN1Ndisable_family_filterEEEmoderateN1Ndisable_open_in_new_windowEEE0N1Nenable_post_methodEEE1N1Nenable_proxy_safety_suggestEEE1N1Nenable_stay_controlEEE0N1Ninstant_answersEEE0N1Nlang_homepageEEEs/device/enN1NlanguageEEEenglishN1Nlanguage_uiEEEenglishN1Nnum_of_resultsEEE10N1Nsearch_results_regionEEEallN1NsuggestionsEEE1N1Ntrending_searchesEEE0N1Nwt_unitEEEfahrenheit" + spDom;
-    }
-
     if (host.includes('ecosia.org')) {
         const ecDom = "; domain=.ecosia.org" + common;
         document.cookie = "ECAB=6" + ecDom;
         document.cookie = "ECAIO=false" + ecDom;
         document.cookie = "ECPP=GOOGLE" + ecDom;
+    }
+
+    if (host.includes('startpage.com')) {
+        const spDom = "; domain=.startpage.com" + common;
+        document.cookie = "preferences=connect_to_serverEEEdefaultN1Ndate_timeEEEusN1Ndisable_family_filterEEEmoderateN1Ndisable_open_in_new_windowEEE0N1Nenable_post_methodEEE1N1Nenable_proxy_safety_suggestEEE1N1Nenable_stay_controlEEE0N1Ninstant_answersEEE0N1Nlang_homepageEEEs/device/enN1NlanguageEEEenglishN1Nlanguage_uiEEEenglishN1Nnum_of_resultsEEE10N1Nsearch_results_regionEEEallN1NsuggestionsEEE1N1Ntrending_searchesEEE0N1Nwt_unitEEEfahrenheit" + spDom;
     }
 
     if (host.includes('qwant.com')) {
@@ -74,18 +80,13 @@
         document.cookie = "hti=0" + qwDom;
     }
 
-    if (host.includes('britannica.com')) {
-        const ebDom = '; domain=.britannica.com' + common;
-        document.cookie = 'usprivacy=1YYY' + ebDom;
-    }
-
     if (host.includes('reddit.com')) {
         const ebDom = '; domain=.reddit.com' + common;
         document.cookie = 'redesign_optout=true' + ebDom;
     }
 
-    if (host.includes('en.wikipedia.org')) {
-        const wkDom = "; domain=.en.wikipedia.org" + common;
+    if (host.includes('wikipedia.org')) {
+        const wkDom = "; domain=.wikipedia.org" + common;
         document.cookie = "enwikimwclientpreferences=vector-feature-appearance-pinned-clientpref-0%2Cvector-feature-toc-pinned-clientpref-0%2Cskin-theme-clientpref-night%2Cvector-feature-limited-width-clientpref-1%2Cvector-feature-custom-font-size-clientpref-1" + wkDom;
     }
 })();
