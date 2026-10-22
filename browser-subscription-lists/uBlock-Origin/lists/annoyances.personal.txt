@@ -146,9 +146,8 @@ www.youtube.com##ytd-rich-section-renderer.efyt-is-short
 www.youtube.com##ytd-shelf-renderer #dismissible
 
 ! Hiring Cafe
-hiring.cafe##body div.fixed:has(button > span > video)
-hiring.cafe##div.relative a.block
 hiringcafe.com##body div.fixed:has(button > span > video)
+hiringcafe.com##div:has(>section[aria-labelledby*='why-hc'])
 hiringcafe.com##div.relative a.block
 
 ! Microsoft
@@ -201,6 +200,9 @@ www.theweathernetwork.com##li:has([href^="/en/assistant"])
 wikipedia.org##.cn-fundraising
 wikipedia.org##.vector-sitenotice-container
 wikipedia.org##div.ext-quick-survey-panel
+
+! Wordpress
+wordpress.com##.marketing-bar
 
 ! XDA Developers Forum / Articles
 www.xda-developers.com##.adsninja-rail-container
@@ -467,7 +469,11 @@ insideevs.com##.tip-us-email
 insideevs.com###comments-block-wrapper
 insideevs.com##div.adfeed
 insideevs.com##div.postBody div.flex:has(div.top-counter-comments-label-wrapper)
+www.autotempest.com##.alert-notice__intro-wrap
+www.autotempest.com##.bottom-ribbon-container
+www.autotempest.com##.disclaimer
 www.autotempest.com##.search-tips-container:has(#remove-filters)
+www.autotempest.com##.sources-wrap
 www.autotempest.com##.wrap-hide
 www.autotrader.com##div#listings-grid div:has(div[data-cmp='myWalletGridInputs'])
 www.autotrader.com##div#listings-grid div.grid-full-width:has(div.inventory-carousel)

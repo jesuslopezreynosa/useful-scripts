@@ -26,7 +26,7 @@ www.linkedin.com##div#feed-news-module
 www.linkedin.com##div#root main aside[aria-label='Aside']
 www.linkedin.com##header nav ul li:has(button[aria-label="For Business"]):xpath(../../..)
 www.linkedin.com##nav li:has(div.premium-upsell-link)
-
+www.linkedin.com##section:has([data-testid='toasts-title'])
 ! Reddit
 reddit.com##:matches-path(/r/apple).thing:has(.linkflairlabel[title*='Promo'])
 reddit.com##:matches-path(/r/linux).thing:has(.linkflairlabel[title*='Privacy'])
@@ -55,6 +55,7 @@ reddit.com##div.side div.spacer:has(li.message-button)
 reddit.com##div.stickied
 reddit.com##div.thing[data-score="0"], div.thing[data-score|="-"]
 reddit.com##header nav div.justify-end
+reddit.com##ul>:has(.buygold)
 
 ! Sniffies
 sniffies.com##app-advertising-zone-map
