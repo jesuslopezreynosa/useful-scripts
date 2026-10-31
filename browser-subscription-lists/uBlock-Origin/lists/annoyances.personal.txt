@@ -94,6 +94,7 @@ github.com##header div.AppHeader-CopilotChat
 github.com##header li:has(button[data-testid='sponsor-button'])
 
 ! Google
+aistudio.google.com##.has-promo
 docs.google.com##.docs-ml-promotion
 docs.google.com##div.docs-titlebar-buttons div.docs-meet-in-editors-entrypoint-container
 docs.google.com##div.docs-titlebar-buttons div#workspace-onegoogle-pep-container
@@ -102,6 +103,7 @@ gemini.google.com##.cdk-overlay-container:has(.get-app-mobile-dialog)
 gemini.google.com##.gem-banner-container
 gemini.google.com##.get-app-banner
 gemini.google.com##.speech-dictation-mic-button
+gemini.google.com##g1-dynamic-upsell-button
 gemini.google.com##input-container sign-in-nudge
 google.com##:matches-path(/maps)div[jsaction*="promotion"]
 maps.google.com##div[jsaction*="promotion"]
@@ -113,6 +115,7 @@ www.youtube.com##.ytd-masthead > ytd-button-renderer.ytd-masthead.style-scope
 www.youtube.com##.ytd-masthead > ytd-notification-topbar-button-renderer.ytd-masthead
 www.youtube.com##.ytd-mini-guide-entry-renderer.style-scope.yt-simple-endpoint[aria-label*='Shorts' i]
 www.youtube.com##.ytd-rich-section-renderer.style-scope
+www.youtube.com##.ytFlexibleActionsViewModelAction:has(button[aria-label^='Join'])
 www.youtube.com###big-yoodle
 www.youtube.com###button > .ytd-button-renderer.style-scope
 www.youtube.com###footer > .ytd-guide-renderer.style-scope
@@ -121,19 +124,16 @@ www.youtube.com###voice-search-button
 www.youtube.com##button-view-model.ytSpecButtonViewModelHost:has(button[aria-label='Ask'])
 www.youtube.com##div#chat-container
 www.youtube.com##div#columns div#chat-container
-! www.youtube.com##div#content yt-content-metadata-view-model .ytContentMetadataViewModelMetadataRowMetadataRowWrap:has(.ytBadgeShapeText:has-text(Fundraiser))
 www.youtube.com##div#content yt-content-metadata-view-model .ytContentMetadataViewModelMetadataRowMetadataRowWrap:has([aria-label*='Fundraiser' i])
 www.youtube.com##div#contents ytd-rich-item-renderer:has(div#content .ytLockupViewModelMetadata .ytBadgeShapeCommerce)
 www.youtube.com##div#info-container yt-formatted-string#info a.yt-simple-endpoint
 www.youtube.com##div#items ytd-video-description-infocards-section-renderer div#social-links
 www.youtube.com##div#panels-full-bleed-container:not(:has(div#player-container))
 www.youtube.com##div#scroll-container yt-chip-cloud-chip-renderer[chip-style='STYLE_AI_MODE_CHIP']
-! www.youtube.com##yt-button-view-model:has(.yt-spec-button-shape-next__button-text-content:has-text(Ask))
+www.youtube.com##yt-attribution-view-model:has(.ytBadgeShapeCommerce)
 www.youtube.com##yt-button-view-model:has(button[aria-label*='Ask' i])
 www.youtube.com##ytd-badge-supported-renderer:has(badge-shape[aria-label='Fundraiser'])
 www.youtube.com##ytd-comments#comments
-! www.youtube.com##ytd-guide-renderer ytd-guide-section-renderer:has(yt-formatted-string:has-text(Explore))
-! www.youtube.com##ytd-guide-renderer ytd-guide-section-renderer:has(yt-formatted-string:has-text(More from))
 www.youtube.com##ytd-guide-renderer ytd-guide-section-renderer:has(a[title*='Explore' i])
 www.youtube.com##ytd-guide-renderer ytd-guide-section-renderer:has(a[title*='More from' i])
 www.youtube.com##ytd-masthead yt-searchbox div button[aria-label='Ask YouTube']
@@ -175,13 +175,12 @@ www.speedtest.net##header .items-center>:has(.download-button)
 
 ! Twitch
 www.twitch.tv##.tc-upsell
-! www.twitch.tv##.top-nav__menu button:has(div[data-a-target='tw-core-button-label-text']:has-text(/Ad-Free/i))
 www.twitch.tv##.top-nav__menu button[aria-label*='Ad-Free' i]
 www.twitch.tv##.tw-callout-message
 www.twitch.tv##.tw-root--theme-light:has(.subtember-text)
 www.twitch.tv###twilight-sticky-footer-root
-! www.twitch.tv##div.channel-info-content div.metadata-layout__support div[data-target='channel-header-right'] div:has(div:has(div:has(button[data-a-target='gift-button'])))
 www.twitch.tv##div.channel-info-content div.metadata-layout__support div[data-target='channel-header-right'] div:has(button[data-a-target='gift-button'])
+www.twitch.tv##nav .top-nav__menu div>:has([data-a-target='tw-core-button-label-text']:has-text(Ad-Free))
 
 ! Weather
 accuweather.com##.left-align-children.right-rail
