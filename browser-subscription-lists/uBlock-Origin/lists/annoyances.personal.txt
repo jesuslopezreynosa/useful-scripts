@@ -132,6 +132,7 @@ www.youtube.com##div#panels-full-bleed-container:not(:has(div#player-container))
 www.youtube.com##div#scroll-container yt-chip-cloud-chip-renderer[chip-style='STYLE_AI_MODE_CHIP']
 www.youtube.com##yt-attribution-view-model:has(.ytBadgeShapeCommerce)
 www.youtube.com##yt-button-view-model:has(button[aria-label*='Ask' i])
+www.youtube.com##yt-lockup-view-model:has(.ytContentMetadataViewModelBadge:has-text(featured))
 www.youtube.com##ytd-badge-supported-renderer:has(badge-shape[aria-label='Fundraiser'])
 www.youtube.com##ytd-comments#comments
 www.youtube.com##ytd-guide-renderer ytd-guide-section-renderer:has(a[title*='Explore' i])
@@ -143,6 +144,7 @@ www.youtube.com##ytd-rich-item-renderer:has(.ytBadgeShapeMembership)
 www.youtube.com##ytd-rich-item-renderer:has(.ytBadgeShapePromoted)
 www.youtube.com##ytd-rich-item-renderer:has(badge-shape div.ytBadgeShapeText:has-text(featured))
 www.youtube.com##ytd-rich-section-renderer.efyt-is-short
+www.youtube.com##ytd-search grid-shelf-view-model
 www.youtube.com##ytd-shelf-renderer #dismissible
 
 ! Hiring Cafe
