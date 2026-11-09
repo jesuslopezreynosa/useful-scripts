@@ -201,6 +201,7 @@ www.theweathernetwork.com##li:has([href^="/en/assistant"])
 wikipedia.org##.cn-fundraising
 wikipedia.org##.vector-sitenotice-container
 wikipedia.org##div.ext-quick-survey-panel
+wikipedia.org##li:has([href*="donate"])
 
 ! Wordpress
 wordpress.com##.marketing-bar
