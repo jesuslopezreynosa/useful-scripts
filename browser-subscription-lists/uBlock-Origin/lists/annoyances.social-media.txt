@@ -1,12 +1,6 @@
 ! Title: JLR - Social Media Annoyances
 ! Expires: 1 day
 
-! Meta / Facebook Family of Foods
-! www.instagram.com##body div section main div:has(div[tabindex="-1"]:has(a[href*='/accounts/login']))
-! www.instagram.com##body:style(overflow: auto !important;)
-! www.instagram.com##div[role="dialog"]
-! www.instagram.com##div[role="presentation"]
-
 ! Microsoft - LinkedIn
 www.linkedin.com##.scaffold-layout__aside
 www.linkedin.com##.share-box-feed-entry__closed-share-box
@@ -20,6 +14,7 @@ www.linkedin.com##div[data-testid='mainFeed'] div[data-display-contents='true']>
 www.linkedin.com##div[role='listitem']:has(div[componentkey='shareboxProfilePictureComponentRef'])
 www.linkedin.com##div#feed-news-module
 www.linkedin.com##div#root main aside[aria-label='Aside']
+www.linkedin.com##div~:has([data-testid='global-alerts-dismissible'])
 www.linkedin.com##header nav ul li:has(button[aria-label="For Business"]):xpath(../../..)
 www.linkedin.com##nav li:has(div.premium-upsell-link)
 www.linkedin.com##section:has([data-testid='toasts-title'])
