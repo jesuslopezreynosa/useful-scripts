@@ -130,6 +130,7 @@ www.youtube.com##div#info-container yt-formatted-string#info a.yt-simple-endpoin
 www.youtube.com##div#items ytd-video-description-infocards-section-renderer div#social-links
 www.youtube.com##div#panels-full-bleed-container:not(:has(div#player-container))
 www.youtube.com##div#scroll-container yt-chip-cloud-chip-renderer[chip-style='STYLE_AI_MODE_CHIP']
+www.youtube.com##div#sponsor-button
 www.youtube.com##yt-attribution-view-model:has(.ytBadgeShapeCommerce)
 www.youtube.com##yt-button-view-model:has(button[aria-label*='Ask' i])
 www.youtube.com##yt-lockup-view-model:has(.ytContentMetadataViewModelBadge:has-text(featured))

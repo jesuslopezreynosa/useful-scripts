@@ -82,7 +82,7 @@
 
     if (host.includes('reddit.com')) {
         const ebDom = '; domain=.reddit.com' + common;
-        document.cookie = 'redesign_optout=true' + ebDom;
+        // document.cookie = 'redesign_optout=true' + ebDom;
         document.cookie = 'over18=1' + ebDom;
     }
 

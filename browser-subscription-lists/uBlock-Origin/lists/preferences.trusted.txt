@@ -41,7 +41,7 @@ startpage.com##+js(trusted-set-cookie, preferences, connect_to_serverEEEdefaultN
 www.britannica.com##+js(trusted-set-cookie, usprivacy, 1YYY)
 
 ! Reddit
-www.reddit.com##+js(trusted-set-cookie, redesign_optout, true)
+! www.reddit.com##+js(trusted-set-cookie, redesign_optout, true)
 www.reddit.com##+js(trusted-set-cookie, over18, 1)
 
 ! Wikipedia
