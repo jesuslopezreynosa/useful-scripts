@@ -2,60 +2,60 @@
 ! Expires: 1 day
 
 ! Low-quality AI
-||ai.com^$third-party
-||ai.google.com^$all
-||api.openai.com^$third-party
+||ai.com^$all
+||ai.google.com^$third-party
+||api.openai.com^$all
 ||copilot.microsoft.com^$third-party
 ||gemini.google.com^$third-party
-||githubcopilot.com^
+||githubcopilot.com^all
 ||google.com/ai^$all
-||grok.x.com^
-||meta.ai^
-||openai.azure.com^$third-party
-||openai.com.cdn.cloudflare.net^$third-party
-||production-openaicom-storage.azureedge.net^$third-party
+||grok.x.com^$all
+||meta.ai^$all
+||openai.azure.com^$all
+||openai.com.cdn.cloudflare.net^$all
+||production-openaicom-storage.azureedge.net^$all
 ||www.google.com/async/folsrch$xhr,domain=www.google.*
-||x.ai^
+||x.ai^$all
 
 ! Malicious
-||mcafee.com^
-||mcafeeassets.com^
-||vk.com^
-||vk.ru^
-||yandex.com^
-||yandex.ru^
+||mcafee.com^$all
+||mcafeeassets.com^$all
+||vk.com^$all
+||vk.ru^$all
+||yandex.com^$all
+||yandex.ru^$all
 
 ! Misinformation / Disinformation
-||grokipedia.com^
+||grokipedia.com^$all
 
 ! Prejudice (i.e. Homophobia, Xenophobia, Transphobia, Racism)
-||dhh.dk^
+||dhh.dk^$all
 ||floatplane.com/channel/JeffGeerling/$document
 ||github.com/BryanLunduke/$document
 ||github.com/dhh/$document
 ||github.com/geerlingguy/$document
-||jeffgeerling.com^
+||jeffgeerling.com^$all
 ||linkedin.com/in/bryanlunduke/$document
 ||linkedin.com/in/jeff-geerling-086bb2a/$document
-||lunduke.com^
-||lunduke.locals.com^
-||lunduke.substack.com^
+||lunduke.com^$all
+||lunduke.locals.com^$all
+||lunduke.substack.com^$all
 ||thingiverse.com/geerlingguy$document
 
 ! Prejudice Sympathizers
-||buildwithparallel.com^
-||digitalocean.com^
+||buildwithparallel.com^$all
+||digitalocean.com^$all
 ||github.com/omacom/$document
-||mypillow.com^
-||omarchy.org^
-||uline.com^
-||wwe.com^
+||mypillow.com^$all
+||omarchy.org^$all
+||uline.com^$all
+||wwe.com^$all
 
 ! Privacy
 ||tiktok.com^$third-party
 
 ! Problematic
-||stallman.org^
+||stallman.org^$all
 
 ! Security (Social login)
 ||accounts.google.com/gsi^$third-party
@@ -104,12 +104,12 @@
 @@||frame.work^
 
 ! Twitter
-||t.co^
-||tweetdeck.com^
-||twimg.com^
-||twitter.com.cdn.cloudflare.net^
-||twitter.com^
-||twitter.map.fastly.net^
-||x.com.cdn.cloudflare.net^
-||x.com^
-||x.map.fastly.net^
+||t.co^$all
+||tweetdeck.com^$all
+||twimg.com^$all
+||twitter.com.cdn.cloudflare.net^$all
+||twitter.com^$all
+||twitter.map.fastly.net^$all
+||x.com.cdn.cloudflare.net^$all
+||x.com^$all
+||x.map.fastly.net^$all

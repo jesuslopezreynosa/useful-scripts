@@ -1,7 +1,7 @@
 ! Title: JLR - News Sites
 ! Expires: 7 day
 
-||msn.com^
+||msn.com^$all
 ||bing.com/news*
 homepage.aol.com
 msn.us
